@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Data.Model" namespace="Data.Model" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Emp" table="Emp" lazy="true" >
+		<id name="Id" column="Id" type="int">
+			<generator class="identity" />
+		</id>
+		<property name="CreatedAt">
+			<column name="Created_At" sql-type="datetime" not-null="false" />
+		</property>
+		<property name="UpdatedAt">
+			<column name="Updated_At" sql-type="datetime" not-null="false" />
+		</property>
+		<property name="Name">
+			<column name="Name" sql-type="varchar" not-null="false" />
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+D:\Ajit\RND\RenameFiles\RenameFiles\bin\Release\RenameFiles.exe.config
+D:\Ajit\RND\RenameFiles\RenameFiles\bin\Release\RenameFiles.exe
+D:\Ajit\RND\RenameFiles\RenameFiles\bin\Release\RenameFiles.pdb
+D:\Ajit\RND\RenameFiles\RenameFiles\obj\Release\RenameFiles.frmFileRenamer.resources
+D:\Ajit\RND\RenameFiles\RenameFiles\obj\Release\RenameFiles.Properties.Resources.resources
+D:\Ajit\RND\RenameFiles\RenameFiles\obj\Release\RenameFiles.csproj.GenerateResource.Cache
+D:\Ajit\RND\RenameFiles\RenameFiles\obj\Release\RenameFiles.exe
+D:\Ajit\RND\RenameFiles\RenameFiles\obj\Release\RenameFiles.pdb
+D:\Ajit\RND\RenameFiles\RenameFiles\obj\Release\RenameFiles.csprojResolveAssemblyReference.cache
