@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="023AE4A2-52E8-422F-A797-DA46E555D72C" ModuleId="PvScoutWeb" />
+  <Module PersistentId="7F024529-BDD5-4D9A-A764-2B7836BB71D8" ModuleId="SolrPvscoutBusiness" />
+  <Module PersistentId="55447290-59C9-45AD-80F9-C1B6EC8C80FE" ModuleId="SolrServices" />
+  <Module PersistentId="A1FB6963-AE6A-445C-8D49-992D58A68206" ModuleId="SolrExceptionsAPI" />
+</Modules>

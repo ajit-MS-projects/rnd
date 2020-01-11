@@ -1,0 +1,5 @@
+D:\ajit\rnd\SLrefTest\SilverlightClassLibrary1\Bin\Debug\SilverlightClassLibrary1.dll
+D:\ajit\rnd\SLrefTest\SilverlightClassLibrary1\Bin\Debug\SilverlightClassLibrary1.pdb
+D:\ajit\rnd\SLrefTest\SilverlightClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\SLrefTest\SilverlightClassLibrary1\obj\Debug\SilverlightClassLibrary1.dll
+D:\ajit\rnd\SLrefTest\SilverlightClassLibrary1\obj\Debug\SilverlightClassLibrary1.pdb

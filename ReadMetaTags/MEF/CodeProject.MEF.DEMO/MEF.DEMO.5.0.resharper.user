@@ -1,0 +1,181 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1532" fromTop="20" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/d:Calculations/f:HashCalculator.cs" caret="718" fromTop="19" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:ISecurityRule.cs" caret="0" fromTop="0" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:IDataRule.cs" caret="0" fromTop="0" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:developer.xml" caret="358" fromTop="11" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="689" fromTop="12" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="1599" fromTop="17" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="1599" fromTop="21" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:developer.xml" caret="152" fromTop="2" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/d:Calculations/f:HashCalculator.cs" caret="858" fromTop="21" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/d:Calculations/f:HashCalculator.cs" caret="449" fromTop="13" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="1599" fromTop="11" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="596" fromTop="15" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="1333" fromTop="27" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="487" fromTop="12" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/d:Calculations/f:HashCalculator.cs" caret="718" fromTop="19" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1742" fromTop="28" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1635" fromTop="21" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="263" fromTop="7" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1425" fromTop="13" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1635" fromTop="17" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1501" fromTop="17" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="964" fromTop="14" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1058" fromTop="20" />
+      <File id="2260FF8C-7981-4945-9CBF-47E7830F67C0/f:Program.cs" caret="1245" fromTop="9" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="1118" fromTop="15" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:developer.xml" caret="292" fromTop="7" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="876" fromTop="8" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="1344" fromTop="27" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="817" fromTop="12" />
+      <File id="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4/f:Programm.cs" caret="1479" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="ComponentModel" priority="0" />
+      <Item value="typeof" priority="3" />
+      <Item value="bool" priority="0" />
+      <Item value="ISecurityRule`0" priority="1" />
+      <Item value="public" priority="5" />
+      <Item value="interface" priority="1" />
+      <Item value="Exporter`0" priority="0" />
+      <Item value="IDataRule`0" priority="2" />
+      <Item value="document" priority="4" />
+      <Item value="firstName" priority="0" />
+      <Item value="lastName" priority="0" />
+      <Item value="IAppDomainSetup`0" priority="0" />
+      <Item value="DateTime`0" priority="3" />
+      <Item value="dateOfBirthValue" priority="1" />
+      <Item value="out" priority="0" />
+      <Item value="birthDate" priority="1" />
+      <Item value="email" priority="0" />
+      <Item value="key" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="void" priority="2" />
+      <Item value="string" priority="4" />
+      <Item value="Console`0" priority="7" />
+      <Item value="XDocument`0" priority="1" />
+      <Item value="var" priority="2" />
+      <Item value="new" priority="5" />
+      <Item value="Programm`0" priority="0" />
+      <Item value="container" priority="0" />
+      <Item value="Import" priority="0" />
+      <Item value="DataRules" priority="0" />
+      <Item value="programm" priority="0" />
+      <Item value="executingAssembly" priority="1" />
+      <Item value="DirectoryCatalog`0" priority="1" />
+      <Item value="Environment`0" priority="0" />
+      <Item value="SecurityRule" priority="0" />
+      <Item value="passesValidation" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="computedHash" priority="0" />
+      <Item value="ValueType`0" priority="0" />
+      <Item value="valueToHash" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="d" priority="1" />
+      <Item value="Program`0" priority="1" />
+      <Item value="program" priority="1" />
+      <Item value="class" priority="0" />
+      <Item value="IGreeter`0" priority="2" />
+      <Item value="Export" priority="0" />
+      <Item value="CompositionError`0" priority="0" />
+      <Item value="assembly" priority="0" />
+      <Item value="CompositionContainer`0" priority="0" />
+      <Item value="assemblyCatalog" priority="0" />
+      <Item value="compositionContainer" priority="0" />
+      <Item value="CompositionBatch`0" priority="0" />
+      <Item value="compositionBatch" priority="1" />
+      <Item value="composablePart" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XDocument">
+      <Item value="Descendants`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="format" priority="0" />
+      <Item value="Format`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="MinValue" priority="1" />
+      <Item value="Parse`0" priority="0" />
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Write`0" priority="1" />
+      <Item value="WriteLine`0" priority="4" />
+      <Item value="ReadKey`0" priority="0" />
+      <Item value="WindowHeight" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XDocument">
+      <Item value="Load`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MEF.DEMO.Programm">
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="CurrentDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MEF.DEMO.ISecurityRule">
+      <Item value="PassesValidation`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MEF.DEMO.IDataRule">
+      <Item value="IsValid`0" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetExecutingAssembly`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Composition.Hosting.CompositionContainer">
+      <Item value="Compose`0" priority="0" />
+      <Item value="ComposeParts`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.Composition.Hosting.CompositionBatch">
+      <Item value="AddPart`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

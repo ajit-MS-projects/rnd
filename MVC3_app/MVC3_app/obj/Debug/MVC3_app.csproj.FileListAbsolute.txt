@@ -1,0 +1,7 @@
+D:\ajit\RND\MVC3_app\MVC3_app\bin\MVC3_app.dll
+D:\ajit\RND\MVC3_app\MVC3_app\bin\MVC3_app.pdb
+D:\ajit\RND\MVC3_app\MVC3_app\bin\EntityFramework.dll
+D:\ajit\RND\MVC3_app\MVC3_app\bin\EntityFramework.xml
+D:\ajit\RND\MVC3_app\MVC3_app\obj\Debug\MVC3_app.csprojResolveAssemblyReference.cache
+D:\ajit\RND\MVC3_app\MVC3_app\obj\Debug\MVC3_app.dll
+D:\ajit\RND\MVC3_app\MVC3_app\obj\Debug\MVC3_app.pdb

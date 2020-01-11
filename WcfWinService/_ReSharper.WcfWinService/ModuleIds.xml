@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="BDF7CC50-C924-4065-98DE-DA1097A9EF7C" ModuleId="WcfWinService" />
+  <Module PersistentId="266B3E35-20C9-4D3B-9459-CFD7E4FE3B6D" ModuleId="WcfWinServiceClient" />
+  <Module PersistentId="557803E3-C1FB-449A-AF06-8FFB36F1226A" ModuleId="WcfWinServiceClient_1" />
+  <Module PersistentId="B41665C4-59FB-43C4-8337-53FE219D4BDA" ModuleId="WcfWinSerFormClient" />
+  <Module PersistentId="5FA2E680-2AD1-4E3C-8287-759C5474F7AA" ModuleId="wcfConsoleHost" />
+</Modules>

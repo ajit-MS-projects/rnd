@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dc36c638-499a-4b34-8ea4-0f4196b371cd" name="achahal@S24S104 2012-07-10 16:34:43" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4552a4c2-1841-47c8-a00d-33c09781c4f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-07-10 16_34_43">
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest\bin\NihibernateTest.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\NHibernate.Search.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-10T16:34:43.5119885+02:00" queuing="2012-07-10T16:34:43.6099983+02:00" start="2012-07-10T16:34:43.6129986+02:00" finish="2012-07-10T16:34:44.3690742+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SavePerson" storage="d:\ajit\rnd\nihibernatetest\nihibernatetest_tests\bin\debug\nihibernatetest_tests.dll" id="048c890b-ef41-ca05-e69c-77986fe524e3">
+      <Execution id="a25f7163-2aca-4fbb-9561-fc44f3764fc2" />
+      <TestMethod codeBase="d:/ajit/rnd/NihibernateTest/NihibernateTest_Tests/bin/Debug/NihibernateTest_Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NihibernateTest_Tests.PersonTest, NihibernateTest_Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SavePerson" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="048c890b-ef41-ca05-e69c-77986fe524e3" executionId="a25f7163-2aca-4fbb-9561-fc44f3764fc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a25f7163-2aca-4fbb-9561-fc44f3764fc2" testId="048c890b-ef41-ca05-e69c-77986fe524e3" testName="SavePerson" computerName="S24S104" duration="00:00:00.6252877" startTime="2012-07-10T16:34:43.6149988+02:00" endTime="2012-07-10T16:34:44.3600733+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a25f7163-2aca-4fbb-9561-fc44f3764fc2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method NihibernateTest_Tests.PersonTest.SavePerson threw exception: 
+NHibernate.Bytecode.UnableToLoadProxyFactoryFactoryException: Unable to load type 'NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle' during configuration of proxy factory class.
+Possible causes are:
+- The NHibernate.Bytecode provider assembly was not deployed.
+- The typeName used to initialize the 'proxyfactory.factory_class' property of the session-factory section is not well formed.
+
+Solution:
+Confirm that your deployment folder contains one of the following assemblies:
+NHibernate.ByteCode.LinFu.dll
+NHibernate.ByteCode.Castle.dll ---&gt; System.IO.FileNotFoundException: Could not load file or assembly 'NHibernate.ByteCode.Castle' or one of its dependencies. The system cannot find the file specified.WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+</Message>
+          <StackTrace>    at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark&amp; stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark&amp; stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   at NHibernate.Bytecode.AbstractBytecodeProvider.SetProxyFactoryFactory(String typeName)
+ --- End of inner exception stack trace ---
+    at NHibernate.Bytecode.AbstractBytecodeProvider.SetProxyFactoryFactory(String typeName)
+   at NHibernate.Cfg.Configuration.ConfigureProxyFactoryFactory()
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Castle.ActiveRecord.Framework.SessionFactoryHolder.GetSessionFactory(Type type)
+   at Castle.ActiveRecord.Framework.SessionFactoryHolder.CreateSession(Type type)
+   at Castle.ActiveRecord.ActiveRecordBase.InternalSave(Object instance, Boolean flush)
+   at Castle.ActiveRecord.ActiveRecordBase.Save()
+   at NihibernateTest_Tests.PersonTest.SavePerson() in d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\PersonTest.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

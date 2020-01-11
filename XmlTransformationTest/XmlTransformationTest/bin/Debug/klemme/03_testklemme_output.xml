@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfKlemme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Klemme>
+    <ID>1</ID>
+  </Klemme>
+  <VERSION Versionsnummer="3" AnlegeDatum="2010-12-01T00:00:00" Abgekuendigt="false">
+    <Aenderung></Aenderung>
+    <AngelegtDurch Titel="Master" Anrede="Lord" NachName="Protector" VorName="John" Kuerzel="JP" />
+  </VERSION>
+  <ARTIKELNUMMER>
+    <ARTIKELNUMMER_SOLS>SOlS_123</ARTIKELNUMMER_SOLS>
+    <ARTIKELNUMMER_KUNDE>103112002</ARTIKELNUMMER_KUNDE>
+    <BESTELL_NUMMER>BestellNr_Klemme</BESTELL_NUMMER>
+    <REVISIONS_NUMMER>Rev 1.0</REVISIONS_NUMMER>
+  </ARTIKELNUMMER>
+  <HERSTELLER ID="HerstellerID1, das ein Primärschlüssel werden muss" Name="Bond">
+    <Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="23C" Ort="Musterhausen" Land="Musterland" />
+  </HERSTELLER>
+  <VERPACKUNGS_EINHEIT>
+    <PREIS Betrag="1.2">
+      <Waehrung TextKeyLang="" TextKeyKurz="WAEHRUNG_EURO_KURZ" TextKeySymbol="" Decimals="2" />
+    </PREIS>
+    <ANZAHL></ANZAHL>
+    <EINHEIT TextKeyLang="UNIT_STANGE_LANG" TextKeyKurz="UNIT_STANGE_KURZ" Decimals="0" />
+  </VERPACKUNGS_EINHEIT>
+  <ZUSATZ_ARTIKEL />
+  <ZUSATZ_ARTIKEL_OPTIONAL />
+  <BESCHREIBUNG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BEZEICHNUNG" />
+      <MehrsprachlicherText>
+        <DICTIONARY>
+          <string>de-DE</string>
+          <string>CD MMC 32/36</string>
+        </DICTIONARY>
+        <DICTIONARY>
+          <string>en-GB</string>
+          <string>CD MMC 32/36</string>
+        </DICTIONARY>
+      </MehrsprachlicherText>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BESCHREIBUNG" />
+      <MehrsprachlicherText>
+        <DICTIONARY>
+          <string>de-DE</string>
+          <string>CREODUR Modulmittelklemme 32-36</string>
+        </DICTIONARY>
+        <DICTIONARY>
+          <string>en-GB</string>
+          <string>CREODUR module middle clamp 32-36</string>
+        </DICTIONARY>
+      </MehrsprachlicherText>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_DETAILS" />
+      <MehrsprachlicherText>
+        <DICTIONARY>
+          <string>de-DE</string>
+          <string>Modulmittelklemme vormontiert für Rahmenhöhe 32 - 36 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+        </DICTIONARY>
+        <DICTIONARY>
+          <string>en-GB</string>
+          <string>Pre-mounted module centre clamp for frame heights of 32 - 36 mm with M8x35 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+        </DICTIONARY>
+      </MehrsprachlicherText>
+    </DICTONARY_EINTRAG>
+  </BESCHREIBUNG>
+  <LAENDER_FREIGABE>
+    <DICTIONARY>
+      <string>de-DE</string>
+      <Freigabe>
+        <FREIGEGEBEN>true</FREIGEGEBEN>
+      </Freigabe>
+    </DICTIONARY>
+    <DICTIONARY>
+      <string>en-GB</string>
+      <Freigabe>
+        <FREIGEGEBEN>true</FREIGEGEBEN>
+      </Freigabe>
+    </DICTIONARY>
+  </LAENDER_FREIGABE>
+  <PROGRAMM_FREIGABE>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Programmart>CreoTool</Programmart>
+      <Freigabe>
+        <FREIGEGEBEN>true</FREIGEGEBEN>
+      </Freigabe>
+    </DICTONARY_EINTRAG>
+  </PROGRAMM_FREIGABE>
+  <ARTIKEL_GRUPPE>
+    <GRUPPEN_NAME />
+    <GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+  </ARTIKEL_GRUPPE>
+  <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Sortierart KEY="SORTIERART_STUECKLISTE" />
+    <Position>
+      <POSITION>3</POSITION>
+    </Position>
+  </DICTONARY_EINTRAG>
+  <GEWICHT_KG>
+    <WERT Wert="0.123">
+      <Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+    </WERT>
+  </GEWICHT_KG>
+</ArrayOfKlemme>

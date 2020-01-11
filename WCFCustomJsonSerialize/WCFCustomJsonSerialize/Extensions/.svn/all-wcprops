@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/WCFCustomJsonSerialize/Extensions
+END
+NewtonsoftJsonBehavior.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/MyProjects/!svn/ver/31/Trunk/RND/WCFCustomJsonSerialize/WCFCustomJsonSerialize/Extensions/NewtonsoftJsonBehavior.cs
+END
+CustomHttpBehaviorExtensionElement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/MyProjects/!svn/ver/31/Trunk/RND/WCFCustomJsonSerialize/WCFCustomJsonSerialize/Extensions/CustomHttpBehaviorExtensionElement.cs
+END
+NewtonsoftJsonDispatchFormatter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MyProjects/!svn/ver/31/Trunk/RND/WCFCustomJsonSerialize/WCFCustomJsonSerialize/Extensions/NewtonsoftJsonDispatchFormatter.cs
+END
+RawBodyWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/MyProjects/!svn/ver/30/Trunk/RND/WCFCustomJsonSerialize/WCFCustomJsonSerialize/Extensions/RawBodyWriter.cs
+END

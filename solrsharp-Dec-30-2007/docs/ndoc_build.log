@@ -1,0 +1,451 @@
+Memory before build: 7748796
+Initializing Workspace
+Creating Help Project Resources
+Analyzing Assemblies & Merging XML Documentation
+Memory making xml: 8524788
+AssemblyLoader: Loading "C:\solrsharp\src\bin\Debug\SolrSharp.dll".
+XmlDocCommentLoader: Loaded 'C:\solrsharp\src\bin\Debug\SolrSharp.xml' (0.174 sec.)
+XmlDocCommentLoader: Cache 272
+Docs found : C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.xml
+XmlDocCommentLoader: Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.xml' (2.003 sec.)
+XmlDocCommentLoader: Cache 14280
+XmlDocCommentLoader: Loaded 'C:\ndoc\Configuration\Supplemental Docs\en\mscorlib.xml' (0.132 sec.)
+XmlDocCommentLoader: Cache 15302
+AssemblyLoader: Attempting to resolve "System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll"
+AssemblyLoader: Attempting to resolve "System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll"
+Writing namespace org.apache.solr.SolrSharp.Configuration...
+    AssemblyLoader: Attempting to resolve "System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+    AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll"
+    Wrote 2 classes.
+    Wrote 2 enumerations.
+Writing namespace org.apache.solr.SolrSharp.Configuration.Schema...
+    Wrote 5 classes.
+Writing namespace org.apache.solr.SolrSharp.Indexing...
+    Wrote 5 classes.
+Writing namespace org.apache.solr.SolrSharp.Query...
+    Wrote 4 classes.
+    Wrote 1 enumerations.
+Writing namespace org.apache.solr.SolrSharp.Query.Highlights...
+    Wrote 3 classes.
+    Wrote 2 enumerations.
+Writing namespace org.apache.solr.SolrSharp.Query.Parameters...
+    Wrote 6 classes.
+    Wrote 1 enumerations.
+Writing namespace org.apache.solr.SolrSharp.Results...
+    Wrote 6 classes.
+Writing namespace org.apache.solr.SolrSharp.Update...
+    Wrote 1 classes.
+Completed SolrSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+0.328 sec.
+MakeXML : 2.844 sec.
+Determining Document Structure
+Load Docs for Structure Production: 10.657 msec.
+Building File Map: 2.613 msec.
+Structure Production: 9.647 msec.
+Initializing Documenter
+xslt-preprocess.xslt
+retrieved xslt-preprocess.xslt from Style2005
+    topics_main.xslt
+    retrieved topics_main.xslt from common
+    retrieved common.xslt from common
+    retrieved tags.xslt from Style2005
+    retrieved blank.xslt from common
+    retrieved indices.xslt from common
+    retrieved XLinks.xslt from common
+    retrieved style-common.xslt from Style2005
+    retrieved see-also.xslt from common
+    retrieved syntax.xslt from Style2005
+    retrieved syntax-common.xslt from common
+    retrieved syntax-map.xslt from common
+    retrieved memberscommon.xslt from Style2005
+    retrieved allmembers.xslt from Style2005
+    retrieved event.xslt from common
+    retrieved field.xslt from common
+    retrieved individualmembers.xslt from Style2005
+    retrieved member.xslt from common
+    retrieved memberoverload.xslt from Style2005
+    retrieved namespace.xslt from Style2005
+    retrieved namespacehierarchy.xslt from common
+    retrieved property.xslt from common
+    retrieved type.xslt from Style2005
+    retrieved typehierarchy.xslt from Style2005
+    0.533
+    toc_htmlhelp1.xslt
+    retrieved toc_htmlhelp1.xslt from common
+    0.002
+    toc_htmlhelp2.xslt
+    retrieved toc_htmlhelp2.xslt from common
+    0.001
+    toc_web.xslt
+    retrieved toc_web.xslt from common
+    0.002
+Building stylesheets 0.560
+Building Table-of-Contents
+Building Topic Pages
+308.149   namespace   N_org_apache_solr_SolrSharp_Configuration.html
+61.112   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Configuration.html
+401.251   type   T_org_apache_solr_SolrSharp_Configuration_SolrSearcher.html
+159.106   allmembers   T_org_apache_solr_SolrSharp_Configuration_SolrSearcher_Members.html
+17.164   individualmembers   T_org_apache_solr_SolrSharp_Configuration_SolrSearcher_Fields.html
+1.289   individualmembers   T_org_apache_solr_SolrSharp_Configuration_SolrSearcher_Properties.html
+3.201   individualmembers   T_org_apache_solr_SolrSharp_Configuration_SolrSearcher_Methods.html
+228.753   member   C_org_apache_solr_SolrSharp_Configuration_SolrSearcher_ctor.html
+24.694   field   F_org_apache_solr_SolrSharp_Configuration_SolrSearcher_SOLR.html
+1.347   field   F_org_apache_solr_SolrSharp_Configuration_SolrSearcher_SOLR_PING.html
+134.439   property   P_org_apache_solr_SolrSharp_Configuration_SolrSearcher_SolrSchema.html
+17.966   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetConfigurationData.html
+232.344   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetConfigurationValue.html
+2.760   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetConfigurationXml.html
+85.792   memberoverload   O_S_T_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetContentToPost.html
+29.782   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetContentToPost_f62c91ad.html
+3.056   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetContentToPost_83e26318.html
+2.483   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetXmlDocument.html
+2.004   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetXmlDocumentFromPost.html
+1.162   memberoverload   O_S_T_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetXmlNode.html
+4.030   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetXmlNode_6910e15c.html
+2.102   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetXmlNode_9bbd60b3.html
+1.992   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetXmlNodes.html
+1.912   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_GetXmlValue.html
+2.910   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_Ping.html
+2.510   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_Supports.html
+3.471   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearcher_WebPost.html
+1.346   type   T_org_apache_solr_SolrSharp_Configuration_SolrSearchers.html
+5.631   allmembers   T_org_apache_solr_SolrSharp_Configuration_SolrSearchers_Members.html
+2.357   individualmembers   T_org_apache_solr_SolrSharp_Configuration_SolrSearchers_Methods.html
+1.335   member   C_org_apache_solr_SolrSharp_Configuration_SolrSearchers_ctor.html
+1.573   member   M_org_apache_solr_SolrSharp_Configuration_SolrSearchers_GetSearcher.html
+31.197   type   T_org_apache_solr_SolrSharp_Configuration_ConfigurationFile.html
+27.487   type   T_org_apache_solr_SolrSharp_Configuration_Mode.html
+1.168   namespace   N_org_apache_solr_SolrSharp_Configuration_Schema.html
+1.036   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Configuration_Schema.html
+2.002   type   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrCopyField.html
+2.807   allmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrCopyField_Members.html
+1.069   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrCopyField_Properties.html
+1.645   member   C_org_apache_solr_SolrSharp_Configuration_Schema_SolrCopyField_ctor.html
+1.787   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrCopyField_DestinationField.html
+1.301   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrCopyField_SourceField.html
+5.364   type   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrDynamicField.html
+3.914   allmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrDynamicField_Members.html
+2.946   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrDynamicField_Methods.html
+1.902   member   C_org_apache_solr_SolrSharp_Configuration_Schema_SolrDynamicField_ctor.html
+1.594   member   M_org_apache_solr_SolrSharp_Configuration_Schema_SolrDynamicField_IsMatch.html
+1.332   type   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrField.html
+4.571   allmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_Members.html
+1.557   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_Properties.html
+2.511   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_Methods.html
+1.668   member   C_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_ctor.html
+1.993   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_IsCopied.html
+1.322   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_IsDefaulted.html
+1.311   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_IsIndexed.html
+2.080   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_IsMultiValued.html
+1.569   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_IsStored.html
+1.331   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_Name.html
+1.304   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_OmitNorms.html
+1.395   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_Type.html
+2.053   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_XpathExpression.html
+1.951   member   M_org_apache_solr_SolrSharp_Configuration_Schema_SolrField_GetXpathExpression.html
+1.357   type   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema.html
+3.367   allmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_Members.html
+1.613   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_Properties.html
+2.709   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_Methods.html
+11.683   member   C_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_ctor.html
+1.485   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_DefaultOperator.html
+2.086   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_DefaultSearchField.html
+1.362   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_SolrCopyFields.html
+2.135   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_SolrDynamicFields.html
+1.382   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_SolrFields.html
+1.597   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_SolrTypes.html
+1.372   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_UniqueKey.html
+1.691   member   M_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_GetNativeType.html
+1.831   member   M_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_GetSolrField.html
+2.229   member   M_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_GetSolrType.html
+1.585   member   M_org_apache_solr_SolrSharp_Configuration_Schema_SolrSchema_IsValidUpdateIndexDocument.html
+2.117   type   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrType.html
+3.101   allmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_Members.html
+1.759   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_Properties.html
+2.322   individualmembers   T_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_Methods.html
+1.446   member   C_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_ctor.html
+1.383   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_Name.html
+3.237   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_OmitNorms.html
+2.190   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_SortMissingFirst.html
+1.532   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_SortMissingLast.html
+1.427   property   P_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_Type.html
+1.904   member   M_org_apache_solr_SolrSharp_Configuration_Schema_SolrType_TypeExpression.html
+26.780   namespace   N_org_apache_solr_SolrSharp_Indexing.html
+1.868   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Indexing.html
+18.723   type   T_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument.html
+10.161   allmembers   T_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_Members.html
+1.207   individualmembers   T_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_Properties.html
+1.164   memberoverload   T_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_Constructor.html
+1.295   member   C_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_ctor_.html
+1.580   member   C_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_ctor_b4c5a2da.html
+1.291   member   C_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_ctor_957e8896.html
+28.865   property   P_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_Id.html
+2.147   property   P_org_apache_solr_SolrSharp_Indexing_DeleteIndexDocument_Query.html
+3.500   type   T_org_apache_solr_SolrSharp_Indexing_IndexDocument.html
+3.094   allmembers   T_org_apache_solr_SolrSharp_Indexing_IndexDocument_Members.html
+2.309   individualmembers   T_org_apache_solr_SolrSharp_Indexing_IndexDocument_Methods.html
+1.029   member   C_org_apache_solr_SolrSharp_Indexing_IndexDocument_ctor.html
+1.718   member   M_org_apache_solr_SolrSharp_Indexing_IndexDocument_SerializeToString.html
+2.934   type   T_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute.html
+7.325   allmembers   T_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute_Members.html
+1.336   individualmembers   T_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute_Properties.html
+3.273   individualmembers   T_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute_Methods.html
+1.395   member   C_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute_ctor.html
+1.615   property   P_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute_FieldName.html
+2.265   property   P_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute_PropertyInfo.html
+2.330   member   M_org_apache_solr_SolrSharp_Indexing_IndexFieldAttribute_SetValue.html
+2.654   type   T_org_apache_solr_SolrSharp_Indexing_IndexFieldValue.html
+3.129   allmembers   T_org_apache_solr_SolrSharp_Indexing_IndexFieldValue_Members.html
+1.297   individualmembers   T_org_apache_solr_SolrSharp_Indexing_IndexFieldValue_Properties.html
+1.709   memberoverload   T_org_apache_solr_SolrSharp_Indexing_IndexFieldValue_Constructor.html
+1.629   member   C_org_apache_solr_SolrSharp_Indexing_IndexFieldValue_ctor_d460c748.html
+1.021   member   C_org_apache_solr_SolrSharp_Indexing_IndexFieldValue_ctor_.html
+2.391   property   P_org_apache_solr_SolrSharp_Indexing_IndexFieldValue_Name.html
+2.922   property   P_org_apache_solr_SolrSharp_Indexing_IndexFieldValue_Value.html
+2.074   type   T_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument.html
+2.907   allmembers   T_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_Members.html
+1.050   individualmembers   T_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_Properties.html
+5.703   individualmembers   T_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_Methods.html
+1.393   member   C_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_ctor.html
+3.409   property   P_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_FieldValues.html
+1.153   memberoverload   O_T_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_Add.html
+1.783   member   M_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_Add_78da0c5f.html
+1.802   member   M_org_apache_solr_SolrSharp_Indexing_UpdateIndexDocument_Add_d460c748.html
+1.424   namespace   N_org_apache_solr_SolrSharp_Query.html
+1.262   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Query.html
+2.031   type   T_org_apache_solr_SolrSharp_Query_Facet.html
+3.603   allmembers   T_org_apache_solr_SolrSharp_Query_Facet_Members.html
+1.274   individualmembers   T_org_apache_solr_SolrSharp_Query_Facet_Properties.html
+1.295   memberoverload   T_org_apache_solr_SolrSharp_Query_Facet_Constructor.html
+1.986   member   C_org_apache_solr_SolrSharp_Query_Facet_ctor_.html
+1.375   member   C_org_apache_solr_SolrSharp_Query_Facet_ctor_16219e3a.html
+1.537   property   P_org_apache_solr_SolrSharp_Query_Facet_DisplayMissing.html
+12.349   property   P_org_apache_solr_SolrSharp_Query_Facet_DisplayZeros.html
+2.256   property   P_org_apache_solr_SolrSharp_Query_Facet_Field.html
+2.547   property   P_org_apache_solr_SolrSharp_Query_Facet_Limit.html
+1.370   property   P_org_apache_solr_SolrSharp_Query_Facet_UrlParameters.html
+2.306   type   T_org_apache_solr_SolrSharp_Query_Query.html
+2.772   allmembers   T_org_apache_solr_SolrSharp_Query_Query_Members.html
+2.919   individualmembers   T_org_apache_solr_SolrSharp_Query_Query_Methods.html
+1.122   member   C_org_apache_solr_SolrSharp_Query_Query_ctor.html
+1.734   member   M_org_apache_solr_SolrSharp_Query_Query_AddQueryParameters.html
+2.018   member   M_org_apache_solr_SolrSharp_Query_Query_ToString.html
+1.421   type   T_org_apache_solr_SolrSharp_Query_QueryBuilder.html
+4.742   allmembers   T_org_apache_solr_SolrSharp_Query_QueryBuilder_Members.html
+2.084   individualmembers   T_org_apache_solr_SolrSharp_Query_QueryBuilder_Fields.html
+1.828   individualmembers   T_org_apache_solr_SolrSharp_Query_QueryBuilder_Properties.html
+2.545   individualmembers   T_org_apache_solr_SolrSharp_Query_QueryBuilder_Methods.html
+6.066   memberoverload   T_org_apache_solr_SolrSharp_Query_QueryBuilder_Constructor.html
+27.307   member   C_org_apache_solr_SolrSharp_Query_QueryBuilder_ctor_.html
+46.543   member   C_org_apache_solr_SolrSharp_Query_QueryBuilder_ctor_804c5d7d.html
+1.376   member   C_org_apache_solr_SolrSharp_Query_QueryBuilder_ctor_16219e3a.html
+1.574   member   C_org_apache_solr_SolrSharp_Query_QueryBuilder_ctor_843a3b0f.html
+2.492   member   C_org_apache_solr_SolrSharp_Query_QueryBuilder_ctor_5fe2a47d.html
+12.607   member   C_org_apache_solr_SolrSharp_Query_QueryBuilder_ctor_e90c565c.html
+1.682   member   C_org_apache_solr_SolrSharp_Query_QueryBuilder_ctor_add4baa3.html
+3.063   field   F_org_apache_solr_SolrSharp_Query_QueryBuilder_SOLR_DEBUG_ENABLED.html
+1.311   field   F_org_apache_solr_SolrSharp_Query_QueryBuilder_SOLR_EXPLAIN_OTHER.html
+1.933   field   F_org_apache_solr_SolrSharp_Query_QueryBuilder_SOLR_PARAM_QUERY.html
+1.553   field   F_org_apache_solr_SolrSharp_Query_QueryBuilder_SOLR_PARAM_ROWS.html
+1.306   field   F_org_apache_solr_SolrSharp_Query_QueryBuilder_SOLR_PARAM_STARTAT.html
+1.281   field   F_org_apache_solr_SolrSharp_Query_QueryBuilder_SOLR_SEARCH.html
+3.749   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_ExplainOtherQuery.html
+1.470   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_Facets.html
+1.754   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_IsDebugEnabled.html
+1.357   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_IsHighlighted.html
+1.719   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_Page.html
+1.464   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_Query.html
+1.351   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_QueryUrl.html
+2.109   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_Rows.html
+1.928   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_SolrSearcher.html
+2.041   property   P_org_apache_solr_SolrSharp_Query_QueryBuilder_Sorts.html
+1.524   member   M_org_apache_solr_SolrSharp_Query_QueryBuilder_AddFacet.html
+1.872   member   M_org_apache_solr_SolrSharp_Query_QueryBuilder_AddHighlightParameterCollection.html
+2.087   memberoverload   O_T_org_apache_solr_SolrSharp_Query_QueryBuilder_AddSearchParameter.html
+1.841   member   M_org_apache_solr_SolrSharp_Query_QueryBuilder_AddSearchParameter_d460c748.html
+2.772   member   M_org_apache_solr_SolrSharp_Query_QueryBuilder_AddSearchParameter_23e7e7cb.html
+1.521   member   M_org_apache_solr_SolrSharp_Query_QueryBuilder_AddSort.html
+1.534   member   M_org_apache_solr_SolrSharp_Query_QueryBuilder_GetHighlightParameterCollection.html
+1.487   type   T_org_apache_solr_SolrSharp_Query_Sort.html
+2.620   allmembers   T_org_apache_solr_SolrSharp_Query_Sort_Members.html
+1.054   individualmembers   T_org_apache_solr_SolrSharp_Query_Sort_Properties.html
+3.510   individualmembers   T_org_apache_solr_SolrSharp_Query_Sort_Methods.html
+1.705   member   C_org_apache_solr_SolrSharp_Query_Sort_ctor.html
+1.664   property   P_org_apache_solr_SolrSharp_Query_Sort_SortField.html
+1.360   property   P_org_apache_solr_SolrSharp_Query_Sort_SortOrder.html
+1.619   member   M_org_apache_solr_SolrSharp_Query_Sort_ToString.html
+1.187   type   T_org_apache_solr_SolrSharp_Query_SortOrder.html
+1.967   namespace   N_org_apache_solr_SolrSharp_Query_Highlights.html
+3.267   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Query_Highlights.html
+2.430   type   T_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter.html
+4.420   allmembers   T_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_Members.html
+1.267   individualmembers   T_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_Fields.html
+1.742   individualmembers   T_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_Properties.html
+2.892   individualmembers   T_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_Methods.html
+1.828   field   F_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_SOLR_PARAM_HIGHLIGHT.html
+1.366   field   F_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_SOLR_PARAM_HIGHLIGHTFIELDS.html
+1.571   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_FragmentSize.html
+1.614   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_HighlightFormatter.html
+1.767   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_HighlightFragmenter.html
+1.559   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_MaxAnalyzedChars.html
+1.784   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_ParameterReference.html
+1.715   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_RegexMaxAnalyzedChars.html
+1.581   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_RegexPattern.html
+2.431   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_RegexSlop.html
+1.966   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_RequireFieldMatch.html
+2.249   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_SimplePostText.html
+1.644   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_SimplePreText.html
+1.506   property   P_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_Snippets.html
+1.736   memberoverload   O_T_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_IsDefault.html
+2.135   member   M_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_IsDefault_f9e719c8.html
+2.760   member   M_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_IsDefault_fc96d728.html
+1.972   member   M_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_IsDefault_d460c748.html
+2.697   member   M_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_IsDefault_77f85628.html
+1.856   member   M_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_RenderParameters.html
+1.331   member   M_org_apache_solr_SolrSharp_Query_Highlights_BaseHighlighter_ToString.html
+2.112   type   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter.html
+4.233   allmembers   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter_Members.html
+3.585   individualmembers   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter_Properties.html
+2.581   individualmembers   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter_Methods.html
+1.866   member   C_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter_ctor.html
+1.493   property   P_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter_ParameterReference.html
+2.079   property   P_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter_SolrField.html
+1.441   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameter_ToString.html
+3.122   type   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection.html
+4.942   allmembers   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Members.html
+2.933   individualmembers   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Properties.html
+2.950   individualmembers   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Methods.html
+1.906   member   C_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_ctor.html
+4.170   property   P_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Count.html
+1.787   property   P_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_HighlightParameters.html
+2.643   property   P_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_IsReadOnly.html
+2.476   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Add.html
+2.782   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Clear.html
+3.007   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Contains.html
+2.836   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_CopyTo.html
+4.132   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_GetEnumerator.html
+2.728   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_Remove.html
+46.433   member   M_org_apache_solr_SolrSharp_Query_Highlights_HighlightParameterCollection_ToString.html
+2.098   type   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightFormatter.html
+1.549   type   T_org_apache_solr_SolrSharp_Query_Highlights_HighlightFragmenter.html
+2.589   namespace   N_org_apache_solr_SolrSharp_Query_Parameters.html
+2.232   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Query_Parameters.html
+52.188   type   T_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameter.html
+6.201   allmembers   T_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameter_Members.html
+2.893   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameter_Methods.html
+35.896   member   C_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameter_ctor.html
+1.430   member   M_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameter_ToString.html
+1.549   type   T_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameterCollection.html
+3.076   allmembers   T_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameterCollection_Members.html
+19.890   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameterCollection_Properties.html
+2.150   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameterCollection_Methods.html
+2.799   member   C_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameterCollection_ctor.html
+1.461   property   P_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameterCollection_Separator.html
+2.534   member   M_org_apache_solr_SolrSharp_Query_Parameters_IdListQueryParameterCollection_ToString.html
+1.398   type   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter.html
+3.890   allmembers   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_Members.html
+1.238   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_Properties.html
+3.214   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_Methods.html
+1.864   member   C_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_ctor.html
+2.114   property   P_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_Boost.html
+1.372   property   P_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_Field.html
+1.908   property   P_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_Value.html
+2.105   member   M_org_apache_solr_SolrSharp_Query_Parameters_QueryParameter_ToString.html
+1.621   type   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection.html
+2.841   allmembers   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_Members.html
+1.524   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_Properties.html
+2.075   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_Methods.html
+1.238   memberoverload   T_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_Constructor.html
+2.176   member   C_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_ctor_943e36a2.html
+2.898   member   C_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_ctor_518f9ce9.html
+2.219   property   P_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_ParameterJoin.html
+1.404   property   P_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_QueryParameterArray.html
+1.404   property   P_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_Separator.html
+1.840   member   M_org_apache_solr_SolrSharp_Query_Parameters_QueryParameterCollection_ToString.html
+1.659   type   T_org_apache_solr_SolrSharp_Query_Parameters_RangeQueryParameter.html
+2.962   allmembers   T_org_apache_solr_SolrSharp_Query_Parameters_RangeQueryParameter_Members.html
+2.104   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_RangeQueryParameter_Methods.html
+1.730   memberoverload   T_org_apache_solr_SolrSharp_Query_Parameters_RangeQueryParameter_Constructor.html
+2.158   member   C_org_apache_solr_SolrSharp_Query_Parameters_RangeQueryParameter_ctor_1c9576da.html
+2.300   member   C_org_apache_solr_SolrSharp_Query_Parameters_RangeQueryParameter_ctor_b22d137a.html
+1.544   member   M_org_apache_solr_SolrSharp_Query_Parameters_RangeQueryParameter_ToString.html
+1.848   type   T_org_apache_solr_SolrSharp_Query_Parameters_StartsWithQueryParameter.html
+3.410   allmembers   T_org_apache_solr_SolrSharp_Query_Parameters_StartsWithQueryParameter_Members.html
+2.337   individualmembers   T_org_apache_solr_SolrSharp_Query_Parameters_StartsWithQueryParameter_Methods.html
+1.702   member   C_org_apache_solr_SolrSharp_Query_Parameters_StartsWithQueryParameter_ctor.html
+2.216   member   M_org_apache_solr_SolrSharp_Query_Parameters_StartsWithQueryParameter_ToString.html
+1.204   type   T_org_apache_solr_SolrSharp_Query_Parameters_ParameterJoin.html
+2.387   namespace   N_org_apache_solr_SolrSharp_Results.html
+1.195   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Results.html
+2.427   type   T_org_apache_solr_SolrSharp_Results_DebugResults.html
+4.770   allmembers   T_org_apache_solr_SolrSharp_Results_DebugResults_Members.html
+1.632   individualmembers   T_org_apache_solr_SolrSharp_Results_DebugResults_Properties.html
+1.453   member   C_org_apache_solr_SolrSharp_Results_DebugResults_ctor.html
+1.989   property   P_org_apache_solr_SolrSharp_Results_DebugResults_ExplanationRecords.html
+1.480   property   P_org_apache_solr_SolrSharp_Results_DebugResults_OtherQuery.html
+1.452   property   P_org_apache_solr_SolrSharp_Results_DebugResults_OtherQueryExplanationRecords.html
+1.375   property   P_org_apache_solr_SolrSharp_Results_DebugResults_ParsedQuery.html
+1.651   property   P_org_apache_solr_SolrSharp_Results_DebugResults_QueryString.html
+3.783   type   T_org_apache_solr_SolrSharp_Results_ExplanationRecord.html
+3.108   allmembers   T_org_apache_solr_SolrSharp_Results_ExplanationRecord_Members.html
+1.191   individualmembers   T_org_apache_solr_SolrSharp_Results_ExplanationRecord_Properties.html
+3.358   individualmembers   T_org_apache_solr_SolrSharp_Results_ExplanationRecord_Methods.html
+1.457   member   C_org_apache_solr_SolrSharp_Results_ExplanationRecord_ctor.html
+2.199   property   P_org_apache_solr_SolrSharp_Results_ExplanationRecord_ExplainInfo.html
+1.832   property   P_org_apache_solr_SolrSharp_Results_ExplanationRecord_Name.html
+1.723   property   P_org_apache_solr_SolrSharp_Results_ExplanationRecord_UniqueRecordKey.html
+2.043   member   M_org_apache_solr_SolrSharp_Results_ExplanationRecord_GetExplainInfoAsHTML.html
+7.962   type   T_org_apache_solr_SolrSharp_Results_FacetResults`1.html
+3.121   allmembers   T_org_apache_solr_SolrSharp_Results_FacetResults`1_Members.html
+1.314   individualmembers   T_org_apache_solr_SolrSharp_Results_FacetResults`1_Properties.html
+2.319   individualmembers   T_org_apache_solr_SolrSharp_Results_FacetResults`1_Methods.html
+2.322   member   C_org_apache_solr_SolrSharp_Results_FacetResults`1_ctor.html
+2.556   property   P_org_apache_solr_SolrSharp_Results_FacetResults`1_Facets.html
+1.915   member   M_org_apache_solr_SolrSharp_Results_FacetResults`1_InitFacetObject.html
+1.312   type   T_org_apache_solr_SolrSharp_Results_HighlightRecord.html
+2.820   allmembers   T_org_apache_solr_SolrSharp_Results_HighlightRecord_Members.html
+1.462   individualmembers   T_org_apache_solr_SolrSharp_Results_HighlightRecord_Properties.html
+3.403   individualmembers   T_org_apache_solr_SolrSharp_Results_HighlightRecord_Methods.html
+1.661   member   C_org_apache_solr_SolrSharp_Results_HighlightRecord_ctor.html
+1.410   property   P_org_apache_solr_SolrSharp_Results_HighlightRecord_RecordId.html
+1.429   property   P_org_apache_solr_SolrSharp_Results_HighlightRecord_XNodeRecord.html
+2.604   member   M_org_apache_solr_SolrSharp_Results_HighlightRecord_GetHighlightedPhrases.html
+1.376   type   T_org_apache_solr_SolrSharp_Results_SearchRecord.html
+3.697   allmembers   T_org_apache_solr_SolrSharp_Results_SearchRecord_Members.html
+1.039   individualmembers   T_org_apache_solr_SolrSharp_Results_SearchRecord_Properties.html
+1.630   member   C_org_apache_solr_SolrSharp_Results_SearchRecord_ctor.html
+2.778   property   P_org_apache_solr_SolrSharp_Results_SearchRecord_XNodeRecord.html
+2.096   type   T_org_apache_solr_SolrSharp_Results_SearchResults`1.html
+3.547   allmembers   T_org_apache_solr_SolrSharp_Results_SearchResults`1_Members.html
+1.615   individualmembers   T_org_apache_solr_SolrSharp_Results_SearchResults`1_Properties.html
+2.458   individualmembers   T_org_apache_solr_SolrSharp_Results_SearchResults`1_Methods.html
+1.317   member   C_org_apache_solr_SolrSharp_Results_SearchResults`1_ctor.html
+1.561   property   P_org_apache_solr_SolrSharp_Results_SearchResults`1_DebugResults.html
+2.800   property   P_org_apache_solr_SolrSharp_Results_SearchResults`1_Rows.html
+1.195   property   P_org_apache_solr_SolrSharp_Results_SearchResults`1_SearchRecords.html
+1.669   property   P_org_apache_solr_SolrSharp_Results_SearchResults`1_StartAt.html
+1.264   property   P_org_apache_solr_SolrSharp_Results_SearchResults`1_TotalResults.html
+1.639   member   M_org_apache_solr_SolrSharp_Results_SearchResults`1_ExecuteSearch.html
+2.407   member   M_org_apache_solr_SolrSharp_Results_SearchResults`1_InitFacetResults.html
+1.645   member   M_org_apache_solr_SolrSharp_Results_SearchResults`1_InitSearchRecord.html
+0.899   namespace   N_org_apache_solr_SolrSharp_Update.html
+1.086   namespacehierarchy   Hier_N_org_apache_solr_SolrSharp_Update.html
+1.314   type   T_org_apache_solr_SolrSharp_Update_SolrUpdater.html
+3.175   allmembers   T_org_apache_solr_SolrSharp_Update_SolrUpdater_Members.html
+1.063   individualmembers   T_org_apache_solr_SolrSharp_Update_SolrUpdater_Properties.html
+2.687   individualmembers   T_org_apache_solr_SolrSharp_Update_SolrUpdater_Methods.html
+1.498   member   C_org_apache_solr_SolrSharp_Update_SolrUpdater_ctor.html
+1.415   property   P_org_apache_solr_SolrSharp_Update_SolrUpdater_SOLR_UPDATE.html
+2.274   member   M_org_apache_solr_SolrSharp_Update_SolrUpdater_Commit.html
+2.046   member   M_org_apache_solr_SolrSharp_Update_SolrUpdater_Optimize.html
+1.137   memberoverload   O_T_org_apache_solr_SolrSharp_Update_SolrUpdater_PostToIndex.html
+1.755   member   M_org_apache_solr_SolrSharp_Update_SolrUpdater_PostToIndex_b85574fa.html
+1.485   member   M_org_apache_solr_SolrSharp_Update_SolrUpdater_PostToIndex_d41fff99.html
+It took 3 seconds to make the html
+Completing Help Project Resources
+Writing documentation to output path
+Build Completed.
+The build took a total of 7 seconds

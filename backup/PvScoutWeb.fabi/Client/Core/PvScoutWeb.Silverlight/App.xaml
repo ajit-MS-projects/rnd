@@ -1,0 +1,38 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="PvScoutWeb.Silverlight.App"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:PvScoutWeb.Silverlight.ViewModel"
+             mc:Ignorable="d">
+    <Application.Resources>
+        <!--Global View Model Locator-->
+        <vm:ViewModelLocator x:Key="Locator"
+                             d:IsDataSource="True" />
+
+        <Style x:Name="PvModulBorderStyle" TargetType="Border">
+            <Setter Property="BorderBrush" Value="#FFAAAAAA"></Setter>
+            <Setter Property="BorderThickness" Value="2"></Setter>
+            <Setter Property="CornerRadius" Value="1"></Setter>
+        </Style>
+        <Style x:Name="PvModulInnerBorderStyle" TargetType="Border">
+            <Setter Property="BorderThickness" Value="2"></Setter>
+            <Setter Property="Background" Value="#FF232234"></Setter>
+            <Setter Property="CornerRadius" Value="1"></Setter>
+        </Style>
+        <Style x:Name="PvModulBorderSelectedStyle" TargetType="Border">
+            <Setter Property="BorderBrush" Value="#FF4F9310"></Setter>
+            <Setter Property="BorderThickness" Value="2"></Setter>
+            <Setter Property="CornerRadius" Value="1"></Setter>
+        </Style>
+        <Style x:Name="PvModulInnerBorderSelectedStyle" TargetType="Border">
+            <Setter Property="BorderThickness" Value="2"></Setter>
+            <Setter Property="Background" Value="#B2000000"></Setter>
+            <Setter Property="CornerRadius" Value="1"></Setter>
+        </Style>
+        <Style x:Name="PvModulGridLinesStyle" TargetType="Rectangle">
+            <Setter Property="Margin" Value="0"></Setter>
+            <Setter Property="Stroke" Value="#FFAAAAAA"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

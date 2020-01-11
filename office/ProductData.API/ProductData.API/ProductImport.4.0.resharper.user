@@ -1,0 +1,69 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="28199" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:DAO/f:ProductDAO.cs" caret="3705" scrollPosition="0|0" />
+      <File id="1BB8F14B-FAD9-4107-810D-6EB88A595E0E/f:App.config" caret="8645" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Common/f:Utilities.cs" caret="18949" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Common/f:Enumerations.cs" caret="7158" scrollPosition="0|0" />
+      <File id="A86C7663-F57E-4360-9A15-AE68FB7ED84A/f:AffiliManualImageImportService.cs" caret="2312" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:BaseProcessor.cs" caret="1695" scrollPosition="0|0" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:App.config" caret="7356" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:XmlProcessor.cs" caret="3305" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:FileProcessor.cs" caret="3943" scrollPosition="0|0" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:Service.cs" caret="1220" scrollPosition="0|0" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:CsvToCsvConverter.cs" caret="4322" scrollPosition="0|0" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Common/f:Constants.cs" caret="9243" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Common/f:Constants.cs" caret="11816" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/f:ProductImportManager.cs" caret="2281" scrollPosition="0|0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="28653" scrollPosition="0|0" />
+      <File id="45EEE72E-2C3A-42F9-A532-EC6860CCD8AF/f:Web.config" caret="11540" scrollPosition="0|93" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:BaseConverter.cs" caret="21104" scrollPosition="0|389" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:App.config" caret="7356" scrollPosition="0|33" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:XmlProcessor.cs" caret="8920" scrollPosition="27|84" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:XmlProcessor.cs" caret="2748" scrollPosition="0|54" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:Service.cs" caret="1224" scrollPosition="0|13" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="28713" scrollPosition="10|503" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="29478" scrollPosition="0|521" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="30723" scrollPosition="0|521" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="30007" scrollPosition="0|521" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="29832" scrollPosition="0|521" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="29251" scrollPosition="28|521" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:CSVProcessor.cs" caret="30121" scrollPosition="0|524" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:BaseConverter.cs" caret="9061" scrollPosition="0|144" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Common/f:Constants.cs" caret="9243" scrollPosition="0|140" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:BaseConverter.cs" caret="7741" scrollPosition="1|152" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:BaseConverter.cs" caret="8685" scrollPosition="1|152" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:BaseConverter.cs" caret="8287" scrollPosition="1|152" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:BaseConverter.cs" caret="22153" scrollPosition="1|177" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ReadInnerXml" priority="0" />
+      <Item value="DisplayBasePrice" priority="0" />
+      <Item value="BasePrice" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

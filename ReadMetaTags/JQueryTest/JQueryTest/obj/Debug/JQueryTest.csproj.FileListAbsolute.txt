@@ -1,0 +1,7 @@
+D:\ajit\rnd\JQueryTest\JQueryTest\bin\JQueryTest.dll
+D:\ajit\rnd\JQueryTest\JQueryTest\bin\JQueryTest.pdb
+D:\ajit\rnd\JQueryTest\JQueryTest\bin\EntityFramework.dll
+D:\ajit\rnd\JQueryTest\JQueryTest\bin\EntityFramework.xml
+D:\ajit\rnd\JQueryTest\JQueryTest\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\JQueryTest\JQueryTest\obj\Debug\JQueryTest.dll
+D:\ajit\rnd\JQueryTest\JQueryTest\obj\Debug\JQueryTest.pdb

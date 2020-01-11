@@ -1,0 +1,43 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/f:ObjectPostionCalculator.cs" caret="350" fromTop="12" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/d:Service References/d:PvScoutService/f:Reference.cs" caret="18946" fromTop="21" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:MainPage.xaml.cs" caret="1072" fromTop="27" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModule.cs" caret="331" fromTop="13" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:IPvScoutService.cs" caret="613" fromTop="19" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:clientaccesspolicy.xml" caret="348" fromTop="13" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:PvScoutService.svc.cs" caret="587" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:MainPage.xaml.cs" caret="635" fromTop="24" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:clientaccesspolicy.xml" caret="348" fromTop="13" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:IPvScoutService.cs" caret="856" fromTop="20" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:IPvScoutService.cs" caret="613" fromTop="19" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModule.cs" caret="331" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="DataMember" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

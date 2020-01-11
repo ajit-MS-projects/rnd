@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WcfMultiInheritence.Service1" Factory="WcfMultiInheritence.PolymorphicServiceFactory" CodeBehind="Service1.svc.cs" %>
+

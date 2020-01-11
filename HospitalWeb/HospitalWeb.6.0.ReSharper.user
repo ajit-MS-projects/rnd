@@ -1,0 +1,85 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:HospitalService.svc.cs" caret="246" fromTop="10" />
+      <File id="2B7D7544-2B8E-43A6-93F1-56D970FA77A5/f:Form1.cs" caret="841" fromTop="26" />
+      <File id="2B7D7544-2B8E-43A6-93F1-56D970FA77A5/d:Service References/d:HospitalRef/f:Reference.cs" caret="0" fromTop="0" />
+      <File id="2B7D7544-2B8E-43A6-93F1-56D970FA77A5/d:Service References/d:HospitalRef/f:service.edmx" caret="1142" fromTop="13" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:Model.cs" caret="1313" fromTop="46" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:Web.config" caret="586" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:Model.cs" caret="537" fromTop="24" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:HospitalService.svc.cs" caret="277" fromTop="10" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:Web.config" caret="604" fromTop="13" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:Model.cs" caret="831" fromTop="33" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:Model.cs" caret="1295" fromTop="44" />
+      <File id="2B7D7544-2B8E-43A6-93F1-56D970FA77A5/f:Form1.cs" caret="453" fromTop="16" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:HospitalService.svc.cs" caret="816" fromTop="20" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:HospitalService.svc.cs" caret="816" fromTop="20" />
+      <File id="FB592223-6A46-41B9-B5BD-A00A2BF90189/f:HospitalService.svc.cs" caret="677" fromTop="17" />
+      <File id="2B7D7544-2B8E-43A6-93F1-56D970FA77A5/f:Form1.cs" caret="864" fromTop="30" />
+      <File id="2B7D7544-2B8E-43A6-93F1-56D970FA77A5/f:Form1.cs" caret="841" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="MulticastNotSupportedException`0" priority="30" />
+      <Item value="base" priority="31" />
+      <Item value="context" priority="160" />
+      <Item value="HospitalRef" priority="124" />
+      <Item value="Patient`0" priority="139" />
+      <Item value="new" priority="127" />
+      <Item value="Patient" priority="25" />
+      <Item value="p" priority="159" />
+      <Item value="HospitalContext`0" priority="112" />
+      <Item value="HospitalContext" priority="57" />
+      <Item value="Uri" priority="28" />
+      <Item value="Message`0" priority="31" />
+      <Item value="MessageBox`0" priority="26" />
+      <Item value="newPatient" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HospitalWeb.HospitalContext">
+      <Item value="SaveChanges`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:winClient.HospitalRef.Patient">
+      <Item value="Name" priority="53" />
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@winClient.HospitalRef.Patient">
+      <Item value="CreatePatient`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:winClient.HospitalRef.HospitalContext">
+      <Item value="SaveChanges`0" priority="26" />
+      <Item value="Patients" priority="135" />
+      <Item value="AddToPatients`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Services.Client.DataServiceQuery`1">
+      <Item value="Where`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="SingleOrDefault`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

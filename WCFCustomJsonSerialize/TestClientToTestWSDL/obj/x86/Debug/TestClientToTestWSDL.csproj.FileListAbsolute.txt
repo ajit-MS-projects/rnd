@@ -1,0 +1,9 @@
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\bin\Debug\TestClientToTestWSDL.exe
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\bin\Debug\TestClientToTestWSDL.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\obj\x86\Debug\TestClientToTestWSDL.Properties.Resources.resources
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\obj\x86\Debug\TestClientToTestWSDL.exe
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\obj\x86\Debug\TestClientToTestWSDL.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\TestClientToTestWSDL\bin\Debug\TestClientToTestWSDL.exe.config

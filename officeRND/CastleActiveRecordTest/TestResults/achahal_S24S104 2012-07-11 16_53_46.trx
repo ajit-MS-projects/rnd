@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bc67ef78-4e9f-49c1-bcd0-452f4a28699b" name="achahal@S24S104 2012-07-11 16:53:46" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-07-11 16_53_46">
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Components.Validator.2.5.0\lib\NET40\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-11T16:53:46.0140895+02:00" queuing="2012-07-11T16:53:46.0500931+02:00" start="2012-07-11T16:53:46.0530934+02:00" finish="2012-07-11T16:53:47.4282309+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddProductTest" storage="d:\ajit\rnd\castleactiverecordtest\castleactiverecordtest_test\bin\debug\castleactiverecordtest_test.dll" id="b3772d75-8bac-0acf-ff46-f3928e0e1598">
+      <Execution id="cfc3d7d2-8d31-43c7-a045-056082de44f3" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest/CastleActiveRecordTest_Test/bin/Debug/CastleActiveRecordTest_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CastleActiveRecordTest_Test.MvcApplicationTest, CastleActiveRecordTest_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddProductTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b3772d75-8bac-0acf-ff46-f3928e0e1598" executionId="cfc3d7d2-8d31-43c7-a045-056082de44f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cfc3d7d2-8d31-43c7-a045-056082de44f3" testId="b3772d75-8bac-0acf-ff46-f3928e0e1598" testName="AddProductTest" computerName="S24S104" duration="00:00:01.2457980" startTime="2012-07-11T16:53:46.0550936+02:00" endTime="2012-07-11T16:53:47.4192300+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfc3d7d2-8d31-43c7-a045-056082de44f3">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CastleActiveRecordTest_Test.MvcApplicationTest.AddProductTest threw exception: 
+NHibernate.HibernateException: Could not find named connection string Data Source=.\SQLEXPRESS;AttachDbFilename=d:\ajit\rnd\NihibernateTest\NihibernateTest\app_data\ProductDB.mdf;Integrated Security=True;User Instance=True</Message>
+          <StackTrace>    at NHibernate.Connection.ConnectionProvider.GetNamedConnectionString(IDictionary`2 settings)
+   at NHibernate.Connection.ConnectionProvider.Configure(IDictionary`2 settings)
+   at NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   at NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   at NHibernate.Cfg.Configuration.BuildSettings()
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Castle.ActiveRecord.Framework.SessionFactoryHolder.GetSessionFactory(Type type)
+   at Castle.ActiveRecord.Framework.SessionFactoryHolder.CreateSession(Type type)
+   at Castle.ActiveRecord.ActiveRecordBase.InternalSave(Object instance, Boolean flush)
+   at Castle.ActiveRecord.ActiveRecordBase.Save()
+   at CastleActiveRecordTest_Test.MvcApplicationTest.AddProductTest() in D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest_Test\MvcApplicationTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,12 @@
+c:\users\achahal\documents\visual studio 2010\Projects\MefFrameworkTestConsole\MefFrameworkTestConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\achahal\documents\visual studio 2010\Projects\MefFrameworkTestConsole\MefFrameworkTestConsole\bin\Debug\MefFrameworkTestConsole.exe
+c:\users\achahal\documents\visual studio 2010\Projects\MefFrameworkTestConsole\MefFrameworkTestConsole\bin\Debug\MefFrameworkTestConsole.pdb
+c:\users\achahal\documents\visual studio 2010\Projects\MefFrameworkTestConsole\MefFrameworkTestConsole\obj\x86\Debug\MefFrameworkTestConsole.exe
+c:\users\achahal\documents\visual studio 2010\Projects\MefFrameworkTestConsole\MefFrameworkTestConsole\obj\x86\Debug\MefFrameworkTestConsole.pdb
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\MefFrameworkTestConsole\obj\x86\Debug\MefFrameworkTestConsole.exe
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\MefFrameworkTestConsole\obj\x86\Debug\MefFrameworkTestConsole.pdb
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\MefFrameworkTestConsole\bin\Debug\MefFrameworkTestConsole.exe
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\MefFrameworkTestConsole\bin\Debug\MefFrameworkTestConsole.pdb
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\MefFrameworkTestConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\MefFrameworkTestConsole\bin\Debug\ProductContracts.dll
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\MefFrameworkTestConsole\bin\Debug\ProductContracts.pdb

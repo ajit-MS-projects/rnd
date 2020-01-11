@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6484a737-e6fa-484f-b6bb-762dbff98e72" name="Ajit@AJIT-PC 2011-09-14 16:19:51" runUser="Ajit-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="de44616b-cdc4-4051-bce3-3f98bf7829de">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2011-09-14 16_19_51">
+      <DeploymentItem filename="D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\bin\WCFCustomJsonSerialize.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-14T16:19:51.5308006+02:00" queuing="2011-09-14T16:19:52.6988674+02:00" start="2011-09-14T16:19:52.9098795+02:00" finish="2011-09-14T16:20:03.8165033+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="AJIT-PC" outcome="Error" timestamp="2011-09-14T16:20:03.8155032+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="S001_SearchProductsTest" storage="d:\ajit\rnd\wcfcustomjsonserialize\testproject1\bin\debug\testproject1.dll" id="00df1623-4cc6-7358-95e1-3f95c24d7a16">
+      <Execution id="84d19136-4611-46f9-a239-de04d8214647" />
+      <TestMethod codeBase="D:/ajit/RND/WCFCustomJsonSerialize/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProductServiceTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="S001_SearchProductsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00df1623-4cc6-7358-95e1-3f95c24d7a16" executionId="84d19136-4611-46f9-a239-de04d8214647" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="84d19136-4611-46f9-a239-de04d8214647" testId="00df1623-4cc6-7358-95e1-3f95c24d7a16" testName="S001_SearchProductsTest" computerName="AJIT-PC" duration="00:00:10.7176130" startTime="2011-09-14T16:19:53.0988903+02:00" endTime="2011-09-14T16:20:03.8165033+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84d19136-4611-46f9-a239-de04d8214647">
+    </UnitTestResult>
+  </Results>
+</TestRun>

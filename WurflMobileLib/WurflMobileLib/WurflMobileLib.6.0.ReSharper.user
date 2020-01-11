@@ -1,0 +1,28 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1654E201-1D66-49A5-956A-41FFC8BB5049/f:MobileDetectionUtility.cs" caret="0" fromTop="0" />
+      <File id="1654E201-1D66-49A5-956A-41FFC8BB5049/d:Controllers/f:Capabilities.cs" caret="241" fromTop="12" />
+      <File id="1654E201-1D66-49A5-956A-41FFC8BB5049/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

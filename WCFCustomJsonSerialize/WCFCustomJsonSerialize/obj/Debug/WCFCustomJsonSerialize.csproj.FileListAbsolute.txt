@@ -1,0 +1,8 @@
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\bin\WCFCustomJsonSerialize.dll
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\bin\WCFCustomJsonSerialize.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\obj\Debug\WCFCustomJsonSerialize.dll
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\obj\Debug\WCFCustomJsonSerialize.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\bin\Newtonsoft.Json.dll
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\bin\Newtonsoft.Json.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\bin\Newtonsoft.Json.xml

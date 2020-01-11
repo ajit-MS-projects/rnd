@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="104a609f-17c8-44cf-afc7-cbf7f72c7eaf" name="achahal@S24S104 2012-07-10 16:21:44" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4552a4c2-1841-47c8-a00d-33c09781c4f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-07-10 16_21_44">
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest\bin\NihibernateTest.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\NHibernate.Search.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-10T16:21:44.8841335+02:00" queuing="2012-07-10T16:21:45.9322383+02:00" start="2012-07-10T16:21:46.0852536+02:00" finish="2012-07-10T16:22:44.2270672+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Error" timestamp="2012-07-10T16:22:44.2260671+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SavePerson" storage="d:\ajit\rnd\nihibernatetest\nihibernatetest_tests\bin\debug\nihibernatetest_tests.dll" id="048c890b-ef41-ca05-e69c-77986fe524e3">
+      <Execution id="73c4609a-eb32-491a-a8f9-6be5b0cfc594" />
+      <TestMethod codeBase="d:/ajit/rnd/NihibernateTest/NihibernateTest_Tests/bin/Debug/NihibernateTest_Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NihibernateTest_Tests.PersonTest, NihibernateTest_Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SavePerson" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="048c890b-ef41-ca05-e69c-77986fe524e3" executionId="73c4609a-eb32-491a-a8f9-6be5b0cfc594" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="73c4609a-eb32-491a-a8f9-6be5b0cfc594" testId="048c890b-ef41-ca05-e69c-77986fe524e3" testName="SavePerson" computerName="S24S104" duration="00:00:57.9817976" startTime="2012-07-10T16:21:46.2452696+02:00" endTime="2012-07-10T16:22:44.2270672+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73c4609a-eb32-491a-a8f9-6be5b0cfc594">
+    </UnitTestResult>
+  </Results>
+</TestRun>

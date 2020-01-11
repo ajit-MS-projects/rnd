@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFCustomJsonSerialize", "WCFCustomJsonSerialize\WCFCustomJsonSerialize.csproj", "{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{A9DA2960-6360-4C75-803E-516E858452C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E092A15D-868A-4674-8ACA-141ACD6F75B2}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WCFCustomJsonSerialize.vsmdi = WCFCustomJsonSerialize.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClientToTestWSDL", "TestClientToTestWSDL\TestClientToTestWSDL.csproj", "{C916F546-B446-415E-A053-813F11646E45}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6} = {DCFAD669-F927-4E40-9907-7DEE4AD93EE6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WCFCustomJsonSerialize.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DCFAD669-F927-4E40-9907-7DEE4AD93EE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A9DA2960-6360-4C75-803E-516E858452C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{C916F546-B446-415E-A053-813F11646E45}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Debug|x86.ActiveCfg = Debug|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Debug|x86.Build.0 = Debug|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Release|Any CPU.ActiveCfg = Release|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Release|x86.ActiveCfg = Release|x86
+		{C916F546-B446-415E-A053-813F11646E45}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="449FA473-C470-4BDD-82C8-8D0F9DBFF27C" ModuleId="SolarDataAccessAPI" />
+  <Module PersistentId="DF62140E-820C-46A0-BCD0-FD3E982BB964" ModuleId="SqlCompactTest" />
+  <Module PersistentId="8E82D23F-8A8C-41C5-93A1-DBFD49123F89" ModuleId="WcfServices" />
+  <Module PersistentId="E5E0CB04-FD99-4507-B28E-D2B21C895AFA" ModuleId="SilverLightClient" />
+  <Module PersistentId="DC19B3A5-00A0-4684-9E88-50864214C072" ModuleId="ConsoleHoster" />
+</Modules>

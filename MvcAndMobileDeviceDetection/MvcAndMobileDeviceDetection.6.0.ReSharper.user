@@ -1,0 +1,34 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="805478BF-2C71-406D-8418-48DDDFA7985E/f:51Degrees.mobi.config" caret="18" fromTop="0" />
+      <File id="0FD96D30-33A0-4546-9935-052ADD8DA057/f:readme.txt" caret="1072" fromTop="27" />
+      <File id="805478BF-2C71-406D-8418-48DDDFA7985E/d:Mobile/f:Default.aspx.cs" caret="0" fromTop="0" />
+      <File id="805478BF-2C71-406D-8418-48DDDFA7985E/d:Mobile/f:Default.aspx" caret="1030" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="805478BF-2C71-406D-8418-48DDDFA7985E/d:Mobile/f:Default.aspx" caret="4634" fromTop="36" />
+      <File id="805478BF-2C71-406D-8418-48DDDFA7985E/f:51Degrees.mobi.config" caret="2113" fromTop="23" />
+      <File id="805478BF-2C71-406D-8418-48DDDFA7985E/f:51Degrees.mobi.config" caret="6964" fromTop="30" />
+      <File id="805478BF-2C71-406D-8418-48DDDFA7985E/f:51Degrees.mobi.config" caret="7167" fromTop="36" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

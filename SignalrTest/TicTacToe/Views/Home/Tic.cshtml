@@ -1,0 +1,75 @@
+﻿@using System.EnterpriseServices
+
+@{
+    ViewBag.Title = "Tic";
+}
+
+<style>
+
+    .gameRow {
+        display:table-row
+    }
+    
+    .gameButton
+    {
+       width:200px; 
+       height:200px; 
+       display:table-cell; 
+       vertical-align:middle; 
+       padding:0 0 0 10px; 
+       text-align:center;
+       border:1px solid #EAF1FF;
+       background-color:#94B8FF;
+       cursor:pointer;
+       font-size: 4em;
+       margin:5px;
+    }
+
+    .gameButtonPlayed{
+       width:200px; 
+       height:200px; 
+       display:table-cell; 
+       vertical-align:middle; 
+       padding:0 0 0 10px; 
+       text-align:center;
+       border:1px solid #EAF1FF;
+       background-color:#94B8FF;
+       cursor:not-allowed;
+       font-size: 4em;
+       margin:5px;
+    }
+
+</style>
+<div id="gamePlot">
+
+    <div class="headline">Tic Tac Toe</div>
+
+    <div id="messageBoard">
+        <span id="playerInfo"></span>
+        <span id="gameMessage"></span>
+    </div>
+
+            @{
+                for (int j = 0; j < 3; j++)
+                {
+                    <div class="gameRow">
+                        @for (int i = 0; i < 3; i++)
+                        {
+                            <div id="btnTic_@(j + "_" + i)" class="gameButton" data-row="@(j)" data-col="@(i)"></div>
+                        }
+                        <br />
+                    </div>
+                }
+            }
+</div>
+<ul id="discussion"></ul>
+
+
+
+@section scripts {    
+
+@Scripts.Render("~/bundles/signalr")
+<script src="~/signalr/hubs"></script>
+<script src="~/Scripts/TicGame.js"></script>
+   
+}

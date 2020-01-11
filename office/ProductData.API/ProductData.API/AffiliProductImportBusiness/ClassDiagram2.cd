@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Enum Name="Affilinet.Business.ProductImport.DocumentTypesEnum">
+    <Position X="4.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.FileExtensionsEnum">
+    <Position X="6.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAACAAEAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.SourceURLProtocolEnum">
+    <Position X="9" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.ApplicationEventsEnum">
+    <Position X="2" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIBAFAAAAAAABAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="9.6" />
+</ClassDiagram>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/WcfServices
+END
+clientaccesspolicy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/WcfServices/clientaccesspolicy.xml
+END
+Web.Release.config
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/WcfServices/Web.Release.config
+END
+CrossDomainService.svc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/WcfServices/CrossDomainService.svc.cs
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/WcfServices/Web.config
+END
+WcfServices.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/WcfServices/WcfServices.csproj
+END
+Web.Debug.config
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/WcfServices/Web.Debug.config
+END
+ManufacturerService.svc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/WcfServices/ManufacturerService.svc
+END
+IManufacturerService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/WcfServices/IManufacturerService.cs
+END
+ManufacturerService.svc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/WcfServices/ManufacturerService.svc.cs
+END
+CrossDomainService.svc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/WcfServices/CrossDomainService.svc
+END
+ICrossDomain.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/WcfServices/ICrossDomain.cs
+END

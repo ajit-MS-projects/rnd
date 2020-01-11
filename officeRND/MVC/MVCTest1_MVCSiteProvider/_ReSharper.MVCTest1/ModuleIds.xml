@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="57DFE2B0-CD4D-41FD-AECC-B70F515749EE" ModuleId="MVCTest1" />
+  <Module PersistentId="MvcSiteMapProvider, Version=3.2.3.0, Culture=neutral, PublicKeyToken=1923abe4657913cc" ModuleId="MvcSiteMapProvider" />
+</Modules>

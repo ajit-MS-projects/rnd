@@ -1,0 +1,5 @@
+d:\ajit\rnd\mvc4\WcfMultiInheritence\WcfMultiInheritence\bin\WcfMultiInheritence.dll
+d:\ajit\rnd\mvc4\WcfMultiInheritence\WcfMultiInheritence\bin\WcfMultiInheritence.pdb
+d:\ajit\rnd\mvc4\WcfMultiInheritence\WcfMultiInheritence\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\mvc4\WcfMultiInheritence\WcfMultiInheritence\obj\Debug\WcfMultiInheritence.dll
+d:\ajit\rnd\mvc4\WcfMultiInheritence\WcfMultiInheritence\obj\Debug\WcfMultiInheritence.pdb

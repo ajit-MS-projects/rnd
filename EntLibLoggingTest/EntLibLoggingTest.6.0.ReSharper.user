@@ -1,0 +1,62 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A1FB6963-AE6A-445C-8D49-992D58A68206/f:SolarGenericException.cs" caret="0" fromTop="0" />
+      <File id="A4DE5ACF-52B5-47D8-8A2C-8A6A7985AE91/f:Enumerations.cs" caret="68" fromTop="4" />
+      <File id="A4DE5ACF-52B5-47D8-8A2C-8A6A7985AE91/f:Utilities.cs" caret="3623" fromTop="20" />
+      <File id="EF689402-A8BA-4000-B84A-F412A84DEA02/f:App.config" caret="0" fromTop="0" />
+      <File id="EF689402-A8BA-4000-B84A-F412A84DEA02/f:Form1.cs" caret="464" fromTop="19" />
+      <File id="449FA473-C470-4BDD-82C8-8D0F9DBFF27C/f:SolarSqlCompactDataBase.cs" caret="706" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EF689402-A8BA-4000-B84A-F412A84DEA02/f:Form1.cs" caret="913" fromTop="30" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="int" priority="31" />
+      <Item value="textBox1" priority="31" />
+      <Item value="textBox3" priority="31" />
+      <Item value="x" priority="31" />
+      <Item value="y" priority="31" />
+      <Item value="try" priority="31" />
+      <Item value="new" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Solar.Common.Utilities">
+      <Item value="CreateDebugLog`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Solar.Common.ApplicationEventsEnum">
+      <Item value="None" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Exceptions.SolarGenericException">
+      <Item value="CreateLog`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

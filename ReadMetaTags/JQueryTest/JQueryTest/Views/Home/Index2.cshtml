@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Index2";
+}
+
+<h2>Index2</h2>
+<script type="text/javascript">
+	(function ($) {
+		$.vari = "$.vari";
+		$.fn.vari = "$.fn.vari";
+
+		// $.fn is the object we add our custom functions to
+		$.fn.DoSomethingLocal = function () {
+			return this.each(function () {
+				alert(this.style.backgroundColor);
+				this.style.border = "solid green 10px";
+				this.style.backgroundColor = "red";
+				//				alert(this.vari);    // would output `undefined`
+				//				alert($(this).vari); // would output `$.fn.vari`
+			});
+		};
+	})(jQuery);
+
+// $ is the main jQuery object, we can attach a global function to it
+	$.DoSomethingGlobal = function() {
+		alert(this.style.backgroundColor);
+		alert("Do Something Globally, where `this.vari` = " + this.vari);
+	};
+
+	$(document).ready(function () {
+
+		$("#div2").DoSomethingLocal();
+		$.DoSomethingGlobal();
+
+		$("#div2").click(function () { alert('Clicked'); });
+		
+
+	});
+</script>
+
+
+
+
+<div id="div1"> this is div block</div>
+<br/><br/>
+<div id="div2"> this is div block</div>

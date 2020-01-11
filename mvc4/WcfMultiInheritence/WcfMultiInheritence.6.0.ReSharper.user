@@ -1,0 +1,86 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:contracts.cs" caret="5085" fromTop="23" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="4136" fromTop="34" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:Web.config" caret="669" fromTop="13" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:IService1.cs" caret="760" fromTop="22" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:Service1.svc.cs" caret="897" fromTop="26" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:Service1.svc" caret="116" fromTop="0" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="1914" fromTop="36" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:CustomServiceHost.cs" caret="1021" fromTop="27" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:contracts.cs" caret="23373" fromTop="26" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="1792" fromTop="17" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="2149" fromTop="28" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:contracts.cs" caret="23139" fromTop="34" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="1424" fromTop="10" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="1617" fromTop="16" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:contracts.cs" caret="21206" fromTop="18" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:contracts.cs" caret="22663" fromTop="51" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="8103" fromTop="51" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="7727" fromTop="51" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="5640" fromTop="20" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="6837" fromTop="51" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="3622" fromTop="25" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:interfaces.cs" caret="4584" fromTop="51" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="2246" fromTop="39" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="214" fromTop="9" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="2241" fromTop="39" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="2241" fromTop="37" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="2209" fromTop="43" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:Service1.svc.cs" caret="1224" fromTop="29" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:CustomServiceHost.cs" caret="1021" fromTop="26" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:CustomServiceHost.cs" caret="568" fromTop="15" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:CustomServiceHost.cs" caret="938" fromTop="21" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:Service1.svc" caret="110" fromTop="0" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="747" fromTop="17" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:DataContractSerializer.cs" caret="1914" fromTop="36" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:Service1.svc.cs" caret="1391" fromTop="36" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:IService1.cs" caret="1391" fromTop="44" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:IService1.cs" caret="760" fromTop="22" />
+      <File id="3D77D0CC-DCC0-471A-B892-AE8A9A68C223/f:Service1.svc.cs" caret="1007" fromTop="28" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="gebaeude" priority="64" />
+      <Item value="new" priority="63" />
+      <Item value="Gebaeude" priority="28" />
+      <Item value="return" priority="63" />
+      <Item value="declaredType" priority="31" />
+      <Item value="IService1`0" priority="31" />
+      <Item value="CompositeType" priority="28" />
+      <Item value="StringValue" priority="31" />
+      <Item value="p_DachkonstruktionParameterNeu" priority="32" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WcfMultiInheritence.Gebaeude">
+      <Item value="SetzeBasisdaten`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WcfMultiInheritence.Gebaeude">
+      <Item value="ID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WcfMultiInheritence.CompositeType">
+      <Item value="StringValue" priority="27" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

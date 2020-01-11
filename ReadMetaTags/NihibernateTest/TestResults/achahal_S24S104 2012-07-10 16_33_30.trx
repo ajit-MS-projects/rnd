@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2ab18d53-189c-4c78-803a-f7b019d79cce" name="achahal@S24S104 2012-07-10 16:33:30" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4552a4c2-1841-47c8-a00d-33c09781c4f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-07-10 16_33_30">
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest\bin\NihibernateTest.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\NHibernate.Search.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-10T16:33:30.7797160+02:00" queuing="2012-07-10T16:33:30.9737354+02:00" start="2012-07-10T16:33:30.9947375+02:00" finish="2012-07-10T16:33:31.7478128+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SavePerson" storage="d:\ajit\rnd\nihibernatetest\nihibernatetest_tests\bin\debug\nihibernatetest_tests.dll" id="048c890b-ef41-ca05-e69c-77986fe524e3">
+      <Execution id="84b17c5b-c2a3-4d3e-a496-c4f14180d11b" />
+      <TestMethod codeBase="d:/ajit/rnd/NihibernateTest/NihibernateTest_Tests/bin/Debug/NihibernateTest_Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NihibernateTest_Tests.PersonTest, NihibernateTest_Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SavePerson" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="048c890b-ef41-ca05-e69c-77986fe524e3" executionId="84b17c5b-c2a3-4d3e-a496-c4f14180d11b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="84b17c5b-c2a3-4d3e-a496-c4f14180d11b" testId="048c890b-ef41-ca05-e69c-77986fe524e3" testName="SavePerson" computerName="S24S104" duration="00:00:00.5555364" startTime="2012-07-10T16:33:30.9997380+02:00" endTime="2012-07-10T16:33:31.7298110+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84b17c5b-c2a3-4d3e-a496-c4f14180d11b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method NihibernateTest_Tests.PersonTest.SavePerson threw exception: 
+Castle.ActiveRecord.Framework.ActiveRecordException: Error adding information from class NihibernateTest.Person to NHibernate. Check the inner exception for more information ---&gt; NHibernate.MappingException: Could not compile the mapping document: (string) ---&gt; System.InvalidOperationException: Could not find the dialect in the configuration</Message>
+          <StackTrace>    at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+ --- End of inner exception stack trace ---
+    at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   at NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   at NHibernate.Cfg.Configuration.AddXml(String xml, String name)
+   at NHibernate.Cfg.Configuration.AddXml(String xml)
+   at Castle.ActiveRecord.ActiveRecordStarter.AddXmlString(Configuration config, String xml, ActiveRecordModel model)
+ --- End of inner exception stack trace ---
+    at Castle.ActiveRecord.ActiveRecordStarter.AddXmlString(Configuration config, String xml, ActiveRecordModel model)
+   at Castle.ActiveRecord.ActiveRecordStarter.AddXmlToNHibernateCfg(ISessionFactoryHolder holder, ActiveRecordModelCollection models)
+   at Castle.ActiveRecord.ActiveRecordStarter.RegisterTypes(ISessionFactoryHolder holder, IConfigurationSource source, IEnumerable`1 types, Boolean ignoreProblematicTypes)
+   at Castle.ActiveRecord.ActiveRecordStarter.Initialize(IConfigurationSource source, Type[] types)
+   at Castle.ActiveRecord.ActiveRecordStarter.Initialize(Assembly[] assemblies, IConfigurationSource source, Type[] additionalTypes)
+   at Castle.ActiveRecord.ActiveRecordStarter.Initialize(Assembly assembly, IConfigurationSource source)
+   at NihibernateTest.PersistenceHelper.Initialize() in d:\ajit\rnd\NihibernateTest\NihibernateTest\PersistenceHelper.cs:line 24
+   at NihibernateTest_Tests.PersonTest.SavePerson() in d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\PersonTest.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

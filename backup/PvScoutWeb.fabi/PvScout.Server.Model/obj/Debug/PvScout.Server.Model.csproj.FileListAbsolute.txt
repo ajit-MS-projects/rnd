@@ -1,0 +1,5 @@
+D:\Projekte\Solarschmiede\PvScoutWeb\PvScout.Server.Model\bin\Debug\PvScout.Server.Model.dll
+D:\Projekte\Solarschmiede\PvScoutWeb\PvScout.Server.Model\bin\Debug\PvScout.Server.Model.pdb
+D:\Projekte\Solarschmiede\PvScoutWeb\PvScout.Server.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Projekte\Solarschmiede\PvScoutWeb\PvScout.Server.Model\obj\Debug\PvScout.Server.Model.dll
+D:\Projekte\Solarschmiede\PvScoutWeb\PvScout.Server.Model\obj\Debug\PvScout.Server.Model.pdb

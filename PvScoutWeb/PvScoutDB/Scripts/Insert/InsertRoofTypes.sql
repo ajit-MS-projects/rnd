@@ -1,0 +1,6 @@
+﻿INSERT [dbo].[RoofTypes] ([RoofTypeId], [IsDefault], [IsSelected], [ImagePath], [DisplayName])
+ VALUES (1, 1, 1, N'd:\pvscoutImages\Satteldach.jpg', N'Satteldach')
+INSERT [dbo].[RoofTypes] ([RoofTypeId], [IsDefault], [IsSelected], [ImagePath], [DisplayName])
+ VALUES (2, 0, 0, N'd:\pvscoutImages\Pultdach.jpg', N'Pultdach')
+INSERT [dbo].[RoofTypes] ([RoofTypeId], [IsDefault], [IsSelected], [ImagePath], [DisplayName]) 
+VALUES (3, 0, 0, N'd:\pvscoutImages\Walmdach.jpg', N'Walmdach')

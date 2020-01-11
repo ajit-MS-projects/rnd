@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="EF689402-A8BA-4000-B84A-F412A84DEA02" ModuleId="EntLibLoggingTest" />
+  <Module PersistentId="A1FB6963-AE6A-445C-8D49-992D58A68206" ModuleId="SolarExceptionsAPI" />
+  <Module PersistentId="2FD1DC8D-EF94-430D-96B9-9B3CA7ABABB6" ModuleId="SolarLogAPI" />
+  <Module PersistentId="A4DE5ACF-52B5-47D8-8A2C-8A6A7985AE91" ModuleId="SolarCommon" />
+  <Module PersistentId="449FA473-C470-4BDD-82C8-8D0F9DBFF27C" ModuleId="SolarDataAccessAPI" />
+</Modules>

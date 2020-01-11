@@ -1,0 +1,9 @@
+d:\ajit\rnd\HospitalWeb\HospitalWeb\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\HospitalWeb\HospitalWeb\bin\HospitalWeb.dll
+d:\ajit\rnd\HospitalWeb\HospitalWeb\bin\HospitalWeb.pdb
+d:\ajit\rnd\HospitalWeb\HospitalWeb\obj\Debug\HospitalWeb.dll
+d:\ajit\rnd\HospitalWeb\HospitalWeb\obj\Debug\HospitalWeb.pdb
+D:\ajit\RND\HospitalWeb\HospitalWeb\bin\Microsoft.Data.Services.Client.dll
+D:\ajit\RND\HospitalWeb\HospitalWeb\bin\Microsoft.Data.Services.dll
+D:\ajit\RND\HospitalWeb\HospitalWeb\bin\Microsoft.Data.Services.xml
+D:\ajit\RND\HospitalWeb\HospitalWeb\bin\Microsoft.Data.Services.Client.xml

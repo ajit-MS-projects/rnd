@@ -1,0 +1,8 @@
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\bin\Debug\JsonNetMessageFormatter.exe.config
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\bin\Debug\JsonNetMessageFormatter.exe
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\bin\Debug\JsonNetMessageFormatter.pdb
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\bin\Debug\Newtonsoft.Json.dll
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\bin\Debug\Newtonsoft.Json.xml
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\obj\x86\Debug\JsonNetMessageFormatter.exe
+D:\ajit\RND\Supporting different data and serialization formats in WCF\C#\obj\x86\Debug\JsonNetMessageFormatter.pdb

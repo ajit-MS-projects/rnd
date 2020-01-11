@@ -1,0 +1,143 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="500" fromTop="0" />
+      <File id="BE8FB843-D566-49B1-AF1F-1316DF242505/f:PackerClasses.cs" caret="1302" fromTop="36" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="BE8FB843-D566-49B1-AF1F-1316DF242505/f:PackerClasses.cs" caret="1327" fromTop="40" />
+      <File id="BE8FB843-D566-49B1-AF1F-1316DF242505/f:PackerClasses.cs" caret="671" fromTop="23" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="6349" fromTop="31" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="6349" fromTop="31" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="5827" fromTop="26" />
+      <File id="BE8FB843-D566-49B1-AF1F-1316DF242505/f:PackerClasses.cs" caret="286" fromTop="12" />
+      <File id="BE8FB843-D566-49B1-AF1F-1316DF242505/f:PackerClasses.cs" caret="837" fromTop="28" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="5735" fromTop="31" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="592" fromTop="16" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="5320" fromTop="42" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="1168" fromTop="39" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="3805" fromTop="31" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="4134" fromTop="37" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="4329" fromTop="26" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="4981" fromTop="34" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="5739" fromTop="37" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="1168" fromTop="30" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="1168" fromTop="25" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="1168" fromTop="24" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="2897" fromTop="29" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="2495" fromTop="45" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="3653" fromTop="22" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="1689" fromTop="30" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="605" fromTop="13" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="6468" fromTop="48" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="1204" fromTop="14" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="274" fromTop="12" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="515" fromTop="24" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="2503" fromTop="39" />
+      <File id="8FE01EC2-4F28-4E93-8B69-60C647C46340/f:PackerTest.cs" caret="138" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="prop" priority="95" />
+      <Item value="public" priority="188" />
+      <Item value="class" priority="92" />
+      <Item value="Machine`0" priority="151" />
+      <Item value="List" priority="95" />
+      <Item value="VirtualMachine`0" priority="95" />
+      <Item value="VirtualMachines" priority="96" />
+      <Item value="PhysicalMachine`0" priority="127" />
+      <Item value="virtualMachines" priority="224" />
+      <Item value="physicalMachine" priority="219" />
+      <Item value="foreach" priority="127" />
+      <Item value="new" priority="319" />
+      <Item value="PhysicalMachine" priority="115" />
+      <Item value="do" priority="31" />
+      <Item value="var" priority="63" />
+      <Item value="return" priority="127" />
+      <Item value="retVal" priority="95" />
+      <Item value="expected" priority="63" />
+      <Item value="actual" priority="63" />
+      <Item value="BandWidth" priority="31" />
+      <Item value="Cores" priority="32" />
+      <Item value="CountOfVirtualMachines" priority="32" />
+      <Item value="Memory" priority="32" />
+      <Item value="List&lt;VirtualMachine&gt;" priority="57" />
+      <Item value="VirtualMachine" priority="57" />
+      <Item value="while" priority="31" />
+      <Item value="int" priority="286" />
+      <Item value="i" priority="128" />
+      <Item value="tmpPhyMachine" priority="95" />
+      <Item value="else" priority="31" />
+      <Item value="List&lt;PhysicalMachine&gt;" priority="28" />
+      <Item value="virtualMachine" priority="31" />
+      <Item value="Assert`0" priority="63" />
+      <Item value="this" priority="95" />
+      <Item value="machine" priority="96" />
+      <Item value="const" priority="31" />
+      <Item value="bandWidth" priority="32" />
+      <Item value="cores" priority="64" />
+      <Item value="memory" priority="32" />
+      <Item value="expectedVms" priority="31" />
+      <Item value="bandWidthPerVm" priority="159" />
+      <Item value="memoryPerVm" priority="31" />
+      <Item value="physicalMachines" priority="32" />
+      <Item value="outputPhysicalMachines" priority="62" />
+      <Item value="inputPhysicalMachine" priority="160" />
+      <Item value="if" priority="31" />
+      <Item value="outputPhysicalMachine" priority="31" />
+      <Item value="Math`0" priority="31" />
+      <Item value="decimal" priority="32" />
+      <Item value="expectedMaxVmsPerPhysicalMachine" priority="95" />
+      <Item value="allocatedVms" priority="31" />
+      <Item value="expectedVmsIncurrentPhyMachine" priority="31" />
+      <Item value="inputVirtualMachine" priority="31" />
+      <Item value="#endregion" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PackMachines.VirtualMachine">
+      <Item value="Cores" priority="136" />
+      <Item value="BandWidth" priority="136" />
+      <Item value="Memory" priority="137" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PackMachines.PhysicalMachine">
+      <Item value="Cores" priority="191" />
+      <Item value="BandWidth" priority="246" />
+      <Item value="Memory" priority="193" />
+      <Item value="VirtualMachines" priority="80" />
+      <Item value="MemberWiseClone`0" priority="26" />
+      <Item value="CountOfVirtualMachines" priority="83" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsNotNull`0" priority="27" />
+      <Item value="IsTrue`0" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="216" />
+      <Item value="Add`0" priority="162" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PackMachines.Machine">
+      <Item value="BandWidth" priority="53" />
+      <Item value="Cores" priority="53" />
+      <Item value="Memory" priority="53" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

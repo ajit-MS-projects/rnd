@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dd4e030d-7685-4340-83df-6b2f1843d412" name="Ajit@AJIT-PC 2012-07-13 01:29:00" runUser="Ajit-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e2128a61-3a94-4c7e-8c82-791cdc2b204d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\ajit\RND\Traffective.Tracking\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2012-07-13 01_29_00">
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\Traffective.Contracts\bin\Debug\Traffective.Contracts.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Components.Validator.2.5.0\lib\NET40\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\Traffective.Data\bin\Debug\Traffective.Data.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-13T01:29:00.6277062+02:00" queuing="2012-07-13T01:29:00.6577079+02:00" start="2012-07-13T01:29:00.6637083+02:00" finish="2012-07-13T01:29:17.2125893+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ClickTest" storage="d:\ajit\rnd\traffective.tracking\traffective.data.tests\bin\debug\traffective.data.tests.dll" id="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e">
+      <Execution id="630befb5-b25a-4db1-a189-20615230aeac" />
+      <TestMethod codeBase="D:/ajit/RND/Traffective.Tracking/Traffective.Data.Tests/bin/Debug/Traffective.Data.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Traffective.Data.Tests.TrackingTest, Traffective.Data.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e" executionId="630befb5-b25a-4db1-a189-20615230aeac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="630befb5-b25a-4db1-a189-20615230aeac" testId="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e" testName="ClickTest" computerName="AJIT-PC" duration="00:00:00.1714340" startTime="2012-07-13T01:29:00.6677085+02:00" endTime="2012-07-13T01:29:17.1875878+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="630befb5-b25a-4db1-a189-20615230aeac">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Traffective.Data.Tests.TrackingTest.ClickTest threw exception: 
+Castle.ActiveRecord.Framework.ActiveRecordException: You have accessed an ActiveRecord class that wasn't properly initialized. There are two possible explanations: that the call to ActiveRecordStarter.Initialize() didn't include Traffective.Data.Tracking class, or that Traffective.Data.Tracking class is not decorated with the [ActiveRecord] attribute.</Message>
+          <StackTrace>    at Castle.ActiveRecord.ActiveRecordBase.EnsureInitialized(Type type)
+   at Castle.ActiveRecord.ActiveRecordBase.InternalSave(Object instance, Boolean flush)
+   at Castle.ActiveRecord.ActiveRecordBase.Save()
+   at Traffective.Data.Tests.TrackingTest.ClickTest() in D:\ajit\RND\Traffective.Tracking\Traffective.Data.Tests\TrackingTest.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,5 @@
+D:\ajit\RND\PvScoutWeb\PvScoutWeb.TestWeb\bin\PvScoutWeb.Website.dll
+D:\ajit\RND\PvScoutWeb\PvScoutWeb.TestWeb\bin\PvScoutWeb.Website.pdb
+D:\ajit\RND\PvScoutWeb\PvScoutWeb.TestWeb\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\PvScoutWeb\PvScoutWeb.TestWeb\obj\Debug\PvScoutWeb.Website.dll
+D:\ajit\RND\PvScoutWeb\PvScoutWeb.TestWeb\obj\Debug\PvScoutWeb.Website.pdb

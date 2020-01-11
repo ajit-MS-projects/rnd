@@ -1,0 +1,13 @@
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\KatanaSelfHostTest.exe.config
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\KatanaSelfHostTest.exe
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\KatanaSelfHostTest.pdb
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\Microsoft.Owin.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\Owin.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\Microsoft.Owin.xml
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\obj\Debug\KatanaSelfHostTest.csprojResolveAssemblyReference.cache
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\obj\Debug\KatanaSelfHostTest.exe
+D:\Ajit\RND\SignalrTest\KatanaSelfHostTest\obj\Debug\KatanaSelfHostTest.pdb

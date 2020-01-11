@@ -1,0 +1,7 @@
+D:\ajit\rnd\MVC\MvcDisplayTemplates\MvcDisplayTemplates\bin\MvcDisplayTemplates.dll
+D:\ajit\rnd\MVC\MvcDisplayTemplates\MvcDisplayTemplates\bin\MvcDisplayTemplates.pdb
+D:\ajit\rnd\MVC\MvcDisplayTemplates\MvcDisplayTemplates\bin\EntityFramework.dll
+D:\ajit\rnd\MVC\MvcDisplayTemplates\MvcDisplayTemplates\bin\EntityFramework.xml
+D:\ajit\rnd\MVC\MvcDisplayTemplates\MvcDisplayTemplates\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MVC\MvcDisplayTemplates\MvcDisplayTemplates\obj\Debug\MvcDisplayTemplates.dll
+D:\ajit\rnd\MVC\MvcDisplayTemplates\MvcDisplayTemplates\obj\Debug\MvcDisplayTemplates.pdb

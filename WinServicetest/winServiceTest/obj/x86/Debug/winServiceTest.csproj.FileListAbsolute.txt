@@ -1,0 +1,9 @@
+D:\ajit\rnd\WinServicetest\winServiceTest\bin\Debug\winServiceTest.exe
+D:\ajit\rnd\WinServicetest\winServiceTest\bin\Debug\winServiceTest.pdb
+D:\ajit\rnd\WinServicetest\winServiceTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\WinServicetest\winServiceTest\obj\x86\Debug\winServiceTest.ProjectInstaller.resources
+D:\ajit\rnd\WinServicetest\winServiceTest\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ajit\rnd\WinServicetest\winServiceTest\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ajit\rnd\WinServicetest\winServiceTest\obj\x86\Debug\winServiceTest.exe
+D:\ajit\rnd\WinServicetest\winServiceTest\obj\x86\Debug\winServiceTest.pdb
+D:\ajit\rnd\WinServicetest\winServiceTest\obj\x86\Debug\winServiceTest.winServiceTest.resources

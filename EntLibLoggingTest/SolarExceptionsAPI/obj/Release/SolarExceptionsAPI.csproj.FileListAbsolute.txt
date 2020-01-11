@@ -1,0 +1,14 @@
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Solar.Exceptions.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Solar.Exceptions.pdb
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Solar.Log.API.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Solar.Data.Access.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Microsoft.Practices.Unity.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Solar.Log.API.pdb
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\bin\Release\Solar.Data.Access.pdb
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\obj\Release\ResolveAssemblyReference.cache
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\obj\Release\Solar.Exceptions.dll
+D:\SVNSource\PvScoutWeb\SolarExceptionsAPI\obj\Release\Solar.Exceptions.pdb

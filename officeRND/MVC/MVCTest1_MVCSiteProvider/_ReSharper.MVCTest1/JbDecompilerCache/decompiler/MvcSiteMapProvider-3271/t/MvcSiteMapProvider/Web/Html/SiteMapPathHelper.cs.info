@@ -1,0 +1,16 @@
+﻿Code version: 6.1.1000.82
+Assembly name MvcSiteMapProvider, Version=3.2.3.0, Culture=neutral, PublicKeyToken=1923abe4657913cc mvid {cb6015ba-8770-4657-bd01-c7c0f80bc1fa}
+* ref mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {fcb9dac8-ae3a-4886-93b0-f4cd5b0db0be}
+* ref System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {e332d723-1405-4f29-af8b-ce2050c10687}
+* ref System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {3cff62e5-ef21-4e58-897f-d0f1eafd3beb}
+* ref System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {c08d55d3-6463-439d-b112-60f6502ec141}
+* ref System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {b1acf4e4-d5a6-452c-9276-e601578405f8}
+* ref System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {0467f5c0-e463-4b2c-acc5-f718cb71f056}
+* ref System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {988a97e5-8665-4494-a7b2-6de411f61284}

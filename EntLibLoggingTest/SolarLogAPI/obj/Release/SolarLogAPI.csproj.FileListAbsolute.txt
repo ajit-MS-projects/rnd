@@ -1,0 +1,12 @@
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Solar.Log.API.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Solar.Log.API.pdb
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Microsoft.Practices.Unity.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Solar.Data.Access.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\bin\Release\Solar.Data.Access.pdb
+D:\SVNSource\PvScoutWeb\SolarLogAPI\obj\Release\ResolveAssemblyReference.cache
+D:\SVNSource\PvScoutWeb\SolarLogAPI\obj\Release\Solar.Log.API.dll
+D:\SVNSource\PvScoutWeb\SolarLogAPI\obj\Release\Solar.Log.API.pdb

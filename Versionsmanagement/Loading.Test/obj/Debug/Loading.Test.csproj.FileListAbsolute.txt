@@ -1,0 +1,16 @@
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XML\Projekt1.xml
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XML\Projekt2.xml
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XML\Projekt3.xml
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XSD\Version3.xsd
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XSD\Version2.xsd
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XSD\Version1.xsd
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\Loading.Test.dll
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\Loading.Test.pdb
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\Loading.dll
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\Loading.pdb
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\obj\Debug\Loading.Test.dll
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\obj\Debug\Loading.Test.pdb
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XML\Projekt4.xml
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XML\Projekt5.xml
+D:\Projekte\KACO\test\Versionsmanagement\Loading.Test\bin\Debug\XML\Projekt6.xml

@@ -1,0 +1,30 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="18EA4D5F-3979-4317-AD48-E508D518A058/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="18EA4D5F-3979-4317-AD48-E508D518A058/f:Web.config" caret="639" fromTop="11" />
+      <File id="18EA4D5F-3979-4317-AD48-E508D518A058/d:Filters/f:InitializeSimpleMembershipAttribute.cs" caret="376" fromTop="11" />
+      <File id="18EA4D5F-3979-4317-AD48-E508D518A058/d:Models/f:AccountModels.cs" caret="2943" fromTop="98" />
+      <File id="18EA4D5F-3979-4317-AD48-E508D518A058/d:Controllers/f:AccountController.cs" caret="166" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

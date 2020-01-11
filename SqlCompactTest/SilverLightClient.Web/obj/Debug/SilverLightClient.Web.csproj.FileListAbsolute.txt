@@ -1,0 +1,5 @@
+D:\ajit\RND\SqlCompactTest\SilverLightClient.Web\bin\SilverLightClient.Web.dll
+D:\ajit\RND\SqlCompactTest\SilverLightClient.Web\bin\SilverLightClient.Web.pdb
+D:\ajit\RND\SqlCompactTest\SilverLightClient.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\SqlCompactTest\SilverLightClient.Web\obj\Debug\SilverLightClient.Web.dll
+D:\ajit\RND\SqlCompactTest\SilverLightClient.Web\obj\Debug\SilverLightClient.Web.pdb

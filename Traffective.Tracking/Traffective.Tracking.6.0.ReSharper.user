@@ -1,0 +1,27 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A0DCF5E2-1B60-4B75-89BF-AADF1D51CAD6/f:TrackingTest.cs" caret="0" fromTop="0" />
+      <File id="3AF4D17B-F9EF-43A0-9F9F-710F55EE3EE8/d:Views/d:Tracking/f:Click.cshtml" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

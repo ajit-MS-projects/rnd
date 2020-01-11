@@ -1,0 +1,8 @@
+d:\ajit\rnd\WcfWinService\wcfConsoleHost\bin\Debug\wcfConsoleHost.exe
+d:\ajit\rnd\WcfWinService\wcfConsoleHost\bin\Debug\wcfConsoleHost.pdb
+d:\ajit\rnd\WcfWinService\wcfConsoleHost\bin\Debug\WcfWinService.exe
+d:\ajit\rnd\WcfWinService\wcfConsoleHost\bin\Debug\WcfWinService.pdb
+d:\ajit\rnd\WcfWinService\wcfConsoleHost\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\WcfWinService\wcfConsoleHost\obj\Debug\wcfConsoleHost.exe
+d:\ajit\rnd\WcfWinService\wcfConsoleHost\obj\Debug\wcfConsoleHost.pdb
+d:\Ajit\rnd\WcfWinService\wcfConsoleHost\bin\Debug\wcfConsoleHost.exe.config

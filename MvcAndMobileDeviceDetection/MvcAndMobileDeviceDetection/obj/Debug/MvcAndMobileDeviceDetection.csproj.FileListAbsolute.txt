@@ -1,0 +1,9 @@
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\bin\MvcAndMobileDeviceDetection.dll
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\bin\MvcAndMobileDeviceDetection.pdb
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\bin\EntityFramework.dll
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\bin\FiftyOne.Foundation.dll
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\bin\Microsoft.Web.Infrastructure.dll
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\bin\EntityFramework.xml
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\obj\Debug\MvcAndMobileDeviceDetection.dll
+D:\ajit\RND\MvcAndMobileDeviceDetection\MvcAndMobileDeviceDetection\obj\Debug\MvcAndMobileDeviceDetection.pdb

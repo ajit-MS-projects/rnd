@@ -1,0 +1,10 @@
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\bin\Debug\TestProject1.dll
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\bin\Debug\TestProject1.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\bin\Debug\WCFCustomJsonSerialize.dll
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\bin\Debug\WCFCustomJsonSerialize.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\obj\Debug\TestProject1.dll
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\obj\Debug\TestProject1.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\bin\Debug\Newtonsoft.Json.dll
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\bin\Debug\Newtonsoft.Json.pdb
+D:\ajit\RND\WCFCustomJsonSerialize\TestProject1\bin\Debug\Newtonsoft.Json.xml

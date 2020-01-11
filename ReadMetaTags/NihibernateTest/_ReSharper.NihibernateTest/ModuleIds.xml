@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="B401A3F0-DF51-43E0-825E-F2A2CA73F719" ModuleId="NihibernateTest" />
+  <Module PersistentId="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC" ModuleId="NihibernateTest_Tests" />
+</Modules>

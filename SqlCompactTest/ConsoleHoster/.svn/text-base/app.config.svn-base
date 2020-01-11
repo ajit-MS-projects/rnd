@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <section name="dataConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.DatabaseSettings, Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.0.0, Culture=neutral" />
+  </configSections>
+  <connectionStrings>
+    <add name="SqlCompactTest.Properties.Settings.PvScoutCeConnectionString" connectionString="Data Source=|DataDirectory|\PvScoutCe.sdf" providerName="Microsoft.SqlServerCe.Client.3.5"/>
+    <add name="Pvscout" connectionString="Data Source=|DataDirectory|\PvScoutCe.sdf" providerName="Microsoft.SqlServerCe.Client.3.5"/>
+  </connectionStrings>
+  <system.serviceModel>
+    <services>
+      <service name="WcfServices.ManufacturerService" behaviorConfiguration="CalculatorServiceBehavior">
+        <host>
+          <baseAddresses>
+            <add baseAddress="net.tcp://localhost:9010/ProductService"/>
+          </baseAddresses>
+        </host>
+        <!-- this endpoint is exposed at the base address provided by host: http://localhost:8000/ServiceModelSamples/service  -->
+        <endpoint address="" binding="netTcpBinding" contract="WcfServices.IManufacturerService"/>
+        <!-- the mex endpoint is explosed at http://localhost:8000/ServiceModelSamples/service/mex -->
+        <endpoint address="mex" binding="mexTcpBinding" contract="IMetadataExchange"/>
+      </service>
+    </services>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior name="CalculatorServiceBehavior">
+          <serviceMetadata httpGetEnabled="false"/>
+          <serviceDebug includeExceptionDetailInFaults="true"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+  </system.serviceModel>
+  <appSettings>
+    <add key="newSetting" value="0"/>
+  </appSettings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup></configuration>

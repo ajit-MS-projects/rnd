@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="BE8FB843-D566-49B1-AF1F-1316DF242505" ModuleId="PackMachines" />
+  <Module PersistentId="8FE01EC2-4F28-4E93-8B69-60C647C46340" ModuleId="PAckMachines.Tests" />
+</Modules>

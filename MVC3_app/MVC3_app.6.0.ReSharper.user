@@ -1,0 +1,58 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/f:Web.config" caret="189" fromTop="7" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Views/f:_ViewStart.cshtml" caret="52" fromTop="2" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Views/d:Hello/f:Index1.cshtml" caret="34" fromTop="2" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Controllers/f:AccountController.cs" caret="568" fromTop="14" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Views/d:Account/f:LogOn.cshtml" caret="1507" fromTop="40" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Views/d:Home/f:Index1.cshtml" caret="219" fromTop="8" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Controllers/f:HomeController.cs" caret="237" fromTop="10" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Views/d:Home/f:Index.cshtml" caret="205" fromTop="8" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Models/f:AccountModels.cs" caret="1580" fromTop="40" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Controllers/f:HelloController.cs" caret="194" fromTop="8" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/f:Global.asax.cs" caret="1457" fromTop="40" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/f:Web.config" caret="189" fromTop="7" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Controllers/f:HomeController.cs" caret="507" fromTop="22" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Controllers/f:HomeController.cs" caret="463" fromTop="19" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Views/d:Home/f:Index1.cshtml" caret="219" fromTop="8" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/f:Global.asax.cs" caret="1207" fromTop="32" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/f:Global.asax.cs" caret="863" fromTop="26" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Controllers/f:HelloController.cs" caret="276" fromTop="13" />
+      <File id="E8B60DDE-17F5-41F7-ADA5-D51036445FE1/d:Controllers/f:HelloController.cs" caret="480" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="ViewBag" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="ViewBag" priority="29" />
+      <Item value="String`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="Title" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

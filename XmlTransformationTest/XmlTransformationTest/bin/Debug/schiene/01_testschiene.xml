@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schiene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PRIMKEY>
+    <WERT>1</WERT>
+  </PRIMKEY>
+  <VERWENDBARKEIT Key="ARTIKELVERWENDBARKEIT_UNBEKANNT" />
+  <VERSION Versionsnummer="3" AnlegeDatum="2010-12-01T00:00:00" Abgekuendigt="false">
+    <ANGELEGT_DURCH Titel="Master" Anrede="Lord" NachName="Protector" VorName="John" Kuerzel="JP" />
+  </VERSION>
+  <ARTIKELNUMMER>
+    <SOLS>SOlS_123</SOLS>
+    <KUNDE>Schiene1A</KUNDE>
+    <BESTELLNUMMER>BestellNr_Schiene1A</BESTELLNUMMER>
+    <REVISIONSNUMMER>Rev 1.0</REVISIONSNUMMER>
+  </ARTIKELNUMMER>
+  <HERSTELLER ID="HerstellerID1, das ein Primärschlüssel werden muss" Name="Bond" WebAdresse="www.james.bond.de">
+    <ANSPRECHPARTNER Titel="Dr." Anrede="Sir" NachName="Raleigh" VorName="Walter" Kuerzel="WR" />
+    <ADRESSE PLZ="12345" Strasse="Musterstrasse" Hausnummer="23C" Ort="Musterhausen" Land="Musterland" />
+  </HERSTELLER>
+  <VERPACKUNGS_EINHEIT>
+    <Verpackungseinheit>
+      <PREIS Wert="100">
+        <EINHEIT Key="tttt" Decimals="5550" />
+      </PREIS>
+      <ANZAHL Wert="1">
+        <EINHEIT TextKeyLang="UNIT_STANGE_LANG" Key="UNIT_STANGE_KURZ" Decimals="0" />
+      </ANZAHL>
+    </Verpackungseinheit>
+    <Verpackungseinheit>
+      <PREIS Wert="900">
+        <EINHEIT Key="" Decimals="0" />
+      </PREIS>
+      <ANZAHL Wert="10">
+        <EINHEIT TextKeyLang="UNIT_STANGE_LANG" Key="UNIT_STANGE_KURZ" Decimals="0" />
+      </ANZAHL>
+    </Verpackungseinheit>
+  </VERPACKUNGS_EINHEIT>
+  <ZUSATZ_ARTIKEL />
+  <ZUSATZ_ARTIKEL_OPTIONAL />
+  <BESCHREIBUNG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BEZEICHNUNG" />
+      <MEHRSPRACHIGERTEXT>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>1A Schiene,6m</string>
+        </DICTONARY_EINTRAG>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>1A rail, 6m</string>
+        </DICTONARY_EINTRAG>
+      </MEHRSPRACHIGERTEXT>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BESCHREIBUNG" />
+      <MEHRSPRACHIGERTEXT>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>1A Schiene von hoher Qualität aus Aluminium, Länge 6m</string>
+        </DICTONARY_EINTRAG>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>1A rail, high quality, made of aluminium, length 6m</string>
+        </DICTONARY_EINTRAG>
+      </MEHRSPRACHIGERTEXT>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_DETAILS" />
+      <MEHRSPRACHIGERTEXT>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>Diese Schiene ist für alle Arten von Anlagen ausgelegt, auch zum Bau von Solaranlagen auf Atommeilern, falls kein Notstrom mehr geht.</string>
+        </DICTONARY_EINTRAG>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>This rail is configured for all type os systems,  even for construction of a solar power plant on a nuclear power plant in case of missing emergency current.</string>
+        </DICTONARY_EINTRAG>
+      </MEHRSPRACHIGERTEXT>
+    </DICTONARY_EINTRAG>
+  </BESCHREIBUNG>
+  <LAENDER_FREIGABE>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <CULTURE_INFO>
+        <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+      </CULTURE_INFO>
+      <FREIGABE Wert="true">
+        <GESPERRTE>
+          <SOLS>SolS_X</SOLS>
+          <KUNDE>X</KUNDE>
+          <BESTELLNUMMER>X</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.0</REVISIONSNUMMER>
+        </GESPERRTE>
+        <GESPERRTE>
+          <SOLS>SolS_Y</SOLS>
+          <KUNDE>Y</KUNDE>
+          <BESTELLNUMMER>Y</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.0</REVISIONSNUMMER>
+        </GESPERRTE>
+      </FREIGABE>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <CULTURE_INFO>
+        <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+      </CULTURE_INFO>
+      <FREIGABE Wert="true">
+        <GESPERRTE>
+          <SOLS>SolS_Z</SOLS>
+          <KUNDE>Z</KUNDE>
+          <BESTELLNUMMER>Z</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.2</REVISIONSNUMMER>
+        </GESPERRTE>
+        <GESPERRTE>
+          <SOLS>SolS_Y</SOLS>
+          <KUNDE>Y</KUNDE>
+          <BESTELLNUMMER>Y</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.0</REVISIONSNUMMER>
+        </GESPERRTE>
+      </FREIGABE>
+    </DICTONARY_EINTRAG>
+  </LAENDER_FREIGABE>
+  <ARTIKEL_GRUPPE>
+    <MEHRSPRACHIGERTEXT>
+      <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <CULTURE_INFO>
+          <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+        </CULTURE_INFO>
+        <string>Schienen</string>
+      </DICTONARY_EINTRAG>
+      <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <CULTURE_INFO>
+          <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+        </CULTURE_INFO>
+        <string>rails</string>
+      </DICTONARY_EINTRAG>
+    </MEHRSPRACHIGERTEXT>
+    <GRUPPENART Key="ARTIKELGRUPPE_SCHIENE" />
+  </ARTIKEL_GRUPPE>
+  <SORTIERUNG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SORTIERART Key="SORTIERART_STUECKLISTE" />
+      <POSITION>
+        <POSITION>3</POSITION>
+      </POSITION>
+    </DICTONARY_EINTRAG>
+  </SORTIERUNG>
+  <GEWICHT>
+    <SPEZIFISCH Wert="9">
+      <EINHEIT TextKeyLang="UNIT_KILOGRAMM_LANG" Key="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+    </SPEZIFISCH>
+  </GEWICHT>
+  <LAENGE Wert="6">
+    <EINHEIT TextKeyLang="UNIT_METER_LANG" Key="UNIT_METER_KURZ" Decimals="3" />
+  </LAENGE>
+  <SCHIENENTYP>
+    <SPANNWEITEN_TABELLE>
+      <NAME>Spannweitentabelle</NAME>
+      <SPALTEN Anzahl="4">
+        <ITEM ID="Dachneigung" />
+        <ITEM ID="Modulhoehe" />
+        <ITEM ID="Last" />
+        <ITEM ID="Spannweite" />
+      </SPALTEN>
+      <REIHEN Anzahl="8">
+        <ITEM ID="1" />
+        <ITEM ID="2" />
+        <ITEM ID="3" />
+        <ITEM ID="4" />
+        <ITEM ID="5" />
+        <ITEM ID="6" />
+        <ITEM ID="7" />
+        <ITEM ID="8" />
+      </REIHEN>
+      <ZELLEN Anzahl="32">
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="1">
+          <WERT TYP="Solarschmiede.Common.Data.WertMitEinheit, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <WertMitEinheit Wert="30">
+              <EINHEIT TextKeyLang="UNIT_GRADCELSIUS_LANG" Key="UNIT_GRADCELSIUS_KURZ" Decimals="3" />
+            </WertMitEinheit>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="1">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.2</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="1">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>0.5</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="1">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>2</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="2">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>30</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="2">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.2</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="2">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>1</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="2">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.7</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="3">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>30</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="3">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.8</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="3">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>0.5</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="3">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.83</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="4">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>30</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="4">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.8</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="4">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>1</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="4">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.56</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="5">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>40</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="5">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.2</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="5">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>0.5</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="5">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.9</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="6">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>40</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="6">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.2</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="6">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>1</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="6">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.61</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="7">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>40</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="7">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.8</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="7">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>0.5</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="7">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.49</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Dachneigung" REIHEN_ID="8">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>40</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Modulhoehe" REIHEN_ID="8">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.8</double>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Last" REIHEN_ID="8">
+          <WERT TYP="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <int>1</int>
+          </WERT>
+        </ITEM>
+        <ITEM SPALTEN_ID="Spannweite" REIHEN_ID="8">
+          <WERT TYP="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <double>1.31</double>
+          </WERT>
+        </ITEM>
+      </ZELLEN>
+    </SPANNWEITEN_TABELLE>
+    <PROFIL_ARTEN>
+      <ProfilArt Key="BASIS_PROFIL" />
+      <ProfilArt Key="MODULTRAEGER_PROFIL" />
+    </PROFIL_ARTEN>
+    <BESCHREIBUNG>
+      <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <CULTURE_INFO>
+          <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+        </CULTURE_INFO>
+        <string>1A Schienentyp Superware</string>
+      </DICTONARY_EINTRAG>
+      <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <CULTURE_INFO>
+          <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+        </CULTURE_INFO>
+        <string>1A rail type, galactical quality</string>
+      </DICTONARY_EINTRAG>
+    </BESCHREIBUNG>
+    <KABELKANAL>true</KABELKANAL>
+    <PRIMKEY>
+      <WERT>1A</WERT>
+    </PRIMKEY>
+    <PASSENDE_BASIS_SCHIENENTYPEN>
+      <DatenbankObjektOfSchienentyp>
+        <PRIMKEY PRIMKEY_TYP="Solarschmiede.Common.Data.DB.PrimaerSchluesselString, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <PRIMAER_SCHLUESSEL_STRING>
+            <WERT>1A</WERT>
+          </PRIMAER_SCHLUESSEL_STRING>
+        </PRIMKEY>
+      </DatenbankObjektOfSchienentyp>
+    </PASSENDE_BASIS_SCHIENENTYPEN>
+    <PASSENDE_MODULTRAGER_SCHIENENTYPEN>
+      <DatenbankObjektOfSchienentyp>
+        <PRIMKEY PRIMKEY_TYP="Solarschmiede.Common.Data.DB.PrimaerSchluesselString, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <PRIMAER_SCHLUESSEL_STRING>
+            <WERT>1A</WERT>
+          </PRIMAER_SCHLUESSEL_STRING>
+        </PRIMKEY>
+      </DatenbankObjektOfSchienentyp>
+    </PASSENDE_MODULTRAGER_SCHIENENTYPEN>
+    <GEWICHT_PRO_METER Wert="1.5">
+      <EINHEIT TextKeyLang="UNIT_KILOGRAMM_LANG" Key="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+    </GEWICHT_PRO_METER>
+  </SCHIENENTYP>
+</Schiene>

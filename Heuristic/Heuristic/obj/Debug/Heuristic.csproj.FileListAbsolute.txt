@@ -1,0 +1,5 @@
+D:\ajit\RND\Heuristic\Heuristic\bin\Heuristic.dll
+D:\ajit\RND\Heuristic\Heuristic\bin\Heuristic.pdb
+D:\ajit\RND\Heuristic\Heuristic\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\Heuristic\Heuristic\obj\Debug\Heuristic.dll
+D:\ajit\RND\Heuristic\Heuristic\obj\Debug\Heuristic.pdb

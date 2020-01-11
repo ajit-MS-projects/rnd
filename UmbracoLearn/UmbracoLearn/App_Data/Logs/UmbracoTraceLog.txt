@@ -1,0 +1,1 @@
+﻿2015-07-20 19:02:25,503 [40] INFO  umbraco.BusinessLogic.Log - [Thread 51] Log scrubbed.  Removed all items older than 2015-05-21 19:02:25

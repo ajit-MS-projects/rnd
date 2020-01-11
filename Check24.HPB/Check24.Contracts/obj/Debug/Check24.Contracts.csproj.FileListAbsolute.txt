@@ -1,0 +1,4 @@
+D:\ajit\rnd\Check24.HPB\Check24.Contracts\bin\Debug\Check24.Contracts.dll
+D:\ajit\rnd\Check24.HPB\Check24.Contracts\bin\Debug\Check24.Contracts.pdb
+D:\ajit\rnd\Check24.HPB\Check24.Contracts\obj\Debug\Check24.Contracts.dll
+D:\ajit\rnd\Check24.HPB\Check24.Contracts\obj\Debug\Check24.Contracts.pdb

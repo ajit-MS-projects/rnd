@@ -1,0 +1,29 @@
+﻿@model List<TicTacToe.Game>
+@{
+    ViewBag.Title = "PlayerSelection";
+}
+
+<h2>PlayerSelection</h2>
+@using (Html.BeginForm("Tic", "Home", FormMethod.Get, new {id="playerSelectionForm"}))
+{
+    foreach (var game in Model)
+     {
+         <span class="selectPlayer" data-gameid="@Html.Raw(game.GameId)">@Html.Raw(game.PlayerName)</span>
+     }
+    <span class="selectPlayer" data-gameid="host">Host Your Game.</span>
+    <span class="selectPlayer" data-gameid="bot">Play with a bot.</span>
+
+     <input type="hidden" id="gameId" name="gameId"/>
+}
+
+@section scripts {
+
+    <script>
+        $(".selectPlayer").on("click", function () {
+            $("#gameId").val(this.dataset.gameid);
+            $("#playerSelectionForm").submit();
+        }); 
+
+    </script>
+
+}

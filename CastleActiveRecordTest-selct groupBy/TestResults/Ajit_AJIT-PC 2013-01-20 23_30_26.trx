@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c440ea9f-63d2-4958-8232-8a3c25e7a6ca" name="Ajit@AJIT-PC 2013-01-20 23:30:26" runUser="AJIT-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2013-01-20 23_30_26">
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-20T23:30:26.2750363+01:00" queuing="2013-01-20T23:30:27.1721482+01:00" start="2013-01-20T23:30:27.3801767+01:00" finish="2013-01-20T23:32:44.1546720+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReportsGetTest" storage="d:\ajit\rnd\castleactiverecordtest-selct groupby\newtest\bin\debug\newtest.dll" id="86c34846-de0b-cb7e-2f91-fd69d9afb818">
+      <Execution id="afe74f2f-c3bd-4491-a879-22aae557ea9d" />
+      <TestMethod codeBase="D:/Ajit/RND/CastleActiveRecordTest-selct groupBy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsGetTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" executionId="afe74f2f-c3bd-4491-a879-22aae557ea9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="afe74f2f-c3bd-4491-a879-22aae557ea9d" testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" testName="ReportsGetTest" computerName="AJIT-PC" duration="00:02:12.2913362" startTime="2013-01-20T23:30:27.5722110+01:00" endTime="2013-01-20T23:32:42.3734618+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afe74f2f-c3bd-4491-a879-22aae557ea9d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

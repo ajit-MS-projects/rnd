@@ -1,0 +1,11 @@
+D:\ajit\RND\HospitalWeb\winClient\bin\Debug\winClient.exe
+D:\ajit\RND\HospitalWeb\winClient\bin\Debug\winClient.pdb
+D:\ajit\RND\HospitalWeb\winClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\HospitalWeb\winClient\obj\x86\Debug\winClient.Properties.Resources.resources
+D:\ajit\RND\HospitalWeb\winClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ajit\RND\HospitalWeb\winClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ajit\RND\HospitalWeb\winClient\obj\x86\Debug\winClient.exe
+D:\ajit\RND\HospitalWeb\winClient\obj\x86\Debug\winClient.pdb
+D:\ajit\RND\HospitalWeb\winClient\obj\x86\Debug\winClient.Form1.resources
+D:\ajit\RND\HospitalWeb\winClient\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\ajit\RND\HospitalWeb\winClient\bin\Debug\Microsoft.Data.Services.Client.xml

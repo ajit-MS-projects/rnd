@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="2E12EDCA-BC96-41CF-B2F8-135F0F82DD3E" ModuleId="DatabaseTests" />
+  <Module PersistentId="449FA473-C470-4BDD-82C8-8D0F9DBFF27C" ModuleId="SolarDataAccessAPI" />
+</Modules>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Version1"
+    targetNamespace="http://tempuri.org/Version1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Version1.xsd"
+    xmlns:mstns="http://tempuri.org/Version1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="ID" type="xs:integer"></xs:element>
+  <xs:element name="Name" type="xs:string"></xs:element>
+  <xs:element name="Vorname" type="xs:string"></xs:element>
+
+  <xs:complexType name="Projekt">
+    <xs:sequence>
+      <xs:element ref="ID"></xs:element>
+      <xs:element ref="Name"></xs:element>
+      <xs:element ref="Vorname"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="Projekt" type="Projekt"></xs:element>
+  
+</xs:schema>

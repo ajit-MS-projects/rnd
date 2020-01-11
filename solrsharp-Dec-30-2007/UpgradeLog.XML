@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SolrSharp">
+</Property><Property Name="Solution File" Value="D:\ajit\RND\solrsharp-Dec-30-2007\SolrSharp.sln">
+</Property><Property Name="Date" Value="Sunday, September 18, 2011">
+</Property><Property Name="Time" Value="8:07 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SolrSharp.sln" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\SolrSharp.sln">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\SolrSharp.csproj" Description="Project file successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\SolrSharp.csproj">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\SolrConfigurationSection.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\SolrConfigurationSection.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\Schema\SolrSchema.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\Schema\SolrSchema.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\Schema\SolrCopyField.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\Schema\SolrCopyField.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\Schema\SolrDynamicField.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\Schema\SolrDynamicField.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\Schema\SolrField.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\Schema\SolrField.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\Schema\SolrType.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\Schema\SolrType.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\SolrSearcher.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\SolrSearcher.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\SolrSearchers.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\SolrSearchers.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\SolrServer.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\SolrServer.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Configuration\SolrServers.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Configuration\SolrServers.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Indexing\DeleteIndexDocument.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Indexing\DeleteIndexDocument.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Indexing\IndexFieldAttribute.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Indexing\IndexFieldAttribute.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Highlights\BaseHighlighter.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Highlights\BaseHighlighter.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Highlights\HighlightParameter.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Highlights\HighlightParameter.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Highlights\HighlightParameterCollection.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Highlights\HighlightParameterCollection.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Parameters\IdListQueryParameter.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Parameters\IdListQueryParameter.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Parameters\IdListQueryParameterCollection.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Parameters\IdListQueryParameterCollection.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Parameters\QueryParameter.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Parameters\QueryParameter.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Parameters\RangeQueryParameter.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Parameters\RangeQueryParameter.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Parameters\StartsWithQueryParameter.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Parameters\StartsWithQueryParameter.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Query.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Query.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Results\DebugResults.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Results\DebugResults.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Results\ExplanationRecord.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Results\ExplanationRecord.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Results\FacetResults.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Results\FacetResults.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Indexing\UpdateIndexDocument.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Indexing\UpdateIndexDocument.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Indexing\IndexFieldValue.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Indexing\IndexFieldValue.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Parameters\QueryParameterCollection.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Parameters\QueryParameterCollection.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Indexing\IndexDocument.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Indexing\IndexDocument.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Facet.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Facet.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\Sort.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\Sort.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Query\QueryBuilder.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Query\QueryBuilder.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Results\HighlightRecord.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Results\HighlightRecord.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Results\SearchRecord.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Results\SearchRecord.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Results\SearchResults.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Results\SearchResults.cs">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\Update\SolrUpdater.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\src\Update\SolrUpdater.cs">
+</Event><Event ErrorLevel="1" Project="SolrSharp" Source="src\SolrSharp.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\SolrSharp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SolrSharp" Source="src\SolrSharp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\Example.csproj" Description="Project file successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\Example.csproj">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\ExampleCategoryFacet.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\ExampleCategoryFacet.cs">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\ExampleCategoryFacetResults.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\ExampleCategoryFacetResults.cs">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\ExampleIndexDocument.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\ExampleIndexDocument.cs">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\ExampleQueryBuilder.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\ExampleQueryBuilder.cs">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\ExampleSearchRecord.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\ExampleSearchRecord.cs">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\ExampleSearchResults.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\ExampleSearchResults.cs">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\Program.cs" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\Program.cs">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\App.config" Description="File successfully backed up as D:\ajit\RND\solrsharp-Dec-30-2007\Backup\example\App.config">
+</Event><Event ErrorLevel="1" Project="Example" Source="example\Example.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\Example.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Example" Source="example\Example.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SolrSharp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SolrSharp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SolrSharp" Source="src\SolrSharp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Example" Source="example\Example.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

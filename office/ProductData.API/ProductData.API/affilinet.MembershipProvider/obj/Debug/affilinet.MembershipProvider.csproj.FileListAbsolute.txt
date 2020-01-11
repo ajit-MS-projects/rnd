@@ -1,0 +1,17 @@
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\affilinet.MembershipProvider.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\affilinet.MembershipProvider.pdb
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Affilinet.Data.Access.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Affilinet.Exceptions.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Affilinet.Utility.Logging.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Microsoft.Practices.Unity.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Affilinet.Utility.Logging.pdb
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Affilinet.Utility.Logging.xml
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Affilinet.Exceptions.pdb
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\bin\Debug\Affilinet.Data.Access.pdb
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\obj\Debug\ResolveAssemblyReference.cache
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\obj\Debug\affilinet.MembershipProvider.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\affilinet.MembershipProvider\obj\Debug\affilinet.MembershipProvider.pdb

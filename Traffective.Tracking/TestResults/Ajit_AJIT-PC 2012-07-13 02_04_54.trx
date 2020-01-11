@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e27d3d18-e7d3-48e4-a68d-d5a5bcfc8d9c" name="Ajit@AJIT-PC 2012-07-13 02:04:54" runUser="Ajit-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e2128a61-3a94-4c7e-8c82-791cdc2b204d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\ajit\RND\Traffective.Tracking\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2012-07-13 02_04_54">
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\Traffective.Contracts\bin\Debug\Traffective.Contracts.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Components.Validator.2.5.0\lib\NET40\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\Traffective.Data\bin\Debug\Traffective.Data.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-13T02:04:54.2606584+02:00" queuing="2012-07-13T02:04:54.2956604+02:00" start="2012-07-13T02:04:54.3346626+02:00" finish="2012-07-13T02:04:56.3207745+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ClickTest" storage="d:\ajit\rnd\traffective.tracking\traffective.data.tests\bin\debug\traffective.data.tests.dll" id="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e">
+      <Execution id="fafc2638-e0d2-4c49-9423-1d2cb2b3b975" />
+      <TestMethod codeBase="D:/ajit/RND/Traffective.Tracking/Traffective.Data.Tests/bin/Debug/Traffective.Data.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Traffective.Data.Tests.TrackingTest, Traffective.Data.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e" executionId="fafc2638-e0d2-4c49-9423-1d2cb2b3b975" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fafc2638-e0d2-4c49-9423-1d2cb2b3b975" testId="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e" testName="ClickTest" computerName="AJIT-PC" duration="00:00:00.3403960" startTime="2012-07-13T02:04:54.3376628+02:00" endTime="2012-07-13T02:04:56.0217574+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fafc2638-e0d2-4c49-9423-1d2cb2b3b975">
+    </UnitTestResult>
+  </Results>
+</TestRun>

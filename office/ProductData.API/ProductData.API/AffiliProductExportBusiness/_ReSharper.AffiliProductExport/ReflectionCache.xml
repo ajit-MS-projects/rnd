@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741833">
+  <Assembly Name="JetBrains.Annotations, Version=4.0.819.19, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="89b38037-52a9-4f0b-b4ef-963f050d9bf8" Timestamp="633486419860000000" XmlDocIndexTimestamp="633486419860000000" />
+  <Assembly Name="affilinetTools, Version=1.2.467.565, Culture=neutral" Image="cbb06090-3955-4993-90d4-9b396736ffc6" Timestamp="634006972641711085" XmlDocIndexTimestamp="634129759890524713" />
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="f66f4e86-487d-4226-95c8-eaba688a78fe" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="bf2d52dc-6caf-4e7c-b682-f465cf2d0642" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="aa501a68-c19b-4925-9d26-22cd2e818f66" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
+  <Assembly Name="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral" Image="780e5449-5ae6-4d9e-84bc-fd210e79c1fc" Timestamp="633960489579817783" />
+  <Assembly Name="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.0.0, Culture=neutral" Image="66e208e0-6ad1-47af-937d-499b20a17f52" Timestamp="633960489590286600" />
+  <Assembly Name="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="77a350c8-d608-4b5c-b9e3-048a8ecf0630" Timestamp="633960489579036528" />
+  <Assembly Name="Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral" Image="8e5437bd-3f4a-415a-b55f-d61abd3ac798" Timestamp="633960489591536608" />
+  <Assembly Name="Krypto, Version=1.2.467.565, Culture=neutral, PublicKeyToken=f4bca66aeb9e1db3" Image="3fb6ce62-8881-4206-9dba-cbf7aae8f814" Timestamp="634006371210961725" />
+</Assemblies>

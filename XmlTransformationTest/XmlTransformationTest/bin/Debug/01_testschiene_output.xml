@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSchiene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Schiene>
+    <ID>1</ID>
+    <VERSION Versionsnummer="3" AnlegeDatum="2010-12-01T00:00:00" Abgekuendigt="false">
+      <Aenderung />
+      <AngelegtDurch Titel="Master" Anrede="Lord" NachName="Protector" VorName="John" Kuerzel="JP" />
+    </VERSION>
+  </Schiene>
+  <ARTIKELNUMMER>
+    <ARTIKELNUMMER_SOLS>SOlS_123</ARTIKELNUMMER_SOLS>
+    <ARTIKELNUMMER_KUNDE>Schiene1A</ARTIKELNUMMER_KUNDE>
+    <BESTELL_NUMMER>BestellNr_Schiene1A</BESTELL_NUMMER>
+    <REVISIONS_NUMMER>Rev 1.0</REVISIONS_NUMMER>
+  </ARTIKELNUMMER>
+  <HERSTELLER ID="HerstellerID1, das ein Primärschlüssel werden muss" Name="Bond" WebAdresse="www.james.bond.de">
+    <ANSPRECHPARTNER Titel="Dr." Anrede="Sir" NachName="Raleigh" VorName="Walter" Kuerzel="WR" />
+    <ADRESSE PLZ="12345" Strasse="Musterstrasse" Hausnummer="23C" Ort="Musterhausen" Land="Musterland" />
+  </HERSTELLER>
+  <VERPACKUNGS_EINHEIT>
+    <PREIS Betrag="100">
+      <Waehrung TextKeyLang="" TextKeyKurz="tttt" TextKeySymbol="" Decimals="5550" />
+    </PREIS>
+    <ANZAHL>1</ANZAHL>
+    <EINHEIT TextKeyLang="UNIT_STANGE_LANG" TextKeyKurz="UNIT_STANGE_KURZ" Decimals="0" />
+  </VERPACKUNGS_EINHEIT>
+  <ZUSATZ_ARTIKEL />
+  <ZUSATZ_ARTIKEL_OPTIONAL />
+  <BESCHREIBUNG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BEZEICHNUNG" />
+      <MehrsprachlicherText>
+        <DICTIONARY>
+          <string>de-DE</string>
+          <string>1A Schiene,6m</string>
+        </DICTIONARY>
+        <DICTIONARY>
+          <string>en-GB</string>
+          <string>1A rail, 6m</string>
+        </DICTIONARY>
+      </MehrsprachlicherText>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BESCHREIBUNG" />
+      <MehrsprachlicherText>
+        <DICTIONARY>
+          <string>de-DE</string>
+          <string>1A Schiene von hoher Qualität aus Aluminium, Länge 6m</string>
+        </DICTIONARY>
+        <DICTIONARY>
+          <string>en-GB</string>
+          <string>1A rail, high quality, made of aluminium, length 6m</string>
+        </DICTIONARY>
+      </MehrsprachlicherText>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_DETAILS" />
+      <MehrsprachlicherText>
+        <DICTIONARY>
+          <string>de-DE</string>
+          <string>Diese Schiene ist für alle Arten von Anlagen ausgelegt, auch zum Bau von Solaranlagen auf Atommeilern, falls kein Notstrom mehr geht.</string>
+        </DICTIONARY>
+        <DICTIONARY>
+          <string>en-GB</string>
+          <string>This rail is configured for all type os systems,  even for construction of a solar power plant on a nuclear power plant in case of missing emergency current.</string>
+        </DICTIONARY>
+      </MehrsprachlicherText>
+    </DICTONARY_EINTRAG>
+  </BESCHREIBUNG>
+  <LAENDER_FREIGABE>
+    <DICTIONARY>
+      <string>de-DE</string>
+      <Freigabe>
+        <FREIGEGEBEN>true</FREIGEGEBEN>
+      </Freigabe>
+    </DICTIONARY>
+    <DICTIONARY>
+      <string>en-GB</string>
+      <Freigabe>
+        <FREIGEGEBEN>true</FREIGEGEBEN>
+      </Freigabe>
+    </DICTIONARY>
+  </LAENDER_FREIGABE>
+  <PROGRAMM_FREIGABE>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Programmart>CreoTool</Programmart>
+      <Freigabe>
+        <FREIGEGEBEN>true</FREIGEGEBEN>
+      </Freigabe>
+    </DICTONARY_EINTRAG>
+  </PROGRAMM_FREIGABE>
+  <ARTIKEL_GRUPPE>
+    <GRUPPEN_NAME />
+    <GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+  </ARTIKEL_GRUPPE>
+  <SORTIERUNG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36658, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Sortierart KEY="SORTIERART_STUECKLISTE" />
+      <Position>
+        <POSITION>3</POSITION>
+      </Position>
+    </DICTONARY_EINTRAG>
+  </SORTIERUNG>
+  <GEWICHT_KG>
+    <WERT Wert="">
+      <Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+    </WERT>
+  </GEWICHT_KG>
+</ArrayOfSchiene>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="20661652-67d8-4546-a152-ece3f1e65303" name="achahal@S24S104 2012-07-11 16:15:08" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4552a4c2-1841-47c8-a00d-33c09781c4f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-07-11 16_15_08">
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest\bin\NihibernateTest.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\NHibernate.Search.dll" />
+      <DeploymentItem filename="d:\ajit\rnd\NihibernateTest\NihibernateTest_Tests\bin\Debug\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-11T16:15:08.6173428+02:00" queuing="2012-07-11T16:15:08.6713482+02:00" start="2012-07-11T16:15:08.6753486+02:00" finish="2012-07-11T16:15:09.7654576+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_new_product" storage="d:\ajit\rnd\nihibernatetest\nihibernatetest_tests\bin\debug\nihibernatetest_tests.dll" id="f8c04ca2-6aef-8b29-5868-89a0fc527263">
+      <Execution id="ed735faf-8044-4d90-8b83-0698cc0d9c36" />
+      <TestMethod codeBase="d:/ajit/rnd/NihibernateTest/NihibernateTest_Tests/bin/Debug/NihibernateTest_Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NihibernateTest_Tests.ProductTest, NihibernateTest_Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_new_product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f8c04ca2-6aef-8b29-5868-89a0fc527263" executionId="ed735faf-8044-4d90-8b83-0698cc0d9c36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ed735faf-8044-4d90-8b83-0698cc0d9c36" testId="f8c04ca2-6aef-8b29-5868-89a0fc527263" testName="Can_add_new_product" computerName="S24S104" duration="00:00:00.8906920" startTime="2012-07-11T16:15:08.6773488+02:00" endTime="2012-07-11T16:15:09.6904501+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed735faf-8044-4d90-8b83-0698cc0d9c36">
+      <Output>
+        <StdOut>NHibernate: SELECT product0_.Id as Id1_0_, product0_.Name as Name1_0_, product0_.Category as Category1_0_, product0_.Discontinued as Disconti4_1_0_ FROM Product product0_ WHERE product0_.Id=@p0;@p0 = 0061cc58-44a5-4a14-b1a2-7893832d18d6 [Type: Guid (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

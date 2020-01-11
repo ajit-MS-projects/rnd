@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="25690DDB-915D-4540-A81F-E1E5A8CD7551" ModuleId="EntityFrToWcf" />
+  <Module PersistentId="8C6400FD-C7C4-4992-AEE9-8E3DCF2F647F" ModuleId="WcfServiceLibrary1" />
+</Modules>

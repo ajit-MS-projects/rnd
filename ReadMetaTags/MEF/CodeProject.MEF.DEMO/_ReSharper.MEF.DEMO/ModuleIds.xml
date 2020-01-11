@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="A05733B6-57DA-42D5-BA86-9AE8804B512C" ModuleId="MEF.Rules" />
+  <Module PersistentId="59B607E8-2BA0-4A6A-AD06-CF7D26F8DCD4" ModuleId="MEF.DEMO" />
+  <Module PersistentId="2260FF8C-7981-4945-9CBF-47E7830F67C0" ModuleId="MEF.HelloWorld" />
+</Modules>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Solar.Services.PvScoutService" CodeBehind="PvScoutService.svc.cs" %>

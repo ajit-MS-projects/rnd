@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/SilverLightClient
+END
+App.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/SilverLightClient/App.xaml
+END
+MainPage.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/MainPage.xaml
+END
+App.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MyProjects/!svn/ver/21/Trunk/RND/SqlCompactTest/SilverLightClient/App.xaml.cs
+END
+MainPage.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/MainPage.xaml.cs
+END
+ServiceReferences.ClientConfig
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/ServiceReferences.ClientConfig
+END
+SilverLightClient.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/SilverLightClient.csproj
+END

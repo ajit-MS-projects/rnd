@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Affilinet.Business.ProductImport.CSVProcessor" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSVProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.ProductImportManager">
+    <Position X="0.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAACABAAAAAAQAAAAIAEAAEA=</HashCode>
+      <FileName>ProductImportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.XMLProcessor" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.FileProcessor">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAAAAAAAAIAAAIAAAAAAADAgAEBAAAAAAAgAA=</HashCode>
+      <FileName>FileProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Affilinet.Business.ProductImport.IProcessor">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="9.6" />
+</ClassDiagram>

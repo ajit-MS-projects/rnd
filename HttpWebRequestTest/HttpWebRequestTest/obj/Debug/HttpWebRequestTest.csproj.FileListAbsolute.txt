@@ -1,0 +1,5 @@
+d:\ajit\RND\HttpWebRequestTest\HttpWebRequestTest\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\RND\HttpWebRequestTest\HttpWebRequestTest\bin\HttpWebRequestTest.dll
+d:\ajit\RND\HttpWebRequestTest\HttpWebRequestTest\bin\HttpWebRequestTest.pdb
+d:\ajit\RND\HttpWebRequestTest\HttpWebRequestTest\obj\Debug\HttpWebRequestTest.dll
+d:\ajit\RND\HttpWebRequestTest\HttpWebRequestTest\obj\Debug\HttpWebRequestTest.pdb

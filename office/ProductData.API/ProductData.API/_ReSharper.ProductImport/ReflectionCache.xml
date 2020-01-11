@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741833">
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="798b2ac4-ebf7-4cba-aaa6-b6a76a6f763a" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
+  <Assembly Name="System.Net, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="a3133117-a39f-4eaa-b32a-72a93425731e" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="54608883-9a9a-423a-96fc-e1f77fb1df68" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="d2e9b437-c596-4e02-9f81-fd13ccca4505" Timestamp="633529680480000000" XmlDocIndexTimestamp="633490003300000000" />
+  <Assembly Name="Microsoft.SqlServer.ManagedDTS, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" Image="e00b7e58-ac77-4749-8a09-acbbf043a554" Timestamp="633631623880000000" XmlDocIndexTimestamp="633605166420000000" />
+  <Assembly Name="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="86cc75fc-e676-400a-ad75-8ffe8200f8f5" Timestamp="633530251220000000" />
+  <Assembly Name="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="7bce6c35-a0d6-4c69-a8c8-517e2a602ae7" Timestamp="633641037300000000" XmlDocIndexTimestamp="633492607960000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.0.819.19, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="2c1eb25e-4f53-4915-8840-25a8f7361daf" Timestamp="633486419860000000" XmlDocIndexTimestamp="633486419860000000" />
+  <Assembly Name="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral" Image="a9aedeca-1b88-4e68-b366-93b47f6961be" Timestamp="634172852553483653" />
+  <Assembly Name="Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral" Image="89a1fda9-ca35-4752-833b-aed1575ad27f" Timestamp="634172852548952432" />
+  <Assembly Name="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="f698bb4b-113c-4add-ad6b-cd0b70e81cb2" Timestamp="634172852547233693" />
+  <Assembly Name="SharpZipLib, Version=0.4.0.0, Culture=neutral, PublicKeyToken=fbebc9694da332b7" Image="7c059f4d-15cc-4594-8ec5-e7b133307300" Timestamp="634172852567389814" />
+  <Assembly Name="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.0.0, Culture=neutral" Image="58c5e83a-efd8-494a-a6c4-38fcdfeabed8" Timestamp="634172852546452448" />
+  <Assembly Name="affilinetTools, Version=1.2.467.565, Culture=neutral" Image="dc8ad9fa-1554-4bd1-bef1-bd6fcd378032" Timestamp="634172852551139918" XmlDocIndexTimestamp="634129759890524713" />
+  <Assembly Name="Krypto, Version=1.2.467.565, Culture=neutral, PublicKeyToken=f4bca66aeb9e1db3" Image="ea7fa81b-4698-40ce-bcdb-0777b00d4be4" Timestamp="634172852527077572" />
+  <Assembly Name="nunit.framework, Version=2.5.3.9345, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" Image="eea86c1f-c17d-4aa1-97f9-0b97357ddf7d" Timestamp="634172852670670403" XmlDocIndexTimestamp="634129760018652993" />
+  <Assembly Name="Affilinet.Business.ProductImport_Accessor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Image="17f23c50-620f-4cfd-a4fc-b28d478dd59e" Timestamp="634175470164290938" />
+</Assemblies>

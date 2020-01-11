@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ae567fe6-7855-45f2-a154-5c1312f1aa9f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9010/pvscoutService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="pvscoutService.xsd" MetadataType="Schema" ID="d635ba6f-6d09-4c7e-9227-7e0e659d0d93" SourceId="1" SourceUrl="http://localhost:9010/pvscoutService?xsd=xsd1" />
+    <MetadataFile FileName="pvscoutService1.xsd" MetadataType="Schema" ID="a286d888-ae92-4774-8baa-09990bb99620" SourceId="1" SourceUrl="http://localhost:9010/pvscoutService?xsd=xsd0" />
+    <MetadataFile FileName="pvscoutService2.xsd" MetadataType="Schema" ID="8c007c66-2c20-4072-82f5-a8da932486e3" SourceId="1" SourceUrl="http://localhost:9010/pvscoutService?xsd=xsd3" />
+    <MetadataFile FileName="pvscoutService3.xsd" MetadataType="Schema" ID="170019b0-08a1-475d-afa9-26c50dafd359" SourceId="1" SourceUrl="http://localhost:9010/pvscoutService?xsd=xsd2" />
+    <MetadataFile FileName="PvscoutService.wsdl" MetadataType="Wsdl" ID="0cfad463-847b-446b-9ad2-2d147aecfcf5" SourceId="1" SourceUrl="http://localhost:9010/pvscoutService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

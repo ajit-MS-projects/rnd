@@ -1,0 +1,58 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="66812C22-036B-42AE-A636-B75A9449040E/f:Web.config" caret="154" fromTop="6" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:App.config" caret="361" fromTop="11" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:Program.cs" caret="438" fromTop="15" />
+      <File id="0DCCD8DA-841D-4F14-90D8-6825EAC6EF69/f:Form1.cs" caret="226" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="66812C22-036B-42AE-A636-B75A9449040E/f:Web.config" caret="866" fromTop="29" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:Program.cs" caret="513" fromTop="16" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:App.config" caret="270" fromTop="9" />
+      <File id="66812C22-036B-42AE-A636-B75A9449040E/f:Web.config" caret="487" fromTop="13" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:App.config" caret="1121" fromTop="12" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:App.config" caret="681" fromTop="19" />
+      <File id="0DCCD8DA-841D-4F14-90D8-6825EAC6EF69/f:Form1.cs" caret="444" fromTop="18" />
+      <File id="0DCCD8DA-841D-4F14-90D8-6825EAC6EF69/f:Form1.cs" caret="638" fromTop="22" />
+      <File id="0DCCD8DA-841D-4F14-90D8-6825EAC6EF69/f:Form1.cs" caret="748" fromTop="27" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:App.config" caret="546" fromTop="16" />
+      <File id="0DCCD8DA-841D-4F14-90D8-6825EAC6EF69/f:Form1.cs" caret="799" fromTop="18" />
+      <File id="0D7AD08A-A530-45DE-B376-363139561838/f:Program.cs" caret="438" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="Service1`0" priority="22" />
+      <Item value="ServiceReference1" priority="31" />
+      <Item value="Service1Client`0" priority="26" />
+      <Item value="new" priority="31" />
+      <Item value="Service1Client" priority="26" />
+      <Item value="textBox1" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClientApp.ServiceReference1.Service1Client">
+      <Item value="GetData`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

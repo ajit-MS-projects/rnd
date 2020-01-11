@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="264E2AD8-5459-48D8-81DB-047068610656" ModuleId="Check24.HPB" />
+  <Module PersistentId="0A6F6802-DF5E-4294-8106-1EF4AF024383" ModuleId="Check24.Hpb.Services" />
+  <Module PersistentId="A4ECE10B-7439-488E-BFCB-F8F010972451" ModuleId="Check24.Data.Models" />
+  <Module PersistentId="85DD215E-C212-493F-9B2A-BF49C204B0D0" ModuleId="Check24.Contracts" />
+  <Module PersistentId="B4B8A7D9-4B93-4985-8429-FE39D275B6BB" ModuleId="Check24.Hpb.Services.Tests" />
+</Modules>

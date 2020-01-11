@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef
+END
+ProductService1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/ProductService1.xsd
+END
+ProductService2.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/ProductService2.xsd
+END
+ProductService.disco
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/ProductService.disco
+END
+Reference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/Reference.cs
+END
+ManufacturerService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/ManufacturerService.wsdl
+END
+Reference.svcmap
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/Reference.svcmap
+END
+configuration91.svcinfo
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/configuration91.svcinfo
+END
+SilverLightClient.ProductServiceRef.Manufacturer.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/SilverLightClient.ProductServiceRef.Manufacturer.datasource
+END
+configuration.svcinfo
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/configuration.svcinfo
+END
+ProductService.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/MyProjects/!svn/ver/22/Trunk/RND/SqlCompactTest/SilverLightClient/Service%20References/ProductServiceRef/ProductService.xsd
+END

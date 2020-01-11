@@ -1,0 +1,6 @@
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliServiceMetaDataBusiness\bin\Release\Affilinet.Business.ServiceMetaData.dll.config
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliServiceMetaDataBusiness\bin\Release\Affilinet.Business.ServiceMetaData.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliServiceMetaDataBusiness\bin\Release\Affilinet.Business.ServiceMetaData.pdb
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliServiceMetaDataBusiness\obj\Release\ResolveAssemblyReference.cache
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliServiceMetaDataBusiness\obj\Release\Affilinet.Business.ServiceMetaData.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliServiceMetaDataBusiness\obj\Release\Affilinet.Business.ServiceMetaData.pdb

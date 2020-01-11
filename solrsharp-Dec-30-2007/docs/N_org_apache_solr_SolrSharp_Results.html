@@ -1,0 +1,153 @@
+<html dir="LTR" xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:ndoc="urn:ndoc-preprocess">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <title>org.apache.solr.SolrSharp.Results</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css"> </link>
+    <link rel="stylesheet" type="text/css" href="user.css"> </link>
+    <script type="text/javascript" src="ndoc.js"> </script>
+  </head>
+  <body style="display: none;">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <input type="hidden" id="hiddenScrollOffset" />
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="drpdown.gif" />
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="drpdown_orange.gif" />
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="collapse.gif" />
+    <img id="expandImage" style="display:none; height:0; width:0;" src="exp.gif" />
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="collall.gif" />
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="expall.gif" />
+    <img id="copyImage" style="display:none; height:0; width:0;" src="copycode.gif" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="copycodeHighlight.gif" />
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">SolrSharp - C# API to Apache Solr</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">org.apache.solr.SolrSharp.Results Namespace</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a id="seeAlsoSectionLink" href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a>
+            <a id="exampleSectionLink" href="#codeExampleToggle" onclick="OpenSection(codeExampleToggle)">Example</a>
+            <a href="Hier_N_org_apache_solr_SolrSharp_Results.html">Hierarchy</a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="collall.gif" />
+              <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">
+							Collapse All
+						</label>
+              <label id="expandAllLabel" for="toggleAllImage" style="display: none;">
+							Expand All
+						</label>
+            </span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" />
+        <h1 class="heading">
+          <span style="cursor:default;" onclick="ExpandCollapse(classToggle)" onkeypress="ExpandCollapse_CheckKey(classToggle)" tabindex="0">
+            <img id="classToggle" class="toggle" name="toggleSwitch" src="collapse.gif" />Classes</span>
+        </h1>
+        <div id="classSection" class="section" name="collapseableSection">
+          <table width="100%" class="memberListTable">
+            <col width="2%" />
+            <col width="38%" />
+            <col width="60%" />
+            <tr valign="top">
+              <th> </th>
+              <th>Class</th>
+              <th>Description</th>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_org_apache_solr_SolrSharp_Results_DebugResults.html">DebugResults</a>
+              </td>
+              <td>Provides access to additional debugging information related to a <nobr><b>SearchResults</b></nobr> instance, including "explain" info for each of the documents returned.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_org_apache_solr_SolrSharp_Results_ExplanationRecord.html">ExplanationRecord</a>
+              </td>
+              <td>Provides the underlying explanation for scoring using the given query parameters as it relates to specific documents returned in the <nobr><b>SearchResults</b></nobr> instance.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_org_apache_solr_SolrSharp_Results_FacetResults`1.html">FacetResults</a>
+              </td>
+              <td>FacetResults is an abstraction from the details of determining the results from a query using facet parameters, and returns the results in an object-based structure. FacetResults requires an implementation utilizing generics. This enables the base class to build facet result objects directly. Using generics, the base class populates Facet results. Inheriting classes need only define how a Facet object is initialized. The base class executes those inherited methods as part of a chain of calls from SearchResults.ExecuteSearch. This class is <span codeLanguage="VisualBasicAndAnother">abstract (<b>MustInherit</b> in Visual Basic)</span><span codeLanguage="AnyButVisualBasic">abstract</span><span codeLanguage="OnlyVisualBasic"><b>MustInherit</b></span> and so cannot be instantiated.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_org_apache_solr_SolrSharp_Results_HighlightRecord.html">HighlightRecord</a>
+              </td>
+              <td>HighlightRecord is a container objecty for nodes in a solr search results payload pertaining to highlight parameters. A HighlightRecord is populated in the initialization of search results, but are used in updating standard result records. HighlightRecord instances are used by the SearchResults class directly, and are not intended for general use.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_org_apache_solr_SolrSharp_Results_SearchRecord.html">SearchRecord</a>
+              </td>
+              <td>SearchRecord is an abstraction to represent a search result for a given search request. A collection of SearchRecord objects are provided from the SearchResults class. Inheriting classes must implement the Initialize() method, which is called by the SearchResults class; see the <nobr><b>ExecuteSearch</b></nobr> method. This class is <span codeLanguage="VisualBasicAndAnother">abstract (<b>MustInherit</b> in Visual Basic)</span><span codeLanguage="AnyButVisualBasic">abstract</span><span codeLanguage="OnlyVisualBasic"><b>MustInherit</b></span> and so cannot be instantiated.</td>
+            </tr>
+            <tr valign="top">
+              <td>
+                <img src="pubclass.gif" alt="Public class" />
+              </td>
+              <td>
+                <a href="T_org_apache_solr_SolrSharp_Results_SearchResults`1.html">SearchResults</a>
+              </td>
+              <td>SearchResults is an abstraction that hides the details of evaluating a solr index search response, and returns the results in an object-based structure. SearchResults provides the base ExecuteSearch method as well as public metadata properties about the results of the query: TotalResults, the starting record (StartAt), and the number of Rows available for this set of results. SearchResults requires an implementation utilizing generics. This enables the base class to build search result objects directly. Using generics, the base class populates SearchRecord results and Facet results. Inheriting classes need only define how an inherited SearchRecord is created and a Facet results are created. The base class executes those inherited methods during ExecuteSearch. This class is <span codeLanguage="VisualBasicAndAnother">abstract (<b>MustInherit</b> in Visual Basic)</span><span codeLanguage="AnyButVisualBasic">abstract</span><span codeLanguage="OnlyVisualBasic"><b>MustInherit</b></span> and so cannot be instantiated.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <DIV CLASS="footer">
+        <p>
+          <center>
+            <font color="red">
+              <i>
+                Syntax based on .NET Framework version 2.0.<br />
+                Documentation version 1.0.0.0.
+              </i>
+            </font>
+          </center>
+        </p>
+      </DIV>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="mailto:jeff.rodenburg@gmail.com?subject=SolrSharp%20-%20C#%20API%20to%20Apache%20Solr%201.0.0.0%20Documentation%20Feedback:%20org.apache.solr.SolrSharp.Results%20Namespace">Send comments on this topic.</a>
+        </p>
+        <p>
+          <a href="http://www.apache.org/licenses/LICENSE-2.0">Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. See the NOTICE file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file to You under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</a>
+        </p>
+        <p />
+      </div><!--[if gte IE 5]><tool:tip element="seeAlsoToolTip" avoidmouse="false" /><tool:tip element="languageFilterToolTip" avoidmouse="false" /><![endif]--></div>
+  </body>
+</html>

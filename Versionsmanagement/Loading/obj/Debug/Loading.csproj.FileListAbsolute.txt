@@ -1,0 +1,5 @@
+D:\Projekte\KACO\test\Versionsmanagement\Loading\obj\Debug\ResolveAssemblyReference.cache
+D:\Projekte\KACO\test\Versionsmanagement\Loading\bin\Debug\Loading.dll
+D:\Projekte\KACO\test\Versionsmanagement\Loading\bin\Debug\Loading.pdb
+D:\Projekte\KACO\test\Versionsmanagement\Loading\obj\Debug\Loading.dll
+D:\Projekte\KACO\test\Versionsmanagement\Loading\obj\Debug\Loading.pdb

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="95ffcc59-c3b1-4498-b96c-df031cbe1910" name="Ajit@AJIT-PC 2011-09-14 12:32:59" runUser="Ajit-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="de44616b-cdc4-4051-bce3-3f98bf7829de">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2011-09-14 12_32_59">
+      <DeploymentItem filename="D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize\bin\WCFCustomJsonSerialize.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-14T12:32:59.8062545+02:00" queuing="2011-09-14T12:33:01.0213240+02:00" start="2011-09-14T12:33:01.2733384+02:00" finish="2011-09-14T12:33:02.3964026+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SearchProductsTest" storage="d:\ajit\rnd\wcfcustomjsonserialize\testproject1\bin\debug\testproject1.dll" id="83074a12-a1e5-bec2-134d-5c41791562cb">
+      <Execution id="e66bdd2b-09c5-4fc9-acd0-399cf06ff6e5" />
+      <TestMethod codeBase="D:/ajit/RND/WCFCustomJsonSerialize/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProductServiceTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SearchProductsTest" />
+      <AspNet webSiteUrl="http://localhost:12877/">
+        <Host pathToWebApp="D:\ajit\RND\WCFCustomJsonSerialize\WCFCustomJsonSerialize" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="83074a12-a1e5-bec2-134d-5c41791562cb" executionId="e66bdd2b-09c5-4fc9-acd0-399cf06ff6e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e66bdd2b-09c5-4fc9-acd0-399cf06ff6e5" testId="83074a12-a1e5-bec2-134d-5c41791562cb" testName="SearchProductsTest" computerName="AJIT-PC" startTime="2011-09-14T12:33:01.8743728+02:00" endTime="2011-09-14T12:33:02.3714012+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e66bdd2b-09c5-4fc9-acd0-399cf06ff6e5">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:12877/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_SearchProductsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="AJIT-PC\WebRequestResponse_SearchProductsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

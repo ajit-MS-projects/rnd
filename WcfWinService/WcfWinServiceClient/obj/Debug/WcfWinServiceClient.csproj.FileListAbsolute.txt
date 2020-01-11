@@ -1,0 +1,7 @@
+d:\ajit\rnd\WcfWinService\WcfWinServiceClient\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\WcfWinService\WcfWinServiceClient\bin\WcfWinServiceClient.dll
+d:\ajit\rnd\WcfWinService\WcfWinServiceClient\bin\WcfWinServiceClient.pdb
+d:\ajit\rnd\WcfWinService\WcfWinServiceClient\bin\WcfWinService.exe
+d:\ajit\rnd\WcfWinService\WcfWinServiceClient\bin\WcfWinService.pdb
+d:\ajit\rnd\WcfWinService\WcfWinServiceClient\obj\Debug\WcfWinServiceClient.dll
+d:\ajit\rnd\WcfWinService\WcfWinServiceClient\obj\Debug\WcfWinServiceClient.pdb

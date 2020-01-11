@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Affilinet.Utility.Logging.BaseLogger">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Utility.Logging.Constants">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Affilinet.Utility.Logging.Constants.LogCategories" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Constants.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Utility.Logging.GenericLogger">
+    <Position X="0.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>GenericLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Utility.Logging.LoggingInfo">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACAAAAEAAAAAAAAAAAAACIAAAACIAQACAA=</HashCode>
+      <FileName>LoggingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Utility.Logging.DBTraceListener">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>DBTraceListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Affilinet.Utility.Logging.LoggingCategoriesEnum">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgAAAAAIAAAAAAABAAAIAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="9.6" />
+</ClassDiagram>

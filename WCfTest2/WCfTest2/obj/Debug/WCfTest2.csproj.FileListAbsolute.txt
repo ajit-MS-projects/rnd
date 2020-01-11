@@ -1,0 +1,5 @@
+D:\ajit\rnd\WCfTest2\WCfTest2\bin\WCfTest2.dll
+D:\ajit\rnd\WCfTest2\WCfTest2\bin\WCfTest2.pdb
+D:\ajit\rnd\WCfTest2\WCfTest2\obj\Debug\WCfTest2.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\WCfTest2\WCfTest2\obj\Debug\WCfTest2.dll
+D:\ajit\rnd\WCfTest2\WCfTest2\obj\Debug\WCfTest2.pdb

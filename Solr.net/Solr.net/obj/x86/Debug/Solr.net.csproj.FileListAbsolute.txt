@@ -1,0 +1,13 @@
+d:\ajit\RND\Solr.net\Solr.net\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\ajit\RND\Solr.net\Solr.net\obj\x86\Debug\Solr.net.Form1.resources
+d:\ajit\RND\Solr.net\Solr.net\obj\x86\Debug\Solr.net.Properties.Resources.resources
+d:\ajit\RND\Solr.net\Solr.net\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\ajit\RND\Solr.net\Solr.net\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\ajit\RND\Solr.net\Solr.net\bin\Debug\Solr.net.exe.config
+d:\ajit\RND\Solr.net\Solr.net\bin\Debug\Solr.net.exe
+d:\ajit\RND\Solr.net\Solr.net\bin\Debug\Solr.net.pdb
+d:\ajit\RND\Solr.net\Solr.net\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\ajit\RND\Solr.net\Solr.net\bin\Debug\SolrNet.dll
+d:\ajit\RND\Solr.net\Solr.net\obj\x86\Debug\Solr.net.exe
+d:\ajit\RND\Solr.net\Solr.net\obj\x86\Debug\Solr.net.pdb
+d:\ajit\RND\Solr.net\Solr.net\bin\Debug\HttpWebAdapters.dll

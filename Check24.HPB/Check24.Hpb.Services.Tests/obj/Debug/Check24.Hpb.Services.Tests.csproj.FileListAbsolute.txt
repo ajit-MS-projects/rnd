@@ -1,0 +1,11 @@
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\obj\Debug\Check24.Hpb.Services.Tests.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Hpb.Services.Tests.dll
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Hpb.Services.Tests.pdb
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Contracts.dll
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Data.Models.dll
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Hpb.Services.dll
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Contracts.pdb
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Data.Models.pdb
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\bin\Debug\Check24.Hpb.Services.pdb
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\obj\Debug\Check24.Hpb.Services.Tests.dll
+D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services.Tests\obj\Debug\Check24.Hpb.Services.Tests.pdb

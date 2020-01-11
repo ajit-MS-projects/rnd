@@ -1,0 +1,5 @@
+D:\ajit\rnd\testWCF1\testWCF1\bin\testWCF1.dll
+D:\ajit\rnd\testWCF1\testWCF1\bin\testWCF1.pdb
+D:\ajit\rnd\testWCF1\testWCF1\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\testWCF1\testWCF1\obj\Debug\testWCF1.dll
+D:\ajit\rnd\testWCF1\testWCF1\obj\Debug\testWCF1.pdb

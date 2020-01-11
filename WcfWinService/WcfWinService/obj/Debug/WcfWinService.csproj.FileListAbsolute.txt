@@ -1,0 +1,10 @@
+d:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.exe
+d:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.pdb
+d:\ajit\rnd\WcfWinService\WcfWinService\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\WcfWinService\WcfWinService\obj\Debug\WcfWinService.ProjectInstaller.resources
+d:\ajit\rnd\WcfWinService\WcfWinService\obj\Debug\WcfWinService.WcfWinService.resources
+d:\ajit\rnd\WcfWinService\WcfWinService\obj\Debug\WcfWinService.exe
+d:\ajit\rnd\WcfWinService\WcfWinService\obj\Debug\WcfWinService.pdb
+d:\Ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.exe.config
+D:\Ajit\rnd\WcfWinService\WcfWinService\obj\Debug\GenerateResource.read.1.tlog
+D:\Ajit\rnd\WcfWinService\WcfWinService\obj\Debug\GenerateResource.write.1.tlog

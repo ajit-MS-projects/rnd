@@ -1,0 +1,216 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="DataMember" priority="1" />
+      <Item value="Pvscout" priority="2" />
+      <Item value="new" priority="8" />
+      <Item value="PvscoutDao" priority="0" />
+      <Item value="PvScoutBasePage`0" priority="0" />
+      <Item value="public" priority="4" />
+      <Item value="string" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="hello`0" priority="0" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="HelloCompletedEventArgs`0" priority="0" />
+      <Item value="PvModuleActual" priority="1" />
+      <Item value="using" priority="1" />
+      <Item value="MainPage`0" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="ex" priority="0" />
+      <Item value="PvscoutDao`0" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="DataRow`0" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="RoofType`0" priority="1" />
+      <Item value="List&lt;RoofType&gt;" priority="0" />
+      <Item value="RoofType" priority="0" />
+      <Item value="dr" priority="1" />
+      <Item value="Constraint`0" priority="1" />
+      <Item value="int" priority="3" />
+      <Item value="roofType" priority="0" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="throw" priority="2" />
+      <Item value="sex" priority="1" />
+      <Item value="SerializableAttribute`0" priority="0" />
+      <Item value="SolarGenericException" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="SolarBaseException`0" priority="0" />
+      <Item value="sEx" priority="1" />
+      <Item value="GetRoofTypes`0" priority="0" />
+      <Item value="String`0" priority="1" />
+      <Item value="manufId" priority="0" />
+      <Item value="PvModule`0" priority="1" />
+      <Item value="this" priority="1" />
+      <Item value="if" priority="0" />
+      <Item value="float" priority="0" />
+      <Item value="Manufacturer`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Pvscout.Business.DAO.PvscoutDao">
+      <Item value="GetScheduledPrograms`0" priority="1" />
+      <Item value="GetPvModules`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PvScoutWeb.PvScoutService.PvScoutServiceClient">
+      <Item value="HelloCompleted" priority="0" />
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="HelloAsync`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Pvscout.Business.ObjectPostionCalculator">
+      <Item value="GetPvModulePosition`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="StackTrace" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Pvscout.Business.Entity.RoofType">
+      <Item value="RoofTypeId" priority="0" />
+      <Item value="IsDefault" priority="0" />
+      <Item value="IsSelected" priority="0" />
+      <Item value="ImagePath" priority="0" />
+      <Item value="DisplayName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Solar.Pvscout.Business.Common.Constants">
+      <Item value="RoofTypes`0" priority="0" />
+      <Item value="PvModules`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Solar.Pvscout.Business.Common.Constants+RoofTypes">
+      <Item value="RoofTypeId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Exceptions.SolarGenericException">
+      <Item value="CreateLog`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.DbType">
+      <Item value="String" priority="1" />
+      <Item value="StringFixedLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Solar.Pvscout.Business.Common.Constants+ReadOnlyStoredProcs">
+      <Item value="GetPvModules" priority="0" />
+      <Item value="GetManufacturers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Pvscout.Business.Entity.PvModuleVirtual">
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Solar.Pvscout.Business.Common.Constants+PvModules">
+      <Item value="Length" priority="0" />
+      <Item value="ImagePath" priority="0" />
+      <Item value="Weight" priority="0" />
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Pvscout.Business.Entity.PvModuleActual">
+      <Item value="Length" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Weight" priority="0" />
+      <Item value="ImagePath" priority="0" />
+      <Item value="Left" priority="0" />
+      <Item value="ManufacturerId" priority="0" />
+      <Item value="PvScoutArticleNumber" priority="0" />
+      <Item value="Thickness" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="ArticleNumber" priority="0" />
+      <Item value="CellMaterial" priority="0" />
+      <Item value="CellTechnology" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Pvscout.Business.Collections">
+      <Item value="GeAlltRoofTypes`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:ServiceReferences.ClientConfig" caret="734" fromTop="17" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:PvScoutBasePage.xaml" caret="1454" fromTop="15" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/d:Service References/d:PvScoutService/f:Reference.cs" caret="25299" fromTop="9" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:Web.config" caret="658" fromTop="9" />
+      <File id="449FA473-C470-4BDD-82C8-8D0F9DBFF27C/f:SolarGenericDataBase.cs" caret="7142" fromTop="21" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:PvScoutBasePage.xaml.cs" caret="1023" fromTop="17" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:MainPage.xaml.cs" caret="0" fromTop="0" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:App.xaml.cs" caret="781" fromTop="19" />
+      <File id="A4DE5ACF-52B5-47D8-8A2C-8A6A7985AE91/f:Utilities.cs" caret="10338" fromTop="19" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:RoofType.cs" caret="612" fromTop="22" />
+      <File id="023AE4A2-52E8-422F-A797-DA46E555D72C/f:Helper.cs" caret="1968" fromTop="14" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModuleActual.cs" caret="748" fromTop="21" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Common/f:Constants.cs" caret="396" fromTop="13" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:IPvScoutService.cs" caret="921" fromTop="28" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:PvScoutService.svc.cs" caret="85" fromTop="3" />
+      <File id="77F940D7-66AA-4ABE-8AE1-400F08CBFC23/f:Form1.cs" caret="505" fromTop="22" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModuleVirtual.cs" caret="205" fromTop="9" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:Manufacturer.cs" caret="272" fromTop="13" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:ICollectionService.cs" caret="545" fromTop="18" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="1353" fromTop="44" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModule.cs" caret="1629" fromTop="31" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/f:Collections.cs" caret="362" fromTop="14" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:DAO/f:PvscoutDao.cs" caret="1173" fromTop="3" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/f:Collections.cs" caret="1028" fromTop="28" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModuleVirtual.cs" caret="205" fromTop="9" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModule.cs" caret="1192" fromTop="28" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModule.cs" caret="524" fromTop="19" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModule.cs" caret="688" fromTop="20" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:PvModule.cs" caret="1629" fromTop="31" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:ICollectionService.cs" caret="719" fromTop="22" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:ICollectionService.cs" caret="689" fromTop="22" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:ICollectionService.cs" caret="659" fromTop="20" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:ICollectionService.cs" caret="677" fromTop="22" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="872" fromTop="24" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="773" fromTop="20" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="1877" fromTop="21" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="2141" fromTop="19" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/f:Collections.cs" caret="1912" fromTop="14" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/f:Collections.cs" caret="2057" fromTop="18" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/f:Collections.cs" caret="2329" fromTop="23" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/d:Entity/f:Manufacturer.cs" caret="272" fromTop="13" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="2415" fromTop="27" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="2580" fromTop="24" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="2699" fromTop="28" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="2978" fromTop="36" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="1588" fromTop="14" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:ICollectionService.cs" caret="717" fromTop="22" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="487" fromTop="18" />
+      <File id="7F024529-BDD5-4D9A-A764-2B7836BB71D8/f:Collections.cs" caret="362" fromTop="14" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="325" fromTop="12" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="1463" fromTop="19" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:CollectionService.svc.cs" caret="3106" fromTop="20" />
+      <File id="55447290-59C9-45AD-80F9-C1B6EC8C80FE/f:ICollectionService.cs" caret="545" fromTop="18" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

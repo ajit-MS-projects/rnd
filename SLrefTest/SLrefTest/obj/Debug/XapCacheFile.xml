@@ -1,0 +1,5 @@
+﻿<xapCache source="D:\ajit\rnd\SLrefTest\SLrefTest\Bin\Debug\SLrefTest.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/24/2011 6:41:22 PM">
+  <file source="D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\SLrefTest.dll" archivePath="SLrefTest.dll" lastWriteTime="10/24/2011 6:41:22 PM" />
+  <file source="D:\ajit\rnd\SLrefTest\SLrefTest\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="10/24/2011 6:39:25 PM" />
+  <file source="D:\ajit\rnd\SLrefTest\SLrefTest\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/24/2011 6:39:28 PM" />
+</xapCache>

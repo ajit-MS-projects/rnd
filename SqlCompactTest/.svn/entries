@@ -1,0 +1,83 @@
+10
+
+dir
+18
+https://ajit-pc/svn/MyProjects/Trunk/RND/SqlCompactTest
+https://ajit-pc/svn/MyProjects
+
+
+
+2011-07-26T21:44:13.967227Z
+18
+ajit
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+c4905eda-8821-184d-893f-51380c1f41ea
+
+SqlCompactTest.sln
+file
+21
+
+
+
+2011-08-02T20:05:31.165079Z
+e2da40e42759d8cfa946ec2b91bd45ad
+2011-08-02T21:47:57.617636Z
+21
+ajit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7845
+
+WcfServices
+dir
+
+SqlCompactTest
+dir
+
+SolarDataAccessAPI
+dir
+
+SqlCompactTestSetup
+dir
+
+SilverLightClient.Web
+dir
+
+ConsoleHoster
+dir
+
+SilverLightClient
+dir
+

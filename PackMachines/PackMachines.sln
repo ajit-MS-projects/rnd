@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackMachines", "PackMachines\PackMachines.csproj", "{BE8FB843-D566-49B1-AF1F-1316DF242505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackMachines.Tests", "PAckMachines.Tests\PackMachines.Tests.csproj", "{8FE01EC2-4F28-4E93-8B69-60C647C46340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D93F273E-CE43-472B-9793-5DF2A76EB6BB}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PackMachines.vsmdi = PackMachines.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ajitchahal.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PackMachines\\PackMachines.csproj
+		SccProjectName1 = PackMachines
+		SccLocalPath1 = PackMachines
+		SccProjectUniqueName2 = PAckMachines.Tests\\PackMachines.Tests.csproj
+		SccProjectName2 = PAckMachines.Tests
+		SccLocalPath2 = PAckMachines.Tests
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PackMachines.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE8FB843-D566-49B1-AF1F-1316DF242505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8FB843-D566-49B1-AF1F-1316DF242505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8FB843-D566-49B1-AF1F-1316DF242505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8FB843-D566-49B1-AF1F-1316DF242505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE01EC2-4F28-4E93-8B69-60C647C46340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE01EC2-4F28-4E93-8B69-60C647C46340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE01EC2-4F28-4E93-8B69-60C647C46340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE01EC2-4F28-4E93-8B69-60C647C46340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

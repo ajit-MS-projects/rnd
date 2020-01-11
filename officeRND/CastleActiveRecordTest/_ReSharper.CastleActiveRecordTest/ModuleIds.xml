@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="E1498BB7-B016-4ECC-B200-4AF721D17D27" ModuleId="CastleActiveRecordTest" />
+  <Module PersistentId="70277C4A-0C5B-4F6E-B259-53DC0FEFFB72" ModuleId="CastleActiveRecordTest_Test" />
+</Modules>

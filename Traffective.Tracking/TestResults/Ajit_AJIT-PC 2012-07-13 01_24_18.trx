@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="088736e0-8d1d-41e4-9dfb-3f2609a4aa34" name="Ajit@AJIT-PC 2012-07-13 01:24:18" runUser="Ajit-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e2128a61-3a94-4c7e-8c82-791cdc2b204d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2012-07-13 01_24_18">
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\Traffective.Contracts\bin\Debug\Traffective.Contracts.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Components.Validator.2.5.0\lib\NET40\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\Traffective.Data\bin\Debug\Traffective.Data.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\RND\Traffective.Tracking\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-13T01:24:18.0129477+02:00" queuing="2012-07-13T01:24:18.2539615+02:00" start="2012-07-13T01:24:18.2959639+02:00" finish="2012-07-13T01:24:18.7289886+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ClickTest" storage="d:\ajit\rnd\traffective.tracking\traffective.data.tests\bin\debug\traffective.data.tests.dll" id="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e">
+      <Execution id="5f001256-e899-4732-aa50-be7b5d18dd00" />
+      <TestMethod codeBase="D:/ajit/RND/Traffective.Tracking/Traffective.Data.Tests/bin/Debug/Traffective.Data.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Traffective.Data.Tests.TrackingTest, Traffective.Data.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e" executionId="5f001256-e899-4732-aa50-be7b5d18dd00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5f001256-e899-4732-aa50-be7b5d18dd00" testId="24ea5fbe-6784-0ed2-bbaa-dbbcbfe03d8e" testName="ClickTest" computerName="AJIT-PC" startTime="2012-07-13T01:24:18.3069645+02:00" endTime="2012-07-13T01:24:18.6959867+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f001256-e899-4732-aa50-be7b5d18dd00">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method Traffective.Data.Tests.TrackingTest.MyClassInitialize threw exception. System.Configuration.ConfigurationErrorsException: System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for activerecord: Exception has been thrown by the target of an invocation. (D:\ajit\RND\Traffective.Tracking\Traffective.Data.Tests\bin\Debug\Traffective.Data.Tests.DLL.config line 9) ---&gt; System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---&gt; System.IO.FileLoadException: Could not load file or assembly 'Castle.Core, Version=2.5.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040).</Message>
+          <StackTrace>    at Castle.ActiveRecord.Framework.Config.InPlaceConfigurationSource..ctor()
+   at Castle.ActiveRecord.Framework.Config.ActiveRecordSectionHandler..ctor()
+ --- End of inner exception stack trace ---
+    at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean&amp; canBeCached, RuntimeMethodHandleInternal&amp; ctor, Boolean&amp; bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Configuration.TypeUtil.CreateInstanceWithReflectionPermission(Type type)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.Init(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.InitWithRestrictedPermissions(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean&amp; isRootDeclaredHere)
+ --- End of inner exception stack trace ---
+    at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean&amp; isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object&amp; result, Object&amp; resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at Traffective.Data.Helpers.PersistenceHelper.Initialize() in D:\ajit\RND\Traffective.Tracking\Traffective.Data\Helpers\PersistenceHelper.cs:line 20
+   at Traffective.Data.Tests.TrackingTest.MyClassInitialize(TestContext testContext) in D:\ajit\RND\Traffective.Tracking\Traffective.Data.Tests\TrackingTest.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

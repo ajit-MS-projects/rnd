@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService
+END
+ProductService1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/ProductService1.xsd
+END
+ProductService2.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/ProductService2.xsd
+END
+Reference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/Reference.cs
+END
+TestClientToTestWSDL.ProductService.ProductResponse.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/TestClientToTestWSDL.ProductService.ProductResponse.datasource
+END
+Reference.svcmap
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/Reference.svcmap
+END
+configuration91.svcinfo
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/configuration91.svcinfo
+END
+ProductService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/ProductService.wsdl
+END
+TestClientToTestWSDL.ProductService.SearchProductsResponse.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/TestClientToTestWSDL.ProductService.SearchProductsResponse.datasource
+END
+configuration.svcinfo
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/configuration.svcinfo
+END
+ProductService.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/TestClientToTestWSDL/Service%20References/ProductService/ProductService.xsd
+END

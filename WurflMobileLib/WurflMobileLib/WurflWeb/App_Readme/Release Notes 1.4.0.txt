@@ -1,0 +1,6 @@
+The WURFL API 1.4.1 for .NET contains some bug fixes and introduces a new method on the IWURFLManager interface. 
+
+IWURFLManager 
+	ICollection<IDevice> GetAllDevices();
+	The methos returns a collection of all device IDs found in the WURFL database.
+

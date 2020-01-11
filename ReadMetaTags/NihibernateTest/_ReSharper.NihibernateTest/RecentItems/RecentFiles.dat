@@ -1,0 +1,50 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:MvcApplicationTest.cs" caret="2616" fromTop="29" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:packages.config" caret="74" fromTop="2" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Person.cs" caret="186" fromTop="9" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:hibernate.cfg.xml" caret="698" fromTop="10" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Product.cs" caret="335" fromTop="14" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/d:Mapping/f:Product.hbm.xml" caret="403" fromTop="11" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Web.config" caret="1329" fromTop="17" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:NHibernateHelper.cs" caret="0" fromTop="0" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:IProductRepository.cs" caret="0" fromTop="0" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Global.asax.cs" caret="943" fromTop="35" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:PersistenceHelper.cs" caret="661" fromTop="27" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="1665" fromTop="18" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:PersonTest.cs" caret="0" fromTop="0" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:app.config" caret="801" fromTop="15" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="3687" fromTop="51" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="3254" fromTop="34" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:IProductRepository.cs" caret="1996" fromTop="23" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:IProductRepository.cs" caret="1829" fromTop="26" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:IProductRepository.cs" caret="2010" fromTop="9" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:IProductRepository.cs" caret="1764" fromTop="14" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Person.cs" caret="207" fromTop="9" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Web.config" caret="3880" fromTop="15" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Web.config" caret="3880" fromTop="27" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Person.cs" caret="791" fromTop="22" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:app.config" caret="1500" fromTop="22" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:app.config" caret="1485" fromTop="10" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:app.config" caret="1485" fromTop="16" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Web.config" caret="3880" fromTop="28" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Web.config" caret="3880" fromTop="18" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Web.config" caret="3880" fromTop="7" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:packages.config" caret="649" fromTop="2" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:app.config" caret="1485" fromTop="26" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:PersistenceHelper.cs" caret="651" fromTop="29" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:PersistenceHelper.cs" caret="528" fromTop="18" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:app.config" caret="1485" fromTop="20" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:app.config" caret="1466" fromTop="21" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:Web.config" caret="1329" fromTop="17" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="2486" fromTop="22" />
+    <File id="B401A3F0-DF51-43E0-825E-F2A2CA73F719/f:PersistenceHelper.cs" caret="654" fromTop="25" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:PersonTest.cs" caret="1620" fromTop="43" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="2486" fromTop="45" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="2486" fromTop="40" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="2542" fromTop="48" />
+    <File id="B5B831EA-F25A-46D1-9EF6-6FA398DEFDDC/f:ProductTest.cs" caret="2264" fromTop="40" />
+  </RecentEdits>
+</RecentFiles>

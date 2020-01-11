@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrTest", "SignalrTest\SignalrTest.csproj", "{2BDCE884-2588-4F65-ACE7-67A4600B180B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaSelfHostTest", "KatanaSelfHostTest\KatanaSelfHostTest.csproj", "{EE1FB68C-F931-43A4-A48F-E0D1E763AAD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaSelfHostOnTopIis", "KatanaSelfHostOnTopIis\KatanaSelfHostOnTopIis.csproj", "{436DA003-7020-4E2D-8E34-06191CA825BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrOnIisTest", "SignalrOnIisTest\SignalrOnIisTest.csproj", "{77DB4DB1-98A2-4777-9F5A-DCF8D61254B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrChat", "SignalrChat\SignalrChat.csproj", "{542082A3-7B5D-41E3-87D6-27BD3BD734A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrMoveShape", "SignalrMoveShape\SignalrMoveShape.csproj", "{4A539CF3-E0F3-4F67-8CFE-216CB403CFDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{F45B124B-7991-467E-B45B-31EBDF876353}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ajitchahal.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = KatanaSelfHostOnTopIis\\KatanaSelfHostOnTopIis.csproj
+		SccProjectName1 = KatanaSelfHostOnTopIis
+		SccLocalPath1 = KatanaSelfHostOnTopIis
+		SccProjectUniqueName2 = KatanaSelfHostTest\\KatanaSelfHostTest.csproj
+		SccProjectName2 = KatanaSelfHostTest
+		SccLocalPath2 = KatanaSelfHostTest
+		SccProjectUniqueName3 = SignalrTest\\SignalrTest.csproj
+		SccProjectName3 = SignalrTest
+		SccLocalPath3 = SignalrTest
+		SccProjectUniqueName4 = SignalrOnIisTest\\SignalrOnIisTest.csproj
+		SccProjectName4 = SignalrOnIisTest
+		SccLocalPath4 = SignalrOnIisTest
+		SccProjectUniqueName5 = SignalrChat\\SignalrChat.csproj
+		SccProjectName5 = SignalrChat
+		SccLocalPath5 = SignalrChat
+		SccProjectUniqueName6 = SignalrMoveShape\\SignalrMoveShape.csproj
+		SccProjectName6 = SignalrMoveShape
+		SccLocalPath6 = SignalrMoveShape
+		SccProjectUniqueName7 = TicTacToe\\TicTacToe.csproj
+		SccProjectName7 = TicTacToe
+		SccLocalPath7 = TicTacToe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BDCE884-2588-4F65-ACE7-67A4600B180B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDCE884-2588-4F65-ACE7-67A4600B180B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDCE884-2588-4F65-ACE7-67A4600B180B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDCE884-2588-4F65-ACE7-67A4600B180B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE1FB68C-F931-43A4-A48F-E0D1E763AAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1FB68C-F931-43A4-A48F-E0D1E763AAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1FB68C-F931-43A4-A48F-E0D1E763AAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1FB68C-F931-43A4-A48F-E0D1E763AAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436DA003-7020-4E2D-8E34-06191CA825BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436DA003-7020-4E2D-8E34-06191CA825BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436DA003-7020-4E2D-8E34-06191CA825BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436DA003-7020-4E2D-8E34-06191CA825BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DB4DB1-98A2-4777-9F5A-DCF8D61254B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DB4DB1-98A2-4777-9F5A-DCF8D61254B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DB4DB1-98A2-4777-9F5A-DCF8D61254B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DB4DB1-98A2-4777-9F5A-DCF8D61254B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542082A3-7B5D-41E3-87D6-27BD3BD734A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542082A3-7B5D-41E3-87D6-27BD3BD734A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542082A3-7B5D-41E3-87D6-27BD3BD734A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542082A3-7B5D-41E3-87D6-27BD3BD734A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A539CF3-E0F3-4F67-8CFE-216CB403CFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A539CF3-E0F3-4F67-8CFE-216CB403CFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A539CF3-E0F3-4F67-8CFE-216CB403CFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A539CF3-E0F3-4F67-8CFE-216CB403CFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45B124B-7991-467E-B45B-31EBDF876353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45B124B-7991-467E-B45B-31EBDF876353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45B124B-7991-467E-B45B-31EBDF876353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45B124B-7991-467E-B45B-31EBDF876353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

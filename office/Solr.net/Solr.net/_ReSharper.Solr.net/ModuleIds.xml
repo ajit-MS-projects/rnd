@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="94556551-50A8-4350-BEA7-08C1A621C464" ModuleId="AffiliSolrBusiness" />
+  <Module PersistentId="A3768D28-5B1D-4891-9760-70707CD14DD7" ModuleId="AffiliDataAccessAPI" />
+  <Module PersistentId="F4C4FED7-2950-4119-8B5D-78FDF711E39F" ModuleId="Solr.net" />
+</Modules>

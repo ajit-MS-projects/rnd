@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PvScoutService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8444/PvScoutService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8444/PvScoutService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8444/PvScoutService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPvScoutService_Ping_InputMessage">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_Ping_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetAllRoofTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllRoofTypes" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetAllRoofTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllRoofTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetRoofType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoofType" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetRoofType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRoofTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetAllPvModules_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPvModules" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetAllPvModules_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPvModulesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetManufacturer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetManufacturer" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetManufacturer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetManufacturerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetAllManufacturers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllManufacturers" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetAllManufacturers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllManufacturersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetPvModule_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPvModule" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_GetPvModule_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPvModuleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_FillRoof_InputMessage">
+    <wsdl:part name="parameters" element="tns:FillRoof" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_FillRoof_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FillRoofResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_DrawRoof_InputMessage">
+    <wsdl:part name="parameters" element="tns:DrawRoof" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_DrawRoof_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DrawRoofResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_VerifyModuleDropPosition_InputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyModuleDropPosition" />
+  </wsdl:message>
+  <wsdl:message name="IPvScoutService_VerifyModuleDropPosition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:VerifyModuleDropPositionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPvScoutService">
+    <wsdl:operation name="Ping">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/Ping" message="tns:IPvScoutService_Ping_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/PingResponse" message="tns:IPvScoutService_Ping_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllRoofTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/GetAllRoofTypes" message="tns:IPvScoutService_GetAllRoofTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/GetAllRoofTypesResponse" message="tns:IPvScoutService_GetAllRoofTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRoofType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/GetRoofType" message="tns:IPvScoutService_GetRoofType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/GetRoofTypeResponse" message="tns:IPvScoutService_GetRoofType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPvModules">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/GetAllPvModules" message="tns:IPvScoutService_GetAllPvModules_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/GetAllPvModulesResponse" message="tns:IPvScoutService_GetAllPvModules_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetManufacturer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/GetManufacturer" message="tns:IPvScoutService_GetManufacturer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/GetManufacturerResponse" message="tns:IPvScoutService_GetManufacturer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllManufacturers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/GetAllManufacturers" message="tns:IPvScoutService_GetAllManufacturers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/GetAllManufacturersResponse" message="tns:IPvScoutService_GetAllManufacturers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPvModule">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/GetPvModule" message="tns:IPvScoutService_GetPvModule_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/GetPvModuleResponse" message="tns:IPvScoutService_GetPvModule_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FillRoof">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/FillRoof" message="tns:IPvScoutService_FillRoof_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/FillRoofResponse" message="tns:IPvScoutService_FillRoof_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DrawRoof">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/DrawRoof" message="tns:IPvScoutService_DrawRoof_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/DrawRoofResponse" message="tns:IPvScoutService_DrawRoof_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyModuleDropPosition">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPvScoutService/VerifyModuleDropPosition" message="tns:IPvScoutService_VerifyModuleDropPosition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPvScoutService/VerifyModuleDropPositionResponse" message="tns:IPvScoutService_VerifyModuleDropPosition_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPvScoutService" type="tns:IPvScoutService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ping">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/Ping" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllRoofTypes">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/GetAllRoofTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRoofType">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/GetRoofType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPvModules">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/GetAllPvModules" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetManufacturer">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/GetManufacturer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllManufacturers">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/GetAllManufacturers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPvModule">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/GetPvModule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FillRoof">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/FillRoof" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DrawRoof">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/DrawRoof" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyModuleDropPosition">
+      <soap:operation soapAction="http://tempuri.org/IPvScoutService/VerifyModuleDropPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PvScoutService">
+    <wsdl:port name="BasicHttpBinding_IPvScoutService" binding="tns:BasicHttpBinding_IPvScoutService">
+      <soap:address location="http://localhost:8444/PvScoutService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,33 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 25
+/svn/MyProjects/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MyProjects/!svn/ver/26/Trunk/RND/WCFCustomJsonSerialize
+END
+WCFCustomJsonSerialize.sln
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/MyProjects/!svn/ver/29/Trunk/RND/WCFCustomJsonSerialize/WCFCustomJsonSerialize.sln
+END
+Local.testsettings
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MyProjects/!svn/ver/27/Trunk/RND/WCFCustomJsonSerialize/Local.testsettings
+END
+WCFCustomJsonSerialize.vsmdi
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/MyProjects/!svn/ver/27/Trunk/RND/WCFCustomJsonSerialize/WCFCustomJsonSerialize.vsmdi
+END
+TraceAndTestImpact.testsettings
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MyProjects/!svn/ver/27/Trunk/RND/WCFCustomJsonSerialize/TraceAndTestImpact.testsettings
+END

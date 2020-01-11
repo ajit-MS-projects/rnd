@@ -1,0 +1,7 @@
+D:\ajit\rnd\MVC3Test24\MVC3Test24\bin\MVC3Test24.dll
+D:\ajit\rnd\MVC3Test24\MVC3Test24\bin\MVC3Test24.pdb
+D:\ajit\rnd\MVC3Test24\MVC3Test24\bin\EntityFramework.dll
+D:\ajit\rnd\MVC3Test24\MVC3Test24\bin\EntityFramework.xml
+D:\ajit\rnd\MVC3Test24\MVC3Test24\obj\Debug\MVC3Test24.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\MVC3Test24\MVC3Test24\obj\Debug\MVC3Test24.dll
+D:\ajit\rnd\MVC3Test24\MVC3Test24\obj\Debug\MVC3Test24.pdb

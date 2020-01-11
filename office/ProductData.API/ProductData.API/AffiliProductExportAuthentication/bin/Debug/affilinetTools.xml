@@ -1,0 +1,1562 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>affilinetTools</name>
+    </assembly>
+    <members>
+        <member name="T:Affilinet.Tools.IPResolver">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.IPResolver.GetHtmlBannerLBIP">
+            <summary>
+            Gets the HTML banner Load Balancer IP.method tries to find a config key HtmlLoadBalancerIP
+            if the key is inexistent, 195.189.236.150 is returned since this was the initial ip for this machine before data center switch
+            </summary>
+            <remarks >created 21.07.2006 Markus
+                    aim of this class is to eliminate all hard coded ip adresses in code behind files
+                    this class targets to get rid of all references to HTML-Banner Load Balancer
+            </remarks>
+            <returns>HtmlLoadBalancerIP</returns>
+        </member>
+        <member name="T:Affilinet.Tools.XmlTools">
+            <summary>
+            Provides XML-Tools.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.XmlTools.TransformXML(System.Xml.XmlDocument,System.String)">
+            <summary>
+            Transforms the XML with the XSL-File and returns the transformed XML-Document.
+            </summary>
+            <param name="webServiceXml">the XML-Document from the WebService</param>
+            <param name="webServiceXslFile">the path to the XSL-File to transform the XML-Document</param>
+            <returns>the transformed XML-Document</returns>
+        </member>
+        <member name="M:Affilinet.Tools.XmlTools.RemoveXmlDirective(System.String)">
+            <summary>
+            Removes the xml-directive ("&lt;from a xml-string
+            </summary>
+            <param name="xml">the xml-string with the xml-directive</param>
+            <returns>the xml-string without the directive</returns>
+        </member>
+        <member name="M:Affilinet.Tools.XmlTools.GetNodeValue(System.Xml.XmlDocument,System.String)">
+            <summary>
+            Returns the content of a node in the XML-Document
+            </summary>
+            <param name="oXmlDocument">the XML-Document</param>
+            <param name="path">the path of the node in the XML-Document</param>
+            <returns>the content of the node-element</returns>
+        </member>
+        <member name="M:Affilinet.Tools.XmlTools.SetNodeValue(System.Xml.XmlDocument,System.String,System.String)">
+            <summary>
+            Sets the value of a node in the XML-Document
+            </summary>
+            <param name="oXmlDocument">the XML-Document</param>
+            <param name="path">the path of the node in the XML-Document</param>
+            <param name="value">the new value of the node</param>
+            <returns>The modified XML-Document</returns>
+        </member>
+        <member name="M:Affilinet.Tools.XmlTools.GetXmlDateTime(System.DateTime)">
+            <summary>
+            Converts the dateTime-Parameter into a XML-Formated-DateTime without seconds: yyyy-mm-dd+hh:mm
+            </summary>
+            <param name="theDateTime">the DateTime to converted</param>
+            <returns>the XML-DateTime-String in XML-Format without seconds: yyyy-mm-dd+hh:mm</returns>
+        </member>
+        <member name="M:Affilinet.Tools.RegistryTools.getBool(System.String,System.String)">
+            <summary>
+            This methods reads a boolean-value from the registry. If the value is not a boolean, it will return false.
+            </summary>
+            <param name="registryPath">The registry-path to the key.</param>
+            <param name="key">The registry-key</param>
+            <returns>The registry-key's boolean-value</returns>
+        </member>
+        <member name="M:Affilinet.Tools.RegistryTools.getBool(System.String,System.String,System.Boolean)">
+            <summary>
+            This methods reads an boolean-value from the registry.
+            </summary>
+            <param name="registryPath">The registry-path to the key.</param>
+            <param name="key">The registry-key</param>
+            <param name="defaultValue">If the value is not numeric, this value will be returned.</param>
+            <returns>The registry-key's boolean-value</returns>
+        </member>
+        <member name="M:Affilinet.Tools.RegistryTools.getInt(System.String,System.String)">
+            <summary>
+            This methods reads an integer-value from the registry. If the value is not numeric, it will return 0.
+            </summary>
+            <param name="registryPath">The registry-path to the key.</param>
+            <param name="key">The registry-key</param>
+            <returns>The registry-key's integer-value</returns>
+        </member>
+        <member name="M:Affilinet.Tools.RegistryTools.getInt(System.String,System.String,System.Int32)">
+            <summary>
+            This methods reads an integer-value from the registry.
+            </summary>
+            <param name="registryPath">The registry-path to the key.</param>
+            <param name="key">The registry-key</param>
+            <param name="defaultValue">If the value is not numeric, this value will be returned.</param>
+            <returns>The registry-key's integer-value</returns>
+        </member>
+        <member name="M:Affilinet.Tools.RegistryTools.getString(System.String,System.String)">
+            <summary>
+            This methods reads an string-value from the registry. If the value can not be get, it will return an empty string.
+            </summary>
+            <param name="registryPath">The registry-path to the key.</param>
+            <param name="key">The registry-key</param>
+            <returns>The registry-key's string-value</returns>
+        </member>
+        <member name="M:Affilinet.Tools.RegistryTools.getString(System.String,System.String,System.String)">
+            <summary>
+            This methods reads an string-value from the registry. If the value can not be got, it will return the defaultValue.
+            </summary>
+            <param name="registryPath">The registry-path to the key.</param>
+            <param name="key">The registry-key</param>
+            <param name="defaultValue"></param>
+            <returns>The registry-key's string-value</returns>
+        </member>
+        <member name="T:Affilinet.Tools.HttpTools">
+            <summary>
+            This class provides methods for getting HTTP-variables
+            like request-, form, application-, session-, cookie-values etc.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.GetValueFromEndInQuery(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.InQueryString(System.String)">
+            <summary>
+            This method checks if a key exists in the QueryString-Keys-Collection
+            </summary>
+            <param name="myKey">The name of the searched key.</param>
+            <returns>True, if the key was found, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.InForm(System.String)">
+            <summary>
+            This method checks if a key exists in the Form-Keys-Collection.
+            </summary>
+            <param name="myKey">The name of the searched key.</param>
+            <returns>True, if the key is found, otherwise false</returns>
+        </member>
+        <member name="T:Affilinet.Tools.HttpTools.RequestVariables">
+            <summary>
+            This class provides methods for requesting keys.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestVariables.getBool(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns false.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestVariables.getBool(System.String,System.Boolean)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key-value is not convertable to boolean.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestVariables.getInt(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an int32 and returns it.
+            If the key does not exist or is not convertable to int, the method returns the 0.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The int32-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestVariables.getInt(System.String,System.Int32)">
+            <summary>
+            This method requests a key, tries to convert it to an int32 and returns it.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key-value is not convertable to int32.</param>
+            <returns>The int32-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestVariables.getString(System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns an empty string.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestVariables.getString(System.String,System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key does not exist.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="T:Affilinet.Tools.HttpTools.RequestFormVariables">
+            <summary>
+            This class provides methods for requesting form-keys.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestFormVariables.getBool(System.String)">
+            <summary>
+            This method requests a form-key, tries to convert it to an boolean and returns it.
+            If the form-key does not exist, the method returns false.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestFormVariables.getBool(System.String,System.Boolean)">
+            <summary>
+            This method requests a form-key, tries to convert it to an boolean and returns it.
+            If the form-key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the form-key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the form-key-value is not convertable to boolean.</param>
+            <returns>The boolean-value of the form-key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestFormVariables.getInt(System.String)">
+            <summary>
+            This method requests a form-key, tries to convert it to an int32 and returns it.
+            If the form-key does not exist, the method returns the 0.
+            </summary>
+            <param name="key">The name of the form-key.</param>
+            <returns>The int32-value of the form-key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestFormVariables.getInt(System.String,System.Int32)">
+            <summary>
+            This method requests a form-key, tries to convert it to an int32 and returns it.
+            If the form-key does not exist or is not convertable to int, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the form-key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the form-key-value is not convertable to int32.</param>
+            <returns>The int32-value of the form-key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestFormVariables.getString(System.String)">
+            <summary>
+            This method requests a form-key and returns its value.
+            If the form-key does not exist, the method returns an empty string.
+            </summary>
+            <param name="key">The name of the form-key.</param>
+            <returns>The string-value of the form-key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestFormVariables.getString(System.String,System.String)">
+            <summary>
+            This method requests a form-key and returns its value.
+            If the form-key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the form-key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the form-key does not exist.</param>
+            <returns>The string-value of the form-key.</returns>
+        </member>
+        <member name="T:Affilinet.Tools.HttpTools.RequestQueryStringVariables">
+            <summary>
+            This class provides methods for getting QueryString-variables.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestQueryStringVariables.getBool(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns false.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestQueryStringVariables.getBool(System.String,System.Boolean)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key-value is not convertable to boolean.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestQueryStringVariables.getInt(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an int32 and returns it.
+            If the key does not exist, the method returns the 0.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The int32-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestQueryStringVariables.getInt(System.String,System.Int32)">
+            <summary>
+            This method requests a key, tries to convert it to an int32 and returns it.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key-value is not convertable to int32.</param>
+            <returns>The int32-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestQueryStringVariables.getString(System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns an empty string.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.RequestQueryStringVariables.getString(System.String,System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key does not exist.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="T:Affilinet.Tools.HttpTools.ApplicationVariables">
+            <summary>
+            This class provides methods
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.ApplicationVariables.getBool(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns false.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.ApplicationVariables.getBool(System.String,System.Boolean)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key does not exist or if the key-value is not convertable to boolean.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.ApplicationVariables.getInt(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an int32 and returns it.
+            If the key does not exist, the method returns the 0.
+            </summary>
+            <param name="key">The name of the key.</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Affilinet.Tools.HttpTools.ApplicationVariables.getInt(System.String,System.Int32)" -->
+        <member name="M:Affilinet.Tools.HttpTools.ApplicationVariables.getString(System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns an empty string.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.ApplicationVariables.getString(System.String,System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key does not exist.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.SessionVariables.getBool(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns false.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.SessionVariables.getBool(System.String,System.Boolean)">
+            <summary>
+            This method requests a key, tries to convert it to an boolean and returns it.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key-value is not convertable to boolean.</param>
+            <returns>The boolean-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.SessionVariables.getInt(System.String)">
+            <summary>
+            This method requests a key, tries to convert it to an int32 and returns it.
+            If the key does not exist, the method returns the 0.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The int32-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.SessionVariables.getInt(System.String,System.Int32)">
+            <summary>
+            This method requests a key, tries to convert it to an int32 and returns it.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key-value is not convertable to int32.</param>
+            <returns>The int32-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.SessionVariables.getString(System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns an empty string.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.SessionVariables.getString(System.String,System.String)">
+            <summary>
+            This method requests a key and returns its value.
+            If the key does not exist, the method returns the defaultValue.
+            </summary>
+            <param name="key">The name of the key.</param>
+            <param name="defaultValue">The defaultValue that should be returned if the key does not exist.</param>
+            <returns>The string-value of the key.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.CookieVariables.getBool(System.String,System.String)">
+            <summary>
+            This method returns the value of the key of a cookie.
+            </summary>
+            <param name="cookieName">The name of the cookie.</param>
+            <param name="key">The cookie's key.</param>
+            <returns>The value of the key of a cookie. If the value does not exist or is not convertable to boolean it will return false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.CookieVariables.getBool(System.String,System.String,System.Boolean)">
+            <summary>
+            This method returns the value of a key of a cookie.
+            </summary>
+            <param name="cookieName">The name of the cookie.</param>
+            <param name="key">The cookie's key.</param>
+            <param name="defaultValue">The defaultValue, if the key does not exist or is not convertable to boolean.</param>
+            <returns>The value of the key of a cookie. If the value does not exist or is not convertable to boolean it will return the defaultValue.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.CookieVariables.getInt(System.String,System.String)">
+            <summary>
+            This method returns the value of a key of a cookie.
+            </summary>
+            <param name="cookieName">The name of the cookie.</param>
+            <param name="key">The cookie's key.</param>
+            <returns>The value of the key of a cookie. If the value does not exist or is not convertable to int it will return 0.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.CookieVariables.getInt(System.String,System.String,System.Int32)">
+            <summary>
+            This method returns the value of a key of a cookie.
+            </summary>
+            <param name="cookieName">The name of the cookie.</param>
+            <param name="key">The cookie's key.</param>
+            <param name="defaultValue">The defaultValue, if the key does not exist or is not convertable to int.</param>
+            <returns>The value of the key of a cookie. If the value does not exist or is not convertable to int it will return 0.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.CookieVariables.getString(System.String,System.String)">
+            <summary>
+            This method returns the value of a key of a cookie.
+            </summary>
+            <param name="cookieName">The name of the cookie.</param>
+            <param name="key">The cookie's key.</param>
+            <returns>The value of the key of a cookie. If the value does not exist or is not convertable to int it will return 0.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.CookieVariables.getString(System.String,System.String,System.String)">
+            <summary>
+            This method returns the value of a key of a cookie.
+            </summary>
+            <param name="cookieName">The name of the cookie.</param>
+            <param name="key">The cookie's key.</param>
+            <param name="defaultValue">The defaultValue, if the key does not exist.</param>
+            <returns>The value of the key of a cookie. If the value does not exist or is not convertable to int it will return 0.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.HttpGet.getContent(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="timeout">in MilliSeconds</param>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.HttpTools.HttpGet.getContent(System.String,System.Int32,System.Text.Encoding)">
+            <summary>
+            
+            </summary>
+            <param name="url"></param>
+            <param name="timeout">in MilliSeconds</param>
+            <param name="encoding"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Affilinet.Tools.DataTools">
+            <summary>
+            Data-Tools
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.DataTools.#ctor">
+            <summary>
+            Data-Tools
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.DataTools.SortDataTable(System.Data.DataTable,System.String)">
+            <summary>
+            This method sorts a DataTable.
+            </summary>
+            <param name="thedatatable">The datatable that should be sorted.</param>
+            <param name="orderby">The field(s), for example "myDate ASC, myText DESC".</param>
+            <returns>The sorted datatable.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DataTools.FilterDataTable(System.Data.DataTable,System.String)">
+            <summary>
+            This method filters a DataTable.
+            </summary>
+            <param name="thedatatable">The datatable that should be sorted.</param>
+            <param name="whereclause">The where-clause for example "myText like '%affilinet%'"</param>
+            <returns>The filtered datatable</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DataTools.FilterAndSortDataTable(System.Data.DataTable,System.String,System.String)">
+            <summary>
+            This method filters and sorts a DataTable.
+            </summary>
+            <param name="thedatatable">The datatable that should be sorted</param>
+            <param name="whereclause">The where-clause for example "myText like '%affilinet%'"</param>
+            <param name="orderby">The field(s) for example "myDate ASC, myText DESC"</param>
+            <returns>The filtered and sorted datatable</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DataTools.DataTable2XmlDocument(System.Data.DataTable)">
+            <summary>
+            This method converts a DataTable to a XmlDocument.
+            </summary>
+            <param name="theDataTable">The DataTable to be converted.</param>
+            <param name="xmlWriteMode">One of the System-Data.XmlWriteMode values.</param>
+            <returns>The generated XmlDocument.</returns>
+        </member>
+        <member name="T:Affilinet.Tools.WebServices.GenericWebServiceProxy">
+            <summary>
+            generic web service proxy-object
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.WebServices.GenericWebServiceProxy.#ctor(System.String)">
+            <summary>
+            The generic web service proxy
+            </summary>
+            <param name="webServiceURI">the wsdl-url</param>
+        </member>
+        <member name="T:Affilinet.Tools.WebServices.DynamicWebServiceProxy">
+            <summary>
+            For more easy usage you should use the class GenericWebServiceProxy. This class is a public sub-object of the GenericWebServiceProxy-class
+            </summary>
+        </member>
+        <member name="T:Affilinet.Tools.AppSettings">
+            <summary>
+            This class provides functions for reading the AppSettings from the web.config
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.AppSettings.getString(System.String,System.String,System.String,System.String)">
+            <summary>
+            Returns the key's string-value from the web.config
+            </summary>
+            <param name="key">the name of the key</param>
+            <param name="defaultValue">the default-value if an error occurs</param>
+            <param name="registryPath">the registry path where to find the key if the key can not be found in the web.config</param>
+            <param name="registryKey">the name of the registry-key if the key can not be found in the web.config</param>
+            <returns>the AppSetting-string-value</returns>
+        </member>
+        <member name="M:Affilinet.Tools.AppSettings.getBool(System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Returns the key's bool-value from the web.config
+            </summary>
+            <param name="key">the name of the key</param>
+            <param name="defaultValue">the default-value if an error occurs</param>
+            <param name="registryPath">the registry path where to find the key if the key can not be found in the web.config</param>
+            <param name="registryKey">the name of the registry-key if the key can not be found in the web.config</param>
+            <returns>the AppSetting-bool-value</returns>
+        </member>
+        <member name="M:Affilinet.Tools.AppSettings.getInt(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Returns the key's int-value from the web.config
+            </summary>
+            <param name="key">the name of the key</param>
+            <param name="defaultValue">the default-value if an error occurs</param>
+            <param name="registryPath">the registry path where to find the key if the key can not be found in the web.config</param>
+            <param name="registryKey">the name of the registry-key if the key can not be found in the web.config</param>
+            <returns>the AppSetting-int-value</returns>
+        </member>
+        <member name="T:Affilinet.Tools.IPcheck">
+            <summary>
+            This class checks IP-addresses.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.IPcheck.isAffilinetIP(System.String)">
+            <summary>
+            This method checks, if the remove-address is a affilinet-IP-address.
+            </summary>
+            <param name="REMOTE_ADDR">The remote-IP-address.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.IPcheck.isAffilinetAdminIP(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="REMOTE_ADDR"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Affilinet.Tools.FileHandling">
+            <summary>
+            This class provides methods for handling files.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.FileHandling.#ctor">
+            <summary>
+            The constructor.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.FileHandling.exists(System.String)">
+            <summary>
+            Checks if a file exits.
+            </summary>
+            <param name="filename">The filename.</param>
+            <returns>Returns true, if the file exists, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.FileHandling.readHtmlFile(System.String)">
+            <summary>
+            Reads the content of a file a returns it as a string.
+            </summary>
+            <param name="filename">The filename.</param>
+            <returns>The file's content.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.FileHandling.readHtmlFile(System.String,System.Text.Encoding)">
+            <summary>
+            Reads a HTML-File and returns the content as a string.
+            </summary>
+            <param name="filename">The filename.</param>
+            <param name="encoding">The character encoding to use.</param>
+            <returns>The file's content.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.FileHandling.GetTempFilename(System.String)">
+            <summary>
+            This method returns a random filename, dependent on the current time and a random-number.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Affilinet.Tools.DateTools">
+            <summary>
+            This class provides date- and time-functions.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.getStartDateForWeek(System.Int32,System.Int32)">
+            <summary>
+            This method returns the date with the first day of the specified week.
+            </summary>
+            <param name="year">The year of the week.</param>
+            <param name="week">The week.</param>
+            <returns>The date with the first day of the week.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.getEndDateForWeek(System.Int32,System.Int32)">
+            <summary>
+            This method returns the date with the last day of the specified week.
+            </summary>
+            <param name="year">The year of the week.</param>
+            <param name="week">The week.</param>
+            <returns>The date with the last day of the week.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.getStartDateForQuarter(System.Int32,System.Int32)">
+            <summary>
+            This method returns the date with the first day of the specified quarter.
+            </summary>
+            <param name="year">The year of the quarter.</param>
+            <param name="quarter">The quarter.</param>
+            <returns>The first day of the specified quarter.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.getEndDateForQuarter(System.Int32,System.Int32)">
+            <summary>
+            This method returns the date with the last day of the specified quarter.
+            </summary>
+            <param name="year">The year of the quarter.</param>
+            <param name="quarter">The quarter.</param>
+            <returns>The last day of the specified quarter.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.getStartDateForYear(System.Int32)">
+            <summary>
+            This method returns the first day of the year.
+            </summary>
+            <param name="year">The year.</param>
+            <returns>The first day of the year.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.getEndDateForYear(System.Int32)">
+            <summary>
+            This method returns the last day of the year.
+            </summary>
+            <param name="year">The year.</param>
+            <returns>The last day of the year</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.GetFirstDayOfMonth(System.Int32,System.Int32)">
+            <summary>
+            This method returns the first day of a month.
+            </summary>
+            <param name="month">The month.</param>
+            <param name="year">The year.</param>
+            <returns>The first day of the month.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.GetLastDayOfMonth(System.Int32,System.Int32)">
+            <summary>
+            This method returns the last day of a month.
+            </summary>
+            <param name="month">The month.</param>
+            <param name="year">The year.</param>
+            <returns>The last day of the month.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.DateTools.dateDiff(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            This method calculates the time-difference between two date-times.
+            </summary>
+            <param name="intervalUnit">The intervalunit: "h":hours, "m":minutes, "s":seconds, "t":ticks, "mm":milliseconds, "yyyy":years, "q": quarters, "d":days</param>
+            <param name="startDate">The begin of the interval.</param>
+            <param name="endDate">The end of the interval.</param>
+            <returns>The number intervalunits for the specified time-interval. If an error occurs, it will return -1.</returns>
+        </member>
+        <member name="T:Affilinet.Tools.Redirection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.Redirection.GetSiteAddresses(System.String,System.String@,System.String@,System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="serverName"></param>
+            <param name="advertiserSite"></param>
+            <param name="publisherSite"></param>
+            <param name="language"></param>
+        </member>
+        <member name="M:Affilinet.Tools.Redirection.GetSiteAddresses(System.String,System.String,System.String@,System.String@,System.String@)">
+            <summary>
+            
+            </summary>
+            <param name="serverName"></param>
+            <param name="https"></param>
+            <param name="advertiserSite"></param>
+            <param name="publisherSite"></param>
+            <param name="language"></param>
+        </member>
+        <member name="T:Affilinet.Tools.TypeChecker">
+            <summary>
+            This class provides methods for checking the type of an object.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.TypeChecker.IsBoolean(System.Object)">
+            <summary>
+            This method checks if an object's type is convertable to boolean.
+            </summary>
+            <param name="token">The object to be checked</param>
+            <returns>True, if the object is convertable to boolean, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TypeChecker.IsNumeric(System.Object)">
+            <summary>
+            This method checks if an object's type is convertable to Int32.
+            </summary>
+            <param name="token">The object to be checked</param>
+            <returns>True, if the object is convertable to int32, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TypeChecker.IsString(System.Object)">
+            <summary>
+            This method checks if an object's type is convertable to string.
+            </summary>
+            <param name="token">The object to be checked</param>
+            <returns>True, if the object is convertable to string, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TypeChecker.IsDouble(System.Object)">
+            <summary>
+            This method checks if an object's type is convertable to double.
+            </summary>
+            <param name="token">The object to be checked</param>
+            <returns>True, if the object is convertable to double, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TypeChecker.IsDouble(System.Object,System.Boolean)">
+            <summary>
+            This method checks if an object's type is convertable to double.
+            If the result is infinity, the function's return-result depends
+            on the parameter allowInfinityAsValidDouble
+            </summary>
+            <param name="token">The object to be checked</param>
+            <param name="allowInfinityAsValidDouble">If the token is infitity, it returns the value in allowInfinityAsValidDouble as result</param>
+            <returns>True, if the object is convertable to double, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TypeChecker.IsDecimal(System.Object)">
+            <summary>
+            This method checks if an object's type is convertable to decimal.
+            </summary>
+            <param name="token">The object to be checked</param>
+            <returns>True, if the object is convertable to decimal, otherwise false.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TypeChecker.IsDate(System.Object)">
+            <summary>
+            This method checks if an object's type is convertable to date.
+            </summary>
+            <param name="token">The object to be checked</param>
+            <returns>True, if the object is convertable to date, otherwise false.</returns>
+        </member>
+        <member name="T:Affilinet.Tools.ValueChecker">
+            <summary>
+            This provides methods for checking values.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.IsNull(System.Object,System.Object)">
+            <summary>
+            This method checks if an object is null. If it is null it returns the defaultObject, otherwise theObject.
+            </summary>
+            <param name="theObject">The object to check.</param>
+            <param name="defaultObject">The object to return if theObject is null.</param>
+            <returns>If theObject is null it returns the defaultObject, otherwise theObject.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.IsNull(System.String,System.String)">
+            <summary>
+            This method checks if a value is null or empty. If it is null or empty it returns the defaultValue, otherwise theValue.
+            </summary>
+            <param name="theValue">The value to check.</param>
+            <param name="defaultValue">The value to return if the theValue is null.</param>
+            <returns>If theValue is null or empty it returns theValue, otherwise the defaultValue.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.IsNull(System.Int32,System.Int32)">
+            <summary>
+            This method checks if a value is null. If it is null it returns the defaultValue, otherwise theValue.
+            </summary>
+            <param name="theValue">The value to check.</param>
+            <param name="defaultValue">The value to return if the theValue is null.</param>
+            <returns>If theValue is null or empty it returns theValue, otherwise the defaultValue.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.IsNull(System.Single,System.Single)">
+            <summary>
+            This method checks if a value is null. If it is null it returns the defaultValue, otherwise theValue.
+            </summary>
+            <param name="theValue">The value to check.</param>
+            <param name="defaultValue">The value to return if the theValue is null.</param>
+            <returns>If theValue is null or empty it returns theValue, otherwise the defaultValue.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.IsNull(System.DateTime,System.DateTime)">
+            <summary>
+            This method checks if a value is null. If it is null it returns the defaultValue, otherwise theValue.
+            </summary>
+            <param name="theValue">The value to check.</param>
+            <param name="defaultValue">The value to return if the theValue is null.</param>
+            <returns>If theValue is null or empty it returns theValue, otherwise the defaultValue.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.Max(System.DateTime,System.DateTime)">
+            <summary>
+            This method return the maximum value of two values.
+            </summary>
+            <param name="value1">The first value to be compared.</param>
+            <param name="value2">The second value to be compared.</param>
+            <returns>The maximum-value.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.Max(System.Decimal,System.Decimal)">
+            <summary>
+            This method return the maximum value of two values.
+            </summary>
+            <param name="value1">The first value to be compared.</param>
+            <param name="value2">The second value to be compared.</param>
+            <returns>The maximum-value.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.Min(System.DateTime,System.DateTime)">
+            <summary>
+            This method return the minimum value of two values.
+            </summary>
+            <param name="value1">The first value to be compared.</param>
+            <param name="value2">The second value to be compared.</param>
+            <returns>The minimum-value.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.Max(System.Int32,System.Int32)">
+            <summary>
+            This method return the maximum value of two values.
+            </summary>
+            <param name="value1">The first value to be compared.</param>
+            <param name="value2">The second value to be compared.</param>
+            <returns>The maximum-value.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ValueChecker.Min(System.Int32,System.Int32)">
+            <summary>
+            This method return the minimum value of two values.
+            </summary>
+            <param name="value1">The first value to be compared.</param>
+            <param name="value2">The second value to be compared.</param>
+            <returns>The minimum-value.</returns>
+        </member>
+        <member name="T:Affilinet.Tools.Lang2ISO">
+            <summary>
+            This class provides methods for getting language-/country-dependent strings.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.Lang2ISO.ConvertToCurrency(System.Decimal)">
+            <summary>
+            Converts from decimal to current platform culture currency.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.SysLang">
+            <summary>
+            This property gets the ISO 639-1 two-letter code for the
+            language of the current System.Globalization.CultureInfo
+            e.g. "de"
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.UILang">
+            <summary>
+            This property gets the ISO 639-1 two-letter code for the
+            language of the current System.Globalization.CultureInfo used by the Resource Manager
+            e.g. "de"
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.DateSeparator">
+            <summary>
+            This property gets the string that separates the date components of a date.
+            e.g. "."
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.DateSequence">
+            <summary>
+            This property gets the format pattern for a short date value.
+            e.g. "dd.MM.yyyy"
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.GetPlatformCulture">
+            <summary>
+            This property gets the string as to use as the curreny symbol.
+            e.g. "€"
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.CurrencySymbol">
+            <summary>
+            Gets the currency symbol.
+            </summary>
+            <value>The currency symbol.</value>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.CurrencyThreeLetterISO">
+            <summary>
+            This property gets the three character ISO 4219 currency symbol associated with the country/region.
+            e.g. "EUR"
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.Lang2ISO.PercentSymbol">
+            <summary>
+            Gets the string to use as the percent symbol.
+            e.g. "%"
+            </summary>
+        </member>
+        <member name="T:Affilinet.Tools.Crc32">
+             <summary>
+             Modified from Mike Krueger's code.
+             Generate a table for a byte-wise 32-bit CRC calculation on the polynomial:
+             x^32+x^26+x^23+x^22+x^16+x^12+x^11+x^10+x^8+x^7+x^5+x^4+x^2+x+1.
+            
+             Polynomials over GF(2) are represented in binary, one bit per coefficient,
+             with the lowest powers in the most significant bit.  Then adding polynomials
+             is just exclusive-or, and multiplying a polynomial by x is a right shift by
+             one.  If we call the above polynomial p, and represent a byte as the
+             polynomial q, also with the lowest power in the most significant bit (so the
+             byte 0xb1 is the polynomial x^7+x^3+x+1), then the CRC is (q*x^32) mod p,
+             where a mod b means the remainder after dividing a by b.
+            
+             This calculation is done using the shift-register method of multiplying and
+             taking the remainder.  The register is initialized to zero, and for each
+             incoming bit, x^32 is added mod p to the register if the bit is a one (where
+             x^32 mod p is p+x^32 = x^26+...+1), and the register is multiplied mod p by
+             x (which is shifting right by one and adding x^32 mod p if the bit shifted
+             out is a one).  We start with the highest power (least significant bit) of
+             q and repeat for all eight bits of q.
+            
+             The table is simply the CRC of all possible eight bit values.  This is all
+             the information needed to generate CRC's on data a byte at a time for all
+             combinations of CRC register values and incoming bytes.
+             </summary>
+        </member>
+        <member name="M:Affilinet.Tools.Crc32.Reset">
+            <summary>
+            Resets the CRC32 data checksum as if no update was ever called.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.Crc32.Update(System.Int32)">
+            <summary>
+            Updates the checksum with the int bval.
+            </summary>
+            <param name = "bval">
+            the byte is taken as the lower 8 bits of bval
+            </param>
+        </member>
+        <member name="M:Affilinet.Tools.Crc32.Update(System.Byte[])">
+            <summary>
+            Updates the checksum with the bytes taken from the array.
+            </summary>
+            <param name="buffer">
+            buffer an array of bytes
+            </param>
+        </member>
+        <member name="M:Affilinet.Tools.Crc32.Update(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Adds the byte array to the data checksum.
+            </summary>
+            <param name = "buf">
+            the buffer which contains the data
+            </param>
+            <param name = "off">
+            the offset in the buffer where the data starts
+            </param>
+            <param name = "len">
+            the length of the data
+            </param>
+        </member>
+        <member name="P:Affilinet.Tools.Crc32.Value">
+            <summary>
+            Returns the CRC32 data checksum computed so far.
+            </summary>
+        </member>
+        <member name="T:Affilinet.Tools.AffiliDateParts">
+            <summary>
+            This class provides dateparts with a week/quarter/month and a year.
+            </summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliDateParts.affiliYear">
+            <summary ></summary>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliDateParts.#ctor(System.Int32,System.Int32)">
+            <summary ></summary>
+             <summary>
+             The constructor.
+             </summary>
+             <param name="dPart">The week, month or quarter of the datepart.</param>
+             <param name="dYear">The year of the datepart.</param>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliDateParts.ToString">
+            <summary>
+            This method returns the comma-separted-dateparts.
+            </summary>
+            <returns>the comma-separted-dateparts.</returns>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliDateParts.AffiliDatePart">
+            <summary>
+            This property gets or sets the datepart week/month/quarter.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliDateParts.AffiliYear">
+            <summary>
+            This property gets or sets the datepart year.
+            </summary>
+        </member>
+        <member name="T:Affilinet.Tools.AffiliDatePartParameters">
+            <summary>
+            This class stores a start- and an end-dateparameters.
+            </summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliDatePartParameters.endPart">
+            <summary ></summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliDatePartParameters.StartPart">
+            <summary ></summary>
+             <summary>
+             This property gets or sets the start-dateparts.
+             </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliDatePartParameters.EndPart">
+            <summary>
+            This property gets or sets the end-dateparts.
+            </summary>
+        </member>
+        <member name="T:Affilinet.Tools.AffiliCalendar">
+            <summary>
+            This abstract class provides the AffiliCalendar.
+            </summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.affiliDate">
+            <summary ></summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.endWithYear">
+            <summary ></summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.fromDate">
+            <summary ></summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.startWithYear">
+            <summary ></summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.toDate">
+            <summary ></summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.selectedMonth">
+            <summary ></summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.selectedQuarter">
+            <summary ></summary>
+        </member>
+        <member name="F:Affilinet.Tools.AffiliCalendar.selectedYear">
+            <summary ></summary>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.#ctor">
+            <summary>
+            This constructor creates the object with a year 10 years ago, the current year, the
+            current language and the current date.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.#ctor(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            This constructor creates the object with a start- and a end-year and a date.
+            </summary>
+            <param name="startYear">The start-year.</param>
+            <param name="endYear">The end-year.</param>
+            <param name="referenceDate">The date.</param>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.#ctor(System.Int32,System.Int32,System.Globalization.CultureInfo)">
+            <summary>
+            This constructor creates the object with a start- and a end-year, the Culture-Info and the current date.
+            </summary>
+            <param name="startYear">The start-year.</param>
+            <param name="endYear">The end-year.</param>
+            <param name="ci">The Culture-Info.</param>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.#ctor(System.Globalization.CultureInfo,System.DateTime)">
+            <summary>
+            This constructor creates the object with the year 10 years ago, the current year, a CultureInfo and a Date.
+            </summary>
+            <param name="ci">The Culture-Info.</param>
+            <param name="referenceDate">The date.</param>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.#ctor(System.Int32,System.Int32,System.Globalization.CultureInfo,System.DateTime)">
+            <summary>
+            This constructor creates the object with a start- and end-year, a culture-info and a date.
+            </summary>
+            <param name="startYear">The start-year.</param>
+            <param name="endYear">The end-year.</param>
+            <param name="ci">The Culture-Info.</param>
+            <param name="referenceDate">The date.</param>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.GetCalendar">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.GetWeekSelection(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.GetMonthSelection(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.GetQuarterSelection(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.GetYearSelection(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.GetMonthYearSelection(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="defaultselection"></param>
+            <param name="defaultvalue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.AffiliCalendar.GetMonthYearSelection(System.DateTime,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="startwithdate"></param>
+            <param name="defaultselection"></param>
+            <param name="defaultvalue"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.FormatCulture">
+            <summary>
+            This property gets or sets the FormatCulture.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.AffiliDate">
+            <summary>
+            This property gets or sets the affiliDate.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.StartWithYear">
+            <summary>
+            This property gets or sets the start-year.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.EndWithYear">
+            <summary>
+            This property gets or sets the end-year.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.FromDate">
+            <summary>
+            This property gets or sets the fromDate.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.ToDate">
+            <summary>
+            This property gets or sets the toDate.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.SelectedWeek">
+            <summary>
+            This property gets or sets the selected week.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.SelectedMonth">
+            <summary>
+            This property gets or sets the selected month.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.SelectedQuarter">
+            <summary>
+            This property gets or sets the selected quarter.
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.AffiliCalendar.SelectedYear">
+            <summary>
+            This property gets or sets the selected year.
+            </summary>
+        </member>
+        <member name="T:Affilinet.Tools.PartnerCalendar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.PartnerCalendar.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.PartnerCalendar.GetCalendar">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Affilinet.Tools.MailTools">
+            <summary>
+            This class provides a function for sending an email.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.MailTools.#ctor">
+            <summary>
+            The constructor.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.MailTools.SendEmail(System.String,System.String,System.String,System.String,System.Web.Mail.MailFormat)">
+            <summary>
+            This method sends an email.
+            </summary>
+            <param name="Sender">The sender's email-address.</param>
+            <param name="Receiver">The mail's receiver.</param>
+            <param name="Subject">The mail's subject.</param>
+            <param name="Message">The mail's content.</param>
+            <param name="Format">specifies if the mail-format is text or html</param>
+            <returns>0, if sending the mail failed, otherwise 1</returns>
+        </member>
+        <member name="T:Affilinet.Tools.CSVConverter.CSVConverterSettings">
+            <summary>
+            requires a valid PartnerObject in Session
+            </summary>
+        </member>
+        <member name="T:Affilinet.Tools.JumpClickLog">
+            <summary>
+            this class implements logic of old page jump.asp in publisher area
+            instantiate this class in the aspx page and call Log()
+            this class assumes that the parameter pid, id and nl are passed in the querystring of the embedding page
+            </summary>
+            
+        </member>
+        <member name="M:Affilinet.Tools.JumpClickLog.Log">
+            <summary>
+            
+            </summary>
+            <returns>true if loging succeded otherwise false</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.EvntLog.WriteEventLog(System.Exception,System.String,System.String)">
+            <summary>
+            Writes a new entry into Application-Log
+            </summary>
+            <param name="ex"></param>
+            <param name="source">e.g. this.GetType().AssemblyQualifiedName;</param>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.EvntLog.WriteEventLog(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <param name="additionalInfo"></param>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.ErrorRoutine(System.Boolean,System.Exception)">
+            <summary>
+            Write error log entry for window event if the bLogType is true.
+            Otherwise, write the log entry to
+            customized text-based text file
+            </summary>
+            <param name="bLogType"></param>
+            <param name="objException"></param>
+            <returns>false if the problem persists</returns>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.CustomErrorRoutine(System.Exception)">
+            <summary>
+             If the LogFile path is empty then, it will write the log entry to 
+             LogFile.txt under application directory.
+             If the LogFile.txt is not availble it will create it
+             If the Log File path is not empty but the file is 
+             not availble it will create it.
+             <param name="objException"></param>
+             <RETURNS>false if the problem persists</RETURNS>
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.WriteErrorLog(System.String,System.Exception)">
+             <summary>
+             Write Source,method,date,time,computer,error 
+             and stack trace information to the text file
+             
+             <param name="strPathName"></param>
+             <param name="objException"></param>
+             <RETURNS>false if the problem persists</RETURNS>
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.GetLogFilePath">
+             <summary>
+             Check the log file in applcation directory.
+             If it is not available, creae it
+             
+             <RETURNS>Log file path</RETURNS>
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.CheckDirectory(System.String)" -->
+        <member name="M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.CheckLoggingEnabled">
+            <summary>
+            Check Logginstatus config file is exist.
+            If exist read the value set the loggig status
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.GetLoggingStatusConfigFileName">
+            <summary>
+            Check the Logginstatus config under debug or 
+            release folder. If not exist, check under 
+            project folder. If not exist again, return empty string
+            </summary>
+            <RETURNS>empty string if file not exists</RETURNS>
+        </member>
+        <member name="M:Affilinet.Tools.ErrorLog.AffilinetErrorLog.GetValueFromXml(System.String)">
+            <summary> 
+             Read the xml file and getthe logging status
+             <param name="strXmlPath"></param>
+            </summary> <RETURNS></RETURNS>
+        </member>
+        <member name="P:Affilinet.Tools.ErrorLog.AffilinetErrorLog.LogFilePath">
+            <summary>
+            Setting LogFile path. If the logfile path is 
+            null then it will update error info into LogFile.txt under
+            application directory.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Affilinet.Tools.XslExtensionLibrary" -->
+        <member name="M:Affilinet.Tools.XslExtensionLibrary.countSubNodes(System.Object)">
+            <summary>
+            Counts the number of sub-nodes
+            </summary>
+            <param name="nodes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.XslExtensionLibrary.replace(System.String,System.String,System.String)">
+            <summary>
+            Replaces characters in a string.
+            </summary>
+            <param name="text">The string that should be replaced</param>
+            <param name="search">The search-string</param>
+            <param name="replacement">The replacement-string</param>
+            <returns></returns>
+        </member>
+        <member name="T:Affilinet.Tools.XslTools">
+            <summary>
+            Provides XSL-Tools.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.XslTools.TransformXmlDocument(System.Xml.XmlDocument,System.String)">
+            <summary>
+            Transforms a XML-Document with a XSL-Stylesheet and returns the transformed XML as a string.
+            </summary>
+            <param name="oXmlDocument">the XML-Document</param>
+            <param name="xslStylesheet">the filepath for the XSL-Stylesheet</param>
+            <returns>the transformed XML-String</returns>
+        </member>
+        <member name="M:Affilinet.Tools.XslTools.TransformXmlDocument(System.Xml.XmlDocument,System.String,System.Boolean)">
+            <summary>
+            Transforms a XML-Document with a XSL-Stylesheet and returns the transformed XML as a string.
+            </summary>
+            <param name="oXmlDocument">the XML-Document</param>
+            <param name="xslStylesheet">the filepath for the XSL-Stylesheet</param>
+            <param name="useAffilinetToolsXslExtensionLibrary">true to use functions in Affilinet.Tools.XslExtensionLibrary in the XSL-File</param>
+            <returns>the transformed XML-String</returns>
+        </member>
+        <member name="T:Affilinet.Tools.TextTools">
+            <summary>
+            This class provides methods for modifying and en-/decrypting texts.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.#ctor">
+            <summary>
+            The constructor.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.EnCodeHex(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="S_Input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.EncryptString(System.String,System.String)">
+            <summary>
+            This method encrypts a text with a password.
+            </summary>
+            <param name="inputText">The text that should be encrypted.</param>
+            <param name="password">The password for encrypting the text.</param>
+            <returns>The encrypted text.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.DecryptString(System.String,System.String)">
+            <summary>
+            This method decrypts a text with a password.
+            </summary>
+            <param name="inputText">The text that should be encrypted.</param>
+            <param name="password">The password for encrypting the text.</param>
+            <returns>The decrypted text.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.GetBrowserDependentTipText(System.String)">
+            <summary>
+            Returns a trimmed string without HTML-Tags; linebreaks will be removed if necessary (browserdependent)
+            </summary>
+            <param name="tipText">the tip-text with html-tags</param>
+            <returns>the tipText without HTML-Tags</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Affilinet.Tools.TextTools.EncodeUmlauteToHTML(System.String)" -->
+        <member name="M:Affilinet.Tools.TextTools.ShortenText(System.String,System.Int32)">
+            <summary>
+            This method shortens a text and cuts whole worlds. It automatically adds the suffix "[...]"
+            </summary>
+            <param name="text">The text that should be shortened.</param>
+            <param name="maxLen">The maximum length of the shortened text.</param>
+            <returns>The shortened text.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.ShortenText(System.String,System.Int32,System.String)">
+            <summary>
+            This method shortens a text and cuts whole worlds.
+            </summary>
+            <param name="text">The text that should be shortened.</param>
+            <param name="maxLen">The maximum length of the shortened text.</param>
+            <param name="suffix">A suffix that should be appended to the shortened text.</param>
+            <returns>The shortened text with the suffix</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.GetArrayElement(System.String[],System.Int32,System.String)">
+            <summary>
+            This methods gets an element from an array if the array has enough elements. Otherwise it gets the default-value.
+            </summary>
+            <param name="theArray">A string array</param>
+            <param name="elementNr">The array-index (zero-based)</param>
+            <param name="defaultValue">The default-value if the arry has not enough elements</param>
+            <returns>The string at position elementNr. If the array's length is too short, it will return the default-value.</returns>
+        </member>
+        <member name="M:Affilinet.Tools.TextTools.GetString(System.String,System.String)">
+            <summary>
+            This method checks if a string is null or empty
+            </summary>
+            <param name="theString">the string to check</param>
+            <param name="defaultString">the default-string if theString is empty or null</param>
+            <returns>if theString is empty: theString else defaultString</returns>
+        </member>
+        <member name="T:Affilinet.Tools.Serialization">
+            <summary>
+            This class provided functions for serializing and deserializing objects
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.Serialization.GetObjectAsXmlString(System.Object)">
+            <summary>
+            This method transforms/serializes an object to a XML and returns the XML-string.
+            </summary>
+            <param name="theObject">the object that should be serialized</param>
+            <returns>The serialized object as an XML-string</returns>
+        </member>
+        <member name="M:Affilinet.Tools.Serialization.GetObjectAsXmlDocument(System.Object)">
+            <summary>
+            This method transforms/serializes an object and returns it as a XmlDocument.
+            </summary>
+            <param name="theObject">The object that should be serialized</param>
+            <returns>The serialized object as an XmlDocument</returns>
+        </member>
+        <member name="M:Affilinet.Tools.Serialization.SaveObjectAsXmlFile(System.Object,System.String)">
+            <summary>
+            This method transforms/serializes an object and stores it to disc. Later it can be loaded with the method LoadObjectFromXmlFile()
+            </summary>
+            <param name="theObject">The object that should be serialized</param>
+            <param name="filename">The filename for the serialized object.</param>
+            <returns>true, if successful</returns>
+        </member>
+        <member name="M:Affilinet.Tools.Serialization.SaveObjectAsXmlFile(System.Object,System.String,System.Text.Encoding)">
+            <summary>
+            This method transforms/serializes an object and stores it to disc. Later it can be loaded with the method LoadObjectFromXmlFile()
+            </summary>
+            <param name="theObject">The object that should be serialized</param>
+            <param name="filename">The filename for the serialized object.</param>
+            <param name="encoding">The encoding to generate.</param>
+            <returns>true, if successful</returns>
+        </member>
+        <member name="M:Affilinet.Tools.Serialization.LoadObjectFromXmlFile(System.String,System.Type)">
+            <summary>
+            This method loads an serialized object from a XML-File and returns the object.
+            </summary>
+            <param name="filename">The filename for the serialized object.</param>
+            <param name="theObjectsType">The objects type</param>
+            <example>
+            DynamicBannersTransformation transform = new DynamicBannersTransformation();
+            transform = (DynamicBannersTransformation)LoadObjectFromXmlFile("DynBannerTransform.xml", transform.GetType());
+            </example>
+            <returns>The deserialized object, Null if an error occured</returns>
+        </member>
+        <member name="T:Affilinet.Tools.ClientTools">
+            <summary>
+            This class provides client-methods
+            </summary>
+        </member>
+        <member name="P:Affilinet.Tools.ClientTools.GetClientIP">
+            <summary>
+            This method returns the ID host address of the remote client.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.CCConfig.GetLastCCDate(System.String)">
+            <summary>
+            Gets the last live click date.
+            </summary>
+            <param name="filePath">The file path.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Affilinet.Tools.CodeImage">
+            <summary>
+            Summary description for CaptchaImage.
+            </summary>
+        </member>
+        <member name="M:Affilinet.Tools.CSVConverter.DataToCSV.DataTableToCSV(System.Data.DataTable,System.String[],System.String[])">
+            <summary>
+            this overload is especially to implement preconfigred Column selections
+            like done with the subid statistic
+            nevertheless this overload can be used if you prefer to define your export columns namely
+            !!!ATTENTION the solumn names have to match the underlying data table  column names
+            </summary>
+            <param name="source"></param>
+            <param name="headernames"></param>
+            <param name="columnlist"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Affilinet.Tools.CSVConverter.DataToCSV.DataTableToCSVsb(System.Data.DataTable,System.String[],System.String[])">
+            <summary>
+            this overload is especially to implement preconfigred Column selections
+            like done with the subid statistic 
+            /// nevertheless this overload can be used if you prefer to define your export columns namely
+            !!!ATTENTION the solumn names have to match the underlying data table  column names
+            </summary>
+            <param name="source"></param>
+            <param name="headernames"></param>
+            <param name="columnlist"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

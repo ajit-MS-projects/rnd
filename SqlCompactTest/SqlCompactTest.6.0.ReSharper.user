@@ -1,0 +1,196 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="449FA473-C470-4BDD-82C8-8D0F9DBFF27C/f:ISolarDatabase.cs" caret="3723" fromTop="19" />
+      <File id="449FA473-C470-4BDD-82C8-8D0F9DBFF27C/f:Constants.cs" caret="162" fromTop="5" />
+      <File id="449FA473-C470-4BDD-82C8-8D0F9DBFF27C/f:SolarGenericDataBase.cs" caret="776" fromTop="3" />
+      <File id="67D8C47F-FBC4-4403-BF88-870599A4BB14/f:SilverLightClientTestPage.html" caret="0" fromTop="0" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:ManufacturerService.svc" caret="64" fromTop="0" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:CompactAdoTest.cs" caret="0" fromTop="0" />
+      <File id="449FA473-C470-4BDD-82C8-8D0F9DBFF27C/f:SolarSqlCompactDataBase.cs" caret="1619" fromTop="8" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:ManufacturerService.svc.cs" caret="1247" fromTop="28" />
+      <File id="DC19B3A5-00A0-4684-9E88-50864214C072/f:app.config" caret="732" fromTop="11" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:Web.config" caret="741" fromTop="2" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:IManufacturerService.cs" caret="733" fromTop="29" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:ICrossDomain.cs" caret="181" fromTop="7" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:clientaccesspolicy.xml" caret="114" fromTop="4" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:CrossDomainService.svc.cs" caret="1018" fromTop="17" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="1161" fromTop="10" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:SilverLightClientTestPage.html" caret="2242" fromTop="28" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="890" fromTop="20" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:Program.cs" caret="128" fromTop="6" />
+      <File id="DC19B3A5-00A0-4684-9E88-50864214C072/f:Program.cs" caret="464" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:ICrossDomain.cs" caret="177" fromTop="7" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:ICrossDomain.cs" caret="325" fromTop="15" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="2042" fromTop="24" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="2035" fromTop="17" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="1197" fromTop="21" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="1074" fromTop="17" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="1390" fromTop="24" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:CrossDomainService.svc.cs" caret="1452" fromTop="41" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="269" fromTop="19" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:CrossDomainService.svc.cs" caret="256" fromTop="20" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="2084" fromTop="19" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="2220" fromTop="23" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="2042" fromTop="15" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="1294" fromTop="14" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="749" fromTop="3" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="1162" fromTop="10" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="2482" fromTop="24" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="3103" fromTop="24" />
+      <File id="8E82D23F-8A8C-41C5-93A1-DBFD49123F89/f:CrossDomainService.svc.cs" caret="1018" fromTop="23" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:app.config" caret="5814" fromTop="10" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:SilverLightClientTestPage.html" caret="2243" fromTop="28" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:WcfHoster.cs" caret="890" fromTop="20" />
+      <File id="DF62140E-820C-46A0-BCD0-FD3E982BB964/f:Program.cs" caret="532" fromTop="18" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="SolarGenericDataBase`0" priority="31" />
+      <Item value="SqlServerCe" priority="22" />
+      <Item value="SqlCeCommand" priority="51" />
+      <Item value="CommandTimeout" priority="26" />
+      <Item value="Command" priority="31" />
+      <Item value="new" priority="159" />
+      <Item value="SolarSqlCompactDataBase" priority="28" />
+      <Item value="DatabaseConnectionsEnum`0" priority="31" />
+      <Item value="db" priority="63" />
+      <Item value="DataTable`0" priority="31" />
+      <Item value="dataGridView1" priority="31" />
+      <Item value="dt" priority="31" />
+      <Item value="CompactAdoTest" priority="29" />
+      <Item value="private" priority="31" />
+      <Item value="ISolarDatabase`0" priority="31" />
+      <Item value="SqlCeDatabase" priority="28" />
+      <Item value="List" priority="63" />
+      <Item value="WebGetAttribute`0" priority="31" />
+      <Item value="ServerTooBusyException`0" priority="31" />
+      <Item value="get" priority="31" />
+      <Item value="set" priority="31" />
+      <Item value="WcfHoster" priority="26" />
+      <Item value="BasicHttpBinding" priority="28" />
+      <Item value="textBox1" priority="31" />
+      <Item value="for" priority="31" />
+      <Item value="int" priority="31" />
+      <Item value="i" priority="191" />
+      <Item value="ThreadExceptionDialog`0" priority="31" />
+      <Item value="null" priority="95" />
+      <Item value="grdData" priority="31" />
+      <Item value="ManufacturerServiceClient" priority="28" />
+      <Item value="client" priority="63" />
+      <Item value="e" priority="63" />
+      <Item value="ReadOnlyCollection&lt;IAuthorizationPolicy&gt;" priority="28" />
+      <Item value="CrossDomainService`0" priority="26" />
+      <Item value="ProductServiceRef" priority="31" />
+      <Item value="GetAllManufacturersCompletedEventArgs`0" priority="26" />
+      <Item value="Manufacturer`0" priority="31" />
+      <Item value="webBrowser1" priority="26" />
+      <Item value="Environment`0" priority="31" />
+      <Item value="path" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Common.DbCommand">
+      <Item value="CommandTimeout" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.EnterpriseLibrary.Data.Database">
+      <Item value="GetSqlStringCommand`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Solar.Data.Access.DatabaseConnectionsEnum">
+      <Item value="PvScout" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Solar.Data.Access.SolarSqlCompactDataBase">
+      <Item value="SetupCommand`0" priority="26" />
+      <Item value="ExecuteReaderProcessed`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.SqlCeDatabase">
+      <Item value="GetSqlStringCommand`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="26" />
+      <Item value="ConnectionStrings" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
+      <Item value="Get`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ConnectionString" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WcfServices.Manufacturer">
+      <Item value="ManufId" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WcfServices.IManufacturerService">
+      <Item value="GetAllManufacturers`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="CurrentThread" priority="50" />
+      <Item value="Sleep`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Suspend`0" priority="53" />
+      <Item value="Resume`0" priority="26" />
+      <Item value="Abort`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.DataGrid">
+      <Item value="ItemsSource" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SilverLightClient.ProductServiceRef.ManufacturerServiceClient">
+      <Item value="GetAllManufacturersAsync`0" priority="54" />
+      <Item value="GetAllManufacturersCompleted" priority="53" />
+      <Item value="OpenAsync`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SilverLightClient.ProductServiceRef.GetAllManufacturersCompletedEventArgs">
+      <Item value="Result" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.ServiceHost">
+      <Item value="Authorization" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ServiceModel.Description.ServiceAuthorizationBehavior">
+      <Item value="ExternalAuthorizationPolicies" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="XamlCodeCompletionContext">
+      <Item value="GridLinesVisibility" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.WebBrowser">
+      <Item value="Navigate`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="GetFolderPath`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

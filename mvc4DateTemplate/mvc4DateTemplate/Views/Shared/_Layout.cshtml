@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $.datepicker.regional['de'] = { clearText: 'löschen', clearStatus: 'aktuelles Datum löschen',
+                    closeText: 'schließen', closeStatus: 'ohne Änderungen schließen',
+                    prevText: '<zurück', prevStatus: 'letzten Monat zeigen',
+                    nextText: 'Vor>', nextStatus: 'nächsten Monat zeigen',
+                    currentText: 'heute', currentStatus: '',
+                    monthNames: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+                'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+                    monthNamesShort: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun',
+                'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+                    monthStatus: 'anderen Monat anzeigen', yearStatus: 'anderes Jahr anzeigen',
+                    weekHeader: 'Wo', weekStatus: 'Woche des Monats',
+                    dayNames: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+                    dayNamesShort: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
+                    dayNamesMin: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
+                    dayStatus: 'Setze DD als ersten Wochentag', dateStatus: 'Wähle D, M d',
+                    dateFormat: 'dd.mm.yy', firstDay: 1,
+                    initStatus: 'Wähle ein Datum', isRTL: false
+                };
+                $.datepicker.setDefaults($.datepicker.regional['de']);
+            });
+
+
+
+            $(document).ready(function () {
+                (function ($) {
+                    $.timepicker.regional['de'] = {
+                        timeOnlyTitle: 'Zeit Wählen',
+                        timeText: 'Zeit',
+                        hourText: 'Stunde',
+                        minuteText: 'Minute',
+                        secondText: 'Sekunde',
+                        millisecText: 'Millisekunde',
+                        timezoneText: 'Zeitzone',
+                        currentText: 'Jetzt',
+                        closeText: 'Fertig',
+                        timeFormat: 'hh:mm:ss',
+                        showSecond: true,
+                        amNames: ['vorm.', 'AM', 'A'],
+                        pmNames: ['nachm.', 'PM', 'P'],
+                        ampm: false
+                    };
+                    $.timepicker.setDefaults($.timepicker.regional['de']);
+                })(jQuery);
+                
+                $('.datepicker').datetimepicker();
+            
+               
+            });
+</script>
+    </body>
+</html>

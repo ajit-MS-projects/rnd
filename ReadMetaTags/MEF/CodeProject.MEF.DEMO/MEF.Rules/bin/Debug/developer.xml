@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Developer>
+  <SenderEmail>andriybuday@gmail.com</SenderEmail>
+  <SecreteKey>da43a7c307844a1ac5f1048d99d171a9</SecreteKey>
+
+  <FirstName>Andriy</FirstName>
+  <LastName>Buday</LastName>
+
+  <!--Yea... birthday date doesn't look to be in the past...-->
+  <DateOfBirth>2015-55-55</DateOfBirth>
+  
+</Developer>

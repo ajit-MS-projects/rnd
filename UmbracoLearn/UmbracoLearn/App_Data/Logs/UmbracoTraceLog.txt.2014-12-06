@@ -1,0 +1,693 @@
+﻿2014-12-06 06:54:32,922 [6] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2014-10-07 06:54:32
+2014-12-06 06:55:59,322 [6] INFO  umbraco.BusinessLogic.Log - [Thread 48] Log scrubbed.  Removed all items older than 2014-10-07 06:55:59
+2014-12-06 06:56:00,667 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 16] Application shutdown. Reason: ConfigurationChange
+2014-12-06 07:03:58,727 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-12-06 07:03:58,742 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2014-12-06 07:03:58,754 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-12-06 07:03:59,278 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 36 (took 522ms)
+2014-12-06 07:03:59,376 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-12-06 07:03:59,385 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2014-12-06 07:03:59,386 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-12-06 07:03:59,397 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 11ms)
+2014-12-06 07:03:59,423 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-12-06 07:03:59,433 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 10ms)
+2014-12-06 07:03:59,434 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-12-06 07:03:59,445 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 10ms)
+2014-12-06 07:03:59,513 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-12-06 07:03:59,523 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2014-12-06 07:03:59,524 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-12-06 07:03:59,533 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 8ms)
+2014-12-06 07:04:00,320 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,320 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,457 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,458 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,459 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,460 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,554 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,555 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,555 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,555 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,555 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,555 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,555 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,556 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,557 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,629 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,629 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,630 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,631 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:00,638 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:01,530 [6] INFO  Umbraco.Web.UmbracoModule - [Thread 7] Setting OriginalRequestUrl: localhost:59690/umbraco
+2014-12-06 07:04:01,634 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 9] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:01,634 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:01,634 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 8] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:01,635 [6] WARN  Umbraco.Web.UmbracoModule - [Thread 9] Umbraco is not configured
+2014-12-06 07:04:01,635 [6] WARN  Umbraco.Web.UmbracoModule - [Thread 7] Umbraco is not configured
+2014-12-06 07:04:01,635 [6] WARN  Umbraco.Web.UmbracoModule - [Thread 8] Umbraco is not configured
+2014-12-06 07:04:02,029 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 12] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:02,029 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 11] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:03,379 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-12-06 07:04:03,404 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 24ms)
+2014-12-06 07:04:39,805 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 9] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:39,805 [6] WARN  Umbraco.Web.UmbracoModule - [Thread 9] Umbraco is not configured
+2014-12-06 07:04:39,837 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:04:48,076 [6] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-12-06 07:04:48,076 [6] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 10ms)
+2014-12-06 07:05:33,298 [6] INFO  Umbraco.Web.Security.WebSecurity - [Thread 7] User Id: 2 logged in
+2014-12-06 07:05:33,520 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 10] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:33,520 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 9] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:35,337 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 15] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:35,412 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 7] An unhandled exception occurred
+System.FormatException: Input string was not in a correct format.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(String format, Object arg0)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsForElementsWithTagName(List`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods, Int32 startIndex)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectorsWorker(IEnumerable`1 elements, RenderedElement referenceElement, SelectorReferenceType referenceType, String selectorFormatString, SelectorGroupFunction[] groupMethods)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateGlobalScopeSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.GenerateSelectors(IEnumerable`1 elements)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.MappingData.MappingDataUtilities.ProcessDataIntoJsonObjects(IEnumerable`1 renderedOutputList, Boolean legacyJsonObjects)
+   at Microsoft.VisualStudio.Web.PageInspector.Runtime.Tracing.RequestDataHttpHandler.System.Web.IHttpHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2014-12-06 07:05:43,669 [6] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:43,702 [6] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 7] Executing installation step: Permissions
+2014-12-06 07:05:43,737 [6] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 7] Step completed (took 34ms)
+2014-12-06 07:05:43,988 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 9] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2014-12-06 07:05:48,118 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-12-06 07:05:48,134 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2014-12-06 07:05:48,149 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-12-06 07:05:48,619 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 36 (took 469ms)
+2014-12-06 07:05:48,716 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-12-06 07:05:48,724 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2014-12-06 07:05:48,725 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-12-06 07:05:48,735 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 10ms)
+2014-12-06 07:05:48,755 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-12-06 07:05:48,766 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 10ms)
+2014-12-06 07:05:48,767 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-12-06 07:05:48,778 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 11ms)
+2014-12-06 07:05:48,838 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-12-06 07:05:48,848 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 10ms)
+2014-12-06 07:05:48,849 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-12-06 07:05:48,858 [21] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2014-12-06 07:05:49,594 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,594 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,634 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,635 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,636 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,739 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,740 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,741 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,829 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,830 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:49,846 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 1] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:50,504 [21] INFO  Umbraco.Web.UmbracoModule - [Thread 7] Setting OriginalRequestUrl: localhost:59690/umbraco
+2014-12-06 07:05:51,070 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:51,254 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 7] Executing installation step: Upgrade
+2014-12-06 07:05:51,256 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 7] Step completed (took 0ms)
+2014-12-06 07:05:51,304 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:52,206 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 8] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:52,208 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 8] Executing installation step: DatabaseInstall
+2014-12-06 07:05:52,210 [21] INFO  Umbraco.Core.DatabaseContext - [Thread 8] Database configuration status: Started
+2014-12-06 07:05:52,212 [21] INFO  Umbraco.Core.DatabaseContext - [Thread 8] Database requires upgrade
+2014-12-06 07:05:52,213 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 8] Step completed (took 5ms)
+2014-12-06 07:05:52,220 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 8] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:52,235 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 10] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:52,235 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 10] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:52,236 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 10] Executing installation step: DatabaseUpgrade
+2014-12-06 07:05:52,237 [21] INFO  Umbraco.Web.Install.InstallSteps.DatabaseUpgradeStep - [Thread 10] Running 'Upgrade' service
+2014-12-06 07:05:52,238 [21] INFO  Umbraco.Core.DatabaseContext - [Thread 10] Database upgrade started
+2014-12-06 07:05:52,241 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Initializing database migrations
+2014-12-06 07:05:52,246 [21] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Migrations.IMigration
+2014-12-06 07:05:52,263 [21] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Migrations.IMigration, found 37 (took 17ms)
+2014-12-06 07:05:52,314 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Added UPGRADE migration 'AlterDataTypePreValueTable' to context
+2014-12-06 07:05:52,356 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Added UPGRADE migration 'AddMissingForeignKeyForContentType' to context
+2014-12-06 07:05:52,372 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Added UPGRADE migration 'RemoveCmsDocumentAliasColumn' to context
+2014-12-06 07:05:52,388 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Added UPGRADE migration 'AddIndexToUmbracoNodeTable' to context
+2014-12-06 07:05:52,398 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Executing sql statement 1: ALTER TABLE [cmsDataTypePreValues] ALTER COLUMN [value] NTEXT NULL
+2014-12-06 07:05:52,426 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Executing sql statement 2: ALTER TABLE [cmsContent] ADD CONSTRAINT [FK_cmsContent_cmsContentType_nodeId] FOREIGN KEY ([contentType]) REFERENCES [cmsContentType] ([nodeId])
+2014-12-06 07:05:52,432 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Executing sql statement 3: ALTER TABLE [cmsDocument] DROP COLUMN [alias]
+2014-12-06 07:05:52,445 [21] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - [Thread 10] Executing sql statement 4: CREATE NONCLUSTERED INDEX [IX_umbracoNodeUniqueID] ON [umbracoNode] ([uniqueID])
+2014-12-06 07:05:52,543 [21] INFO  Umbraco.Core.DatabaseContext - [Thread 10] Database configuration status: <p>Upgrade completed!</p>
+2014-12-06 07:05:52,546 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 10] Step completed (took 310ms)
+2014-12-06 07:05:52,562 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:52,563 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 7] Executing installation step: UmbracoVersion
+2014-12-06 07:05:52,571 [21] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2014-12-06 07:05:52,600 [21] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 29ms)
+2014-12-06 07:05:52,612 [21] INFO  Umbraco.Core.ApplicationContext - [Thread 7] CurrentVersion different from configStatus: '7.2.0','7.1.9'
+2014-12-06 07:05:52,613 [21] WARN  Umbraco.Web.WebBootManager - [Thread 7] Could not initialize the DefaultServerMessenger, the application is not configured or the database is not configured
+2014-12-06 07:05:52,619 [21] INFO  umbraco.content - [Thread 7] Loading content from database...
+2014-12-06 07:05:54,918 [21] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - [Thread 7] Updated version number from 1 to 599209227
+2014-12-06 07:05:54,981 [21] INFO  Umbraco.Web.Security.WebSecurity - [Thread 7] User Id: 0 logged in
+2014-12-06 07:05:55,375 [21] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [Thread 7] Step completed (took 2811ms)
+2014-12-06 07:05:55,412 [21] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 10] Application shutdown. Reason: ConfigurationChange
+2014-12-06 07:05:58,737 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2014-12-06 07:05:58,752 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 9ms)
+2014-12-06 07:05:58,761 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2014-12-06 07:05:58,794 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 36 (took 31ms)
+2014-12-06 07:05:58,930 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2014-12-06 07:05:58,931 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2014-12-06 07:05:58,932 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2014-12-06 07:05:58,933 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2014-12-06 07:05:58,956 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2014-12-06 07:05:58,959 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 2ms)
+2014-12-06 07:05:58,960 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2014-12-06 07:05:58,965 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 5ms)
+2014-12-06 07:05:59,035 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2014-12-06 07:05:59,036 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2014-12-06 07:05:59,037 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2014-12-06 07:05:59,038 [24] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2014-12-06 07:06:00,188 [24] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2014-12-06 07:06:00,381 [24] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2014-12-06 07:06:01,177 [24] INFO  Umbraco.Web.UmbracoModule - [Thread 7] Setting OriginalRequestUrl: localhost:59690/umbraco
+2014-12-06 07:06:04,897 [24] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2014-12-06 07:06:04,927 [24] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 29ms)
+2014-12-06 07:06:05,732 [24] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-12-06 07:06:05,747 [24] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 18ms)
+2014-12-06 07:06:05,810 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2014-12-06 07:06:05,826 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 20ms)
+2014-12-06 07:06:05,857 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-12-06 07:06:05,857 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-12-06 07:06:05,857 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2014-12-06 07:06:05,872 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 21ms)
+2014-12-06 07:06:05,903 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplication
+2014-12-06 07:06:05,935 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 21ms)
+2014-12-06 07:06:06,293 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2014-12-06 07:06:06,324 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 26ms)
+2014-12-06 07:06:11,150 [24] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2014-12-06 07:06:43,950 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.Trees.TreeController
+2014-12-06 07:06:43,950 [24] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2014-12-06 07:07:01,980 [24] INFO  umbraco.BusinessLogic.Log - [Thread 21] Log scrubbed.  Removed all items older than 2014-10-07 07:07:01
+2014-12-06 07:08:28,368 [24] INFO  umbraco.BusinessLogic.Log - [Thread 11] Log scrubbed.  Removed all items older than 2014-10-07 07:08:28
+2014-12-06 07:09:54,780 [24] INFO  umbraco.BusinessLogic.Log - [Thread 15] Log scrubbed.  Removed all items older than 2014-10-07 07:09:54
+2014-12-06 07:11:21,197 [24] INFO  umbraco.BusinessLogic.Log - [Thread 43] Log scrubbed.  Removed all items older than 2014-10-07 07:11:21
+2014-12-06 07:12:47,611 [24] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2014-10-07 07:12:47
+2014-12-06 07:14:14,014 [24] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2014-10-07 07:14:14
+2014-12-06 07:15:40,430 [24] INFO  umbraco.BusinessLogic.Log - [Thread 41] Log scrubbed.  Removed all items older than 2014-10-07 07:15:40
+2014-12-06 07:17:06,841 [24] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2014-10-07 07:17:06
+2014-12-06 07:18:33,249 [24] INFO  umbraco.BusinessLogic.Log - [Thread 45] Log scrubbed.  Removed all items older than 2014-10-07 07:18:33
+2014-12-06 07:19:59,659 [24] INFO  umbraco.BusinessLogic.Log - [Thread 52] Log scrubbed.  Removed all items older than 2014-10-07 07:19:59
+2014-12-06 07:21:26,068 [24] INFO  umbraco.BusinessLogic.Log - [Thread 63] Log scrubbed.  Removed all items older than 2014-10-07 07:21:26
+2014-12-06 07:22:52,479 [24] INFO  umbraco.BusinessLogic.Log - [Thread 57] Log scrubbed.  Removed all items older than 2014-10-07 07:22:52
+2014-12-06 07:24:18,888 [24] INFO  umbraco.BusinessLogic.Log - [Thread 57] Log scrubbed.  Removed all items older than 2014-10-07 07:24:18
+2014-12-06 07:25:45,292 [24] INFO  umbraco.BusinessLogic.Log - [Thread 57] Log scrubbed.  Removed all items older than 2014-10-07 07:25:45
+2014-12-06 07:27:11,690 [24] INFO  umbraco.BusinessLogic.Log - [Thread 71] Log scrubbed.  Removed all items older than 2014-10-07 07:27:11
+2014-12-06 07:28:38,103 [24] INFO  umbraco.BusinessLogic.Log - [Thread 57] Log scrubbed.  Removed all items older than 2014-10-07 07:28:38
+2014-12-06 07:30:04,503 [24] INFO  umbraco.BusinessLogic.Log - [Thread 86] Log scrubbed.  Removed all items older than 2014-10-07 07:30:04
+2014-12-06 07:31:30,904 [24] INFO  umbraco.BusinessLogic.Log - [Thread 74] Log scrubbed.  Removed all items older than 2014-10-07 07:31:30
+2014-12-06 07:32:57,311 [24] INFO  umbraco.BusinessLogic.Log - [Thread 92] Log scrubbed.  Removed all items older than 2014-10-07 07:32:57
+2014-12-06 07:34:23,717 [24] INFO  umbraco.BusinessLogic.Log - [Thread 88] Log scrubbed.  Removed all items older than 2014-10-07 07:34:23
+2014-12-06 07:35:50,139 [24] INFO  umbraco.BusinessLogic.Log - [Thread 105] Log scrubbed.  Removed all items older than 2014-10-07 07:35:50
+2014-12-06 07:37:16,542 [24] INFO  umbraco.BusinessLogic.Log - [Thread 105] Log scrubbed.  Removed all items older than 2014-10-07 07:37:16
+2014-12-06 07:38:42,951 [24] INFO  umbraco.BusinessLogic.Log - [Thread 102] Log scrubbed.  Removed all items older than 2014-10-07 07:38:42
+2014-12-06 07:40:09,365 [24] INFO  umbraco.BusinessLogic.Log - [Thread 112] Log scrubbed.  Removed all items older than 2014-10-07 07:40:09
+2014-12-06 07:41:35,773 [24] INFO  umbraco.BusinessLogic.Log - [Thread 112] Log scrubbed.  Removed all items older than 2014-10-07 07:41:35
+2014-12-06 07:43:02,180 [24] INFO  umbraco.BusinessLogic.Log - [Thread 118] Log scrubbed.  Removed all items older than 2014-10-07 07:43:02
+2014-12-06 07:44:28,586 [24] INFO  umbraco.BusinessLogic.Log - [Thread 132] Log scrubbed.  Removed all items older than 2014-10-07 07:44:28
+2014-12-06 07:45:54,992 [24] INFO  umbraco.BusinessLogic.Log - [Thread 135] Log scrubbed.  Removed all items older than 2014-10-07 07:45:54
+2014-12-06 07:47:21,401 [24] INFO  umbraco.BusinessLogic.Log - [Thread 147] Log scrubbed.  Removed all items older than 2014-10-07 07:47:21
+2014-12-06 07:48:47,816 [24] INFO  umbraco.BusinessLogic.Log - [Thread 145] Log scrubbed.  Removed all items older than 2014-10-07 07:48:47
+2014-12-06 07:50:14,217 [24] INFO  umbraco.BusinessLogic.Log - [Thread 148] Log scrubbed.  Removed all items older than 2014-10-07 07:50:14
+2014-12-06 07:51:40,630 [24] INFO  umbraco.BusinessLogic.Log - [Thread 143] Log scrubbed.  Removed all items older than 2014-10-07 07:51:40
+2014-12-06 07:53:07,034 [24] INFO  umbraco.BusinessLogic.Log - [Thread 158] Log scrubbed.  Removed all items older than 2014-10-07 07:53:07
+2014-12-06 07:54:33,450 [24] INFO  umbraco.BusinessLogic.Log - [Thread 165] Log scrubbed.  Removed all items older than 2014-10-07 07:54:33
+2014-12-06 07:55:59,862 [24] INFO  umbraco.BusinessLogic.Log - [Thread 166] Log scrubbed.  Removed all items older than 2014-10-07 07:55:59
+2014-12-06 07:57:26,277 [24] INFO  umbraco.BusinessLogic.Log - [Thread 166] Log scrubbed.  Removed all items older than 2014-10-07 07:57:26
+2014-12-06 07:58:52,685 [24] INFO  umbraco.BusinessLogic.Log - [Thread 163] Log scrubbed.  Removed all items older than 2014-10-07 07:58:52
+2014-12-06 08:00:19,093 [24] INFO  umbraco.BusinessLogic.Log - [Thread 172] Log scrubbed.  Removed all items older than 2014-10-07 08:00:19
+2014-12-06 08:01:45,509 [24] INFO  umbraco.BusinessLogic.Log - [Thread 168] Log scrubbed.  Removed all items older than 2014-10-07 08:01:45
+2014-12-06 08:03:11,914 [24] INFO  umbraco.BusinessLogic.Log - [Thread 168] Log scrubbed.  Removed all items older than 2014-10-07 08:03:11
+2014-12-06 08:04:38,326 [24] INFO  umbraco.BusinessLogic.Log - [Thread 178] Log scrubbed.  Removed all items older than 2014-10-07 08:04:38
+2014-12-06 08:06:04,742 [24] INFO  umbraco.BusinessLogic.Log - [Thread 175] Log scrubbed.  Removed all items older than 2014-10-07 08:06:04
+2014-12-06 08:07:31,150 [24] INFO  umbraco.BusinessLogic.Log - [Thread 192] Log scrubbed.  Removed all items older than 2014-10-07 08:07:31
+2014-12-06 08:08:57,558 [24] INFO  umbraco.BusinessLogic.Log - [Thread 185] Log scrubbed.  Removed all items older than 2014-10-07 08:08:57
+2014-12-06 08:10:23,961 [24] INFO  umbraco.BusinessLogic.Log - [Thread 194] Log scrubbed.  Removed all items older than 2014-10-07 08:10:23
+2014-12-06 08:11:50,362 [24] INFO  umbraco.BusinessLogic.Log - [Thread 203] Log scrubbed.  Removed all items older than 2014-10-07 08:11:50
+2014-12-06 08:13:16,763 [24] INFO  umbraco.BusinessLogic.Log - [Thread 194] Log scrubbed.  Removed all items older than 2014-10-07 08:13:16
+2014-12-06 08:14:43,166 [24] INFO  umbraco.BusinessLogic.Log - [Thread 221] Log scrubbed.  Removed all items older than 2014-10-07 08:14:43
+2014-12-06 08:16:09,571 [24] INFO  umbraco.BusinessLogic.Log - [Thread 212] Log scrubbed.  Removed all items older than 2014-10-07 08:16:09
+2014-12-06 08:17:35,979 [24] INFO  umbraco.BusinessLogic.Log - [Thread 217] Log scrubbed.  Removed all items older than 2014-10-07 08:17:35
+2014-12-06 08:19:02,396 [24] INFO  umbraco.BusinessLogic.Log - [Thread 228] Log scrubbed.  Removed all items older than 2014-10-07 08:19:02
+2014-12-06 08:20:28,802 [24] INFO  umbraco.BusinessLogic.Log - [Thread 235] Log scrubbed.  Removed all items older than 2014-10-07 08:20:28
+2014-12-06 08:21:55,216 [24] INFO  umbraco.BusinessLogic.Log - [Thread 230] Log scrubbed.  Removed all items older than 2014-10-07 08:21:55
+2014-12-06 08:23:21,618 [24] INFO  umbraco.BusinessLogic.Log - [Thread 238] Log scrubbed.  Removed all items older than 2014-10-07 08:23:21
+2014-12-06 08:24:48,032 [24] INFO  umbraco.BusinessLogic.Log - [Thread 235] Log scrubbed.  Removed all items older than 2014-10-07 08:24:48
+2014-12-06 08:26:14,440 [24] INFO  umbraco.BusinessLogic.Log - [Thread 242] Log scrubbed.  Removed all items older than 2014-10-07 08:26:14
+2014-12-06 08:27:40,850 [24] INFO  umbraco.BusinessLogic.Log - [Thread 253] Log scrubbed.  Removed all items older than 2014-10-07 08:27:40
+2014-12-06 08:29:07,257 [24] INFO  umbraco.BusinessLogic.Log - [Thread 249] Log scrubbed.  Removed all items older than 2014-10-07 08:29:07
+2014-12-06 08:30:33,659 [24] INFO  umbraco.BusinessLogic.Log - [Thread 249] Log scrubbed.  Removed all items older than 2014-10-07 08:30:33
+2014-12-06 08:32:00,076 [24] INFO  umbraco.BusinessLogic.Log - [Thread 250] Log scrubbed.  Removed all items older than 2014-10-07 08:32:00
+2014-12-06 08:33:26,486 [24] INFO  umbraco.BusinessLogic.Log - [Thread 250] Log scrubbed.  Removed all items older than 2014-10-07 08:33:26
+2014-12-06 08:34:52,895 [24] INFO  umbraco.BusinessLogic.Log - [Thread 270] Log scrubbed.  Removed all items older than 2014-10-07 08:34:52
+2014-12-06 08:36:19,305 [24] INFO  umbraco.BusinessLogic.Log - [Thread 250] Log scrubbed.  Removed all items older than 2014-10-07 08:36:19
+2014-12-06 08:37:45,720 [24] INFO  umbraco.BusinessLogic.Log - [Thread 283] Log scrubbed.  Removed all items older than 2014-10-07 08:37:45
+2014-12-06 08:39:12,128 [24] INFO  umbraco.BusinessLogic.Log - [Thread 278] Log scrubbed.  Removed all items older than 2014-10-07 08:39:12
+2014-12-06 08:40:38,541 [24] INFO  umbraco.BusinessLogic.Log - [Thread 280] Log scrubbed.  Removed all items older than 2014-10-07 08:40:38
+2014-12-06 08:42:04,952 [24] INFO  umbraco.BusinessLogic.Log - [Thread 280] Log scrubbed.  Removed all items older than 2014-10-07 08:42:04
+2014-12-06 08:43:31,352 [24] INFO  umbraco.BusinessLogic.Log - [Thread 285] Log scrubbed.  Removed all items older than 2014-10-07 08:43:31
+2014-12-06 08:44:57,760 [24] INFO  umbraco.BusinessLogic.Log - [Thread 281] Log scrubbed.  Removed all items older than 2014-10-07 08:44:57
+2014-12-06 08:46:24,174 [24] INFO  umbraco.BusinessLogic.Log - [Thread 304] Log scrubbed.  Removed all items older than 2014-10-07 08:46:24
+2014-12-06 08:47:50,587 [24] INFO  umbraco.BusinessLogic.Log - [Thread 308] Log scrubbed.  Removed all items older than 2014-10-07 08:47:50
+2014-12-06 08:49:17,000 [24] INFO  umbraco.BusinessLogic.Log - [Thread 309] Log scrubbed.  Removed all items older than 2014-10-07 08:49:17
+2014-12-06 08:50:43,411 [24] INFO  umbraco.BusinessLogic.Log - [Thread 317] Log scrubbed.  Removed all items older than 2014-10-07 08:50:43
+2014-12-06 08:52:09,825 [24] INFO  umbraco.BusinessLogic.Log - [Thread 311] Log scrubbed.  Removed all items older than 2014-10-07 08:52:09
+2014-12-06 08:53:36,233 [24] INFO  umbraco.BusinessLogic.Log - [Thread 311] Log scrubbed.  Removed all items older than 2014-10-07 08:53:36
+2014-12-06 08:55:02,645 [24] INFO  umbraco.BusinessLogic.Log - [Thread 322] Log scrubbed.  Removed all items older than 2014-10-07 08:55:02
+2014-12-06 08:56:29,055 [24] INFO  umbraco.BusinessLogic.Log - [Thread 310] Log scrubbed.  Removed all items older than 2014-10-07 08:56:29
+2014-12-06 08:57:55,474 [24] INFO  umbraco.BusinessLogic.Log - [Thread 311] Log scrubbed.  Removed all items older than 2014-10-07 08:57:55
+2014-12-06 08:59:21,886 [24] INFO  umbraco.BusinessLogic.Log - [Thread 324] Log scrubbed.  Removed all items older than 2014-10-07 08:59:21
+2014-12-06 09:00:48,298 [24] INFO  umbraco.BusinessLogic.Log - [Thread 337] Log scrubbed.  Removed all items older than 2014-10-07 09:00:48
+2014-12-06 09:02:14,702 [24] INFO  umbraco.BusinessLogic.Log - [Thread 337] Log scrubbed.  Removed all items older than 2014-10-07 09:02:14
+2014-12-06 09:03:41,119 [24] INFO  umbraco.BusinessLogic.Log - [Thread 337] Log scrubbed.  Removed all items older than 2014-10-07 09:03:41
+2014-12-06 09:05:07,529 [24] INFO  umbraco.BusinessLogic.Log - [Thread 336] Log scrubbed.  Removed all items older than 2014-10-07 09:05:07
+2014-12-06 09:06:33,943 [24] INFO  umbraco.BusinessLogic.Log - [Thread 349] Log scrubbed.  Removed all items older than 2014-10-07 09:06:33
+2014-12-06 09:08:00,353 [24] INFO  umbraco.BusinessLogic.Log - [Thread 340] Log scrubbed.  Removed all items older than 2014-10-07 09:08:00
+2014-12-06 09:09:26,770 [24] INFO  umbraco.BusinessLogic.Log - [Thread 340] Log scrubbed.  Removed all items older than 2014-10-07 09:09:26
+2014-12-06 09:10:53,182 [24] INFO  umbraco.BusinessLogic.Log - [Thread 360] Log scrubbed.  Removed all items older than 2014-10-07 09:10:53
+2014-12-06 09:12:19,583 [24] INFO  umbraco.BusinessLogic.Log - [Thread 364] Log scrubbed.  Removed all items older than 2014-10-07 09:12:19
+2014-12-06 09:13:45,997 [24] INFO  umbraco.BusinessLogic.Log - [Thread 361] Log scrubbed.  Removed all items older than 2014-10-07 09:13:45
+2014-12-06 09:15:12,412 [24] INFO  umbraco.BusinessLogic.Log - [Thread 361] Log scrubbed.  Removed all items older than 2014-10-07 09:15:12
+2014-12-06 09:16:38,832 [24] INFO  umbraco.BusinessLogic.Log - [Thread 357] Log scrubbed.  Removed all items older than 2014-10-07 09:16:38
+2014-12-06 09:18:05,243 [24] INFO  umbraco.BusinessLogic.Log - [Thread 381] Log scrubbed.  Removed all items older than 2014-10-07 09:18:05
+2014-12-06 09:19:31,658 [24] INFO  umbraco.BusinessLogic.Log - [Thread 374] Log scrubbed.  Removed all items older than 2014-10-07 09:19:31
+2014-12-06 09:20:58,069 [24] INFO  umbraco.BusinessLogic.Log - [Thread 374] Log scrubbed.  Removed all items older than 2014-10-07 09:20:58
+2014-12-06 09:22:24,479 [24] INFO  umbraco.BusinessLogic.Log - [Thread 394] Log scrubbed.  Removed all items older than 2014-10-07 09:22:24
+2014-12-06 09:23:50,885 [24] INFO  umbraco.BusinessLogic.Log - [Thread 374] Log scrubbed.  Removed all items older than 2014-10-07 09:23:50
+2014-12-06 09:25:17,301 [24] INFO  umbraco.BusinessLogic.Log - [Thread 381] Log scrubbed.  Removed all items older than 2014-10-07 09:25:17
+2014-12-06 09:26:43,712 [24] INFO  umbraco.BusinessLogic.Log - [Thread 398] Log scrubbed.  Removed all items older than 2014-10-07 09:26:43
+2014-12-06 09:28:10,114 [24] INFO  umbraco.BusinessLogic.Log - [Thread 398] Log scrubbed.  Removed all items older than 2014-10-07 09:28:10
+2014-12-06 09:29:36,515 [24] INFO  umbraco.BusinessLogic.Log - [Thread 401] Log scrubbed.  Removed all items older than 2014-10-07 09:29:36
+2014-12-06 09:31:02,926 [24] INFO  umbraco.BusinessLogic.Log - [Thread 394] Log scrubbed.  Removed all items older than 2014-10-07 09:31:02
+2014-12-06 09:32:29,347 [24] INFO  umbraco.BusinessLogic.Log - [Thread 398] Log scrubbed.  Removed all items older than 2014-10-07 09:32:29
+2014-12-06 09:33:55,758 [24] INFO  umbraco.BusinessLogic.Log - [Thread 398] Log scrubbed.  Removed all items older than 2014-10-07 09:33:55
+2014-12-06 09:35:22,165 [24] INFO  umbraco.BusinessLogic.Log - [Thread 394] Log scrubbed.  Removed all items older than 2014-10-07 09:35:22
+2014-12-06 09:36:48,577 [24] INFO  umbraco.BusinessLogic.Log - [Thread 378] Log scrubbed.  Removed all items older than 2014-10-07 09:36:48
+2014-12-06 09:38:14,991 [24] INFO  umbraco.BusinessLogic.Log - [Thread 388] Log scrubbed.  Removed all items older than 2014-10-07 09:38:14
+2014-12-06 09:39:41,406 [24] INFO  umbraco.BusinessLogic.Log - [Thread 396] Log scrubbed.  Removed all items older than 2014-10-07 09:39:41
+2014-12-06 09:41:07,810 [24] INFO  umbraco.BusinessLogic.Log - [Thread 368] Log scrubbed.  Removed all items older than 2014-10-07 09:41:07
+2014-12-06 09:42:34,219 [24] INFO  umbraco.BusinessLogic.Log - [Thread 376] Log scrubbed.  Removed all items older than 2014-10-07 09:42:34
+2014-12-06 09:44:00,631 [24] INFO  umbraco.BusinessLogic.Log - [Thread 376] Log scrubbed.  Removed all items older than 2014-10-07 09:44:00
+2014-12-06 09:45:27,048 [24] INFO  umbraco.BusinessLogic.Log - [Thread 378] Log scrubbed.  Removed all items older than 2014-10-07 09:45:27
+2014-12-06 09:46:53,460 [24] INFO  umbraco.BusinessLogic.Log - [Thread 368] Log scrubbed.  Removed all items older than 2014-10-07 09:46:53
+2014-12-06 09:48:19,872 [24] INFO  umbraco.BusinessLogic.Log - [Thread 368] Log scrubbed.  Removed all items older than 2014-10-07 09:48:19
+2014-12-06 09:49:46,276 [24] INFO  umbraco.BusinessLogic.Log - [Thread 345] Log scrubbed.  Removed all items older than 2014-10-07 09:49:46
+2014-12-06 09:51:12,679 [24] INFO  umbraco.BusinessLogic.Log - [Thread 368] Log scrubbed.  Removed all items older than 2014-10-07 09:51:12
+2014-12-06 09:52:39,086 [24] INFO  umbraco.BusinessLogic.Log - [Thread 341] Log scrubbed.  Removed all items older than 2014-10-07 09:52:39
+2014-12-06 09:54:05,502 [24] INFO  umbraco.BusinessLogic.Log - [Thread 344] Log scrubbed.  Removed all items older than 2014-10-07 09:54:05
+2014-12-06 09:55:31,913 [24] INFO  umbraco.BusinessLogic.Log - [Thread 337] Log scrubbed.  Removed all items older than 2014-10-07 09:55:31
+2014-12-06 09:56:58,320 [24] INFO  umbraco.BusinessLogic.Log - [Thread 337] Log scrubbed.  Removed all items older than 2014-10-07 09:56:58
+2014-12-06 09:58:24,726 [24] INFO  umbraco.BusinessLogic.Log - [Thread 332] Log scrubbed.  Removed all items older than 2014-10-07 09:58:24
+2014-12-06 09:59:51,130 [24] INFO  umbraco.BusinessLogic.Log - [Thread 324] Log scrubbed.  Removed all items older than 2014-10-07 09:59:51
+2014-12-06 10:01:17,541 [24] INFO  umbraco.BusinessLogic.Log - [Thread 327] Log scrubbed.  Removed all items older than 2014-10-07 10:01:17
+2014-12-06 10:02:43,948 [24] INFO  umbraco.BusinessLogic.Log - [Thread 327] Log scrubbed.  Removed all items older than 2014-10-07 10:02:43
+2014-12-06 10:04:10,357 [24] INFO  umbraco.BusinessLogic.Log - [Thread 329] Log scrubbed.  Removed all items older than 2014-10-07 10:04:10
+2014-12-06 10:05:36,759 [24] INFO  umbraco.BusinessLogic.Log - [Thread 322] Log scrubbed.  Removed all items older than 2014-10-07 10:05:36
+2014-12-06 10:07:03,171 [24] INFO  umbraco.BusinessLogic.Log - [Thread 315] Log scrubbed.  Removed all items older than 2014-10-07 10:07:03
+2014-12-06 10:08:29,574 [24] INFO  umbraco.BusinessLogic.Log - [Thread 318] Log scrubbed.  Removed all items older than 2014-10-07 10:08:29
+2014-12-06 10:09:55,977 [24] INFO  umbraco.BusinessLogic.Log - [Thread 322] Log scrubbed.  Removed all items older than 2014-10-07 10:09:55
+2014-12-06 10:11:22,385 [24] INFO  umbraco.BusinessLogic.Log - [Thread 313] Log scrubbed.  Removed all items older than 2014-10-07 10:11:22
+2014-12-06 10:12:48,790 [24] INFO  umbraco.BusinessLogic.Log - [Thread 316] Log scrubbed.  Removed all items older than 2014-10-07 10:12:48
+2014-12-06 10:14:15,195 [24] INFO  umbraco.BusinessLogic.Log - [Thread 297] Log scrubbed.  Removed all items older than 2014-10-07 10:14:15
+2014-12-06 10:15:41,600 [24] INFO  umbraco.BusinessLogic.Log - [Thread 302] Log scrubbed.  Removed all items older than 2014-10-07 10:15:41
+2014-12-06 10:17:08,006 [24] INFO  umbraco.BusinessLogic.Log - [Thread 297] Log scrubbed.  Removed all items older than 2014-10-07 10:17:08
+2014-12-06 10:18:34,411 [24] INFO  umbraco.BusinessLogic.Log - [Thread 297] Log scrubbed.  Removed all items older than 2014-10-07 10:18:34
+2014-12-06 10:20:00,816 [24] INFO  umbraco.BusinessLogic.Log - [Thread 303] Log scrubbed.  Removed all items older than 2014-10-07 10:20:00
+2014-12-06 10:21:27,225 [24] INFO  umbraco.BusinessLogic.Log - [Thread 292] Log scrubbed.  Removed all items older than 2014-10-07 10:21:27
+2014-12-06 10:22:53,635 [24] INFO  umbraco.BusinessLogic.Log - [Thread 286] Log scrubbed.  Removed all items older than 2014-10-07 10:22:53
+2014-12-06 10:24:20,051 [24] INFO  umbraco.BusinessLogic.Log - [Thread 288] Log scrubbed.  Removed all items older than 2014-10-07 10:24:20
+2014-12-06 10:25:46,455 [24] INFO  umbraco.BusinessLogic.Log - [Thread 287] Log scrubbed.  Removed all items older than 2014-10-07 10:25:46
+2014-12-06 10:27:12,863 [24] INFO  umbraco.BusinessLogic.Log - [Thread 281] Log scrubbed.  Removed all items older than 2014-10-07 10:27:12
+2014-12-06 10:28:39,264 [24] INFO  umbraco.BusinessLogic.Log - [Thread 281] Log scrubbed.  Removed all items older than 2014-10-07 10:28:39
+2014-12-06 10:30:05,667 [24] INFO  umbraco.BusinessLogic.Log - [Thread 281] Log scrubbed.  Removed all items older than 2014-10-07 10:30:05
+2014-12-06 10:31:32,069 [24] INFO  umbraco.BusinessLogic.Log - [Thread 278] Log scrubbed.  Removed all items older than 2014-10-07 10:31:32
+2014-12-06 10:32:58,478 [24] INFO  umbraco.BusinessLogic.Log - [Thread 275] Log scrubbed.  Removed all items older than 2014-10-07 10:32:58
+2014-12-06 10:34:24,895 [24] INFO  umbraco.BusinessLogic.Log - [Thread 278] Log scrubbed.  Removed all items older than 2014-10-07 10:34:24
+2014-12-06 10:35:51,296 [24] INFO  umbraco.BusinessLogic.Log - [Thread 268] Log scrubbed.  Removed all items older than 2014-10-07 10:35:51
+2014-12-06 10:37:17,705 [24] INFO  umbraco.BusinessLogic.Log - [Thread 259] Log scrubbed.  Removed all items older than 2014-10-07 10:37:17
+2014-12-06 10:38:44,118 [24] INFO  umbraco.BusinessLogic.Log - [Thread 270] Log scrubbed.  Removed all items older than 2014-10-07 10:38:44
+2014-12-06 10:40:10,536 [24] INFO  umbraco.BusinessLogic.Log - [Thread 270] Log scrubbed.  Removed all items older than 2014-10-07 10:40:10
+2014-12-06 10:41:36,945 [24] INFO  umbraco.BusinessLogic.Log - [Thread 270] Log scrubbed.  Removed all items older than 2014-10-07 10:41:36
+2014-12-06 10:43:03,346 [24] INFO  umbraco.BusinessLogic.Log - [Thread 259] Log scrubbed.  Removed all items older than 2014-10-07 10:43:03
+2014-12-06 10:44:29,749 [24] INFO  umbraco.BusinessLogic.Log - [Thread 259] Log scrubbed.  Removed all items older than 2014-10-07 10:44:29
+2014-12-06 11:23:01,511 [24] INFO  umbraco.BusinessLogic.Log - [Thread 259] Log scrubbed.  Removed all items older than 2014-10-07 11:23:01
+2014-12-06 11:24:27,925 [24] INFO  umbraco.BusinessLogic.Log - [Thread 244] Log scrubbed.  Removed all items older than 2014-10-07 11:24:27
+2014-12-06 11:25:54,332 [24] INFO  umbraco.BusinessLogic.Log - [Thread 234] Log scrubbed.  Removed all items older than 2014-10-07 11:25:54
+2014-12-06 11:27:20,746 [24] INFO  umbraco.BusinessLogic.Log - [Thread 238] Log scrubbed.  Removed all items older than 2014-10-07 11:27:20
+2014-12-06 11:28:47,158 [24] INFO  umbraco.BusinessLogic.Log - [Thread 244] Log scrubbed.  Removed all items older than 2014-10-07 11:28:47
+2014-12-06 11:30:13,560 [24] INFO  umbraco.BusinessLogic.Log - [Thread 238] Log scrubbed.  Removed all items older than 2014-10-07 11:30:13
+2014-12-06 11:31:39,965 [24] INFO  umbraco.BusinessLogic.Log - [Thread 244] Log scrubbed.  Removed all items older than 2014-10-07 11:31:39
+2014-12-06 11:33:06,375 [24] INFO  umbraco.BusinessLogic.Log - [Thread 238] Log scrubbed.  Removed all items older than 2014-10-07 11:33:06
+2014-12-06 11:34:32,783 [24] INFO  umbraco.BusinessLogic.Log - [Thread 238] Log scrubbed.  Removed all items older than 2014-10-07 11:34:32
+2014-12-06 11:35:59,185 [24] INFO  umbraco.BusinessLogic.Log - [Thread 244] Log scrubbed.  Removed all items older than 2014-10-07 11:35:59
+2014-12-06 11:37:25,589 [24] INFO  umbraco.BusinessLogic.Log - [Thread 235] Log scrubbed.  Removed all items older than 2014-10-07 11:37:25
+2014-12-06 11:38:51,998 [24] INFO  umbraco.BusinessLogic.Log - [Thread 226] Log scrubbed.  Removed all items older than 2014-10-07 11:38:51
+2014-12-06 11:40:18,410 [24] INFO  umbraco.BusinessLogic.Log - [Thread 227] Log scrubbed.  Removed all items older than 2014-10-07 11:40:18
+2014-12-06 11:41:44,822 [24] INFO  umbraco.BusinessLogic.Log - [Thread 227] Log scrubbed.  Removed all items older than 2014-10-07 11:41:44
+2014-12-06 11:43:11,237 [24] INFO  umbraco.BusinessLogic.Log - [Thread 225] Log scrubbed.  Removed all items older than 2014-10-07 11:43:11
+2014-12-06 11:44:37,646 [24] INFO  umbraco.BusinessLogic.Log - [Thread 219] Log scrubbed.  Removed all items older than 2014-10-07 11:44:37
+2014-12-06 11:46:04,059 [24] INFO  umbraco.BusinessLogic.Log - [Thread 219] Log scrubbed.  Removed all items older than 2014-10-07 11:46:04
+2014-12-06 11:47:30,472 [24] INFO  umbraco.BusinessLogic.Log - [Thread 216] Log scrubbed.  Removed all items older than 2014-10-07 11:47:30
+2014-12-06 11:48:56,874 [24] INFO  umbraco.BusinessLogic.Log - [Thread 216] Log scrubbed.  Removed all items older than 2014-10-07 11:48:56
+2014-12-06 11:50:23,287 [24] INFO  umbraco.BusinessLogic.Log - [Thread 207] Log scrubbed.  Removed all items older than 2014-10-07 11:50:23
+2014-12-06 11:51:49,702 [24] INFO  umbraco.BusinessLogic.Log - [Thread 204] Log scrubbed.  Removed all items older than 2014-10-07 11:51:49
+2014-12-06 11:53:16,116 [24] INFO  umbraco.BusinessLogic.Log - [Thread 200] Log scrubbed.  Removed all items older than 2014-10-07 11:53:16
+2014-12-06 11:54:42,521 [24] INFO  umbraco.BusinessLogic.Log - [Thread 199] Log scrubbed.  Removed all items older than 2014-10-07 11:54:42
+2014-12-06 11:56:08,937 [24] INFO  umbraco.BusinessLogic.Log - [Thread 199] Log scrubbed.  Removed all items older than 2014-10-07 11:56:08
+2014-12-06 11:57:35,364 [24] INFO  umbraco.BusinessLogic.Log - [Thread 201] Log scrubbed.  Removed all items older than 2014-10-07 11:57:35
+2014-12-06 11:59:01,782 [24] INFO  umbraco.BusinessLogic.Log - [Thread 189] Log scrubbed.  Removed all items older than 2014-10-07 11:59:01
+2014-12-06 12:00:28,197 [24] INFO  umbraco.BusinessLogic.Log - [Thread 189] Log scrubbed.  Removed all items older than 2014-10-07 12:00:28
+2014-12-06 12:01:54,600 [24] INFO  umbraco.BusinessLogic.Log - [Thread 185] Log scrubbed.  Removed all items older than 2014-10-07 12:01:54
+2014-12-06 12:03:21,014 [24] INFO  umbraco.BusinessLogic.Log - [Thread 183] Log scrubbed.  Removed all items older than 2014-10-07 12:03:21
+2014-12-06 12:04:47,425 [24] INFO  umbraco.BusinessLogic.Log - [Thread 180] Log scrubbed.  Removed all items older than 2014-10-07 12:04:47
+2014-12-06 12:06:13,834 [24] INFO  umbraco.BusinessLogic.Log - [Thread 183] Log scrubbed.  Removed all items older than 2014-10-07 12:06:13
+2014-12-06 12:07:40,255 [24] INFO  umbraco.BusinessLogic.Log - [Thread 177] Log scrubbed.  Removed all items older than 2014-10-07 12:07:40
+2014-12-06 12:09:06,669 [24] INFO  umbraco.BusinessLogic.Log - [Thread 168] Log scrubbed.  Removed all items older than 2014-10-07 12:09:06
+2014-12-06 12:10:33,088 [24] INFO  umbraco.BusinessLogic.Log - [Thread 171] Log scrubbed.  Removed all items older than 2014-10-07 12:10:33
+2014-12-06 12:11:59,503 [24] INFO  umbraco.BusinessLogic.Log - [Thread 168] Log scrubbed.  Removed all items older than 2014-10-07 12:11:59
+2014-12-06 12:13:25,914 [24] INFO  umbraco.BusinessLogic.Log - [Thread 162] Log scrubbed.  Removed all items older than 2014-10-07 12:13:25
+2014-12-06 12:14:52,324 [24] INFO  umbraco.BusinessLogic.Log - [Thread 168] Log scrubbed.  Removed all items older than 2014-10-07 12:14:52
+2014-12-06 12:16:18,731 [24] INFO  umbraco.BusinessLogic.Log - [Thread 162] Log scrubbed.  Removed all items older than 2014-10-07 12:16:18
+2014-12-06 12:17:45,138 [24] INFO  umbraco.BusinessLogic.Log - [Thread 161] Log scrubbed.  Removed all items older than 2014-10-07 12:17:45
+2014-12-06 12:19:11,542 [24] INFO  umbraco.BusinessLogic.Log - [Thread 172] Log scrubbed.  Removed all items older than 2014-10-07 12:19:11
+2014-12-06 12:20:37,944 [24] INFO  umbraco.BusinessLogic.Log - [Thread 161] Log scrubbed.  Removed all items older than 2014-10-07 12:20:37
+2014-12-06 12:22:04,354 [24] INFO  umbraco.BusinessLogic.Log - [Thread 152] Log scrubbed.  Removed all items older than 2014-10-07 12:22:04
+2014-12-06 12:23:30,770 [24] INFO  umbraco.BusinessLogic.Log - [Thread 152] Log scrubbed.  Removed all items older than 2014-10-07 12:23:30
+2014-12-06 12:24:57,181 [24] INFO  umbraco.BusinessLogic.Log - [Thread 147] Log scrubbed.  Removed all items older than 2014-10-07 12:24:57
+2014-12-06 12:26:23,596 [24] INFO  umbraco.BusinessLogic.Log - [Thread 155] Log scrubbed.  Removed all items older than 2014-10-07 12:26:23
+2014-12-06 12:27:50,009 [24] INFO  umbraco.BusinessLogic.Log - [Thread 156] Log scrubbed.  Removed all items older than 2014-10-07 12:27:50
+2014-12-06 12:29:16,413 [24] INFO  umbraco.BusinessLogic.Log - [Thread 157] Log scrubbed.  Removed all items older than 2014-10-07 12:29:16
+2014-12-06 12:30:42,819 [24] INFO  umbraco.BusinessLogic.Log - [Thread 156] Log scrubbed.  Removed all items older than 2014-10-07 12:30:42
+2014-12-06 12:32:09,225 [24] INFO  umbraco.BusinessLogic.Log - [Thread 156] Log scrubbed.  Removed all items older than 2014-10-07 12:32:09
+2014-12-06 12:33:35,640 [24] INFO  umbraco.BusinessLogic.Log - [Thread 147] Log scrubbed.  Removed all items older than 2014-10-07 12:33:35
+2014-12-06 12:35:02,041 [24] INFO  umbraco.BusinessLogic.Log - [Thread 147] Log scrubbed.  Removed all items older than 2014-10-07 12:35:02
+2014-12-06 12:36:28,444 [24] INFO  umbraco.BusinessLogic.Log - [Thread 165] Log scrubbed.  Removed all items older than 2014-10-07 12:36:28
+2014-12-06 12:37:54,852 [24] INFO  umbraco.BusinessLogic.Log - [Thread 172] Log scrubbed.  Removed all items older than 2014-10-07 12:37:54
+2014-12-06 12:39:21,267 [24] INFO  umbraco.BusinessLogic.Log - [Thread 165] Log scrubbed.  Removed all items older than 2014-10-07 12:39:21
+2014-12-06 20:00:16,156 [24] INFO  umbraco.BusinessLogic.Log - [Thread 169] Log scrubbed.  Removed all items older than 2014-10-07 20:00:16

@@ -1,0 +1,11 @@
+﻿@model MVC3Test24.Models.Customer
+
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+Id:@Model.Id<br/>
+Name:@Model.Name
+@Html.EditorForModel()

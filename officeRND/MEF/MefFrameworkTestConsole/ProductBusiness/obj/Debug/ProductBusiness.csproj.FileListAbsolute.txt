@@ -1,0 +1,7 @@
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\ProductBusiness\bin\Debug\ProductBusiness.dll
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\ProductBusiness\bin\Debug\ProductBusiness.pdb
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\ProductBusiness\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\ProductBusiness\obj\Debug\ProductBusiness.dll
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\ProductBusiness\obj\Debug\ProductBusiness.pdb
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\ProductBusiness\bin\Debug\ProductContracts.dll
+D:\ajit\rnd\MEF\MefFrameworkTestConsole\ProductBusiness\bin\Debug\ProductContracts.pdb

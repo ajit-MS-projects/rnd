@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="14b47909-d6a0-47f7-bfeb-636ad6692a72" name="Ajit@AJIT-PC 2013-01-20 23:25:45" runUser="AJIT-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2013-01-20 23_25_45">
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-20T23:25:45.7611791+01:00" queuing="2013-01-20T23:25:46.8732998+01:00" start="2013-01-20T23:25:47.0634027+01:00" finish="2013-01-20T23:26:56.6142459+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="AJIT-PC" outcome="Error" timestamp="2013-01-20T23:26:56.6132634+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReportsGetTest" storage="d:\ajit\rnd\castleactiverecordtest-selct groupby\newtest\bin\debug\newtest.dll" id="86c34846-de0b-cb7e-2f91-fd69d9afb818">
+      <Execution id="7975464b-a579-452a-8395-355c7fa7a32d" />
+      <TestMethod codeBase="D:/Ajit/RND/CastleActiveRecordTest-selct groupBy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsGetTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" executionId="7975464b-a579-452a-8395-355c7fa7a32d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7975464b-a579-452a-8395-355c7fa7a32d" testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" testName="ReportsGetTest" computerName="AJIT-PC" duration="00:01:09.3458902" startTime="2013-01-20T23:25:47.2683557+01:00" endTime="2013-01-20T23:26:56.6142459+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7975464b-a579-452a-8395-355c7fa7a32d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

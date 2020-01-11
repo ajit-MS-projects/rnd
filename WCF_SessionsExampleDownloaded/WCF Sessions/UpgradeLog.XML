@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WCf Sessions">
+</Property><Property Name="Solution File" Value="C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\WCf Sessions.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\WCf Sessions.suo">
+</Property><Property Name="Date" Value="23 January 2013">
+</Property><Property Name="Time" Value="22:06">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WCf Sessions.sln" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WCf Sessions.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WCf Sessions.suo" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WCf Sessions.suo">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\WindowsFormsApplication1.csproj" Description="Project file successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\WindowsFormsApplication1.csproj">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Form1.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Form1.cs">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Form1.Designer.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Program.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Program.cs">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\serviceclass.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\serviceclass.cs">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\app.config" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\app.config">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Properties\Settings.settings" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Form1.resx" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Form1.resx">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\WindowsFormsApplication1\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\WindowsFormsApplication1.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\WindowsFormsApplication1.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\wcfservice.csproj" Description="Project file successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\wcfservice\wcfservice.csproj">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\wcfservice.csproj.user" Description="Project user file successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\wcfservice\wcfservice.csproj.user">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\Program.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\wcfservice\Program.cs">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\wcfservice\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\serviceclass.cs" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\wcfservice\serviceclass.cs">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\App.config" Description="File successfully backed up as C:\Users\Ajit\Downloads\WCF_Sessions\WCF Sessions\Backup\wcfservice\App.config">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\wcfservice.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="wcfservice" Source="wcfservice\wcfservice.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WCf Sessions.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WCf Sessions.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WindowsFormsApplication1" Source="WindowsFormsApplication1\WindowsFormsApplication1.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="wcfservice" Source="wcfservice\wcfservice.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

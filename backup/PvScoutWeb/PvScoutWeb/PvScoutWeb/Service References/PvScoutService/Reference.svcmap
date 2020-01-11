@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c9eb697e-cd37-4870-a822-b697f0bb5e0e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8444/PvScoutService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PvScoutService.wsdl" MetadataType="Wsdl" ID="75c4e15c-4d5d-433b-b854-d467195341c7" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?wsdl" />
+    <MetadataFile FileName="PvScoutService.xsd" MetadataType="Schema" ID="682445e1-2428-4074-a215-d1400d3e7096" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PvScoutService1.xsd" MetadataType="Schema" ID="d27f9d7b-19e7-41ec-acb5-64ace7002af2" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PvScoutService2.xsd" MetadataType="Schema" ID="ff36a611-d747-4657-a1ee-da0bc631a6ca" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PvScoutService.disco" MetadataType="Disco" ID="f906d513-3315-4261-b7c2-0d962e2e8b4b" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

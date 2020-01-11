@@ -1,0 +1,9 @@
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\bin\MVCTest1.dll
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\bin\MVCTest1.pdb
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\bin\EntityFramework.dll
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\bin\EntityFramework.xml
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\obj\Debug\MVCTest1.dll
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\obj\Debug\MVCTest1.pdb
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\bin\MvcSiteMapProvider.dll
+D:\ajit\rnd\MVC\MVCTest1\MVCTest1\bin\MvcSiteMapProvider.xml

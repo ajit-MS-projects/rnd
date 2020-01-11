@@ -1,0 +1,60 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B116BB48-186B-4898-AFD6-EFD8F5854DD3/f:Form1.cs" caret="379" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B116BB48-186B-4898-AFD6-EFD8F5854DD3/f:Form1.cs" caret="669" fromTop="20" />
+      <File id="B116BB48-186B-4898-AFD6-EFD8F5854DD3/f:Form1.cs" caret="1092" fromTop="32" />
+      <File id="B116BB48-186B-4898-AFD6-EFD8F5854DD3/f:Form1.cs" caret="509" fromTop="14" />
+      <File id="B116BB48-186B-4898-AFD6-EFD8F5854DD3/f:Form1.cs" caret="628" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="MessageBox`0" priority="31" />
+      <Item value="function" priority="31" />
+      <Item value="expression" priority="31" />
+      <Item value="Text" priority="31" />
+      <Item value="textBox1" priority="26" />
+      <Item value="string" priority="31" />
+      <Item value="function1" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.Expressions.Expression`1">
+      <Item value="Compile`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.Expressions.Expression">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

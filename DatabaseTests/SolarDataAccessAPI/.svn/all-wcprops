@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/MyProjects/!svn/ver/16/Trunk/RND/SolarDataAccessAPI
+END
+Utilities.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MyProjects/!svn/ver/16/Trunk/RND/SolarDataAccessAPI/Utilities.cs
+END
+Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MyProjects/!svn/ver/16/Trunk/RND/SolarDataAccessAPI/Constants.cs
+END
+ISolarDatabase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MyProjects/!svn/ver/16/Trunk/RND/SolarDataAccessAPI/ISolarDatabase.cs
+END
+SolarDataAccessAPI.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MyProjects/!svn/ver/16/Trunk/RND/SolarDataAccessAPI/SolarDataAccessAPI.csproj
+END
+SolarGenericDataBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MyProjects/!svn/ver/16/Trunk/RND/SolarDataAccessAPI/SolarGenericDataBase.cs
+END
+Enumerations.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MyProjects/!svn/ver/16/Trunk/RND/SolarDataAccessAPI/Enumerations.cs
+END

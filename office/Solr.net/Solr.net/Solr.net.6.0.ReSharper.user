@@ -1,0 +1,28 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="94556551-50A8-4350-BEA7-08C1A621C464/d:CsvReaders/f:CsvReader.cs" caret="544" fromTop="13" />
+      <File id="94556551-50A8-4350-BEA7-08C1A621C464/d:Indexer/f:SolrProductIndexer.cs" caret="338" fromTop="13" />
+      <File id="94556551-50A8-4350-BEA7-08C1A621C464/d:Entity/d:Index/f:SolrIndexProduct.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.exe
+   logfile = D:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.InstallLog
+Installing service WcfWinService...
+Service WcfWinService has been successfully installed.
+Creating EventLog source WcfWinService in log Application...
+Committing assembly 'D:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.exe
+   logfile = D:\ajit\rnd\WcfWinService\WcfWinService\bin\Debug\WcfWinService.InstallLog

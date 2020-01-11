@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="4D90E1B4-5C01-43C4-B86F-A15686F5E626" ModuleId="Traffective.Services" />
+  <Module PersistentId="CED43B06-EA75-40ED-B282-E85F0ACDBAC0" ModuleId="Traffective.Contracts" />
+  <Module PersistentId="FFD871DF-630C-4A14-AD11-35740D47AE77" ModuleId="Traffective.Data" />
+  <Module PersistentId="311D766C-22C9-4C31-A04B-BAB0D2A01047" ModuleId="Traffective.Common" />
+  <Module PersistentId="8BAE4D8A-9AEE-469A-85D7-B1E7F6E26898" ModuleId="Traffective.Logging" />
+  <Module PersistentId="3AF4D17B-F9EF-43A0-9F9F-710F55EE3EE8" ModuleId="Traffective.Tracking" />
+  <Module PersistentId="A0DCF5E2-1B60-4B75-89BF-AADF1D51CAD6" ModuleId="Traffective.Data.Tests" />
+</Modules>

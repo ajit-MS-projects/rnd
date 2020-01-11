@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="66812C22-036B-42AE-A636-B75A9449040E" ModuleId="WcfSessionWeb" />
+  <Module PersistentId="0D7AD08A-A530-45DE-B376-363139561838" ModuleId="ConsoleHost" />
+  <Module PersistentId="0DCCD8DA-841D-4F14-90D8-6825EAC6EF69" ModuleId="ClientApp" />
+</Modules>

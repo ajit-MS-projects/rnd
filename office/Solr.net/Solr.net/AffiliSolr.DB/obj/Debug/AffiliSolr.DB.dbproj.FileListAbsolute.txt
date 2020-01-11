@@ -1,0 +1,6 @@
+D:\ajit\RND\office\Solr.net\Solr.net\AffiliSolr.DB\sql\debug\AffiliSolr.DB_Database.sqlsettings
+D:\ajit\RND\office\Solr.net\Solr.net\AffiliSolr.DB\sql\debug\AffiliSolr.DB_Database.sqldeployment
+D:\ajit\RND\office\Solr.net\Solr.net\AffiliSolr.DB\sql\debug\AffiliSolr.DB_Database.sqlcmdvars
+D:\ajit\RND\office\Solr.net\Solr.net\AffiliSolr.DB\sql\debug\AffiliSolr.DB.deploymanifest
+D:\ajit\RND\office\Solr.net\Solr.net\AffiliSolr.DB\sql\debug\AffiliSolr.DB.dbschema
+D:\ajit\RND\office\Solr.net\Solr.net\AffiliSolr.DB\obj\Debug\AffiliSolr.DB.dbschema

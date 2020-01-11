@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToDotNet", "JsonToDotNet\JsonToDotNet.csproj", "{CE7A6905-D3BA-4FFE-8444-630726A7C012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliJsonAccessAPI", "AffiliJsonAccessAPI\AffiliJsonAccessAPI.csproj", "{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliSolrAccessAPI", "AffiliSolrAccessAPI\AffiliSolrAccessAPI.csproj", "{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Debug|x86.ActiveCfg = Debug|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Debug|x86.Build.0 = Debug|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Release|Any CPU.ActiveCfg = Release|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Release|Mixed Platforms.Build.0 = Release|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Release|x86.ActiveCfg = Release|x86
+		{CE7A6905-D3BA-4FFE-8444-630726A7C012}.Release|x86.Build.0 = Release|x86
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D63AB148-EAC6-48F0-BC7A-FA0B8D3DCD62}.Release|x86.ActiveCfg = Release|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{687CDBEA-73FB-4C7A-A58F-1E4A960ED72C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfKlemme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Klemme>
+		<ID>55</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040001</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MMC CD 32/36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MMC 32/36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MMC 32/36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MMC 32/36</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulmittelklemme 32-36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module middle clamp 32-36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale pour panneau CREODUR 32-36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulmittelklemme 32-36</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulmittelklemme CREODUR 32-36 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module centre clamp for frame heights of 32 - 36 mm with M8x35 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale prémonté pour hauteur de cadre 32 à 36 mm avec vis à six pans creux M8x35 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulmittelklemme vormontiert für Rahmenhöhe 32 - 36 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="32">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="36.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Mittelklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>56</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040002</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MMC CD 37/41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MMC 37/41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MMC 37/41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MMC 37/41</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulmittelklemme 37-41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module middle clamp 37-41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale pour panneau CREODUR 37-41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulmittelklemme 37-41</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulmittelklemme CREODUR 37-41 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module middle clamp for frame heights of 37 - 41 mm with  M8x40 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale prémonté pour hauteur de cadre 37 à 41 mm avec vis à six pans creux M8x40 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulmittelklemme vormontiert für Rahmenhöhe 37 - 41 mm mit Innensechskantschraube M8x40 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="37">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="41.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Mittelklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>57</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040003</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MMC CD 42/46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MMC 42/46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MMC 42/46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MMC 42/46</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulmittelklemme 42-46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module middle clamp 42-46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale pour panneau CREODUR 42-46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulmittelklemme 42-46</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulmittelklemme CREODUR 42-46 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module middle clamp for frame heights of 42 - 46 mm  with M8x45 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale prémonté pour hauteur de cadre 42 à 46 mm avec vis à six pans creux M8x45 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulmittelklemme vormontiert für Rahmenhöhe 42 - 46 mm mit Innensechskantschraube M8x45 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="42">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="46.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Mittelklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>58</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040004</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MMC CD 47/51</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MMC 47/51</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MMC 47/51</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MMC 47/51</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulmittelklemme 47-51</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module middle clamp 47-51</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale pour panneau CREODUR 47-51</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulmittelklemme 47-51</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulmittelklemme CREODUR 47-51 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module middle clamp for frame heights of 47 - 51 mm with  M8x50 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince centrale prémonté pour hauteur de cadre 47 à 51 mm avec vis à six pans creux M8x50 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulmittelklemme vormontiert für Rahmenhöhe 47 - 51 mm mit Innensechskantschraube M8x50 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="47">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="51.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Mittelklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>59</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040005</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MEC CD 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MEC 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MEC 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MEC 35</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulendklemme 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module end clamp 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale pour panneau CREODUR 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulendklemme 35</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulendklemme CREODUR 35 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module end clamp for a frame height of 35 mm with  M8x35 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale prémonté pour hauteur de cadre 35 mm avec vis à six pans creux M8x35 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulendklemme vormontiert für Rahmenhöhe 35 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="35">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="35.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Endklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>60</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040006</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MEC CD 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MEC 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MEC 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MEC 38</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulendklemme 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module end clamp 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale pour panneau CREODUR 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulendklemme 38</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulendklemme CREODUR 38 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module end clamp for a frame height of 38 mm with  M8x40 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale prémonté pour hauteur de cadre 38 mm avec vis à six pans creux M8x40 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulendklemme vormontiert für Rahmenhöhe 38 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="38">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="38.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Endklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>61</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040007</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MEC CD 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MEC 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MEC 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MEC 40</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulendklemme 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module end clamp 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale pour panneau CREODUR 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulendklemme 40</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulendklemme CREODUR 40 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module end clamp for a frame height of 40 mm with  M8x40 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale prémonté pour hauteur de cadre 40 mm avec vis à six pans creux M8x40 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulendklemme vormontiert für Rahmenhöhe 40 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="40">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="40.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Endklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>62</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040012</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MEC CD 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MEC 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MEC 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MEC 42</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulendklemme 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module end clamp 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale pour panneau CREODUR 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulendklemme 42</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulendklemme CREODUR 42 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module end clamp for a frame height of 42 mm with  M8x45 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale prémonté pour hauteur de cadre 42 mm avec vis à six pans creux M8x45 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulendklemme vormontiert für Rahmenhöhe 42 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="42">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="42.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Endklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>63</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040008</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MEC CD 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MEC 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MEC 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MEC 43</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulendklemme 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module end clamp 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale pour panneau CREODUR 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulendklemme 43</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulendklemme CREODUR 43 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module end clamp for a frame height of 43 mm with  M8x45 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale prémonté pour hauteur de cadre 43 mm avec vis à six pans creux M8x45 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulendklemme vormontiert für Rahmenhöhe 43 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="43">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="43.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Endklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>64</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040009</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MEC CD 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MEC 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MEC 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MEC 46</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulendklemme 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module end clamp 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale pour panneau CREODUR 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulendklemme 46</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulendklemme CREODUR 46 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module end clamp for a frame height of 46 mm with  M8x45 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale prémonté pour hauteur de cadre 46 mm avec vis à six pans creux M8x45 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulendklemme vormontiert für Rahmenhöhe 46 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="46">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="46.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Endklemme</KLEMMENTYP>
+	</Klemme>
+	<Klemme>
+		<ID>65</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>040010</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>MEC CD 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CD MEC 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>CD MEC 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CD MEC 50</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Modulendklemme 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR module end clamp 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale pour panneau CREODUR 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>CREODUR Modulendklemme 50</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Modulendklemme CREODUR 50 mm vormontiert</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Pre-mounted module end clamp for a frame height of 50 mm with  M8x50 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Pince terminale prémonté pour hauteur de cadre 50 mm avec vis à six pans creux M8x50 A2 et plaque filetée 28/15 A2</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Modulendklemme vormontiert für Rahmenhöhe 50 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>12</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<MINIMALE_MODULDICKE Wert="50">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MINIMALE_MODULDICKE>
+		<MAXIMALE_MODULDICKE Wert="50.999">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</MAXIMALE_MODULDICKE>
+		<KLEMMENTYP>Creodur_Endklemme</KLEMMENTYP>
+	</Klemme>
+</ArrayOfKlemme>

@@ -1,0 +1,172 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:App.config" caret="511" fromTop="8" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.Designer.cs" caret="0" fromTop="0" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:DbContext/f:ProductContext.cs" caret="0" fromTop="0" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.Designer.cs" caret="0" fromTop="0" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:App.config" caret="589" fromTop="11" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.cs" caret="500" fromTop="0" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.cs" caret="0" fromTop="0" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="0" fromTop="0" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Address.cs" caret="0" fromTop="0" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:BasisObjekt.cs" caret="0" fromTop="0" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Category.cs" caret="0" fromTop="0" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="0" fromTop="0" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Supplier.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="1688" fromTop="29" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="1688" fromTop="25" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="2774" fromTop="27" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="2016" fromTop="13" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="930" fromTop="9" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="2956" fromTop="26" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="656" fromTop="17" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="6123" fromTop="28" />
+      <File id="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6/d:Model/f:Product.cs" caret="537" fromTop="13" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="5878" fromTop="28" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:App.config" caret="493" fromTop="7" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="1319" fromTop="20" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="1320" fromTop="34" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="986" fromTop="23" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="512" fromTop="14" />
+      <File id="80473485-33E6-4A18-BA68-EDCDC9F14D5E/f:ProductContextTest.cs" caret="6071" fromTop="27" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.cs" caret="1110" fromTop="36" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.cs" caret="500" fromTop="21" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.cs" caret="2188" fromTop="22" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.cs" caret="2272" fromTop="26" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.cs" caret="1392" fromTop="26" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Form1.cs" caret="2826" fromTop="4" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.cs" caret="421" fromTop="17" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.cs" caret="562" fromTop="21" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.cs" caret="562" fromTop="12" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:App.config" caret="552" fromTop="9" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.cs" caret="533" fromTop="21" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.cs" caret="811" fromTop="29" />
+      <File id="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB/f:Installer1.cs" caret="1211" fromTop="41" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="Product`0" priority="31" />
+      <Item value="ProductId" priority="31" />
+      <Item value="new" priority="192" />
+      <Item value="product" priority="223" />
+      <Item value="newProduct" priority="189" />
+      <Item value="String`0" priority="31" />
+      <Item value="string" priority="63" />
+      <Item value="Price" priority="32" />
+      <Item value="else" priority="31" />
+      <Item value="DateTime`0" priority="31" />
+      <Item value="public" priority="157" />
+      <Item value="class" priority="30" />
+      <Item value="BasisObjekt`0" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="void" priority="63" />
+      <Item value="Object`0" priority="63" />
+      <Item value="if" priority="159" />
+      <Item value="typeof" priority="31" />
+      <Item value="throw" priority="31" />
+      <Item value="Exception" priority="28" />
+      <Item value="to" priority="223" />
+      <Item value="from" priority="63" />
+      <Item value="foreach" priority="31" />
+      <Item value="null" priority="63" />
+      <Item value="int" priority="31" />
+      <Item value="i" priority="63" />
+      <Item value="Count`1" priority="26" />
+      <Item value="LastOrDefault`1" priority="27" />
+      <Item value="Length" priority="27" />
+      <Item value="System" priority="31" />
+      <Item value="Activator`0" priority="26" />
+      <Item value="Supplier`0" priority="58" />
+      <Item value="Address" priority="61" />
+      <Item value="Country" priority="31" />
+      <Item value="Street" priority="32" />
+      <Item value="Address`0" priority="31" />
+      <Item value="address" priority="32" />
+      <Item value="db" priority="31" />
+      <Item value="AddressId" priority="63" />
+      <Item value="Type`0" priority="63" />
+      <Item value="toPropInfo" priority="31" />
+      <Item value="toType" priority="31" />
+      <Item value="MethodInfo`0" priority="31" />
+      <Item value="Collection&lt;Supplier&gt;" priority="28" />
+      <Item value="Supplier" priority="26" />
+      <Item value="Name" priority="31" />
+      <Item value="SupplierCode" priority="32" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntityFrameworkTest.Product">
+      <Item value="Name" priority="82" />
+      <Item value="ProductId" priority="137" />
+      <Item value="Category" priority="53" />
+      <Item value="Price" priority="81" />
+      <Item value="Test" priority="27" />
+      <Item value="CategoryId" priority="27" />
+      <Item value="Address" priority="27" />
+      <Item value="Suppliers" priority="26" />
+      <Item value="SupplierCode" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="StartsWith`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToLongTimeString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="GetType`0" priority="215" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetProperties`0" priority="80" />
+      <Item value="GetMethod`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.PropertyInfo">
+      <Item value="SetValue`0" priority="26" />
+      <Item value="GetValue`0" priority="53" />
+      <Item value="Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EntityFrameworkTest.Product">
+      <Item value="CopyObject`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Activator">
+      <Item value="CreateInstance`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EntityFrameworkTest.Address">
+      <Item value="AddressId" priority="54" />
+      <Item value="Country" priority="27" />
+      <Item value="Street" priority="28" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.MethodInfo">
+      <Item value="Invoke`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.ICollection`1">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.Configuration">
+      <Item value="ConnectionStrings" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,11 @@
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\KatanaSelfHostOnTopIis.dll.config
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\KatanaSelfHostOnTopIis.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\KatanaSelfHostOnTopIis.pdb
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\Microsoft.Owin.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\Owin.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\Microsoft.Owin.xml
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\obj\Debug\KatanaSelfHostOnTopIis.csprojResolveAssemblyReference.cache
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\obj\Debug\KatanaSelfHostOnTopIis.dll
+D:\Ajit\RND\SignalrTest\KatanaSelfHostOnTopIis\obj\Debug\KatanaSelfHostOnTopIis.pdb

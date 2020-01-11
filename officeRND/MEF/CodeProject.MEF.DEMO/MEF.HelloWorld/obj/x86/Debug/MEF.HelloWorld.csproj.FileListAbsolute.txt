@@ -1,0 +1,5 @@
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.HelloWorld\bin\Debug\MEF.HelloWorld.exe
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.HelloWorld\bin\Debug\MEF.HelloWorld.pdb
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.HelloWorld\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.HelloWorld\obj\x86\Debug\MEF.HelloWorld.exe
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.HelloWorld\obj\x86\Debug\MEF.HelloWorld.pdb

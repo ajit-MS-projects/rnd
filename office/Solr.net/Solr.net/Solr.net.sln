@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solr.net", "Solr.net\Solr.net.csproj", "{F4C4FED7-2950-4119-8B5D-78FDF711E39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliSolrBusiness", "AffiliSolrBusiness\AffiliSolrBusiness.csproj", "{94556551-50A8-4350-BEA7-08C1A621C464}"
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "AffiliSolr.DB", "AffiliSolr.DB\AffiliSolr.DB.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.0.89:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Solr.net\\Solr.net.csproj
+		SccProjectName1 = Solr.net
+		SccLocalPath1 = Solr.net
+		SccProjectUniqueName2 = AffiliSolrBusiness\\AffiliSolrBusiness.csproj
+		SccProjectName2 = AffiliSolrBusiness
+		SccLocalPath2 = AffiliSolrBusiness
+		SccProjectUniqueName3 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AffiliExceptionAPI\\AffiliExceptionAPI.csproj
+		SccProjectName3 = ../../affilinet.ProductData-branch-Main/ProductData.API/AffiliExceptionAPI
+		SccLocalPath3 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AffiliExceptionAPI
+		SccProjectUniqueName4 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AffiliDataAccessAPI\\AffiliDataAccessAPI.csproj
+		SccProjectName4 = ../../affilinet.ProductData-branch-Main/ProductData.API/AffiliDataAccessAPI
+		SccLocalPath4 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AffiliDataAccessAPI
+		SccProjectUniqueName5 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AfilinetLogAPI\\AffiliLogAPI.csproj
+		SccProjectName5 = ../../affilinet.ProductData-branch-Main/ProductData.API/AfilinetLogAPI
+		SccLocalPath5 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AfilinetLogAPI
+		SccProjectUniqueName6 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AffilinetCommon\\AffilinetCommon.csproj
+		SccProjectName6 = ../../affilinet.ProductData-branch-Main/ProductData.API/AffilinetCommon
+		SccLocalPath6 = ..\\..\\affilinet.ProductData-branch-Main\\ProductData.API\\AffilinetCommon
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4C4FED7-2950-4119-8B5D-78FDF711E39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C4FED7-2950-4119-8B5D-78FDF711E39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C4FED7-2950-4119-8B5D-78FDF711E39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C4FED7-2950-4119-8B5D-78FDF711E39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94556551-50A8-4350-BEA7-08C1A621C464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94556551-50A8-4350-BEA7-08C1A621C464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94556551-50A8-4350-BEA7-08C1A621C464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94556551-50A8-4350-BEA7-08C1A621C464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

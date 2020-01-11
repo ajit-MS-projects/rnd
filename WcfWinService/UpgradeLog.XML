@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WcfWinService">
+</Property><Property Name="Solution File" Value="D:\Ajit\rnd\WcfWinService\WcfWinService.sln">
+</Property><Property Name="User Options File" Value="D:\Ajit\rnd\WcfWinService\WcfWinService.suo">
+</Property><Property Name="Date" Value="Tuesday, August 02, 2011">
+</Property><Property Name="Time" Value="11:15 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WcfWinService.sln" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WcfWinService.suo" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService.suo">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\WcfWinService.csproj" Description="Project file successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\WcfWinService.csproj">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\MetaDataServices\IMetaDataService.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\MetaDataServices\IMetaDataService.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\MetaDataServices\MetaDataService.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\MetaDataServices\MetaDataService.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\ProjectInstaller.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\ProjectInstaller.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\ProjectInstaller.Designer.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\ProjectInstaller.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\Entities\ServiceMetadata.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\Entities\ServiceMetadata.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\WcfWinService.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\WcfWinService.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\WcfWinService.Designer.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\WcfWinService.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\Program.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\Program.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\App.config" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\App.config">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\ProjectInstaller.resx" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\ProjectInstaller.resx">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\WcfWinService.resx" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinService\WcfWinService.resx">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\WcfWinService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WcfWinService" Source="WcfWinService\WcfWinService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\WcfWinServiceClient.csproj" Description="Project file successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinServiceClient\WcfWinServiceClient.csproj">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\WcfWinServiceClient.csproj.user" Description="Project user file successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinServiceClient\WcfWinServiceClient.csproj.user">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\Default.aspx.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinServiceClient\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\Default.aspx.designer.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinServiceClient\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinServiceClient\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\Default.aspx" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinServiceClient\Default.aspx">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\Web.config" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinServiceClient\Web.config">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\WcfWinServiceClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WcfWinServiceClient" Source="WcfWinServiceClient\WcfWinServiceClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\WcfWinSerFormClient.csproj" Description="Project file successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\WcfWinSerFormClient.csproj">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Form1.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Form1.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Form1.Designer.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Program.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Program.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\ServiceMetadata.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\ServiceMetadata.cs">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Properties\Settings.settings" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Form1.resx" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Form1.resx">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\Properties\Resources.resx" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\WcfWinSerFormClient\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\WcfWinSerFormClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\WcfWinSerFormClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="wcfConsoleHost" Source="wcfConsoleHost\wcfConsoleHost.csproj" Description="Project file successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\wcfConsoleHost\wcfConsoleHost.csproj">
+</Event><Event ErrorLevel="0" Project="wcfConsoleHost" Source="wcfConsoleHost\Program.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\wcfConsoleHost\Program.cs">
+</Event><Event ErrorLevel="0" Project="wcfConsoleHost" Source="wcfConsoleHost\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\wcfConsoleHost\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="wcfConsoleHost" Source="wcfConsoleHost\App.config" Description="File successfully backed up as D:\Ajit\rnd\WcfWinService\Backup\wcfConsoleHost\App.config">
+</Event><Event ErrorLevel="0" Project="wcfConsoleHost" Source="wcfConsoleHost\wcfConsoleHost.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="wcfConsoleHost" Source="wcfConsoleHost\wcfConsoleHost.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WcfWinService.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WcfWinService.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WcfWinService" Source="WcfWinService\WcfWinService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WcfWinServiceClient" Source="WcfWinServiceClient\WcfWinServiceClient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WcfWinSerFormClient" Source="WcfWinSerFormClient\WcfWinSerFormClient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="wcfConsoleHost" Source="wcfConsoleHost\wcfConsoleHost.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

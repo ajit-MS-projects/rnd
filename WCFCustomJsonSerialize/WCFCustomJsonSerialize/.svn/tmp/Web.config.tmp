@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<configuration>
+
+  <system.web>
+    <compilation debug="true" targetFramework="4.0" />
+  </system.web>
+  <system.serviceModel>
+<<<<<<< .mine
+    <bindings>
+      <basicHttpBinding>
+
+        <!--
+					******************************************************************
+					#START: Binding configuration for PRODUCT WEBSERVICE SOAP ENDPOINT
+					******************************************************************
+				-->
+        <binding name="basicHttpBinding" maxBufferPoolSize="20000000"
+					maxBufferSize="20000000" maxReceivedMessageSize="20000000" closeTimeout="00:01:00"
+					receiveTimeout="00:01:00" openTimeout="00:01:00" sendTimeout="00:01:00">
+          <!-- SSL for the SOAP Service - use this block activated to generate the PDWS WSDLs -->
+          <!--<security mode="Transport" >
+            <transport clientCredentialType="None"/>
+          </security>-->
+          <readerQuotas maxDepth="32" maxStringContentLength="20000000"
+							maxArrayLength="20000000" maxBytesPerRead="409600"
+							maxNameTableCharCount="16384" />
+        </binding>
+
+      </basicHttpBinding>
+      <webHttpBinding>
+        <!--
+				**************************************************************************
+				#START: Binding configuration for PRODUCT WEBSERVICE HTTPGET/POST ENDPOINT
+				**************************************************************************
+			-->
+        <!-- This binding is used for http GET/JSON access -->
+        <binding name="webHttpBinding" maxBufferPoolSize="20000000" maxBufferSize="20000000"
+          maxReceivedMessageSize="20000000">
+          <security mode="None"></security>
+          <readerQuotas maxDepth="32" maxStringContentLength="20000000" maxArrayLength="20000000"
+                maxBytesPerRead="409600" maxNameTableCharCount="16384"/>
+        </binding>
+      </webHttpBinding>
+    </bindings>
+    <services>
+      <service name="ProductService"
+       behaviorConfiguration="MyServiceTypeBehaviors">
+          <!-- #START: Endpoint configuration dedicated to external use (http binding) -->
+          <!--<endpoint address="" binding="basicHttpBinding"
+                bindingConfiguration="basicHttpBinding"
+                name="ProductUseEndpoint" 
+                contract="WCFCustomJsonSerialize.IProductService" />-->
+
+          <!-- Endpoints for GET/JSON calls with http --><!--
+          <endpoint address="XML" binding="webHttpBinding" bindingConfiguration="webHttpBinding"
+                  name="HttpGetUseEndpoint" behaviorConfiguration="WebHttpLargeEndpointBehaviorXml"
+                  contract="WCFCustomJsonSerialize.IProductServiceXml"/>
+
+          <endpoint address="JSON" binding="webHttpBinding" bindingConfiguration="webHttpBinding"
+                  name="HttpGetUseEndpoint" behaviorConfiguration="WebHttpLargeEndpointBehaviorJson"
+                  contract="WCFCustomJsonSerialize.IProductServiceJson"/>-->
+      </service>
+    </services>
+=======
+>>>>>>> .r26
+    <behaviors>
+      <serviceBehaviors>
+<<<<<<< .mine
+        <behavior name="MyServiceTypeBehaviors" >
+          <serviceMetadata httpGetEnabled="true" />
+        </behavior>
+
+        <behavior name="InternalServiceBehavior">
+          <serviceDebug includeExceptionDetailInFaults="true" />
+          <serviceMetadata httpGetEnabled="true" />
+          <serviceThrottling maxConcurrentCalls="1500" maxConcurrentSessions="1500" maxConcurrentInstances="1500" />
+          <dataContractSerializer maxItemsInObjectGraph="20000000" />
+=======
+        <behavior>
+          <!-- To avoid disclosing metadata information, set the value below to false and remove the metadata endpoint above before deployment -->
+          <serviceMetadata httpGetEnabled="true"/>
+          <!-- To receive exception details in faults for debugging purposes, set the value below to true.  Set to false before deployment to avoid disclosing exception information -->
+          <serviceDebug includeExceptionDetailInFaults="false"/>
+>>>>>>> .r26
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    
+  </system.serviceModel>
+ <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true"/>
+  </system.webServer>
+  
+</configuration>

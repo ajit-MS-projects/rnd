@@ -1,0 +1,6 @@
+D:\ajit\rnd\wcfTest1\wcfTest1\bin\Debug\wcfTest1.dll.config
+D:\ajit\rnd\wcfTest1\wcfTest1\bin\Debug\wcfTest1.dll
+D:\ajit\rnd\wcfTest1\wcfTest1\bin\Debug\wcfTest1.pdb
+D:\ajit\rnd\wcfTest1\wcfTest1\obj\Debug\wcfTest1.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\wcfTest1\wcfTest1\obj\Debug\wcfTest1.dll
+D:\ajit\rnd\wcfTest1\wcfTest1\obj\Debug\wcfTest1.pdb

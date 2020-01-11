@@ -1,0 +1,8 @@
+D:\ajit\RND\LinqLearn2\LinqLearn2\bin\Debug\LinqLearn2.exe
+D:\ajit\RND\LinqLearn2\LinqLearn2\bin\Debug\LinqLearn2.pdb
+D:\ajit\RND\LinqLearn2\LinqLearn2\obj\x86\Debug\LinqLearn2.csprojResolveAssemblyReference.cache
+D:\ajit\RND\LinqLearn2\LinqLearn2\obj\x86\Debug\LinqLearn2.Form1.resources
+D:\ajit\RND\LinqLearn2\LinqLearn2\obj\x86\Debug\LinqLearn2.Properties.Resources.resources
+D:\ajit\RND\LinqLearn2\LinqLearn2\obj\x86\Debug\LinqLearn2.csproj.GenerateResource.Cache
+D:\ajit\RND\LinqLearn2\LinqLearn2\obj\x86\Debug\LinqLearn2.exe
+D:\ajit\RND\LinqLearn2\LinqLearn2\obj\x86\Debug\LinqLearn2.pdb

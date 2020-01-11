@@ -1,0 +1,5 @@
+D:\ajit\rnd\SLrefTest\SLrefTest.Web\bin\SLrefTest.Web.dll
+D:\ajit\rnd\SLrefTest\SLrefTest.Web\bin\SLrefTest.Web.pdb
+D:\ajit\rnd\SLrefTest\SLrefTest.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\SLrefTest\SLrefTest.Web\obj\Debug\SLrefTest.Web.dll
+D:\ajit\rnd\SLrefTest\SLrefTest.Web\obj\Debug\SLrefTest.Web.pdb

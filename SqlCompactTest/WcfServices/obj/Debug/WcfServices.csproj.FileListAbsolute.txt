@@ -1,0 +1,13 @@
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\WcfServices.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\WcfServices.pdb
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\Solar.Data.Access.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\Microsoft.Practices.Unity.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\Solar.Data.Access.pdb
+D:\ajit\RND\SqlCompactTest\WcfServices\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\SqlCompactTest\WcfServices\obj\Debug\WcfServices.dll
+D:\ajit\RND\SqlCompactTest\WcfServices\obj\Debug\WcfServices.pdb
+D:\ajit\RND\SqlCompactTest\WcfServices\bin\clientaccesspolicy.xml

@@ -1,0 +1,8 @@
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\obj\x86\Debug\ClientApp.Form1.resources
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\obj\x86\Debug\ClientApp.Properties.Resources.resources
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\obj\x86\Debug\ClientApp.csproj.GenerateResource.Cache
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\obj\x86\Debug\ClientApp.exe
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\obj\x86\Debug\ClientApp.pdb
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\ClientApp\bin\Debug\ClientApp.exe.config

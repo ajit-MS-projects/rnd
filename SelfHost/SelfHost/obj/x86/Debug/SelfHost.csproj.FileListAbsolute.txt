@@ -1,0 +1,5 @@
+d:\ajit\RND\SelfHost\SelfHost\bin\Debug\SelfHost.exe
+d:\ajit\RND\SelfHost\SelfHost\bin\Debug\SelfHost.pdb
+d:\ajit\RND\SelfHost\SelfHost\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\ajit\RND\SelfHost\SelfHost\obj\x86\Debug\SelfHost.exe
+d:\ajit\RND\SelfHost\SelfHost\obj\x86\Debug\SelfHost.pdb

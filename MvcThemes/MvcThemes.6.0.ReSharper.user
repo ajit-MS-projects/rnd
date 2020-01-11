@@ -1,0 +1,82 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Content/f:Site.css" caret="3248" fromTop="20" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Models/f:Employee.cs" caret="147" fromTop="7" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Views/d:Home/f:Edit.cshtml" caret="518" fromTop="22" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Views/d:Home/f:Details.cshtml" caret="463" fromTop="21" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="1207" fromTop="35" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Models/f:Employee.cs" caret="263" fromTop="11" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="243" fromTop="11" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="351" fromTop="15" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Content/f:Site.css" caret="3767" fromTop="52" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="1249" fromTop="39" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="747" fromTop="24" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="1254" fromTop="36" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="1037" fromTop="30" />
+      <File id="E3606F86-7BF2-44E8-8F85-A30545729C2F/d:Controllers/f:HomeController.cs" caret="1234" fromTop="36" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="prop" priority="95" />
+      <Item value="List" priority="31" />
+      <Item value="employees" priority="160" />
+      <Item value="new" priority="128" />
+      <Item value="List&lt;Employee&gt;" priority="57" />
+      <Item value="HomeController`0" priority="31" />
+      <Item value="var" priority="31" />
+      <Item value="Employee" priority="28" />
+      <Item value="Id" priority="31" />
+      <Item value="Name" priority="32" />
+      <Item value="Random`0" priority="32" />
+      <Item value="Random" priority="28" />
+      <Item value="Salary" priority="32" />
+      <Item value="for" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="int" priority="31" />
+      <Item value="x" priority="31" />
+      <Item value="id" priority="31" />
+      <Item value="Employee`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="26" />
+      <Item value="Select`2" priority="26" />
+      <Item value="Where`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcThemes.Models.Employee">
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="53" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

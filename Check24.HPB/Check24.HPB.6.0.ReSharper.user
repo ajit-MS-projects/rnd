@@ -1,0 +1,182 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Views/d:Home/f:Index.cshtml" caret="55" fromTop="5" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Controllers/f:HomeController.cs" caret="135" fromTop="6" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/f:Global.asax" caret="100" fromTop="1" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/f:Global.asax.cs" caret="406" fromTop="13" />
+      <File id="85DD215E-C212-493F-9B2A-BF49C204B0D0/d:Services/f:IAuctionService.cs" caret="258" fromTop="10" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Models/f:BidModel.cs" caret="241" fromTop="11" />
+      <File id="B4B8A7D9-4B93-4985-8429-FE39D275B6BB/f:AuctionServiceTest.cs" caret="2277" fromTop="24" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:ModelExtensions.cs" caret="1087" fromTop="37" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Package.cs" caret="502" fromTop="17" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Bid.cs" caret="199" fromTop="9" />
+      <File id="85DD215E-C212-493F-9B2A-BF49C204B0D0/d:Models/f:IBidModel.cs" caret="153" fromTop="7" />
+      <File id="85DD215E-C212-493F-9B2A-BF49C204B0D0/d:Models/f:IAuction.cs" caret="247" fromTop="10" />
+      <File id="85DD215E-C212-493F-9B2A-BF49C204B0D0/d:Models/f:IAsset.cs" caret="193" fromTop="8" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Auction.cs" caret="136" fromTop="5" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:DataFillMethods.cs" caret="2778" fromTop="39" />
+      <File id="B4B8A7D9-4B93-4985-8429-FE39D275B6BB/f:ModelExtensionsTest.cs" caret="2362" fromTop="32" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:AuctionService.cs" caret="777" fromTop="27" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Controllers/f:BiddingController.cs" caret="833" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:AuctionService.cs" caret="977" fromTop="29" />
+      <File id="B4B8A7D9-4B93-4985-8429-FE39D275B6BB/f:ModelExtensionsTest.cs" caret="2085" fromTop="29" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:DataFillMethods.cs" caret="186" fromTop="8" />
+      <File id="B4B8A7D9-4B93-4985-8429-FE39D275B6BB/f:AuctionServiceTest.cs" caret="2367" fromTop="14" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:AuctionService.cs" caret="953" fromTop="28" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:AuctionService.cs" caret="812" fromTop="26" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Models/f:BidModel.cs" caret="241" fromTop="11" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:AuctionService.cs" caret="378" fromTop="14" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:DataFillMethods.cs" caret="2897" fromTop="51" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:DataFillMethods.cs" caret="1728" fromTop="13" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Auction.cs" caret="204" fromTop="8" />
+      <File id="85DD215E-C212-493F-9B2A-BF49C204B0D0/d:Models/f:IAuction.cs" caret="218" fromTop="10" />
+      <File id="85DD215E-C212-493F-9B2A-BF49C204B0D0/d:Models/f:IAsset.cs" caret="215" fromTop="8" />
+      <File id="85DD215E-C212-493F-9B2A-BF49C204B0D0/d:Models/f:IBidModel.cs" caret="229" fromTop="10" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Bid.cs" caret="180" fromTop="7" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Package.cs" caret="159" fromTop="6" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Package.cs" caret="303" fromTop="12" />
+      <File id="B4B8A7D9-4B93-4985-8429-FE39D275B6BB/f:AuctionServiceTest.cs" caret="2344" fromTop="26" />
+      <File id="A4ECE10B-7439-488E-BFCB-F8F010972451/f:Package.cs" caret="502" fromTop="17" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:DataFillMethods.cs" caret="1904" fromTop="22" />
+      <File id="B4B8A7D9-4B93-4985-8429-FE39D275B6BB/f:AuctionServiceTest.cs" caret="2289" fromTop="24" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:ModelExtensions.cs" caret="708" fromTop="26" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:ModelExtensions.cs" caret="1087" fromTop="37" />
+      <File id="B4B8A7D9-4B93-4985-8429-FE39D275B6BB/f:ModelExtensionsTest.cs" caret="2611" fromTop="36" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:DataFillMethods.cs" caret="2380" fromTop="23" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:DataFillMethods.cs" caret="2778" fromTop="39" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:AuctionService.cs" caret="497" fromTop="19" />
+      <File id="0A6F6802-DF5E-4294-8106-1EF4AF024383/f:AuctionService.cs" caret="925" fromTop="30" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Controllers/f:BiddingController.cs" caret="1005" fromTop="28" />
+      <File id="264E2AD8-5459-48D8-81DB-047068610656/d:Controllers/f:BiddingController.cs" caret="921" fromTop="27" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="int" priority="127" />
+      <Item value="prop" priority="223" />
+      <Item value="List" priority="95" />
+      <Item value="assets" priority="32" />
+      <Item value="public" priority="221" />
+      <Item value="Package`0" priority="94" />
+      <Item value="Assets" priority="31" />
+      <Item value="new" priority="479" />
+      <Item value="List&lt;Asset&gt;" priority="28" />
+      <Item value="class" priority="61" />
+      <Item value="void" priority="95" />
+      <Item value="auction" priority="315" />
+      <Item value="Asset" priority="119" />
+      <Item value="List&lt;IBid&gt;" priority="57" />
+      <Item value="foreach" priority="127" />
+      <Item value="while" priority="31" />
+      <Item value="Package" priority="95" />
+      <Item value="return" priority="95" />
+      <Item value="CalculatePrice`0" priority="31" />
+      <Item value="this" priority="31" />
+      <Item value="IAsset`0" priority="31" />
+      <Item value="asset" priority="64" />
+      <Item value="price" priority="63" />
+      <Item value="rootAsset" priority="95" />
+      <Item value="Id" priority="31" />
+      <Item value="Name" priority="32" />
+      <Item value="var" priority="63" />
+      <Item value="packAB" priority="31" />
+      <Item value="packA" priority="31" />
+      <Item value="Price" priority="32" />
+      <Item value="#endif" priority="63" />
+      <Item value="#region" priority="63" />
+      <Item value="BidModel`0" priority="63" />
+      <Item value="IBid`0" priority="31" />
+      <Item value="bid" priority="95" />
+      <Item value="Initialize`0" priority="31" />
+      <Item value="auctionService" priority="64" />
+      <Item value="AuctionService" priority="28" />
+      <Item value="Message" priority="31" />
+      <Item value="default" priority="31" />
+      <Item value="IAuction`0" priority="31" />
+      <Item value="auctionId" priority="31" />
+      <Item value="throw" priority="63" />
+      <Item value="NotFiniteNumberException" priority="29" />
+      <Item value="NotImplementedException" priority="58" />
+      <Item value="GetAssetPackages`0" priority="31" />
+      <Item value="Bid" priority="57" />
+      <Item value="BidId" priority="64" />
+      <Item value="x" priority="31" />
+      <Item value="BidPrice" priority="59" />
+      <Item value="private" priority="31" />
+      <Item value="Asset`0" priority="31" />
+      <Item value="DataFillMethods`0" priority="63" />
+      <Item value="Bid`0" priority="31" />
+      <Item value="abstract" priority="30" />
+      <Item value="package" priority="94" />
+      <Item value="if" priority="31" />
+      <Item value="PlaceAuction`0" priority="31" />
+      <Item value="Auction" priority="28" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.JsonRequestBehavior">
+      <Item value="AllowGet" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Check24.Data.Models.Asset">
+      <Item value="Id" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Check24.Data.Models.AssetNode">
+      <Item value="Id" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Check24.Contracts.Models.IAuction">
+      <Item value="Packages" priority="216" />
+      <Item value="Bids" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Check24.Contracts.Models.IAsset">
+      <Item value="Name" priority="26" />
+      <Item value="Package" priority="188" />
+      <Item value="Price" priority="216" />
+      <Item value="CalculatePrice`0" priority="53" />
+      <Item value="Bids" priority="53" />
+      <Item value="CalculatePriceAfterBids`0" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="134" />
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue`0" priority="55" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Check24.Hpb.Services.IAuctionService">
+      <Item value="PlaceBid`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Check24.Contracts.Services.IAuctionService">
+      <Item value="PlaceAuction`0" priority="82" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Check24.Contracts.Models.IBid">
+      <Item value="BidPrice" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Check24.Hpb.Services.DataFillMethods">
+      <Item value="GetAssetPackagesWithBids`0" priority="22" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

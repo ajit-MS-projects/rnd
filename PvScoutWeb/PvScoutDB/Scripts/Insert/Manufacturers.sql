@@ -1,0 +1,3 @@
+﻿INSERT [dbo].[Manufacturers] ([ManufId], [ManufName], [Description], [Address]) VALUES (1, N'3S Swiss Solar System AG', NULL, N'Switzerland')
+INSERT [dbo].[Manufacturers] ([ManufId], [ManufName], [Description], [Address]) VALUES (2, N'Test Manufaturer 2', N'test description2', N'Germany')
+INSERT [dbo].[Manufacturers] ([ManufId], [ManufName], [Description], [Address]) VALUES (3, N'Test Manufaturer 3', N'test description3', N'Germany')

@@ -1,0 +1,3 @@
+﻿2015-04-30 00:01:16,828 [6] INFO  umbraco.BusinessLogic.Log - [Thread 118] Log scrubbed.  Removed all items older than 2015-03-01 00:01:16
+2015-04-30 00:02:43,241 [6] INFO  umbraco.BusinessLogic.Log - [Thread 150] Log scrubbed.  Removed all items older than 2015-03-01 00:02:43
+2015-04-30 00:04:09,655 [6] INFO  umbraco.BusinessLogic.Log - [Thread 131] Log scrubbed.  Removed all items older than 2015-03-01 00:04:09

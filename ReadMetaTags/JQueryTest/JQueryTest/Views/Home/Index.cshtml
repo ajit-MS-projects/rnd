@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<link href="../../Scripts/jquery-1.5.1.min.js" rel="stylesheet" type="text/css" />
+<h2>Index</h2>
+<div id="div1">
+	
+</div>
+<script type="text/javascript">
+	$(document).ready(function () {
+		employee.prototype.changeId = function (newId) {
+			this.id = this.id * newId;
+		};
+
+		$("#div1").html("this is test");
+		var objEmp = new employee(5);
+		//objEmp.getName();
+
+		objEmp.changeId(10);
+		objEmp.getName();
+	});
+
+	function employee(id) {
+		
+		this.id = id+1;
+		this.getName = function () {
+			alert(this.id + "Name is Bond.. James Bond." + id);
+			var arr = new Array();
+			arr
+
+		};
+	}
+//(function ($) { alert("strange function syntax"); })(jQuery);
+</script>
+
+<script type="text/javascript">
+	function superClass() {
+		this.supertest = superTest; //attach method superTest
+	}
+
+	function subClass() {
+		this.a = superClass;
+		this.a();
+		this.subtest = subTest; //attach method subTest
+	}
+
+	function superTest() {
+		return "superTest";
+	}
+  
+	function subTest() {
+		return "subTest";
+	}
+
+
+	var newClass = new subClass();
+	
+//alert(newClass.subtest()); // yields "subTest"
+//alert(newClass.supertest()); // yields "superTest"
+
+</script>
+<script type="text/javascript">
+	testObj = {
+		prop1: "hello",
+		prop2: "hello2",
+		prop3: new Array("helloa", 1, 2)
+	};
+
+	for (x in testObj) alert(x + "-" + testObj[x]);
+	
+	
+</script>

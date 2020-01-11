@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2d5c2725-3c32-40dd-a725-c97505ddcf2f" name="achahal@S24S104 2012-07-11 17:09:18" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-07-11 17_09_18">
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Components.Validator.2.5.0\lib\NET40\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-11T17:09:18.6643452+02:00" queuing="2012-07-11T17:09:18.7013489+02:00" start="2012-07-11T17:09:18.7043492+02:00" finish="2012-07-11T17:09:19.7224510+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddProductTest" storage="d:\ajit\rnd\castleactiverecordtest\castleactiverecordtest_test\bin\debug\castleactiverecordtest_test.dll" id="b3772d75-8bac-0acf-ff46-f3928e0e1598">
+      <Execution id="38eaf8ea-6723-4ac3-b72b-5d732c6f688c" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest/CastleActiveRecordTest_Test/bin/Debug/CastleActiveRecordTest_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CastleActiveRecordTest_Test.MvcApplicationTest, CastleActiveRecordTest_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddProductTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b3772d75-8bac-0acf-ff46-f3928e0e1598" executionId="38eaf8ea-6723-4ac3-b72b-5d732c6f688c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="38eaf8ea-6723-4ac3-b72b-5d732c6f688c" testId="b3772d75-8bac-0acf-ff46-f3928e0e1598" testName="AddProductTest" computerName="S24S104" duration="00:00:00.2459185" startTime="2012-07-11T17:09:18.7053493+02:00" endTime="2012-07-11T17:09:19.7124500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38eaf8ea-6723-4ac3-b72b-5d732c6f688c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

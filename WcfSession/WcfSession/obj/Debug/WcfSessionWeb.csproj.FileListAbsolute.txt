@@ -1,0 +1,10 @@
+D:\ajit\rnd\WcfSession\bin\WcfSession.dll
+D:\ajit\rnd\WcfSession\bin\WcfSession.pdb
+D:\ajit\rnd\WcfSession\obj\Debug\WcfSession.dll
+D:\ajit\rnd\WcfSession\obj\Debug\WcfSession.pdb
+D:\ajit\rnd\WcfSession\obj\Debug\WcfSessionWeb.csprojResolveAssemblyReference.cache
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\bin\WcfSession.dll
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\bin\WcfSession.pdb
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\obj\Debug\WcfSessionWeb.csprojResolveAssemblyReference.cache
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\obj\Debug\WcfSession.dll
+C:\Users\Ajit\Downloads\WcfSession\WcfSession\obj\Debug\WcfSession.pdb

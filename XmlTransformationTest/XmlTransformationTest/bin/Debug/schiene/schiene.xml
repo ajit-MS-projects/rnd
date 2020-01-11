@@ -1,0 +1,2230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSchiene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Schiene>
+		<ID>66</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020007</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL CREODUR</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL CREODUR</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL CREODUR</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL CREODUR</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>CREODUR Montageprofil</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR mounting profile</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé de montage CREODUR</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo di montaggio CREODUR</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Klemmprofil CREODUR</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>CREODUR mounting profile for fastening framed modules with module clamps, delivery length of 6000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé de montage CREODUR destiné à la fixation de panneaux encadrés avec des attaches, longueur de livraison 6 000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo di montaggio CREODUR per il fissaggio di moduli con telaio e morsetti per modulo, lunghezza di fornitura 6000 mm</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_CREODUR</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>67</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020001</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluVer Plus R</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluVerPlus R</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluVerPlus R</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluVerPlus R</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluVerPlus Schiene mit Riffelung</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluVerPlus corrugated rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Rail AluVerPlus avec cannelure</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Guida AluVerPlus con scanalatura</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Grundprofil 50x50 mm mit C-Nut seitlich und oben</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Vertical section for laterally screwing on the roof hooks, high stability, delivery length 6000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé vertical pour la fixation latérale des crochets de couvreur, stabilité élevée longueur de livraison 6 000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo verticale per avvitamento laterale di ganci per tetto, stabilità elevata, lunghezza fornita 6000 mm</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUVER_PLUS_R</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>68</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020002</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluVer Plus XL</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluVerPlus XL</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluVerPlus XL</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluVerPlus XL</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluVerPlus XL Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluVerPlus XL Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluVerPlus XL Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluVerPlus XL Schiene</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluVerPlus XL Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>vertikales Profil für große Spannweiten oder erhöhte Belastbarkeit, Lieferlänge 6000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>vertikales Profil für große Spannweiten oder erhöhte Belastbarkeit, Lieferlänge 6000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>vertikales Profil für große Spannweiten oder erhöhte Belastbarkeit, Lieferlänge 6000 mm</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUVERPLUS_XL</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>69</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020000</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluVer Standard</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluVer Standard</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluVer Standard</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluVer Standard</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluVer Standard Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluVer Standard Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluVer Standard Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluVer Standard Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Grundprofil 30x50 mm mit C-Nut seitlich und oben</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Vertikales Profil mit Riffelung zur seitlichen Verschraubung von Dachhaken,  für geringe Schneelasten, Lieferlänge 6000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Vertikales Profil mit Riffelung zur seitlichen Verschraubung von Dachhaken,  für geringe Schneelasten, Lieferlänge 6000 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Vertikales Profil mit Riffelung zur seitlichen Verschraubung von Dachhaken,  für geringe Schneelasten, Lieferlänge 6000 mm</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUVER_STANDARD</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>70</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020057</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluVer Premium</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluVer Premium</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluVer Premium</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluVer Premium</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluVer Premium Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluVer Premium Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluVer Premium Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluVer Premium Schiene mit seitlicher Riffelung</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Grundprofil 40x60 mm mit C-Nut seitlich und oben</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string />
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string />
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string />
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUVER_PREMIUM</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>71</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020009</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec FL</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec FL</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec FL</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec FL</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec FL Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec FL rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec FL profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec FL profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für rahmenlose Module</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting frameless modules with a glass thickness of approx. 7 mm in conjunction with EPDM rubber inserts, delivery length 6050 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires sans cadre munis d’un verre de 7 mm d’épaisseur env. et de joints en caoutchouc EPDM, longueur de livraison 6050 mm</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli privi di telaio con uno spessore del vetro di ca. 7 mm con guarnizioni in EPDM, lunghezza fornita 6050 mm</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6050">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_FL</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>72</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020027</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 35</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 35</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 35 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontales Profil zum Einlegen von gerahmten Modulen mit einer Rahmenhöhe von 35 mm, Lieferlänge 6000 mm (Achtung nur Randanschlag RA6 passend)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 35 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 35 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_35</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>73</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020028</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 36</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 36</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 36 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 38 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 36 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 36 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_36</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>74</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020029</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 38</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 38</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 38 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 38 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 38 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 38 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_38</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>75</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020030</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 40</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 40</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 40 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 40 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 40 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 40 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_40</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>76</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020031</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 41</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 41</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 41 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 41 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 41 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 41 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_41</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>77</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020032</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 42</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 42</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 42 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 42 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 42 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 42 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_42</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>78</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020033</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 43</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 43</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 43 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 43 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 43 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 43 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_43</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>79</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020034</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 45</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 45</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 45</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 45</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 45 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 45 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 45 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 45 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_45</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>80</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020035</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 46</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 46</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 46 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 46 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 46 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 46 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_46</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>81</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020036</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec 50</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec 50</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Schiene</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec rail</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec profilé</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec profilo</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Einlegeprofil für Module mit 50 mm Rahmenstärke</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontal frame for inserting framed modules with a frame height of 50 mm, delivery length 6000 mm (Attention: Only RA6 edge stop fits.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Profilé horizontal pour la pose de panneaux solaires encadrés d’une hauteur de cadre de 50 mm, longueur de livraison 6000 mm (Attention, seul le rebord RA6 convient.)</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Profilo orizzontale per la posa di moduli con telaio di 50 mm di spessore, lunghezza fornita 6000 mm (Attenzione addato solo per battuta laterale RA6.)</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_50</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+	<Schiene>
+		<ID>82</ID>
+		<VERSION Versionsnummer="1" AnlegeDatum="2011-01-01T00:00:00" Abgekuendigt="false">
+			<Aenderung />
+			<AngelegtDurch Titel="" Anrede="Herr" NachName="Gerbl" VorName="Wolfgang" Kuerzel="WoG" />
+		</VERSION>
+		<ARTIKELNUMMER>
+			<ARTIKELNUMMER_SOLS />
+			<ARTIKELNUMMER_KUNDE>020006</ARTIKELNUMMER_KUNDE>
+			<BESTELL_NUMMER />
+			<REVISIONS_NUMMER />
+		</ARTIKELNUMMER>
+		<HERSTELLER ID="1" Name="CreoTecc">
+			<Ansprechpartner Titel="" Anrede="Frau" NachName="Muster" VorName="Martha" Kuerzel="MM" />
+			<Adresse PLZ="12345" Strasse="Musterstrasse" Hausnummer="1A" Ort="Musterhausen" Land="Deutschland" />
+		</HERSTELLER>
+		<VERPACKUNGS_EINHEIT>
+			<PREIS Betrag="1">
+				<Waehrung TextKeyLang="" TextKeyKurz="" TextKeySymbol="" Decimals="0" />
+			</PREIS>
+			<ANZAHL>1</ANZAHL>
+			<EINHEIT TextKeyLang="UNIT_STUECK_LANG" TextKeyKurz="UNIT_STUECK_KURZ" Decimals="0" />
+		</VERPACKUNGS_EINHEIT>
+		<ZUSATZ_ARTIKEL />
+		<ZUSATZ_ARTIKEL_OPTIONAL />
+		<BESCHREIBUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BEZEICHNUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>RL AluTec BP</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>RL AluTec BP</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>RL AluTec BP</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>RL AluTec BP</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_BESCHREIBUNG" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>AluTec Stützprofil</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>AluTec Stützprofil</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>AluTec Stützprofil</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>AluTec Stützprofil</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Beschreibungsart KEY="BESCHREIBUNGSART_DETAILS" />
+				<MehrsprachlicherText>
+					<DICTIONARY>
+						<string>de-DE</string>
+						<string>Stützprofil für Einlegesystem AluTec</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>en-GB</string>
+						<string>Horizontales Stützprofil</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>fr-FR</string>
+						<string>Horizontales Stützprofil</string>
+					</DICTIONARY>
+					<DICTIONARY>
+						<string>it-IT</string>
+						<string>Horizontales Stützprofil</string>
+					</DICTIONARY>
+				</MehrsprachlicherText>
+			</DICTONARY_EINTRAG>
+		</BESCHREIBUNG>
+		<LAENDER_FREIGABE>
+			<DICTIONARY>
+				<string>de-DE</string>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTIONARY>
+		</LAENDER_FREIGABE>
+		<PROGRAMM_FREIGABE>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Artikel.Data.Enum.Programmart, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Programmart>CreoTool</Programmart>
+				<Freigabe>
+					<FREIGEGEBEN>true</FREIGEGEBEN>
+				</Freigabe>
+			</DICTONARY_EINTRAG>
+		</PROGRAMM_FREIGABE>
+		<ARTIKEL_GRUPPE>
+			<GRUPPEN_NAME />
+			<GRUPPE KEY="ARTIKELGRUPPE_SCHIENE" />
+		</ARTIKEL_GRUPPE>
+		<SORTIERUNG>
+			<DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.36028, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+				<Sortierart KEY="SORTIERART_STUECKLISTE" />
+				<Position>
+					<POSITION>10</POSITION>
+				</Position>
+			</DICTONARY_EINTRAG>
+		</SORTIERUNG>
+		<GEWICHT_KG>
+			<WERT Wert="0.001">
+				<Einheit TextKeyLang="UNIT_KILOGRAMM_LANG" TextKeyKurz="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+			</WERT>
+		</GEWICHT_KG>
+		<ARTIKELVERWENDBARKEIT>nix</ARTIKELVERWENDBARKEIT>
+		<LAENGE Wert="6000">
+			<Einheit TextKeyLang="UNIT_MILLIMETER_LANG" TextKeyKurz="UNIT_MILLIMETER_KURZ" Decimals="3" />
+		</LAENGE>
+		<SCHIENENTYP>
+			<Primaerschluessel>RL_ALUTEC_BP</Primaerschluessel>
+		</SCHIENENTYP>
+	</Schiene>
+</ArrayOfSchiene>

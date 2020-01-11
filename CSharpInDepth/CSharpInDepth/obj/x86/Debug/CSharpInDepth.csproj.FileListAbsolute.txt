@@ -1,0 +1,4 @@
+D:\ajit\rnd\CSharpInDepth\CSharpInDepth\bin\Debug\CSharpInDepth.exe
+D:\ajit\rnd\CSharpInDepth\CSharpInDepth\bin\Debug\CSharpInDepth.pdb
+D:\ajit\rnd\CSharpInDepth\CSharpInDepth\obj\x86\Debug\CSharpInDepth.exe
+D:\ajit\rnd\CSharpInDepth\CSharpInDepth\obj\x86\Debug\CSharpInDepth.pdb

@@ -1,0 +1,10 @@
+E:\Projekte\Solarschmiede\PVScout 3.0\Spikes\EntityFrameworkTest\EntityFrameworkTest\bin\Debug\EntityFrameworkTest.dll
+E:\Projekte\Solarschmiede\PVScout 3.0\Spikes\EntityFrameworkTest\EntityFrameworkTest\bin\Debug\EntityFrameworkTest.pdb
+E:\Projekte\Solarschmiede\PVScout 3.0\Spikes\EntityFrameworkTest\EntityFrameworkTest\obj\Debug\ResolveAssemblyReference.cache
+E:\Projekte\Solarschmiede\PVScout 3.0\Spikes\EntityFrameworkTest\EntityFrameworkTest\obj\Debug\EntityFrameworkTest.dll
+E:\Projekte\Solarschmiede\PVScout 3.0\Spikes\EntityFrameworkTest\EntityFrameworkTest\obj\Debug\EntityFrameworkTest.pdb
+D:\ajit\RND\Solar\EntityFrameworkTest\EntityFrameworkTest\bin\Debug\EntityFrameworkTest.dll
+D:\ajit\RND\Solar\EntityFrameworkTest\EntityFrameworkTest\bin\Debug\EntityFrameworkTest.pdb
+D:\ajit\RND\Solar\EntityFrameworkTest\EntityFrameworkTest\obj\Debug\EntityFrameworkTest.dll
+D:\ajit\RND\Solar\EntityFrameworkTest\EntityFrameworkTest\obj\Debug\EntityFrameworkTest.pdb
+D:\Ajit\RND\Solar\EntityFrameworkTest\EntityFrameworkTest\bin\Debug\EntityFramework.dll

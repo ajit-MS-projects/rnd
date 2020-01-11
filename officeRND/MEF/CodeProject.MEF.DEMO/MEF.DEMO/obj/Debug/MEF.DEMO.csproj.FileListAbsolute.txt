@@ -1,0 +1,6 @@
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.DEMO\bin\Debug\developer.xml
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.DEMO\bin\Debug\MEF.DEMO.exe
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.DEMO\bin\Debug\MEF.DEMO.pdb
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.DEMO\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.DEMO\obj\Debug\MEF.DEMO.exe
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.DEMO\obj\Debug\MEF.DEMO.pdb

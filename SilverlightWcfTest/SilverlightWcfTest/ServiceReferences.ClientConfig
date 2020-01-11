@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IPvScoutService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:8444/PvScoutService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IPvScoutService"
+                contract="PvScoutService.IPvScoutService" name="BasicHttpBinding_IPvScoutService" />
+        </client>
+    </system.serviceModel>
+</configuration>

@@ -1,0 +1,12 @@
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\bin\Debug\WcfWinSerFormClient.exe
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\bin\Debug\WcfWinSerFormClient.pdb
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\bin\Debug\WcfWinService.exe
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\bin\Debug\WcfWinService.pdb
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\obj\Debug\WcfWinSerFormClient.Form1.resources
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\obj\Debug\WcfWinSerFormClient.Properties.Resources.resources
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\obj\Debug\WcfWinSerFormClient.exe
+d:\ajit\rnd\WcfWinService\WcfWinSerFormClient\obj\Debug\WcfWinSerFormClient.pdb
+D:\Ajit\rnd\WcfWinService\WcfWinSerFormClient\bin\Debug\WcfWinSerFormClient.exe.config
+D:\Ajit\rnd\WcfWinService\WcfWinSerFormClient\obj\Debug\GenerateResource.read.1.tlog
+D:\Ajit\rnd\WcfWinService\WcfWinSerFormClient\obj\Debug\GenerateResource.write.1.tlog

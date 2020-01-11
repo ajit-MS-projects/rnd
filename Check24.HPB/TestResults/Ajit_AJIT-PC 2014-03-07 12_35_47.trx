@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6ec4a071-29af-47b2-aaf6-1e6b0b14d1f3" name="Ajit@AJIT-PC 2014-03-07 12:35:47" runUser="AJIT-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="efcc70f8-2686-4a26-b486-c71c9f94b41e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2014-03-07 12_35_47">
+      <DeploymentItem filename="D:\ajit\rnd\Check24.HPB\Check24.Data.Models\bin\Debug\Check24.Data.Models.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services\bin\Debug\Check24.Hpb.Services.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\Check24.HPB\Check24.Contracts\bin\Debug\Check24.Contracts.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-07T12:35:47.6389508+01:00" queuing="2014-03-07T12:35:48.9019953+01:00" start="2014-03-07T12:35:49.1410083+01:00" finish="2014-03-07T12:35:55.7985015+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="AJIT-PC" outcome="Error" timestamp="2014-03-07T12:35:55.7975005+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculatePrice_Of_Package_Hierarchy_Test" storage="d:\ajit\rnd\check24.hpb\check24.hpb.services.tests\bin\debug\check24.hpb.services.tests.dll" id="5ae8537f-332e-3980-c90b-fe554fa34627">
+      <Execution id="49eb4ff9-0e2c-4882-9267-85dd9a234c93" />
+      <TestMethod codeBase="D:/ajit/rnd/Check24.HPB/Check24.Hpb.Services.Tests/bin/Debug/Check24.Hpb.Services.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Check24.Hpb.Services.Tests.ModelExtensionsTest, Check24.Hpb.Services.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatePrice_Of_Package_Hierarchy_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5ae8537f-332e-3980-c90b-fe554fa34627" executionId="49eb4ff9-0e2c-4882-9267-85dd9a234c93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="49eb4ff9-0e2c-4882-9267-85dd9a234c93" testId="5ae8537f-332e-3980-c90b-fe554fa34627" testName="CalculatePrice_Of_Package_Hierarchy_Test" computerName="AJIT-PC" duration="00:00:06.3914672" startTime="2014-03-07T12:35:49.4070343+01:00" endTime="2014-03-07T12:35:55.7985015+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49eb4ff9-0e2c-4882-9267-85dd9a234c93">
+    </UnitTestResult>
+  </Results>
+</TestRun>

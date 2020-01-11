@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1c3013fa-f386-4248-a3ce-f856c4fcc718" name="achahal@S24S104 2013-01-18 17:16:11" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2013-01-18 17_16_11">
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\shared\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\shared\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-18T17:16:11.4900403+01:00" queuing="2013-01-18T17:16:15.0513964+01:00" start="2013-01-18T17:16:15.1894102+01:00" finish="2013-01-18T17:20:53.0541939+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="4" passed="2" error="0" failed="1" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Error" timestamp="2013-01-18T17:20:53.0531938+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReportsGetTest" storage="d:\ajit\rnd\castleactiverecordtest\newtest\bin\debug\newtest.dll" id="86c34846-de0b-cb7e-2f91-fd69d9afb818">
+      <Execution id="6a2a8a9e-09eb-4e7a-bcec-e62571157760" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsGetTest" />
+    </UnitTest>
+    <UnitTest name="AddProductTest" storage="d:\ajit\rnd\castleactiverecordtest\newtest\bin\debug\newtest.dll" id="48ddeb23-cc7d-070d-b64a-c9f720ce568c">
+      <Execution id="a813be88-2889-4f63-97d1-4bfa9d5e0d87" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddProductTest" />
+    </UnitTest>
+    <UnitTest name="ProductConstructorTest" storage="d:\ajit\rnd\castleactiverecordtest\newtest\bin\debug\newtest.dll" id="7ddf1285-ad85-9312-2b4b-543770201ce4">
+      <Execution id="27d6a0db-7402-4530-bfde-184dfc088610" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.ProductTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProductConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:7722/">
+        <Host pathToWebApp="D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="AddProductTest2" storage="d:\ajit\rnd\castleactiverecordtest\newtest\bin\debug\newtest.dll" id="cbd6ff1b-cf0b-6864-eced-241af830b4c6">
+      <Execution id="0b04e9a5-e3c6-440a-8c76-86e292fa9236" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddProductTest2" />
+    </UnitTest>
+    <UnitTest name="ReportsTest" storage="d:\ajit\rnd\castleactiverecordtest\newtest\bin\debug\newtest.dll" id="03d270b5-d083-8190-2451-084ac855050e">
+      <Execution id="68db9f3b-5b40-42c2-bce1-110832c25de2" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03d270b5-d083-8190-2451-084ac855050e" executionId="68db9f3b-5b40-42c2-bce1-110832c25de2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48ddeb23-cc7d-070d-b64a-c9f720ce568c" executionId="a813be88-2889-4f63-97d1-4bfa9d5e0d87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ddf1285-ad85-9312-2b4b-543770201ce4" executionId="27d6a0db-7402-4530-bfde-184dfc088610" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" executionId="6a2a8a9e-09eb-4e7a-bcec-e62571157760" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbd6ff1b-cf0b-6864-eced-241af830b4c6" executionId="0b04e9a5-e3c6-440a-8c76-86e292fa9236" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="68db9f3b-5b40-42c2-bce1-110832c25de2" testId="03d270b5-d083-8190-2451-084ac855050e" testName="ReportsTest" computerName="S24S104" duration="00:00:00.6265415" startTime="2013-01-18T17:16:15.3534266+01:00" endTime="2013-01-18T17:16:19.0137926+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68db9f3b-5b40-42c2-bce1-110832c25de2">
+    </UnitTestResult>
+    <UnitTestResult executionId="a813be88-2889-4f63-97d1-4bfa9d5e0d87" testId="48ddeb23-cc7d-070d-b64a-c9f720ce568c" testName="AddProductTest" computerName="S24S104" duration="00:00:00.1077359" startTime="2013-01-18T17:16:19.0257938+01:00" endTime="2013-01-18T17:16:19.1368049+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a813be88-2889-4f63-97d1-4bfa9d5e0d87">
+    </UnitTestResult>
+    <UnitTestResult executionId="27d6a0db-7402-4530-bfde-184dfc088610" testId="7ddf1285-ad85-9312-2b4b-543770201ce4" testName="ProductConstructorTest" computerName="S24S104" startTime="2013-01-18T17:16:19.8878800+01:00" endTime="2013-01-18T17:16:47.7076617+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27d6a0db-7402-4530-bfde-184dfc088610">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:7722/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_ProductConstructorTe.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="S24S104\WebRequestResponse_ProductConstructorTe.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a2a8a9e-09eb-4e7a-bcec-e62571157760" testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" testName="ReportsGetTest" computerName="S24S104" duration="00:04:05.3435319" startTime="2013-01-18T17:16:47.7106620+01:00" endTime="2013-01-18T17:20:53.0541939+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a2a8a9e-09eb-4e7a-bcec-e62571157760">
+    </UnitTestResult>
+    <UnitTestResult executionId="0b04e9a5-e3c6-440a-8c76-86e292fa9236" testId="cbd6ff1b-cf0b-6864-eced-241af830b4c6" testName="AddProductTest2" computerName="S24S104" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b04e9a5-e3c6-440a-8c76-86e292fa9236">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,139 @@
+﻿Installing assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Installing service winServiceTest...
+Creating EventLog source winServiceTest in log Application...
+Rolling back assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Restoring event log to previous state for source winServiceTest.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Installing service winServiceTest...
+Creating EventLog source winServiceTest in log Application...
+Rolling back assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Restoring event log to previous state for source winServiceTest.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Installing service winServiceTest...
+Creating EventLog source winServiceTest in log Application...
+Rolling back assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Restoring event log to previous state for source winServiceTest.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Installing service winServiceTest...
+Service winServiceTest has been successfully installed.
+Creating EventLog source winServiceTest in log Application...
+Committing assembly 'D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Uninstalling assembly 'D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Removing EventLog source winServiceTest.
+Service winServiceTest is being removed from the system...
+Service winServiceTest was successfully removed from the system.
+Attempt to stop service winServiceTest.
+Installing assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Installing service winServiceTest...
+Creating EventLog source winServiceTest in log Application...
+Rolling back assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Restoring event log to previous state for source winServiceTest.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Installing service winServiceTest...
+Service winServiceTest has been successfully installed.
+Creating EventLog source winServiceTest in log Application...
+Committing assembly 'D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Uninstalling assembly 'D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\RND\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Removing EventLog source winServiceTest.
+Service winServiceTest is being removed from the system...
+Service winServiceTest was successfully removed from the system.
+Attempt to stop service winServiceTest.
+Installing assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Installing service winServiceTest...
+Service winServiceTest has been successfully installed.
+Creating EventLog source winServiceTest in log Application...
+Committing assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Uninstalling assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Removing EventLog source winServiceTest.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.InstallLog
+   assemblypath = D:\ajit\rnd\WinServicetest\winServiceTest\bin\Release\winServiceTest.exe
+Removing EventLog source winServiceTest.
+Service winServiceTest is being removed from the system...
+Service winServiceTest was successfully removed from the system.
+Attempt to stop service winServiceTest.

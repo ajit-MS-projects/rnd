@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Affilinet.Business.ProductImport.Cache.CacheManager" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGgAgEgAAAAAAgIAAAAABAABACQAEACAAAAAQAAA=</HashCode>
+      <FileName>Cache\CacheManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Cache.MemCache" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAgAgAAAAAAgAAgAAABAAAACQAEQAAAAAAQAAA=</HashCode>
+      <FileName>Cache\MemCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Cache.SqlCache" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAgAgAAAAAAgAAAAAABAAAACQAEAAAAAAAQEAA=</HashCode>
+      <FileName>Cache\SqlCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Common.Constants" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Common.Utilities" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACESgAEAAAAAYACCAIAAAgAAAAAAAGAIAEAAAIAIKA=</HashCode>
+      <FileName>Common\Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.DAO.ProductDAO" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABUAAiQYAAAAAAgAAAxAAgAAAADQAEBAgAEgAgAAA=</HashCode>
+      <FileName>DAO\ProductDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Download.BaseDownloadManager" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAIABAAAAAAAAACAAAAAABAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Download\BaseDownloadManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Download.DownloadManager" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIFIABQBAEACAAAAAAAAAAJAAAGIAAAAAIQIAA=</HashCode>
+      <FileName>Download\DownloadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.CSVDataCollections" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQQ=</HashCode>
+      <FileName>Entity\CSVDataCollections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.DocumentAttributes" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAkAAAACAIABIgCMAAgASADAAIBAAFAFAA=</HashCode>
+      <FileName>Entity\DocumentAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.DownloadReportingInfo" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAkEAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAA=</HashCode>
+      <FileName>Entity\DownloadReportingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.Product" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AA0EQAgIgAAAAiAAAAABxAQAgAAABAAAAAgAQAAEEAA=</HashCode>
+      <FileName>Entity\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.ProductImage" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEQAAAAAAABAAAAAAABAAAAAAAAgAIAAAAIAAAAAA=</HashCode>
+      <FileName>Entity\ProductImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.ProgramFields" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIgAEAAAAAAABAAAAIAAAAAAAAwAAAAEEg=</HashCode>
+      <FileName>Entity\ProgramFields.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.ProgramSettings" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAAAAgAEAAIBIAAAAAggAAYBAsABABoAAAEAA=</HashCode>
+      <FileName>Entity\ProgramSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.ReportingInfo" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAgIAAAMEAAAgAAAAIEAAABAAAAAAAABAAABCAABAQA=</HashCode>
+      <FileName>Entity\ReportingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Entity.SsisImportReportingInfo" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEBAAAAAAAAAgAAAAgCAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\SsisImportReportingInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Processor.BaseProcessor" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAwICUSAEjgAAAAAgAAAAAAEAEIAgACAAAAYAARA=</HashCode>
+      <FileName>Processor\BaseProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Processor.CSVProcessor" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgCAAQAQAQIgAwAKAABABAAAEAAAgCAAAAAACAAgAAA=</HashCode>
+      <FileName>Processor\CSVProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Processor.FileProcessor" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAAAAAAAAIAAAIAAAAAAADAgAABAAAAAAAgAA=</HashCode>
+      <FileName>Processor\FileProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.Processor.XMLProcessor" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Processor\XmlProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.ProductImportManager" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAIIAAAAAAAAgIAQAACAAIAAQBCAAAgkIAUA=</HashCode>
+      <FileName>ProductImportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Affilinet.Business.ProductImport.Download.IDownloadManager" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Download\IDownloadManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Affilinet.Business.ProductImport.Processor.IProcessor" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAACgAAAAAgAAAAAAEAEAAAACAAAAQAAAA=</HashCode>
+      <FileName>Processor\IProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Affilinet.Business.ProductImport.Common.DocumentTypesEnum" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.FileExtensionsEnum" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAACAAEAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.SourceURLProtocolEnum" Collapsed="true">
+    <Position X="9.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.ApplicationEventsEnum" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIBAFAACAAAABAAAAAAAAAAAAAACAQAAAABAAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.ProductActionsEnum" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.ProgramImportStatusEnum" Collapsed="true">
+    <Position X="7.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAQAAAAAAAAARiAABABAAAAABAAAAgAAAABAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.ManualImportEnum" Collapsed="true">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.ApplicationStatusEnum" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.ProductImportReportParamsEnum" Collapsed="true">
+    <Position X="13.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAgIQAAMgFAAgAAIAIEgAABAgCAAAAAACAABAAABAQA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Affilinet.Business.ProductImport.Common.FileLocationsEnum" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAoAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="9.6" />
+</ClassDiagram>

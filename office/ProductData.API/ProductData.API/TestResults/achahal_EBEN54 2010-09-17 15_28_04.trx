@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f37182fe-87a7-466b-ad59-e7d810b346cf" name="achahal@EBEN54 2010-09-17 15:28:04" runUser="EBE\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="1c62c5e0-327d-4c63-9b01-48ee5e703a2e">
+    <Deployment runDeploymentRoot="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestResults\achahal_EBEN54 2010-09-17 15_28_04">
+      <DeploymentItem filename="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliExceptionAPI\bin\Release\Affilinet.Exceptions.dll" />
+      <DeploymentItem filename="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliProductImportBusiness\bin\Release\Affilinet.Business.ProductImport.dll" />
+      <DeploymentItem filename="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\bin\Release\Affilinet.Data.Access.dll" />
+      <DeploymentItem filename="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AfilinetLogAPI\bin\Release\Affilinet.Utility.Logging.dll" />
+      <DeploymentItem filename="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliProductImportBusiness\Shared\SharpZipLib.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="29" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="28" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="EBEN54" outcome="Error" timestamp="2010-09-17T15:28:28.5556031+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-09-17T15:28:04.5853191+02:00" queuing="2010-09-17T15:28:17.2267531+02:00" start="2010-09-17T15:28:17.6174031+02:00" finish="2010-09-17T15:28:28.6024811+02:00" />
+  <TestDefinitions>
+    <UnitTest name="DownloadDocumentsTestFtpXml" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="d99374a4-371b-8bb4-5f98-f2ff8a3a0443">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestFtpXml" />
+    </UnitTest>
+    <UnitTest name="DownloadManagerConstructorTest1" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="44e734f5-26f0-64d7-d00d-6ba7e6e44cce">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadManagerConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="IncrementDateTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="9b8c33cf-ec67-d9f7-5065-d0e1678e3ca1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="IncrementDateTest" />
+    </UnitTest>
+    <UnitTest name="StartImportTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="142a34d8-9640-e9a8-a967-e5da632f3216">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.ProductImportManagerTest, TestProductImport" name="StartImportTest" />
+    </UnitTest>
+    <UnitTest name="ProductImportManagerConstructorTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="cb64a205-0000-eee5-0ea7-a59341f7f3bb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.ProductImportManagerTest, TestProductImport" name="ProductImportManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CreateEndLogTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="cbc2a122-60d6-fb17-ec86-22820d4b8cc3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="CreateEndLogTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestFtpInvCred" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="8b3e597e-29ed-5b28-415e-8148cd16d42a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestFtpInvCred" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpXml" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="d8f41011-0811-b517-6ca0-f3c452b9515f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpXml" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestFtpAuZip" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="03935a31-5d4b-6ce8-6195-fbccbd26f538">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestFtpAuZip" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpInvDirectory" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="4da2dedd-5f67-8466-d3a1-4c62775dbfbe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpInvDirectory" />
+    </UnitTest>
+    <UnitTest name="CreateLogTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="52fd2b05-5b4c-2360-43c8-6e2c40893d8f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="Affilinet.Business.ProductImport.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="CreateLogTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpNa" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="4bc9fb10-94ce-a721-0a5e-990ee61cc36a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpNa" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpAuGz" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="c2ee8f75-8435-fc66-32cf-948df28e62e1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpAuGz" />
+    </UnitTest>
+    <UnitTest name="CreateInfoLogTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="c686ce1c-def6-7418-b12d-5e1d567c7b0a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="CreateInfoLogTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestFtpAuGz" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="06450063-d8fb-ad96-3a29-97406e3ba4e1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestFtpAuGz" />
+    </UnitTest>
+    <UnitTest name="DownloadManagerConstructorTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="b7629e9c-4b07-2ad7-16dd-babc40bb993e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CreateStartLogTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="2ad22e00-78f0-758f-8dbb-55fbd34b91c5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="CreateStartLogTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpAuZip" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="c11110e6-59be-fcce-e2d8-6462b0e5ca4d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpAuZip" />
+    </UnitTest>
+    <UnitTest name="GetScheduledProgramsTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="7b0ed642-6f77-2013-b2a9-b9a22e56546c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.ProductDAOTest, TestProductImport" name="GetScheduledProgramsTest" />
+    </UnitTest>
+    <UnitTest name="ProductDAOConstructorTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="50968b7f-765c-6f71-be9c-a8348328ced6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.ProductDAOTest, TestProductImport" name="ProductDAOConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpAu" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="36777133-69d8-6139-9d56-42086ec27478">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpAu" />
+    </UnitTest>
+    <UnitTest name="CreateDebugLogTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="c9bea36c-6a19-d6c9-25d5-06d3f5469777">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="CreateDebugLogTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestFtpInvSrc" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="c0866dd5-a98c-c825-0486-2d081ebe48a9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestFtpInvSrc" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpInvSrc" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="eb88b5db-c74a-bae5-30b5-19b625b0900d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpInvSrc" />
+    </UnitTest>
+    <UnitTest name="CreateWarningLogTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="aae98820-aded-f2f4-ed84-82ba1d2d8264">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="CreateWarningLogTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpInvZip" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="4fa6a577-8788-5065-570e-da8c8b0f24ef">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpInvZip" />
+    </UnitTest>
+    <UnitTest name="GetAppSettingValueTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="272c08fa-c59d-983e-5741-9b3d380bb99f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="GetAppSettingValueTest" />
+    </UnitTest>
+    <UnitTest name="DownloadDocumentsTestHttpInvCred" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="d55fbe31-bb2b-14c7-015a-d9d960525890">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.DownloadManagerTest, TestProductImport" name="DownloadDocumentsTestHttpInvCred" />
+    </UnitTest>
+    <UnitTest name="UtilitiesConstructorTest" storage="d:\tfs_root\productdata\source\affilinet.productdata-branch-main\productdata.api\testproductimport\bin\release\testproductimport.dll" id="90260334-039f-8959-da7b-6c7602863afc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\TestProductImport\bin\Release\TestProductImport.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProductImport.UtilitiesTest, TestProductImport" name="UtilitiesConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03935a31-5d4b-6ce8-6195-fbccbd26f538" executionId="eb887f1d-5dd1-48e4-9ea5-e04b739dac6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06450063-d8fb-ad96-3a29-97406e3ba4e1" executionId="f7b34df5-44da-40ba-af3f-640e8f7f4fc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="142a34d8-9640-e9a8-a967-e5da632f3216" executionId="530661bc-267a-41d7-9c30-f0b72fa2ec31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="272c08fa-c59d-983e-5741-9b3d380bb99f" executionId="200ed1f2-7414-423c-9bc8-20016c0e352c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ad22e00-78f0-758f-8dbb-55fbd34b91c5" executionId="6a07af68-5669-414f-849a-ec74a9662e21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36777133-69d8-6139-9d56-42086ec27478" executionId="0241bc6b-6f0e-4af6-94c7-10e357c02561" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44e734f5-26f0-64d7-d00d-6ba7e6e44cce" executionId="18ed2d95-29e2-4b55-9a82-09a1e0e3f128" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bc9fb10-94ce-a721-0a5e-990ee61cc36a" executionId="33dc5fe5-1aee-4053-a374-8560daf1faa6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4da2dedd-5f67-8466-d3a1-4c62775dbfbe" executionId="d39e8cdf-a04c-4035-83f9-fb3a754bd26c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fa6a577-8788-5065-570e-da8c8b0f24ef" executionId="518a7f90-a48c-44f1-9ebe-12bbf5c1eeed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50968b7f-765c-6f71-be9c-a8348328ced6" executionId="71677772-be0e-4ce4-82ca-293189bbd7d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52fd2b05-5b4c-2360-43c8-6e2c40893d8f" executionId="14a3a996-e38d-45e2-b145-458c7733b41a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b0ed642-6f77-2013-b2a9-b9a22e56546c" executionId="6f8cdeed-d7a3-452b-b2bb-e648d2fdc04d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b3e597e-29ed-5b28-415e-8148cd16d42a" executionId="25b5c87d-b679-46a6-b353-2fc4ee9b73f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90260334-039f-8959-da7b-6c7602863afc" executionId="2ba4feab-0d98-4c9c-b9c4-a8cf76240224" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b8c33cf-ec67-d9f7-5065-d0e1678e3ca1" executionId="0e2e9c4f-9902-4f5a-b626-3a94f3a4d94e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aae98820-aded-f2f4-ed84-82ba1d2d8264" executionId="dccaae86-ad53-4375-a7d2-07d28edf172c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7629e9c-4b07-2ad7-16dd-babc40bb993e" executionId="4ceb9948-18a0-4427-853f-c8a088249754" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0866dd5-a98c-c825-0486-2d081ebe48a9" executionId="3ceb244b-732d-401f-bce7-9482233b0ec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c11110e6-59be-fcce-e2d8-6462b0e5ca4d" executionId="5804a9f6-3791-4584-b673-16398eb1d2c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2ee8f75-8435-fc66-32cf-948df28e62e1" executionId="7b11dbe0-f5e9-4490-9902-2c181aebf19c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c686ce1c-def6-7418-b12d-5e1d567c7b0a" executionId="5e296789-5a3e-4ad8-8a1d-1cf27d839bdd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9bea36c-6a19-d6c9-25d5-06d3f5469777" executionId="993be017-9f0f-42e0-abf5-2185b07853e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb64a205-0000-eee5-0ea7-a59341f7f3bb" executionId="0bb78c6f-32d5-4a68-a127-3e859e97ce80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbc2a122-60d6-fb17-ec86-22820d4b8cc3" executionId="19c6c41e-effe-44c8-8e64-008313ea568a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d55fbe31-bb2b-14c7-015a-d9d960525890" executionId="b62d7c5c-b40d-448c-ad4a-2b6712bb0ec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8f41011-0811-b517-6ca0-f3c452b9515f" executionId="46caac5a-5057-4945-a5c0-0cb7eaebec00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d99374a4-371b-8bb4-5f98-f2ff8a3a0443" executionId="7b54e9d2-02ff-4526-a223-4d2e269061bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb88b5db-c74a-bae5-30b5-19b625b0900d" executionId="98778c0f-7f43-4017-9032-4814199d6587" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="eb887f1d-5dd1-48e4-9ea5-e04b739dac6c" testId="03935a31-5d4b-6ce8-6195-fbccbd26f538" testName="DownloadDocumentsTestFtpAuZip" computerName="EBEN54" duration="00:00:10.8131920" startTime="2010-09-17T15:28:17.7736631+02:00" endTime="2010-09-17T15:28:28.5868551+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="f7b34df5-44da-40ba-af3f-640e8f7f4fc3" testId="06450063-d8fb-ad96-3a29-97406e3ba4e1" testName="DownloadDocumentsTestFtpAuGz" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="530661bc-267a-41d7-9c30-f0b72fa2ec31" testId="142a34d8-9640-e9a8-a967-e5da632f3216" testName="StartImportTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="200ed1f2-7414-423c-9bc8-20016c0e352c" testId="272c08fa-c59d-983e-5741-9b3d380bb99f" testName="GetAppSettingValueTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="6a07af68-5669-414f-849a-ec74a9662e21" testId="2ad22e00-78f0-758f-8dbb-55fbd34b91c5" testName="CreateStartLogTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0241bc6b-6f0e-4af6-94c7-10e357c02561" testId="36777133-69d8-6139-9d56-42086ec27478" testName="DownloadDocumentsTestHttpAu" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="18ed2d95-29e2-4b55-9a82-09a1e0e3f128" testId="44e734f5-26f0-64d7-d00d-6ba7e6e44cce" testName="DownloadManagerConstructorTest1" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="33dc5fe5-1aee-4053-a374-8560daf1faa6" testId="4bc9fb10-94ce-a721-0a5e-990ee61cc36a" testName="DownloadDocumentsTestHttpNa" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="d39e8cdf-a04c-4035-83f9-fb3a754bd26c" testId="4da2dedd-5f67-8466-d3a1-4c62775dbfbe" testName="DownloadDocumentsTestHttpInvDirectory" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="518a7f90-a48c-44f1-9ebe-12bbf5c1eeed" testId="4fa6a577-8788-5065-570e-da8c8b0f24ef" testName="DownloadDocumentsTestHttpInvZip" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="71677772-be0e-4ce4-82ca-293189bbd7d1" testId="50968b7f-765c-6f71-be9c-a8348328ced6" testName="ProductDAOConstructorTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="14a3a996-e38d-45e2-b145-458c7733b41a" testId="52fd2b05-5b4c-2360-43c8-6e2c40893d8f" testName="CreateLogTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f8cdeed-d7a3-452b-b2bb-e648d2fdc04d" testId="7b0ed642-6f77-2013-b2a9-b9a22e56546c" testName="GetScheduledProgramsTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="25b5c87d-b679-46a6-b353-2fc4ee9b73f4" testId="8b3e597e-29ed-5b28-415e-8148cd16d42a" testName="DownloadDocumentsTestFtpInvCred" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ba4feab-0d98-4c9c-b9c4-a8cf76240224" testId="90260334-039f-8959-da7b-6c7602863afc" testName="UtilitiesConstructorTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e2e9c4f-9902-4f5a-b626-3a94f3a4d94e" testId="9b8c33cf-ec67-d9f7-5065-d0e1678e3ca1" testName="IncrementDateTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="dccaae86-ad53-4375-a7d2-07d28edf172c" testId="aae98820-aded-f2f4-ed84-82ba1d2d8264" testName="CreateWarningLogTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ceb9948-18a0-4427-853f-c8a088249754" testId="b7629e9c-4b07-2ad7-16dd-babc40bb993e" testName="DownloadManagerConstructorTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="3ceb244b-732d-401f-bce7-9482233b0ec8" testId="c0866dd5-a98c-c825-0486-2d081ebe48a9" testName="DownloadDocumentsTestFtpInvSrc" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="5804a9f6-3791-4584-b673-16398eb1d2c8" testId="c11110e6-59be-fcce-e2d8-6462b0e5ca4d" testName="DownloadDocumentsTestHttpAuZip" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b11dbe0-f5e9-4490-9902-2c181aebf19c" testId="c2ee8f75-8435-fc66-32cf-948df28e62e1" testName="DownloadDocumentsTestHttpAuGz" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e296789-5a3e-4ad8-8a1d-1cf27d839bdd" testId="c686ce1c-def6-7418-b12d-5e1d567c7b0a" testName="CreateInfoLogTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="993be017-9f0f-42e0-abf5-2185b07853e2" testId="c9bea36c-6a19-d6c9-25d5-06d3f5469777" testName="CreateDebugLogTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0bb78c6f-32d5-4a68-a127-3e859e97ce80" testId="cb64a205-0000-eee5-0ea7-a59341f7f3bb" testName="ProductImportManagerConstructorTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="19c6c41e-effe-44c8-8e64-008313ea568a" testId="cbc2a122-60d6-fb17-ec86-22820d4b8cc3" testName="CreateEndLogTest" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b62d7c5c-b40d-448c-ad4a-2b6712bb0ec8" testId="d55fbe31-bb2b-14c7-015a-d9d960525890" testName="DownloadDocumentsTestHttpInvCred" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="46caac5a-5057-4945-a5c0-0cb7eaebec00" testId="d8f41011-0811-b517-6ca0-f3c452b9515f" testName="DownloadDocumentsTestHttpXml" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b54e9d2-02ff-4526-a223-4d2e269061bc" testId="d99374a4-371b-8bb4-5f98-f2ff8a3a0443" testName="DownloadDocumentsTestFtpXml" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="98778c0f-7f43-4017-9032-4814199d6587" testId="eb88b5db-c74a-bae5-30b5-19b625b0900d" testName="DownloadDocumentsTestHttpInvSrc" computerName="EBEN54" duration="00:00:00" startTime="0001-01-01T01:00:00.0000000+01:00" endTime="0001-01-01T01:00:00.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

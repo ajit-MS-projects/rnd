@@ -1,0 +1,7 @@
+D:\ajit\rnd\Check24.HPB\Check24.Data.Models\bin\Debug\Check24.Data.Models.dll
+D:\ajit\rnd\Check24.HPB\Check24.Data.Models\bin\Debug\Check24.Data.Models.pdb
+D:\ajit\rnd\Check24.HPB\Check24.Data.Models\bin\Debug\Check24.Contracts.dll
+D:\ajit\rnd\Check24.HPB\Check24.Data.Models\bin\Debug\Check24.Contracts.pdb
+D:\ajit\rnd\Check24.HPB\Check24.Data.Models\obj\Debug\Check24.Data.Models.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\Check24.HPB\Check24.Data.Models\obj\Debug\Check24.Data.Models.dll
+D:\ajit\rnd\Check24.HPB\Check24.Data.Models\obj\Debug\Check24.Data.Models.pdb

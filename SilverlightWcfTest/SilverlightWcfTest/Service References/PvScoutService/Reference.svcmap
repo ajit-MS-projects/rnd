@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="10158958-cee3-4191-8fa1-57994860d96d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8444/PvScoutService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PvScoutService.wsdl" MetadataType="Wsdl" ID="50c33d7e-4f90-42da-90dc-2171a3928bbd" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?wsdl" />
+    <MetadataFile FileName="PvScoutService.xsd" MetadataType="Schema" ID="192c284a-9e55-4b4e-931a-aa347375332e" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PvScoutService1.xsd" MetadataType="Schema" ID="d26acdd2-ed5a-4e5e-8093-4521ee66edee" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PvScoutService2.xsd" MetadataType="Schema" ID="7e89f2b5-963d-41da-8ce2-3d5db789b76c" SourceId="1" SourceUrl="http://localhost:8444/PvScoutService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

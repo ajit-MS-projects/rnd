@@ -1,0 +1,9 @@
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\bin\Debug\Affilinet.Data.Access.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\bin\Debug\Affilinet.Data.Access.pdb
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\bin\Debug\Microsoft.Practices.Unity.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\obj\Debug\ResolveAssemblyReference.cache
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\obj\Debug\Affilinet.Data.Access.dll
+D:\tfs_root\ProductData\Source\affilinet.ProductData-branch-Main\ProductData.API\AffiliDataAccessAPI\obj\Debug\Affilinet.Data.Access.pdb

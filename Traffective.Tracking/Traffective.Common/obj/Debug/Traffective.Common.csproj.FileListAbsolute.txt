@@ -1,0 +1,5 @@
+D:\ajit\RND\Traffective.Tracking\Traffective.Common\bin\Debug\Traffective.Common.dll
+D:\ajit\RND\Traffective.Tracking\Traffective.Common\bin\Debug\Traffective.Common.pdb
+D:\ajit\RND\Traffective.Tracking\Traffective.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\Traffective.Tracking\Traffective.Common\obj\Debug\Traffective.Common.dll
+D:\ajit\RND\Traffective.Tracking\Traffective.Common\obj\Debug\Traffective.Common.pdb

@@ -1,0 +1,12 @@
+D:\ajit\rnd\SLrefTest\SLrefTest\Bin\Debug\SLrefTest.dll
+D:\ajit\rnd\SLrefTest\SLrefTest\Bin\Debug\SLrefTest.pdb
+D:\ajit\rnd\SLrefTest\SLrefTest\Bin\Debug\AppManifest.xaml
+D:\ajit\rnd\SLrefTest\SLrefTest\Bin\Debug\SLrefTest.xap
+D:\ajit\rnd\SLrefTest\SLrefTest\Bin\Debug\SLrefTestTestPage.html
+D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\App.g.i.cs
+D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\MainPage.g.i.cs
+D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\SLrefTest.g.resources
+D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\SLrefTest.dll
+D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\SLrefTest.pdb
+D:\ajit\rnd\SLrefTest\SLrefTest\obj\Debug\XapCacheFile.xml

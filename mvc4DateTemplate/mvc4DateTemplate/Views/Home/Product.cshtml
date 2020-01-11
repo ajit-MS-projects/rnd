@@ -1,0 +1,29 @@
+﻿@model mvc4DateTemplate.Models.ProductViewModel
+
+@{
+    ViewBag.Title = "Product";
+}
+
+<h2>Product</h2>
+
+<fieldset>
+    <legend>ProductViewModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CreateDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CreateDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Title)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "EditProduct", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Product")
+</p>

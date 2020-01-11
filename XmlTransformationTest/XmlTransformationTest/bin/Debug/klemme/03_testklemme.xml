@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Modulklemme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PRIMKEY>
+    <WERT>1</WERT>
+  </PRIMKEY>
+  <VERWENDBARKEIT Key="ARTIKELVERWENDBARKEIT_UNBEKANNT" />
+  <VERSION>
+    <VERSIONSNUMMER>3</VERSIONSNUMMER>
+    <ANGELEGE_DATUM>2010-12-01T00:00:00</ANGELEGE_DATUM>
+    <AENDERUNG />
+    <ANGELEGT_DURCH TITEL="Master" ANREDE="Lord" NACHNAME="Protector" VORNAME="John" KUERZEL="JP" />
+    <ABGEKUENDIGT>false</ABGEKUENDIGT>
+  </VERSION>
+  <ARTIKELNUMMER>
+    <SOLS>SOlS_123</SOLS>
+    <KUNDE>103112002</KUNDE>
+    <BESTELLNUMMER>BestellNr_Klemme</BESTELLNUMMER>
+    <REVISIONSNUMMER>Rev 1.0</REVISIONSNUMMER>
+  </ARTIKELNUMMER>
+  <HERSTELLER ID="HerstellerID1, das ein Primärschlüssel werden muss" Name="Bond" WebAdresse="www.james.bond.de">
+    <ANSPRECHPARTNER TITEL="Dr." ANREDE="Sir" NACHNAME="Raleigh" VORNAME="Walter" KUERZEL="WR" />
+    <ADRESSE PLZ="12345" STRASSE="Musterstrasse" HAUSNUMMER="23C" ORT="Musterhausen" LAND="Musterland" />
+  </HERSTELLER>
+  <VERPACKUNGS_EINHEIT>
+    <Verpackungseinheit>
+      <PREIS Wert="1.2">
+        <EINHEIT Key="WAEHRUNG_EURO_KURZ" Decimals="2" />
+      </PREIS>
+      <ANZAHL WERT="1">
+        <EINHEIT TextKeyLang="UNIT_STANGE_LANG" Key="UNIT_STANGE_KURZ" Decimals="0" />
+      </ANZAHL>
+    </Verpackungseinheit>
+    <Verpackungseinheit>
+      <PREIS Wert="10.19">
+        <EINHEIT Key="WAEHRUNG_EURO_KURZ" Decimals="2" />
+      </PREIS>
+      <ANZAHL WERT="10">
+        <EINHEIT TextKeyLang="UNIT_STANGE_LANG" Key="UNIT_STANGE_KURZ" Decimals="0" />
+      </ANZAHL>
+    </Verpackungseinheit>
+  </VERPACKUNGS_EINHEIT>
+  <ZUSATZ_ARTIKEL />
+  <ZUSATZ_ARTIKEL_OPTIONAL />
+  <BESCHREIBUNG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BEZEICHNUNG" />
+      <MEHRSPRACHIGERTEXT>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>CD MMC 32/36</string>
+        </DICTONARY_EINTRAG>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>CD MMC 32/36</string>
+        </DICTONARY_EINTRAG>
+      </MEHRSPRACHIGERTEXT>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_BESCHREIBUNG" />
+      <MEHRSPRACHIGERTEXT>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>CREODUR Modulmittelklemme 32-36</string>
+        </DICTONARY_EINTRAG>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>CREODUR module middle clamp 32-36</string>
+        </DICTONARY_EINTRAG>
+      </MEHRSPRACHIGERTEXT>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Beschreibungsart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Common.Data.MehrsprachlicherText, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <BESCHREIBUNGSART Key="BESCHREIBUNGSART_DETAILS" />
+      <MEHRSPRACHIGERTEXT>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>Modulmittelklemme vormontiert für Rahmenhöhe 32 - 36 mm mit Innensechskantschraube M8x35 A2 und Gewindeplatte 28/15 A2 VPE: 200 St.</string>
+        </DICTONARY_EINTRAG>
+        <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <CULTURE_INFO>
+            <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+          </CULTURE_INFO>
+          <string>Pre-mounted module centre clamp for frame heights of 32 - 36 mm with M8x35 A2 hexagon socket screws and 28/15 A2 threaded plate</string>
+        </DICTONARY_EINTRAG>
+      </MEHRSPRACHIGERTEXT>
+    </DICTONARY_EINTRAG>
+  </BESCHREIBUNG>
+  <LAENDER_FREIGABE>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <CULTURE_INFO>
+        <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+      </CULTURE_INFO>
+      <FREIGABE Wert="true">
+        <GESPERRTE>
+          <SOLS>SolS_X</SOLS>
+          <KUNDE>X</KUNDE>
+          <BESTELLNUMMER>X</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.0</REVISIONSNUMMER>
+        </GESPERRTE>
+        <GESPERRTE>
+          <SOLS>SolS_Y</SOLS>
+          <KUNDE>Y</KUNDE>
+          <BESTELLNUMMER>Y</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.0</REVISIONSNUMMER>
+        </GESPERRTE>
+      </FREIGABE>
+    </DICTONARY_EINTRAG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="Solarschmiede.Artikel.Data.Freigabe, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <CULTURE_INFO>
+        <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+      </CULTURE_INFO>
+      <FREIGABE Wert="true">
+        <GESPERRTE>
+          <SOLS>SolS_Z</SOLS>
+          <KUNDE>Z</KUNDE>
+          <BESTELLNUMMER>Z</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.2</REVISIONSNUMMER>
+        </GESPERRTE>
+        <GESPERRTE>
+          <SOLS>SolS_Y</SOLS>
+          <KUNDE>Y</KUNDE>
+          <BESTELLNUMMER>Y</BESTELLNUMMER>
+          <REVISIONSNUMMER>1.0</REVISIONSNUMMER>
+        </GESPERRTE>
+      </FREIGABE>
+    </DICTONARY_EINTRAG>
+  </LAENDER_FREIGABE>
+  <ARTIKEL_GRUPPE>
+    <MEHRSPRACHIGERTEXT>
+      <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <CULTURE_INFO>
+          <CULTURE_KUERZEL>de-DE</CULTURE_KUERZEL>
+        </CULTURE_INFO>
+        <string>Klemmen</string>
+      </DICTONARY_EINTRAG>
+      <DICTONARY_EINTRAG typekey="Solarschmiede.Common.Data.CultureInfo, Solarschmiede.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" typevalue="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+        <CULTURE_INFO>
+          <CULTURE_KUERZEL>en-GB</CULTURE_KUERZEL>
+        </CULTURE_INFO>
+        <string>clamps</string>
+      </DICTONARY_EINTRAG>
+    </MEHRSPRACHIGERTEXT>
+    <GRUPPENART Key="ARTIKELGRUPPE_SCHIENE" />
+  </ARTIKEL_GRUPPE>
+<SORTIERUNG>
+    <DICTONARY_EINTRAG typekey="Solarschmiede.Typ.Sortierart, Solarschmiede.Typ, Version=1.0.1.37042, Culture=neutral, PublicKeyToken=null" 	typevalue="Solarschmiede.Artikel.Data.Position, ArtikelAdvanced, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SORTIERART Key="SORTIERART_STUECKLISTE" />
+      <POSITION>
+        <POSITION>3</POSITION>
+      </POSITION>
+    </DICTONARY_EINTRAG>
+  </SORTIERUNG>
+
+  <GEWICHT>
+    <SPEZIFISCH WERT="0.123">
+      <EINHEIT TextKeyLang="UNIT_KILOGRAMM_LANG" Key="UNIT_KILOGRAMM_KURZ" Decimals="3" />
+    </SPEZIFISCH>
+  </GEWICHT>
+  <ZULAESSIGEMODULDICKE>
+    <MIN WERT="32">
+      <EINHEIT TextKeyLang="UNIT_MILLIMETER_LANG" Key="UNIT_MILLIMETER_KURZ" Decimals="3" />
+    </MIN>
+    <MAX WERT="36.999">
+      <EINHEIT TextKeyLang="UNIT_MILLIMETER_LANG" Key="UNIT_MILLIMETER_KURZ" Decimals="3" />
+    </MAX>
+  </ZULAESSIGEMODULDICKE>
+  <KLEMMENTYP Key="TYP_KLEMME_MITTELKLEMME" />
+</Modulklemme>

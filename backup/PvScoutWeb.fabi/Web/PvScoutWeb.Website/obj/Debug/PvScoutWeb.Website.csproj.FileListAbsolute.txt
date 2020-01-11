@@ -1,0 +1,10 @@
+D:\Projekte\Solarschmiede\PvScoutWeb\Web\PvScoutWeb.Website\bin\PvScoutWeb.Website.dll
+D:\Projekte\Solarschmiede\PvScoutWeb\Web\PvScoutWeb.Website\bin\PvScoutWeb.Website.pdb
+D:\Projekte\Solarschmiede\PvScoutWeb\Web\PvScoutWeb.Website\obj\Debug\ResolveAssemblyReference.cache
+D:\Projekte\Solarschmiede\PvScoutWeb\Web\PvScoutWeb.Website\obj\Debug\PvScoutWeb.Website.dll
+D:\Projekte\Solarschmiede\PvScoutWeb\Web\PvScoutWeb.Website\obj\Debug\PvScoutWeb.Website.pdb
+D:\ajit\RND\PvScoutWeb.fabi\Web\PvScoutWeb.Website\bin\PvScoutWeb.Website.dll
+D:\ajit\RND\PvScoutWeb.fabi\Web\PvScoutWeb.Website\bin\PvScoutWeb.Website.pdb
+D:\ajit\RND\PvScoutWeb.fabi\Web\PvScoutWeb.Website\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\PvScoutWeb.fabi\Web\PvScoutWeb.Website\obj\Debug\PvScoutWeb.Website.dll
+D:\ajit\RND\PvScoutWeb.fabi\Web\PvScoutWeb.Website\obj\Debug\PvScoutWeb.Website.pdb

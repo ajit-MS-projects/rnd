@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfRoofType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RoofType" nillable="true" type="tns:RoofType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRoofType" nillable="true" type="tns:ArrayOfRoofType" />
+  <xs:complexType name="RoofType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ImagePath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsSelected" type="xs:boolean" />
+      <xs:element minOccurs="0" name="RoofTypeId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RoofType" nillable="true" type="tns:RoofType" />
+  <xs:complexType name="ArrayOfPvModule">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PvModule" nillable="true" type="tns:PvModule" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPvModule" nillable="true" type="tns:ArrayOfPvModule" />
+  <xs:complexType name="PvModule">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ArticleNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CellMaterial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CellTechnology" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ImagePath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Left" type="xs:double" />
+      <xs:element minOccurs="0" name="Length" type="xs:double" />
+      <xs:element minOccurs="0" name="ManufacturerId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PvScoutArticleNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Thickness" type="xs:int" />
+      <xs:element minOccurs="0" name="Top" type="xs:double" />
+      <xs:element minOccurs="0" name="Weight" type="xs:float" />
+      <xs:element minOccurs="0" name="Width" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PvModule" nillable="true" type="tns:PvModule" />
+  <xs:complexType name="Manufacturer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ManufId" type="xs:int" />
+      <xs:element minOccurs="0" name="ManufName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Manufacturer" nillable="true" type="tns:Manufacturer" />
+  <xs:complexType name="ArrayOfManufacturer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Manufacturer" nillable="true" type="tns:Manufacturer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfManufacturer" nillable="true" type="tns:ArrayOfManufacturer" />
+  <xs:complexType name="BaseRoof">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ConstructionOrientation" type="tns:ConstructionOrientationEnum" />
+      <xs:element minOccurs="0" name="DrawableLength" type="xs:double" />
+      <xs:element minOccurs="0" name="DrawableWidth" type="xs:double" />
+      <xs:element minOccurs="0" name="FirstSparrenDistance" type="xs:double" />
+      <xs:element minOccurs="0" name="InterSparrenDistance" type="xs:double" />
+      <xs:element minOccurs="0" name="ModuleDistance" type="xs:double" />
+      <xs:element minOccurs="0" name="ModulesPerColumn" type="xs:int" />
+      <xs:element minOccurs="0" name="ModulesPerRow" type="xs:int" />
+      <xs:element minOccurs="0" name="PvModules" nillable="true" type="tns:ArrayOfPvModule" />
+      <xs:element minOccurs="0" name="RoofHeight" type="xs:double" />
+      <xs:element minOccurs="0" name="RoofLength" type="xs:double" />
+      <xs:element minOccurs="0" name="RoofOrientation" type="xs:double" />
+      <xs:element minOccurs="0" name="RoofPitch" type="xs:double" />
+      <xs:element minOccurs="0" name="RoofWidth" type="xs:double" />
+      <xs:element minOccurs="0" name="SelectedPvModule" nillable="true" type="tns:PvModule" />
+      <xs:element minOccurs="0" name="SelectedRoofType" nillable="true" type="tns:RoofType" />
+      <xs:element minOccurs="0" name="SparrenWidth" type="xs:double" />
+      <xs:element minOccurs="0" name="Sparrens" nillable="true" type="tns:ArrayOfSparren" />
+      <xs:element minOccurs="0" name="ZoomLevel" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseRoof" nillable="true" type="tns:BaseRoof" />
+  <xs:simpleType name="ConstructionOrientationEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Sparrendach" />
+      <xs:enumeration value="Pfettendach" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ConstructionOrientationEnum" nillable="true" type="tns:ConstructionOrientationEnum" />
+  <xs:complexType name="ArrayOfSparren">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Sparren" nillable="true" type="tns:Sparren" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSparren" nillable="true" type="tns:ArrayOfSparren" />
+  <xs:complexType name="Sparren">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Left" type="xs:double" />
+      <xs:element minOccurs="0" name="LeftVirtual" type="xs:double" />
+      <xs:element minOccurs="0" name="Top" type="xs:double" />
+      <xs:element minOccurs="0" name="TopVirtual" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Sparren" nillable="true" type="tns:Sparren" />
+</xs:schema>

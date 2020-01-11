@@ -1,0 +1,8 @@
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\bin\Debug\developer.xml
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\bin\Debug\MEF.Rules.dll
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\bin\Debug\MEF.Rules.pdb
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\bin\Debug\MEF.DEMO.exe
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\bin\Debug\MEF.DEMO.pdb
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\obj\Debug\MEF.Rules.dll
+D:\ajit\rnd\MEF\CodeProject.MEF.DEMO\MEF.Rules\obj\Debug\MEF.Rules.pdb

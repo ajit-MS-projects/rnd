@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Affilinet.Business.ProductImport.CacheManager">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAEACAAAAAQAAA=</HashCode>
+      <FileName>CacheManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.SqlCache">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAQAAA=</HashCode>
+      <FileName>CacheManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.MemCache">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAQAAA=</HashCode>
+      <FileName>CacheManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.CSVProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSVProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.ProductImportManager" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAACABAAAAAAQAAAAIAEAAEA=</HashCode>
+      <FileName>ProductImportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Affilinet.Business.ProductImport.XMLProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Tahoma" Size="9.6" />
+</ClassDiagram>

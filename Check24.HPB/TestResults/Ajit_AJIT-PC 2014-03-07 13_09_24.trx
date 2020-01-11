@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d418e51c-1715-4856-8069-24c773e09d32" name="Ajit@AJIT-PC 2014-03-07 13:09:24" runUser="AJIT-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="efcc70f8-2686-4a26-b486-c71c9f94b41e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2014-03-07 13_09_24">
+      <DeploymentItem filename="D:\ajit\rnd\Check24.HPB\Check24.Data.Models\bin\Debug\Check24.Data.Models.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\Check24.HPB\Check24.Hpb.Services\bin\Debug\Check24.Hpb.Services.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\Check24.HPB\Check24.Contracts\bin\Debug\Check24.Contracts.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-07T13:09:24.7942768+01:00" queuing="2014-03-07T13:09:26.3183942+01:00" start="2014-03-07T13:09:26.5784158+01:00" finish="2014-03-07T13:09:58.3317633+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="AJIT-PC" outcome="Error" timestamp="2014-03-07T13:09:58.3307594+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculatePriceAfterBidsTest" storage="d:\ajit\rnd\check24.hpb\check24.hpb.services.tests\bin\debug\check24.hpb.services.tests.dll" id="c4160a36-6389-0a97-a067-4acba57cfb88">
+      <Execution id="61b05f24-3595-49cc-ad93-0ec955b776e4" />
+      <TestMethod codeBase="D:/ajit/rnd/Check24.HPB/Check24.Hpb.Services.Tests/bin/Debug/Check24.Hpb.Services.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Check24.Hpb.Services.Tests.ModelExtensionsTest, Check24.Hpb.Services.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatePriceAfterBidsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c4160a36-6389-0a97-a067-4acba57cfb88" executionId="61b05f24-3595-49cc-ad93-0ec955b776e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="61b05f24-3595-49cc-ad93-0ec955b776e4" testId="c4160a36-6389-0a97-a067-4acba57cfb88" testName="CalculatePriceAfterBidsTest" computerName="AJIT-PC" duration="00:00:31.4733318" startTime="2014-03-07T13:09:26.8584315+01:00" endTime="2014-03-07T13:09:58.3317633+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61b05f24-3595-49cc-ad93-0ec955b776e4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

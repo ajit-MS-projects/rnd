@@ -1,0 +1,7 @@
+D:\ajit\rnd\MVC\MvcAreasLearn\MvcAreasLearn\bin\MvcAreasLearn.dll
+D:\ajit\rnd\MVC\MvcAreasLearn\MvcAreasLearn\bin\MvcAreasLearn.pdb
+D:\ajit\rnd\MVC\MvcAreasLearn\MvcAreasLearn\bin\EntityFramework.dll
+D:\ajit\rnd\MVC\MvcAreasLearn\MvcAreasLearn\bin\EntityFramework.xml
+D:\ajit\rnd\MVC\MvcAreasLearn\MvcAreasLearn\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MVC\MvcAreasLearn\MvcAreasLearn\obj\Debug\MvcAreasLearn.dll
+D:\ajit\rnd\MVC\MvcAreasLearn\MvcAreasLearn\obj\Debug\MvcAreasLearn.pdb

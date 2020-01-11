@@ -1,0 +1,7 @@
+d:\ajit\rnd\WinAppFabricCacheClient\WinAppFabricCacheClient\bin\WinAppFabricCacheClient.dll
+d:\ajit\rnd\WinAppFabricCacheClient\WinAppFabricCacheClient\bin\WinAppFabricCacheClient.pdb
+d:\ajit\rnd\WinAppFabricCacheClient\WinAppFabricCacheClient\bin\EntityFramework.dll
+d:\ajit\rnd\WinAppFabricCacheClient\WinAppFabricCacheClient\bin\EntityFramework.xml
+d:\ajit\rnd\WinAppFabricCacheClient\WinAppFabricCacheClient\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\WinAppFabricCacheClient\WinAppFabricCacheClient\obj\Debug\WinAppFabricCacheClient.dll
+d:\ajit\rnd\WinAppFabricCacheClient\WinAppFabricCacheClient\obj\Debug\WinAppFabricCacheClient.pdb

@@ -1,0 +1,10 @@
+<Modules>
+  <Module PersistentId="7F024529-BDD5-4D9A-A764-2B7836BB71D8" ModuleId="SolarPvscoutBusiness" />
+  <Module PersistentId="449FA473-C470-4BDD-82C8-8D0F9DBFF27C" ModuleId="SolarDataAccessAPI" />
+  <Module PersistentId="55447290-59C9-45AD-80F9-C1B6EC8C80FE" ModuleId="SolarServices" />
+  <Module PersistentId="A1FB6963-AE6A-445C-8D49-992D58A68206" ModuleId="SolarExceptionsAPI" />
+  <Module PersistentId="023AE4A2-52E8-422F-A797-DA46E555D72C" ModuleId="PvScoutWeb" />
+  <Module PersistentId="77F940D7-66AA-4ABE-8AE1-400F08CBFC23" ModuleId="TestApp" />
+  <Module PersistentId="2FD1DC8D-EF94-430D-96B9-9B3CA7ABABB6" ModuleId="SolarLogAPI" />
+  <Module PersistentId="A4DE5ACF-52B5-47D8-8A2C-8A6A7985AE91" ModuleId="SolarCommon" />
+</Modules>

@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="80473485-33E6-4A18-BA68-EDCDC9F14D5E" ModuleId="EntityFrameworkTest.Test" />
+  <Module PersistentId="13BAC0D5-4CE2-4349-B74A-71C71B2B85A6" ModuleId="EntityFrameworkTest" />
+  <Module PersistentId="CE8C4164-FCB4-4EB4-B0EC-98A4505358FB" ModuleId="EncryptTest" />
+</Modules>

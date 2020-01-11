@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ProductImport">
+</Property><Property Name="Solution File" Value="D:\ajit\RND\office\ProductData.API\ProductData.API\ProductImport.sln">
+</Property><Property Name="Date" Value="Monday, February 21, 2011">
+</Property><Property Name="Time" Value="0:02 AM">
+</Property></Properties><Event ErrorLevel="0" Project="ProductImportAdmin" Source="ProductImportAdmin\ProductImportAdmin.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ProductImportAdmin" Source="ProductImportAdmin\ProductImportAdmin.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliLogAPI" Source="AfilinetLogAPI\AffiliLogAPI.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliLogAPI" Source="AfilinetLogAPI\AffiliLogAPI.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliProductImportBusiness" Source="AffiliProductImportBusiness\AffiliProductImportBusiness.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliProductImportBusiness" Source="AffiliProductImportBusiness\AffiliProductImportBusiness.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliExceptionAPI" Source="AffiliExceptionAPI\AffiliExceptionAPI.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliExceptionAPI" Source="AffiliExceptionAPI\AffiliExceptionAPI.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliDataAccessAPI" Source="AffiliDataAccessAPI\AffiliDataAccessAPI.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliDataAccessAPI" Source="AffiliDataAccessAPI\AffiliDataAccessAPI.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestProductImport" Source="TestProductImport\TestProductImport.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestProductImport" Source="TestProductImport\TestProductImport.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PIMaintenanceTasks" Source="PIMaintenanceTasks\PIMaintenanceTasks.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PIMaintenanceTasks" Source="PIMaintenanceTasks\PIMaintenanceTasks.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PIMaintenanceGUI" Source="HashGenUtility\PIMaintenanceGUI.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PIMaintenanceGUI" Source="HashGenUtility\PIMaintenanceGUI.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ProductImportService" Source="ProductAdminService\ProductImportService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ProductImportService" Source="ProductAdminService\ProductImportService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ProductFileDownloadService" Source="ProductFileDownloadService\ProductFileDownloadService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ProductFileDownloadService" Source="ProductFileDownloadService\ProductFileDownloadService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliProductExportBusiness" Source="AffiliProductExportBusiness\AffiliProductExportBusiness.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliProductExportBusiness" Source="AffiliProductExportBusiness\AffiliProductExportBusiness.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliProductExportWeb" Source="AffiliProductExportWeb\AffiliProductExportWeb.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliProductExportWeb" Source="AffiliProductExportWeb\AffiliProductExportWeb.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliProductExportAuthentication" Source="AffiliProductExportAuthentication\AffiliProductExportAuthentication.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliProductExportAuthentication" Source="AffiliProductExportAuthentication\AffiliProductExportAuthentication.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ProductExportFileMgmtService" Source="ProductExportFileMgmtService\ProductExportFileMgmtService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ProductExportFileMgmtService" Source="ProductExportFileMgmtService\ProductExportFileMgmtService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliImageImportBusiness" Source="AffiliImageImportBusiness\AffiliImageImportBusiness.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliImageImportBusiness" Source="AffiliImageImportBusiness\AffiliImageImportBusiness.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffilinetCommon" Source="AffilinetCommon\AffilinetCommon.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffilinetCommon" Source="AffilinetCommon\AffilinetCommon.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ImageImportSsisMgmtService" Source="ImageImportSsisMgmtService\ImageImportSsisMgmtService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ImageImportSsisMgmtService" Source="ImageImportSsisMgmtService\ImageImportSsisMgmtService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestAffiliProductExportBusiness" Source="TestAffiliProductExportBusiness\TestAffiliProductExportBusiness.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestAffiliProductExportBusiness" Source="TestAffiliProductExportBusiness\TestAffiliProductExportBusiness.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliDailyImageImportService" Source="AffiliDailyImageImportService\AffiliDailyImageImportService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliDailyImageImportService" Source="AffiliDailyImageImportService\AffiliDailyImageImportService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliImageReviewService" Source="AffiliImageReviewService\AffiliImageReviewService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliImageReviewService" Source="AffiliImageReviewService\AffiliImageReviewService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliManualImageImportService" Source="AffiliManualImageImportService\AffiliManualImageImportService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliManualImageImportService" Source="AffiliManualImageImportService\AffiliManualImageImportService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliImageCsvFileCleanUpService" Source="ImageCsvFileCleanUpService\AffiliImageCsvFileCleanUpService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliImageCsvFileCleanUpService" Source="ImageCsvFileCleanUpService\AffiliImageCsvFileCleanUpService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliProductImportSsisService" Source="AffiliProductImportSsisService\AffiliProductImportSsisService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliProductImportSsisService" Source="AffiliProductImportSsisService\AffiliProductImportSsisService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliHourlyProductImportService" Source="AffiliHourlyProductImportService\AffiliHourlyProductImportService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliHourlyProductImportService" Source="AffiliHourlyProductImportService\AffiliHourlyProductImportService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliImageDeleteService" Source="AffiliImageDeleteService\AffiliImageDeleteService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliImageDeleteService" Source="AffiliImageDeleteService\AffiliImageDeleteService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AffiliErrorIndexing" Source="AffiliErrorIndexing\AffiliErrorIndexing.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AffiliErrorIndexing" Source="AffiliErrorIndexing\AffiliErrorIndexing.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ProductImport.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ProductImport.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ProductImportAdmin" Source="ProductImportAdmin\ProductImportAdmin.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliLogAPI" Source="AfilinetLogAPI\AffiliLogAPI.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliProductImportBusiness" Source="AffiliProductImportBusiness\AffiliProductImportBusiness.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliExceptionAPI" Source="AffiliExceptionAPI\AffiliExceptionAPI.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliDataAccessAPI" Source="AffiliDataAccessAPI\AffiliDataAccessAPI.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="2" Project="" Source="ProductImport1.vsmdi" Description="Unable to convert files because files are read-only.">
+</Event><Event ErrorLevel="0" Project="PIMaintenanceTasks" Source="PIMaintenanceTasks\PIMaintenanceTasks.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="PIMaintenanceGUI" Source="HashGenUtility\PIMaintenanceGUI.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ProductImportService" Source="ProductAdminService\ProductImportService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ProductFileDownloadService" Source="ProductFileDownloadService\ProductFileDownloadService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliProductExportBusiness" Source="AffiliProductExportBusiness\AffiliProductExportBusiness.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliProductExportWeb" Source="AffiliProductExportWeb\AffiliProductExportWeb.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliProductExportAuthentication" Source="AffiliProductExportAuthentication\AffiliProductExportAuthentication.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ProductExportFileMgmtService" Source="ProductExportFileMgmtService\ProductExportFileMgmtService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliImageImportBusiness" Source="AffiliImageImportBusiness\AffiliImageImportBusiness.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffilinetCommon" Source="AffilinetCommon\AffilinetCommon.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ImageImportSsisMgmtService" Source="ImageImportSsisMgmtService\ImageImportSsisMgmtService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TestAffiliProductExportBusiness" Source="TestAffiliProductExportBusiness\TestAffiliProductExportBusiness.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliDailyImageImportService" Source="AffiliDailyImageImportService\AffiliDailyImageImportService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliImageReviewService" Source="AffiliImageReviewService\AffiliImageReviewService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliManualImageImportService" Source="AffiliManualImageImportService\AffiliManualImageImportService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliImageCsvFileCleanUpService" Source="ImageCsvFileCleanUpService\AffiliImageCsvFileCleanUpService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliProductImportSsisService" Source="AffiliProductImportSsisService\AffiliProductImportSsisService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliHourlyProductImportService" Source="AffiliHourlyProductImportService\AffiliHourlyProductImportService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliImageDeleteService" Source="AffiliImageDeleteService\AffiliImageDeleteService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AffiliErrorIndexing" Source="AffiliErrorIndexing\AffiliErrorIndexing.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

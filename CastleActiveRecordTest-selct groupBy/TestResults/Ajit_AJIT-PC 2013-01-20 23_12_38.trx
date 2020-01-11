@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="538b127f-2e7b-4e62-a9dd-08aa78153a62" name="Ajit@AJIT-PC 2013-01-20 23:12:38" runUser="AJIT-PC\Ajit" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Ajit_AJIT-PC 2013-01-20 23_12_38">
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+      <DeploymentItem filename="D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-20T23:12:38.9425695+01:00" queuing="2013-01-20T23:12:39.0565640+01:00" start="2013-01-20T23:12:39.0935530+01:00" finish="2013-01-20T23:12:40.2296936+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddProductTest" storage="d:\ajit\rnd\castleactiverecordtest-selct groupby\newtest\bin\debug\newtest.dll" id="48ddeb23-cc7d-070d-b64a-c9f720ce568c">
+      <Execution id="a2dbf1e3-7a08-4bb1-8a6d-93c3e6025679" />
+      <TestMethod codeBase="D:/Ajit/RND/CastleActiveRecordTest-selct groupBy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddProductTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="48ddeb23-cc7d-070d-b64a-c9f720ce568c" executionId="a2dbf1e3-7a08-4bb1-8a6d-93c3e6025679" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a2dbf1e3-7a08-4bb1-8a6d-93c3e6025679" testId="48ddeb23-cc7d-070d-b64a-c9f720ce568c" testName="AddProductTest" computerName="AJIT-PC" startTime="2013-01-20T23:12:39.0955845+01:00" endTime="2013-01-20T23:12:40.1716910+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2dbf1e3-7a08-4bb1-8a6d-93c3e6025679">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method NewTest.MvcApplicationTest.MyClassInitialize threw exception. Castle.ActiveRecord.Framework.ActiveRecordException: Castle.ActiveRecord.Framework.ActiveRecordException: Could not create the schema ---&gt; NHibernate.HibernateException: Cannot open database "Producttest" requested by the login. The login failed.
+Login failed for user 'Ajit-PC\Ajit'. ---&gt; System.Data.SqlClient.SqlException: Cannot open database "Producttest" requested by the login. The login failed.
+Login failed for user 'Ajit-PC\Ajit'..</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+ --- End of inner exception stack trace ---
+    at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+   at Castle.ActiveRecord.ActiveRecordStarter.CreateSchema()
+ --- End of inner exception stack trace ---
+    at Castle.ActiveRecord.ActiveRecordStarter.CreateSchema()
+   at CastleActiveRecordTest.PersistenceHelper.CreateDbSchema() in D:\ajit\rnd\CastleActiveRecordTest\CastleActiveRecordTest\PersistenceHelper.cs:line 28
+   at NewTest.MvcApplicationTest.MyClassInitialize(TestContext testContext) in D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\MvcApplicationTest.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

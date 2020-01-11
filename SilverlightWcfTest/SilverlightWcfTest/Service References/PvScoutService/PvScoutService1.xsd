@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8444/PvScoutService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" />
+  <xs:element name="Ping">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="PingResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllRoofTypes">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllRoofTypesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="GetAllRoofTypesResult" nillable="true" type="q1:ArrayOfRoofType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoofType">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="roofId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRoofTypeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="GetRoofTypeResult" nillable="true" type="q2:RoofType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPvModules">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="manufacturerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPvModulesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="GetAllPvModulesResult" nillable="true" type="q3:ArrayOfPvModule" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetManufacturer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="manufacturerId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetManufacturerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="GetManufacturerResult" nillable="true" type="q4:Manufacturer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllManufacturers">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllManufacturersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="GetAllManufacturersResult" nillable="true" type="q5:ArrayOfManufacturer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPvModule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pvscoutArticleNumber" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPvModuleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="GetPvModuleResult" nillable="true" type="q6:PvModule" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FillRoof">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="objRoof" nillable="true" type="q7:BaseRoof" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FillRoofResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="FillRoofResult" nillable="true" type="q8:BaseRoof" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DrawRoof">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="objRoof" nillable="true" type="q9:BaseRoof" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DrawRoofResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="DrawRoofResult" nillable="true" type="q10:BaseRoof" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyModuleDropPosition">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="objRoof" nillable="true" type="q11:BaseRoof" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Solar.Pvscout.Business.Entity" minOccurs="0" name="movedModule" nillable="true" type="q12:PvModule" />
+        <xs:element minOccurs="0" name="newLeft" type="xs:int" />
+        <xs:element minOccurs="0" name="newTop" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="VerifyModuleDropPositionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VerifyModuleDropPositionResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,33 @@
+﻿<UserControl xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"  x:Class="PvScoutWeb.Silverlight.Views.RoofSetupView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignHeight="331" d:DesignWidth="224"
+             DataContext="{Binding RoofVM, Source={StaticResource Locator}}">
+    
+    <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="10">
+        <Grid Margin="6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="txtRoofWidth" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap" Height="24" Text="{Binding RoofWidth, Mode=TwoWay}" Width="128"/>
+            <TextBox x:Name="txtRoofHeight" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="{Binding RoofHeight, Mode=TwoWay}" Height="24" Width="128" />
+
+            <TextBlock Grid.Row="0" Height="21" Width="78" Text="RoofWidth" TextWrapping="Wrap"/>
+            <TextBlock Grid.Row="1" Height="21" Width="78" Text="RoofHeight" TextWrapping="Wrap" />
+
+            <Button x:Name="btnCreateRoof" Grid.Row="2" Grid.Column="1"  Height="25" Content="Create Roof" Width="128" Command="{Binding Path=CreateNewRoofCommand}"/>
+            <Button x:Name="btnFillRoof" Grid.Row="3" Grid.Column="1" Height="25" Content="Fill Roof" Width="128" Command="{Binding Path=FillRoofCommand}"/>
+        </Grid>
+    </Border>
+</UserControl>

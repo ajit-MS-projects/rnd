@@ -1,0 +1,1911 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SolrSharp</name>
+    </assembly>
+    <members>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.SolrSearchers">
+            <summary>
+            The collection of accessible solr servers.  Each server is defined by
+            its URL.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearchers.#cctor">
+            <summary>
+            Static constructor to read the configuration section for the application.  Misconfiguration
+            throws a ConfigurationErrorsException.  Each <see cref="T:org.apache.solr.SolrSharp.Configuration.SolrServer">SolrServer</see> is represented
+            as a <see cref="T:org.apache.solr.SolrSharp.Configuration.SolrSearcher">SolrSearcher</see>.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearchers.GetSearcher(org.apache.solr.SolrSharp.Configuration.Mode)">
+            <summary>
+            Returns a SolrSearcher from the pool.
+            </summary>
+            <param name="searcherMode">Mode for the configured searcher.</param>
+            <returns>The first SolrSearcher matching the mode, or null</returns>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Results.HighlightRecord">
+            <summary>
+            HighlightRecord is a container objecty for nodes in a solr search results
+            payload pertaining to highlight parameters. A HighlightRecord is populated
+            in the initialization of search results, but are used in updating standard
+            result records.  HighlightRecord instances are used by the SearchResults
+            class directly, and are not intended for general use.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.HighlightRecord.#ctor(System.Xml.XmlNode)">
+            <summary>
+            Public constructor that accepts an XmlNode that defines the HighlightRecord.
+            </summary>
+            <param name="xn">XmlNode representing this HighlightRecord</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.HighlightRecord.GetHighlightedPhrases(System.String)">
+            <summary>
+            Gets the highlighted phrases for this record.
+            </summary>
+            <param name="fieldname">the search index fieldname on which highlighting is applied</param>
+            <returns>string array of phrases for this field, with highlighting applied</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.HighlightRecord.XNodeRecord">
+            <summary>
+            The XmlNode as used to construct this instance of HighlightRecord.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.HighlightRecord.RecordId">
+            <summary>
+            The associated record Id that relates this HighlightRecord to a SearchRecord.
+            The value is based on the UniqueKey field value for the SearchRecord.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Parameters.ParameterJoin">
+            <summary>
+            Enumeration defining the methodologies for combining search parameters.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Parameters.ParameterJoin.AND">
+            <summary>
+            AND is applied to the contents of the applied query parameters
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Parameters.ParameterJoin.OR">
+            <summary>
+            OR is applied to the contents of the applied query parameters
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection">
+            <summary>
+            A collection of QueryParameter objects, unified to be applied in a specific grouping
+            for a search request.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection.#ctor(System.String,System.Collections.Generic.List{org.apache.solr.SolrSharp.Query.Parameters.QueryParameter})">
+            <summary>
+            Constructor that names the collection, accepts a List of QueryParameter objects and
+            applies the default ParameterJoin (OR) as the methodology for the group at search runtime.
+            </summary>
+            <param name="groupname">Unique name for this grouping</param>
+            <param name="listParameters">List of QueryParameter objects to be grouped in search syntax</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection.#ctor(System.String,System.Collections.Generic.List{org.apache.solr.SolrSharp.Query.Parameters.QueryParameter},org.apache.solr.SolrSharp.Query.Parameters.ParameterJoin)">
+            <summary>
+            Constructor that names the collection, accepts a List of QueryParameter objects and
+            applies the associated ParameterJoin as the methodology for the group at search runtime.
+            </summary>
+            <param name="groupname">Unique name for this grouping</param>
+            <param name="listParameters">List of QueryParameter objects to be grouped in search syntax</param>
+            <param name="parameterjoin">AND/OR methodology to apply to the group</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection.ToString">
+            <summary>
+            Returns a syntactical rendering of the QueryParameter collection
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection.QueryParameterArray">
+            <summary>
+            The QueryParameter collection, exposed as a read-only array
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection.ParameterJoin">
+            <summary>
+            The AND/OR methodology to be applied the collection group of QueryParameter objects at search runtime
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection.Separator">
+            <summary>
+            Textual representation of ParameterJoin used for syntactical rendering
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Parameters.RangeQueryParameter">
+            <summary>
+            Specialized QueryParameter object that constructs a range-based query with 
+            start and end values
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Parameters.QueryParameter">
+            <summary>
+            A field/value pair used as a building block for a Query object. One or QueryParameter objects
+            can be grouped using a QueryParameterCollection, and subsequently added to a Query object for
+            used with a QueryBuilder object.
+            
+            This object may be used stand alone or part of a group of a larger collection of QueryParameter
+            objects in constructing a complex search query.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.QueryParameter.#ctor(System.String,System.String)">
+            <summary>
+            Constructor that takes a solr index fieldname and value to be applied in a search query
+            </summary>
+            <param name="field">Solr index fieldname to query against</param>
+            <param name="value">Value to be applied in the query</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.QueryParameter.ToString">
+            <summary>
+            Renders a syntactically correct search query for use with a url
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Parameters.QueryParameter.Boost">
+            <summary>
+            Lucene document boost to be applied to this fieldname/value pair at search runtime
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Parameters.QueryParameter.Field">
+            <summary>
+            Solr index fieldname being searched against
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Parameters.QueryParameter.Value">
+            <summary>
+            Value being used to search against this Field
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.RangeQueryParameter.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Constructor that sets start and end values for a range query on the 
+            given solr index fieldname
+            </summary>
+            <param name="field">Solr index fieldname to query against</param>
+            <param name="startvalue">Starting value for the range</param>
+            <param name="endvalue">Ending value for the range</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.RangeQueryParameter.#ctor(System.String,System.Double,System.Double)">
+            <summary>
+            Constructor that sets start and end values for a range query on the 
+            given solr index fieldname
+            </summary>
+            <param name="field">Solr index fieldname to query against</param>
+            <param name="startvalue">Starting value for the range</param>
+            <param name="endvalue">Ending value for the range</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.RangeQueryParameter.ToString">
+            <summary>
+            Renders a syntactically correct usage of the RangeQueryParameter for use in an http search request
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.RangeQueryParameter.Round(System.Double,System.Int32,System.Int32)">
+            <summary>
+            returns the number nearest x, with a precision of numerator/denominator
+            example: Round(12.1436, 5, 100) will round x to 12.15 (precision = 5/100 = 0.05)
+            </summary>
+            <param name="x"></param>
+            <param name="numerator"></param>
+            <param name="denominator"></param>
+            <returns></returns>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameterCollection">
+            <summary>
+            Inheritance of the QueryParameterCollection that facilitates queries of specific
+            IDs from a list.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameterCollection.#ctor(System.String,System.String,System.Collections.Generic.List{org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameter})">
+            <summary>
+            All Id list queries are structured as OR queries; AND queries will be handled at a later time
+            </summary>
+            <param name="groupname">Generic name to identify the group of parameters; not too important, but give it a name</param>
+            <param name="parameterName">Generic name to identify the group of parameters; not too important, but give it a name</param>
+            <param name="idlistqueryParameters">List of IdListQueryParameter objects</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameterCollection.ToString">
+            <summary>
+            Override used to write the query syntax for the list of IDs.
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameterCollection.Separator">
+            <summary>
+            Defines the query's join methodology for the query; set to "OR" for the list of IDs.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Results.ExplanationRecord">
+            <summary>
+            Provides the underlying explanation for scoring using the given query 
+            parameters as it relates to specific documents returned in the 
+            <see cref="T:SearchResults">SearchResults</see> instance.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.ExplanationRecord.#ctor(System.Xml.XmlNode)">
+            <summary>
+            
+            </summary>
+            <param name="xnode"></param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.ExplanationRecord.GetExplainInfoAsHTML">
+            <summary>
+            Returns ExplainInfo for rendering in HTML format.
+            </summary>
+            <returns>string suitable for HTML representation</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.ExplanationRecord.Name">
+            <summary>
+            Name of this record
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.ExplanationRecord.ExplainInfo">
+            <summary>
+            The explanation information for this record
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.ExplanationRecord.UniqueRecordKey">
+            <summary>
+            The value of the UniqueKey, as defined by the solr schema, and
+            the corresponding record in the SearchResults SearchRecord array
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection">
+            <summary>
+            The HighlightParameterCollection is a container of HighlightParameter objects. It
+            is also an implementation of BaseHighlighter, and is used to set properties
+            for highlighting parameters on an aggregate basis.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter">
+            <summary>
+            The base implementation for highlight parameters. Highlight parameters carry defaults
+            that can be superseded on an aggregate (all fields) basis, and/or on an individual
+            field basis.
+            
+            BaseHighlighter implements the parameters that can be created and applied to a search
+            query request.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.SOLR_PARAM_HIGHLIGHT">
+            <summary>
+            The url parameter used in a search request that indicates if highlighting is to be enabled
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.SOLR_PARAM_HIGHLIGHTFIELDS">
+            <summary>
+            The url parameter used in a search request that contains the fieldname to which highlighting
+            should be applied
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.ToString">
+            <summary>
+            Override of ToString, but set as abstract to force implementation by 
+            inheritors.
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.RenderParameters">
+            <summary>
+            Writes out values of properties on a name/value basis for incorporation into
+            a querystring. For efficiency, only differences from default values are added
+            to the rendered output.
+            </summary>
+            <returns>string as a querystring component</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.IsDefault(System.Double,System.Double)">
+            <summary>
+            Evaluates two values to determine if they are equal. Used to determine
+            if a difference against the default value exists.
+            </summary>
+            <param name="property">property value to be evaluated</param>
+            <param name="defaultvalue">default value to be evaluated</param>
+            <returns>true if the values are equal</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.IsDefault(System.Int32,System.Int32)">
+            <summary>
+            Evaluates two values to determine if they are equal. Used to determine
+            if a difference against the default value exists.
+            </summary>
+            <param name="property">property value to be evaluated</param>
+            <param name="defaultvalue">default value to be evaluated</param>
+            <returns>true if the values are equal</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.IsDefault(System.String,System.String)">
+            <summary>
+            Evaluates two values to determine if they are equal. Used to determine
+            if a difference against the default value exists.
+            </summary>
+            <param name="property">property value to be evaluated</param>
+            <param name="defaultvalue">default value to be evaluated</param>
+            <returns>true if the values are equal</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.IsDefault(System.Boolean,System.Boolean)">
+            <summary>
+            Evaluates two values to determine if they are equal. Used to determine
+            if a difference against the default value exists.
+            </summary>
+            <param name="property">property value to be evaluated</param>
+            <param name="defaultvalue">default value to be evaluated</param>
+            <returns>true if the values are equal</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.ParameterReference">
+            <summary>
+            Returns the reference name for name/value pair assignments. Marked
+            as virtual to allow for custom overrides if needed in implementation
+            classes.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.Snippets">
+            <summary>
+            The maximum number of highlighted snippets to generate per field. 
+            Note: it is possible for any number of snippets from zero to this 
+            value to be generated.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.FragmentSize">
+            <summary>
+            The size, in characters, of fragments to consider for highlighting. 
+            "0" indicates that the whole field value should be used (no fragmenting).
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.RequireFieldMatch">
+            <summary>
+            If true, then a field will only be highlighted if the query matched in this 
+            particular field (normally, terms are highlighted in all requested field 
+            regardless of which field matched the query).
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.MaxAnalyzedChars">
+            <summary>
+            The number of characters into a document to look for suitable snippets [Solr 1.3+].
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.HighlightFormatter">
+            <summary>
+            Specify a formatter for the highlight output. Currently the only legal value is "simple", 
+            which surrounds a highlighted term with a customizable pre- and post text snippet.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.SimplePreText">
+            <summary>
+            The text which appears before a highlighted term when using the simple formatter.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.SimplePostText">
+            <summary>
+            The text which appears after a highlighted term when using the simple formatter.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.HighlightFragmenter">
+            <summary>
+            Specify a text snippet generator for the highlit text. The standard fragmenter is gap 
+            (which is so called because it creates fixed-sized fragments with gaps for multi-valued 
+            fields). Another option is regex, which tries to create fragments that "look like" a 
+            certain regular expression. [Solr 1.3+]
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.RegexSlop">
+            <summary>
+            Factor by which the regex fragmenter can stray from the ideal fragment size 
+            (given by hl.fragsize) to accomodate the regular expression. For instance, a slop of 
+            0.2 with fragsize of 100 should yield fragments between 80 and 120 characters in length. 
+            It is usually good to provide a slightly smaller fragsize when using the regex fragmenter.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.RegexPattern">
+            <summary>
+            The regular expression for fragmenting. This could be used to extract 
+            sentence.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.BaseHighlighter.RegexMaxAnalyzedChars">
+            <summary>
+            Only analyze this many characters from a field when using the regex fragmenter 
+            (after which, the fragmenter produces fixed-sized fragments). Applying a complicated 
+            regex to a huge field is expensive.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.#ctor">
+            <summary>
+            The empty public constructor
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.ToString">
+            <summary>
+            Generates a series of name/value pairs structured for use in
+            querystring usage for solr search queries.
+            </summary>
+            <returns>string of name/value pairs</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.GetEnumerator">
+            <summary>
+            Implementation of generic GetEnumerator, per the IEnumerable interface
+            </summary>
+            <returns>a generic List's IEnumerator</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Implementation of GetEnumerator, per the IEnumerable interface
+            </summary>
+            <returns>a generic List's IEnumerator</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.Add(org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter)">
+            <summary>
+            Adds a HighlightParameter object to the underlying List
+            </summary>
+            <param name="item">instance of HighlightParameter</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.Clear">
+            <summary>
+            Removes all contained instances of HighlightParameter from
+            the underlying list
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.Contains(org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter)">
+            <summary>
+            Returns true if the underlying list contains the referenced
+            HighlightParameter
+            </summary>
+            <param name="item">instance of HighlightParameter to evaluate</param>
+            <returns>true if the underlying list contains the HighlightParameter</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.CopyTo(org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter[],System.Int32)">
+            <summary>
+            Copies the referenced HighlightParameter objects in the underlying
+            list to the referenced array, starting from the arrayIndex point
+            in the list
+            </summary>
+            <param name="array">instance of a HighlightParameter array to copy into</param>
+            <param name="arrayIndex">index of the list where copying should begin</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.Remove(org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter)">
+            <summary>
+            Removes the referenced HighlightParameter object from the underlying
+            list.
+            </summary>
+            <param name="item">instance of HighlightParameter to remove from the underlying list</param>
+            <returns>true if the instance was removed from the list</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.HighlightParameters">
+            <summary>
+            Strongly-typed array of contained HighlightParameter objects in the collection.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.Count">
+            <summary>
+            The number of HighlightParameter instances in the underlying list
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection.IsReadOnly">
+            <summary>
+            Returns true if this instance cannot be changed. Presently returns
+            false in all scenarios.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Indexing.IndexDocument">
+            <summary>
+            Base type for documents that are applied to a solr index. IndexDocument
+            handles the serialization of derived documents into xml format.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexDocument.#ctor">
+            <summary>
+            Empty constructor, required by Xml serialization under .Net
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexDocument.SerializeToString">
+            <summary>
+            Serializes the given document to a string for application to a solr index.
+            </summary>
+            <returns>Xml-formatting string representation of the derived object</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexDocument.UTF8ByteArrayToString(System.Byte[])">
+            <summary>
+            Converts a UTF8 byte array of characters to a string
+            </summary>
+            <param name="characters">Byte array set of characters to be converted</param>
+            <returns>converted string</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexDocument.StringToUTF8ByteArray(System.String)">
+            <summary>
+            Converts a string to a UTF8-encoded byte array of characters
+            </summary>
+            <param name="pXmlString">The string of characters to be converted</param>
+            <returns>converted byte array</returns>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Results.DebugResults">
+            <summary>
+            Provides access to additional debugging information related to a 
+            <see cref="T:SearchResults">SearchResults</see> instance, including 
+            "explain" info for each of the documents returned.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.DebugResults.#ctor(System.Xml.XmlNode)">
+            <summary>
+            Public constructor for DebugResults, expecting an XmlNode with queryable 
+            information relative to debugging information for a query.
+            </summary>
+            <param name="xnode">XmlNode reference to populate this instance</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.DebugResults.QueryString">
+            <summary>
+            The query as applied to the referencing 
+            <see cref="T:SearchResults">SearchResults</see> instance as well 
+            as the <see cref="T:org.apache.solr.SolrSharp.Results.ExplanationRecord">ExplanationRecords</see> array.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.DebugResults.ParsedQuery">
+            <summary>
+            The underlying executed query, as actually executed
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.DebugResults.ExplanationRecords">
+            <summary>
+            Array of ExplanationRecord objects containing detail information 
+            about debugging and analysis information as it relates to each 
+            <see cref="T:SearchRecord">SearchRecord</see> in the referencing
+            <see cref="T:SearchResults">SearchResults</see> instance.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.DebugResults.OtherQuery">
+            <summary>
+            If <see cref="T:SearchResults.ExplainOtherQuery">ExplainOtherQuery</see> is 
+            added to the referencing <see cref="T:SearchResults">SearchResults</see> 
+            instance, this is populated with the executed query.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.DebugResults.OtherQueryExplanationRecords">
+            <summary>
+            Array of ExplanationRecord objects containing detail information 
+            about debugging and analysis information as it relates to 
+            <see cref="T:SearchResults.ExplainOtherQuery">ExplainOtherQuery</see> in 
+            the referencing <see cref="T:SearchResults">SearchResults</see> instance.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.SOLR_PARAM_FACET">
+            <summary>
+            The url parameter used in a search request that indicates if facets are to be generated
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.SOLR_PARAM_FACETFIELDS">
+            <summary>
+            The url parameter used in a search request that contains the fieldnames of facets to be
+            generated
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.#ctor(System.String)">
+            <summary>
+            Adds a facet parameter on the given solr index fieldname
+            </summary>
+            <param name="fieldname">Solr index fieldname to query as a facet</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.RenderParameters">
+            <summary>
+            Writes out values of properties on a name/value basis for incorporation into
+            a querystring. For efficiency, only differences from default values are added
+            to the rendered output.
+            </summary>
+            <returns>string as a querystring component</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.ParameterReference">
+            <summary>
+            Returns the reference name for name/value pair assignments. Marked
+            as virtual to allow for custom overrides if needed in implementation
+            classes.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.Query">
+            <summary>
+            ExplainOtherQuery adds a separate Query to identify a set of documents for comparison
+            to scoring under debugging. When provided, the ExplanationRecord of each document which 
+            matches this query, relative the main query (specified by the q parameter) will be 
+            returned along with the rest of the debugging information.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.Field">
+            <summary>
+            This param allows you to specify a field which should be treated as a facet. It will iterate over each Term 
+            in the field and generate a facet count using that Term as the constraint.  When using this param, it is 
+            important to remember that "Term" is a very specific concept in Lucene -- it relates to the literal field/value 
+            pairs that are Indexed after any Analysis occurs. For text fields that include stemming, or lowercasing, or word 
+            splitting you may not get what you expect. If you want both Analysis (for searching) and Faceting on the full 
+            literal Strings, use copyField to create two versions of the field: one Text and one String. 
+            Make sure both are indexed="true".
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.DisplayZeros">
+            <summary>
+            Set to "true" this param indicates that constraint counts for facet fields should be included even 
+            if the count is "0", set to "false" or blank and the "0" counts will be supressed to save on the 
+            amount of data returned in the response.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.DisplayMissing">
+            <summary>
+            Set to "true" this param indicates that in addition to the Term based constraints of a facet field, 
+            a count of all matching results which have no value for the field should be computed.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.BaseFacet.Limit">
+            <summary>
+            Indicates the maximum number of constraint counts that should be returned for the facet fields, 
+            similar to "SELECT TOP..." in SQL.  If a non-negative value is specified, the constraints 
+            (ie: Terms) will be sorted by the facet count (descending) and only the top N terms will be 
+            returned with their counts.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Facets.FacetParameter.#ctor(org.apache.solr.SolrSharp.Configuration.Schema.SolrField)">
+            <summary>
+            Public constructor of FacetParameter. Instances
+            require an instance of SolrField to be created.
+            </summary>
+            <param name="solrfield">instance of SolrField to apply highlighting</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Facets.FacetParameter.ToString">
+            <summary>
+            Override of ToString, as required by BaseFacet
+            </summary>
+            <returns>string representing name/value pairs for this instance</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.FacetParameter.SolrField">
+            <summary>
+            Instance of SolrField representing the index field to apply highlighting
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facets.FacetParameter.ParameterReference">
+            <summary>
+            Override of BaseFacet implementation of ParameterReference. Returns
+            the field reference for any parameter property overrides set for this
+            instance.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.Schema.SolrCopyField">
+            <summary>
+            CopyField nodes in a solr schema instruct Solr to duplicate any data 
+            added to the index by copying the value(s) of the "source" field to 
+            the "dest" field of that document.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrCopyField.#ctor(System.Xml.XmlNode,org.apache.solr.SolrSharp.Configuration.Schema.SolrField[])">
+            <summary>
+            Constructs an instance of a copy field.
+            </summary>
+            <param name="xnCopyField">XmlNode representing the definition of a single copy field</param>
+            <param name="solrFields">The possible source fields for this schema, as defined in SolrSchema</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrCopyField.SourceField">
+            <summary>
+            SolrField mapped to the source field
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrCopyField.DestinationField">
+            <summary>
+            SolrField mapped to the destination field
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Indexing.UpdateIndexDocument">
+            <summary>
+            Abstracted class for updating or adding to a solr index.  For a specific index,
+            a class should inherit from UpdateIndexDocument.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.UpdateIndexDocument.#ctor">
+            <summary>
+            Empty constructor, required by Xml serialization under .Net
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.UpdateIndexDocument.Add(org.apache.solr.SolrSharp.Indexing.IndexFieldValue)">
+            <summary>
+            Adds an IndexFieldValue object to the internal collection
+            </summary>
+            <param name="fieldValue">IndexFieldValue object containing the fieldname and value</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.UpdateIndexDocument.Add(System.String,System.String)">
+            <summary>
+            Adds a fieldname/value pair as an IndexFieldValue object to the internal collection
+            </summary>
+            <param name="fieldName">Solr index fieldname for this value</param>
+            <param name="fieldValue">Value for this solr index fieldname</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Indexing.UpdateIndexDocument.FieldValues">
+            <summary>
+            The collection of fieldname/value pair objects to be serialized
+            as a part of this document
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameter">
+            <summary>
+            Specialized QueryParameter used to build a query for a list
+            of IDs on a solr index fieldname
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameter.#ctor(System.Int32)">
+            <summary>
+            Builds a QueryParameter to search for the given value
+            </summary>
+            <param name="value">int value to query</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.IdListQueryParameter.ToString">
+            <summary>
+            Renders this QueryParameter for usage in a query request
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Highlights.HighlightFragmenter">
+            <summary>
+            Enumeration definition of possible fragmenting options for highlighting
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Highlights.HighlightFragmenter.Gap">
+            <summary>
+            Creates fixed-sized fragments with gaps for multi-valued fields
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Highlights.HighlightFragmenter.Regex">
+            <summary>
+            Creates fragments that "look like" a regular expression (Solr 1.3)
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Highlights.HighlightFormatter">
+            <summary>
+            Enumeration definition of possible formatting options for highlighting
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.Highlights.HighlightFormatter.Simple">
+            <summary>
+            Surrounds a highlighted term with a customizable pre- and post text snippet
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.SolrServers">
+            <summary>
+            Configuration representation of all solr servers.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.Schema.SolrField">
+            <summary>
+            Maps a "field" node entry in a solr config.xml file to a strongly-typed object.
+            While mapping all attributes, SolrField also provides a translation between solr 
+            field class types and C# native types.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.GetXpathExpression(System.Type,System.String)">
+            <summary>
+            Gets an xpath-type query expression using the native .Net type and solr
+            fieldname. Used by result and record classes in querying xml results.
+            </summary>
+            <param name="type">native .Net type to be evaluated</param>
+            <param name="fieldname">solr fieldname to be used in the expression</param>
+            <returns>string formed as an xpath-style query</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.#ctor(System.Xml.XmlNode,org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema)">
+            <summary>
+            Constructs an object by xpath query of an xml node representing a field in solr.
+            </summary>
+            <param name="xnSolrField">XmlNode representing one field</param>
+            <param name="solrSchema">The underlying SolrSchema</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.Name">
+            <summary>
+            The solr field name
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.Type">
+            <summary>
+            The C# native type equivalent for the solr field
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.OmitNorms">
+            <summary>
+            When enabled in solr, OmitNorms disables length normalization and index-time 
+            boosting for this field, which saves memory.  Only full-text fields or fields 
+            that need an index-time boost need norms.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.IsIndexed">
+            <summary>
+            When enabled, search queries can use this field for searching or sorting.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.IsStored">
+            <summary>
+            When enabled, search queries can retrieve this field in search results
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.IsMultiValued">
+            <summary>
+            When enabled, this field may contain more than one value per document.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.IsCopied">
+            <summary>
+            When true, this field exists in the index by having values copied from a
+            source field. This eliminates the requirement for a copied field to be
+            included in an update request, as solr will take care of copying the values
+            over from a source field to this field.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.IsDefaulted">
+            <summary>
+            When true, this field may contain a default value for inclusion in the index.
+            This eliminates the requirement for a copied field to be included in an update 
+            request, as solr will take care of generating the default value for the field,
+            per the definition in the schema.xml file. If the field is present in an update
+            request, the requested field value will be used.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrField.XpathExpression">
+            <summary>
+            An xpath-style expression for this instance.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Results.SearchResults`1">
+            <summary>
+            SearchResults is an abstraction that hides the details of evaluating a solr index search
+            response, and returns the results in an object-based structure. SearchResults provides the
+            base ExecuteSearch method as well as public metadata properties about the results of the
+            query: TotalResults, the starting record (StartAt), and the number of Rows available for this
+            set of results.
+            
+            SearchResults requires an implementation utilizing generics. This enables the base class to
+            build search result objects directly. Using generics, the base class populates SearchRecord
+            results and Facet results.  Inheriting classes need only define how an inherited SearchRecord
+            is created and a Facet results are created.  The base class executes those inherited methods
+            during ExecuteSearch.
+            </summary>
+            <typeparam name="T">Class inheritance of type SearchRecord</typeparam>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.SearchResults`1.#ctor(org.apache.solr.SolrSharp.Query.QueryBuilder)">
+            <summary>
+            Generates search results for the QueryBuilder object. Using this constructor,
+            search results are immediately available after control is returned to the calling
+            client application.
+            </summary>
+            <param name="queryBuilder">QueryBuilder object to be executed as a search request</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.SearchResults`1.ExecuteSearch(org.apache.solr.SolrSharp.Query.QueryBuilder)">
+            <summary>
+            Executes a search request using the passed QueryBuilder object. This method populates
+            the metadata properties about the search (total results, start-at, and available rows).
+            Additionally, initialization routines for the given type of SearchRecord and any Facet
+            results are called.
+            </summary>
+            <param name="queryBuilder">QueryBuilder object to be executed as a search request</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.SearchResults`1.InitSearchRecord(System.Xml.XmlNode)">
+            <summary>
+            This method is called by ExecuteSearch in constructing type-specific objects
+            of type SearchRecord.  This constructs the collection of SearchRecords automatically,
+            using the definition in the inherited object.  Required implementation by the inheriting class.
+            </summary>
+            <param name="xn">XmlNode containing fields used for the resultant SearchRecord</param>
+            <returns>SearchRecord of type T (the inherited type)</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.SearchResults`1.InitFacetResults(System.Xml.XmlNode)">
+            <summary>
+            This method is called by ExecuteSearch in constructing type-specific objects
+            of type FacetResults.  This constructs the collection of FacetResults automatically,
+            using the definition in the inherited object.  Required implementation by the inheriting class.
+            </summary>
+            <param name="xn">XmlNode containing fields used for the resultant FacetResult</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.SearchResults`1.TotalResults">
+            <summary>
+            The number of total results for this search request
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.SearchResults`1.StartAt">
+            <summary>
+            The starting record (zero-based) for this set of results
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.SearchResults`1.Rows">
+            <summary>
+            The number of rows returns for this set of results
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.SearchResults`1.SearchRecords">
+            <summary>
+            Type-specific set of SearchRecords, representing the results for this page.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.SearchResults`1.DebugResults">
+            <summary>
+            If the QueryBuilder object that constructs this SearchResults instance 
+            has the <see cref="P:org.apache.solr.SolrSharp.Query.QueryBuilder.IsDebugEnabled"/>IsDebugEnabled property set to true, this object will be created
+            (not null).
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.QueryBuilder">
+            <summary>
+            QueryBuilder is an abstraction that hides the details of building a search query
+            to be executed against a solr index. The class provides the base methods for accepting
+            parameters to be used in building a search request, which can be quite complex depending
+            on the items requested.
+            
+            See the examples for inheriting from and using QueryBuilder.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.QueryBuilder.SOLR_SEARCH">
+            <summary>
+            The url for the solr webapp instance used by this SolrSearcher to execute search requests
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.QueryBuilder.SOLR_PARAM_QUERY">
+            <summary>
+            The url parameter used in a search request that contains the solr index query
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.QueryBuilder.SOLR_PARAM_STARTAT">
+            <summary>
+            The url parameter used in a search request that contains the starting row number (zero-based)
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.QueryBuilder.SOLR_PARAM_ROWS">
+            <summary>
+            The url parameter used in a search request that contains the number of rows to return in 
+            this result set
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.QueryBuilder.SOLR_DEBUG_ENABLED">
+            <summary>
+            The url parameter used in a search request that enables debug information to return in
+            this result set
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.QueryBuilder.SOLR_EXPLAIN_OTHER">
+            <summary>
+            The url parameter used in a search request that enables the ExplainOtherQuery
+            object in use with debugging information for this result set
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.#ctor">
+            <summary>
+            Constucts an empty, default QueryBuilder object. Sets the local 
+            SolrSearcher object url to the appropriate location, per configuration.
+            All constructors call this base constructor.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.#ctor(System.Int32)">
+            <summary>
+            Constucts an empty, default QueryBuilder object and adds the Page
+            parameter.
+            </summary>
+            <param name="page">integer to be used as the Page parameter</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.#ctor(System.String)">
+            <summary>
+            Constructs a QueryBuilder object to execute a keyword search against
+            the DefaultSearchField, setting the Page parameter to 1.
+            </summary>
+            <param name="searchterms">keywords to query against the DefaultSearchField</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructs a QueryBuilder object to execute a keyword search against
+            the DefaultSearchField.
+            </summary>
+            <param name="searchterms">keywords to query against the DefaultSearchField</param>
+            <param name="page">integer to be used as the Page parameter</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.#ctor(System.String[],System.String[],System.Int32)">
+            <summary>
+            Constructs a QueryBuilder object to execute a query based on the 
+            arKeys and arValues collections. A query request will be formulated based on
+            aligned index values in arKeys and arValues respectively, i.e.
+            arKeys[0] will be evaluated against arValues[0]. Use this only to bypass
+            the default behavior and if you need to set name/value pairs for the url
+            request directly.
+            </summary>
+            <param name="arKeys">Collection of request parameters</param>
+            <param name="arValues">Collection of request values</param>
+            <param name="page">integer to be used as the Page parameter</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.#ctor(System.Collections.Generic.Dictionary{System.String,System.String},System.Int32)">
+            <summary>
+            Constructs a QueryBuilder object to execute a query based on the 
+            searchkeyvalues dictionary. A query request will be formulated based on
+            the KeyValuePair objects contained in searchkeyvalues. Use 
+            this only to bypass the default behavior and if you need to set name/value 
+            pairs for the url request directly.
+            </summary>
+            <param name="searchkeyvalues">Dictionary of parameter/value pairs</param>
+            <param name="page">integer to be used as the Page parameter</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.#ctor(org.apache.solr.SolrSharp.Query.Query,System.Int32)">
+            <summary>
+            Constructs a QueryBuilder object to execute a query based on the 
+            Query object.  This is the most used constructor for this object and the
+            "best" way to create a search request, as the Query object and QueryBuilder
+            work together to save you from having to figure out syntax in building a
+            (sometimes complex) search query within a url.
+            </summary>
+            <param name="query">Query object containing the field(s) to be queried against a solr index</param>
+            <param name="page">integer to be used as the Page parameter</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.GetStartFromPage">
+            <summary>
+            Calculates the start parameter, based on the page parameter and rows parameter
+            </summary>
+            <returns>int representing the "start" parameter</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.AddFacet(org.apache.solr.SolrSharp.Query.Facet)">
+            <summary>
+            Adds a Facet parameter to this query
+            </summary>
+            <param name="oFacet">Facet object representing the field to be queried through facets</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.AddSearchParameter(System.String,System.String)">
+            <summary>
+            Ad-hoc method of adding a parameter/value pair to the search query.  Overwrites
+            the value for the parameter if it already exists in the parameter/value pair collection
+            for the query.
+            </summary>
+            <param name="parameter">Solr field to query</param>
+            <param name="value">Value to be used in the query</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.AddSearchParameter(System.String,System.String,System.Boolean)">
+            <summary>
+            Ad-hoc method of adding a parameter/value pair to the search query
+            </summary>
+            <param name="parameter">Solr field to query</param>
+            <param name="value">Value to be used in the query</param>
+            <param name="overwrite">True/False for overwriting the value for this parameter (if it's has already been set)</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.AddSort(org.apache.solr.SolrSharp.Query.Sort)">
+            <summary>
+            Adds a sort parameter to this query.  Adding sort bases is order dependent.  "First in,
+            first out" is the applied logic.
+            </summary>
+            <param name="oSort">Sort object to be added to the Sorts collection</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.AddHighlightParameterCollection(org.apache.solr.SolrSharp.Query.Highlights.HighlightParameterCollection)">
+            <summary>
+            Sets the solr parameter for highlighting results in the given fieldname for this query.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.GetHighlightParameterCollection">
+            <summary>
+            Gets the referenced HighlightParameterCollection.
+            </summary>
+            <returns>the referenced instance of HighlightParameterCollection</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.QueryBuilder.SetQueryUrl">
+            <summary>
+            Sets the query URL to be used for this query.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.SolrSearcher">
+            <summary>
+            The underlying SolrSearcher used by this instance
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.Page">
+            <summary>
+            Sets the page value (start) parameter for search results. Overrides any value set from a loaded Dictionary of parameters.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.Rows">
+            <summary>
+            Sets the rows value (rows" parameter for search results. Overrides any value set from a loaded Dictionary of parameters.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.Facets">
+            <summary>
+            Collection of facets to be applied to this query. This is populated through the
+            AddFacet method.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.Query">
+            <summary>
+            The Query object to be applied in this query.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.Sorts">
+            <summary>
+            Collection of Sort objects to be applied to this query.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.IsHighlighted">
+            <summary>
+            Returns true if highlighting is enabled in this query. Highlighting is enabled
+            by passing the fieldname to the HighlightField method.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.IsDebugEnabled">
+            <summary>
+            If set to true, additional debugging information will be included 
+            in the response, including "explain" info for each of the documents 
+            returned. The debugging info is meant for human consumption. The
+            XML format could change in the future.
+            
+            The default value is false.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.ExplainOtherQuery">
+            <summary>
+            ExplainOtherQuery adds a separate Query to identify a set of documents for comparison
+            to scoring under debugging. When provided, the ExplanationRecord of each document which 
+            matches this query, relative the main query (specified by the q parameter) will be 
+            returned along with the rest of the debugging information.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.QueryBuilder.QueryUrl">
+            <summary>
+            Returns the query url to be used when executing this search against a solr index.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Indexing.IndexFieldAttribute">
+            <summary>
+            Mapping attribute class that provides late-binding of a solr search query results xml
+            payload to a derived instance of SearchRecord.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexFieldAttribute.#ctor(System.String)">
+            <summary>
+            Constructs an instance of an IndexFieldAttribute.  The fieldName parameter
+            must use the equivalent SolrField name, as defined in the SolrSchema and found
+            in a solr webapp instance schema.xml file.  The fieldName parameter is case-sensitive.
+            </summary>
+            <param name="fieldName">string representing the solr field name to map against</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexFieldAttribute.SetValue(org.apache.solr.SolrSharp.Results.SearchRecord)">
+            <summary>
+            Binds values to natively defined properties on an inherited instance of SearchRecord.
+            </summary>
+            <param name="searchRecord">Instance of SearchRecord to bind the values against</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Indexing.IndexFieldAttribute.FieldName">
+            <summary>
+            The solr field name to map against
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Indexing.IndexFieldAttribute.PropertyInfo">
+            <summary>
+            Reflected property for this instance
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.ConfigurationFile">
+            <summary>
+            Enumeration of solr-specific configuration file types.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.ConfigurationFile.Schema">
+            <summary>
+            schema.xml
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.ConfigurationFile.Config">
+            <summary>
+            solrconfig.xml
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.SolrSearcher">
+            <summary>
+            A class representing a solr server as defined under configuration. SolrSearcher is defined
+            by its Url and Mode. These settings ensure search requests and updates are directed to
+            the correct servers.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.SolrSearcher.SOLR">
+            <summary>
+            The url for the solr webapp instance used by this SolrSearcher
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.SolrSearcher.SOLR_PING">
+            <summary>
+            The url to the administrative Ping() function for the solr webapp instance
+            used by this SolrSearcher
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.#ctor(System.String,org.apache.solr.SolrSharp.Configuration.Mode)">
+            <summary>
+            Constructor that constructs functionality by url and Mode.
+            </summary>
+            <param name="solrUrl">url pointer to the solr webapp instance</param>
+            <param name="searcherMode">Read/Write basis for the solr webapp instance</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.Supports(org.apache.solr.SolrSharp.Configuration.Mode)">
+            <summary>
+            Determines if the current instance supports the searcherMode. This is a flagged
+            bitwise comparison, since Read mode equates to ReadWrite mode and Write mode equates
+            to ReadWrite mode.
+            </summary>
+            <param name="searcherMode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.Ping">
+            <summary>
+            Evaluates the current status of Ping() on the solr server. Ping() is a function
+            of the solr web application.
+            </summary>
+            <returns>HttpStatusCode result from the ping() request</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetConfigurationValue(org.apache.solr.SolrSharp.Configuration.ConfigurationFile,System.String)">
+            <summary>
+            Returns a string value result from the xpath query within the referenced ConfigurationFile
+            for the solr server
+            </summary>
+            <param name="eConfigFile">ConfigurationFile type for this solr server</param>
+            <param name="xpathquery">XPath-based query to be applied to this solr configuration file</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetConfigurationData(org.apache.solr.SolrSharp.Configuration.ConfigurationFile,System.String)">
+            <summary>
+            Returns an XmlNodeList of values as the result from the xpath query within the 
+            referenced ConfigurationFile for the solr server
+            </summary>
+            <param name="eConfigFile">ConfigurationFile type for this solr server</param>
+            <param name="xpathquery">XPath-based query to be applied to this solr configuration file</param>
+            <returns>XmlNodeList</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetConfigurationXml(org.apache.solr.SolrSharp.Configuration.ConfigurationFile)">
+            <summary>
+            Returns the referenced ConfigurationFile for the solr server as an XmlDocument
+            </summary>
+            <param name="eConfigFile">ConfigurationFile type for this solr server</param>
+            <returns>XmlDocument</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.WebPost(System.String,System.Byte[],System.String@)">
+            <summary>
+            Creates a standard http request of type POST
+            </summary>
+            <param name="url">URL to post values</param>
+            <param name="bytesToPost">Post value payload to pass to the URL</param>
+            <param name="statusDescription">Standard http status code description text</param>
+            <returns>HttpStatusCode</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetContentToPost(System.String,System.Text.Encoding)">
+            <summary>
+            Formulates a string as an encoded byte array.  This is useful when posting values via the WebPost method.
+            </summary>
+            <param name="content">The string of content to encode</param>
+            <param name="oEncoding">Encoding basis to be applied to the content</param>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetContentToPost(System.IO.FileInfo,System.Text.Encoding)">
+            <summary>
+            Formulates the content of a file as an encoded byte array. 
+            This is useful when posting values via the WebPost method.
+            </summary>
+            <param name="oFile">The file objecty containing the content to encode</param>
+            <param name="oEncoding">Encoding basis to be applied to the content</param>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetXmlString(System.String)">
+            <summary>
+            Returns an http response as a string
+            </summary>
+            <param name="xmlUrl">The url to request</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetXmlDocument(System.String)">
+            <summary>
+            Returns an http response as an XmlDocument
+            </summary>
+            <param name="xmlUrl">The url to request</param>
+            <returns>XmlDocument</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetXmlDocumentFromPost(System.String,System.String)">
+            <summary>
+            Returns an http response from an http POST request as an XmlDocument
+            </summary>
+            <param name="url">The url to request</param>
+            <param name="queryparameters">String of content to post to the Url</param>
+            <returns>XmlDocument</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetXmlValue(System.Xml.XmlNode,System.String)">
+            <summary>
+            Returns the object value per a given xpath query
+            </summary>
+            <param name="xnData">The XmlNode to evaluate</param>
+            <param name="xpathquery">XPath structured query to apply to the XmlNode</param>
+            <returns>object</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetXmlNodes(System.Xml.XmlNode,System.String)">
+            <summary>
+            Returns an XmlNodeList of values per a given xpath query
+            </summary>
+            <param name="xnData">The XmlNode to evaluate</param>
+            <param name="xpathquery">XPath structured query to apply to the XmlNode</param>
+            <returns>XmlNodeList</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetXmlNode(System.Xml.XmlDocument,System.String)">
+            <summary>
+            Returns an XmlNode as the value per a given xpath query
+            </summary>
+            <param name="xDoc">The XmlDocument to evaluate</param>
+            <param name="xpathquery">XPath structured query to apply to the XmlNode</param>
+            <returns>XmlNode</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.SolrSearcher.GetXmlNode(System.Xml.XmlNode,System.String)">
+            <summary>
+            Returns an XmlNode as the value per a given xpath query
+            </summary>
+            <param name="xnode">The XmlNode to evaluate</param>
+            <param name="xpathquery">XPath structured query to apply to the XmlNode</param>
+            <returns>XmlNode</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.SolrSearcher.SolrSchema">
+            <summary>
+            SolrSchema object associated with this searcher.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.Schema.SolrDynamicField">
+            <summary>
+            Dynamic fields are similar to "wildcard" fields. If a field name is not 
+            found, dynamicFields will be used if the name matches any of the patterns.
+            RESTRICTION: the glob-like pattern in the name attribute must have a "*" only 
+            at the start or the end.
+            EXAMPLE:  name="*_i" will match any field ending in _i (like myid_i, z_i)
+            Longer patterns will be matched first.  if equal size patterns both match, the 
+            first appearing in the schema will be used.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrDynamicField.#ctor(System.Xml.XmlNode,org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema)">
+            <summary>
+            Constructs an instance of a dynamic field.
+            </summary>
+            <param name="xnDynamicField">XmlNode representing the definition of a single dynamic field</param>
+            <param name="solrSchema">The underlying SolrSchema where the dynamic field exists</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrDynamicField.IsMatch(System.String)">
+            <summary>
+            Evaluates a fieldname to determine if solr pattern matching applies (and the fieldName
+            is permissible for use.)
+            </summary>
+            <param name="fieldName">the name of the field to be evaluated</param>
+            <returns>true if the dynamic field definition matches the fieldname</returns>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.SolrConfigurationSection">
+            <summary>
+            Configuration class representing all solr servers.  Each solr server is equal
+            to a solr instance; multiple solr instances *may* exist on one physical server.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter">
+            <summary>
+            HighlightParameter is used to reference highlighting of a 
+            solr index field for a search query. HighlightParameter
+            implements BaseHighlighter, permitting overrides of all
+            parameters on a field specific basis.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter.#ctor(org.apache.solr.SolrSharp.Configuration.Schema.SolrField)">
+            <summary>
+            Public constructor of HighlightParameter. Instances
+            require an instance of SolrField to be created.
+            </summary>
+            <param name="solrfield">instance of SolrField to apply highlighting</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter.ToString">
+            <summary>
+            Override of ToString, as required by BaseHighlighter
+            </summary>
+            <returns>string representing name/value pairs for this instance</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter.SolrField">
+            <summary>
+            Instance of SolrField representing the index field to apply highlighting
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Highlights.HighlightParameter.ParameterReference">
+            <summary>
+            Override of BaseHighlighter implementation of ParameterReference. Returns
+            the field reference for any parameter property overrides set for this
+            instance.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Facet">
+            <summary>
+            A facet is a count summary for a given solr index field among aggregate search results.  For
+            additional information about facets, please see the Solr website.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Facet.#ctor">
+            <summary>
+            Empty public constructor.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Facet.#ctor(System.String)">
+            <summary>
+            Adds a facet parameter on the given solr index fieldname
+            </summary>
+            <param name="fieldname">Solr index fieldname to query as a facet</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facet.Field">
+            <summary>
+            This param allows you to specify a field which should be treated as a facet. It will iterate over each Term 
+            in the field and generate a facet count using that Term as the constraint.  When using this param, it is 
+            important to remember that "Term" is a very specific concept in Lucene -- it relates to the literal field/value 
+            pairs that are Indexed after any Analysis occurs. For text fields that include stemming, or lowercasing, or word 
+            splitting you may not get what you expect. If you want both Analysis (for searching) and Faceting on the full 
+            literal Strings, use copyField to create two versions of the field: one Text and one String. 
+            Make sure both are indexed="true".
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facet.DisplayZeros">
+            <summary>
+            Set to "true" this param indicates that constraint counts for facet fields should be included even 
+            if the count is "0", set to "false" or blank and the "0" counts will be supressed to save on the 
+            amount of data returned in the response.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facet.DisplayMissing">
+            <summary>
+            Set to "true" this param indicates that in addition to the Term based constraints of a facet field, 
+            a count of all matching results which have no value for the field should be computed.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facet.Limit">
+            <summary>
+            Indicates the maximum number of constraint counts that should be returned for the facet fields, 
+            similar to "SELECT TOP..." in SQL.  If a non-negative value is specified, the constraints 
+            (ie: Terms) will be sorted by the facet count (descending) and only the top N terms will be 
+            returned with their counts.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Facet.UrlParameters">
+            <summary>
+            Returns syntactically structured parameters for use within a url
+            as part of an http search request
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Update.SolrUpdater">
+            <summary>
+            Used for maintaining a solr index. This consists of updates to the index content
+            with either inserts/updates or deletes, as well as commands for committing changes
+            and optimizing the index.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Update.SolrUpdater.#ctor(org.apache.solr.SolrSharp.Configuration.SolrSearcher)">
+            <summary>
+            Constructs an object to apply updates (adds/updates/deletes) to a solr index.
+            </summary>
+            <param name="solrSearcher">SolrSearcher instance mapped to the solr index where updates are to be applied</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Update.SolrUpdater.PostToIndex(org.apache.solr.SolrSharp.Indexing.IndexDocument,System.Boolean)">
+            <summary>
+            Adds or updates an IndexDocument to the search index.  bCommit is useful for bulk 
+            insert/updates, i.e. if many records require adding/updating, this can be called 
+            for the last IndexDocument in a series (which will be applied for all.)
+            </summary>
+            <param name="oDoc">IndexDocument to be added/updated in the index</param>
+            <param name="bCommit">bCommit is useful for bulk insert/updates, i.e. if many records require 
+            adding/updating, this can be called for the last IndexDocument in a series (which will be 
+            applied for all.)</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Update.SolrUpdater.PostToIndex(org.apache.solr.SolrSharp.Indexing.IndexDocument)">
+            <summary>
+            Applies an IndexDocument to the solr index in real time, with immediate updating
+            </summary>
+            <param name="oDoc">IndexDocument to be applied to the solr index</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Update.SolrUpdater.Commit">
+            <summary>
+            Executes the COMMIT command on the solr index, causing any uncommitted changes
+            to be applied to the solr index.
+            </summary>
+            <returns>HttpStatusCode</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Update.SolrUpdater.Optimize">
+            <summary>
+            Executes the OPTIMIZE command on the solr index, causing any fragmented updates
+            to be merged to solr index, according to mergeFactor settings per the solr configuration.
+            </summary>
+            <returns>HttpStatusCode</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Update.SolrUpdater.SOLR_UPDATE">
+            <summary>
+            The url used to apply updates, additions and deletes to the solr index.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.SortOrder">
+            <summary>
+            Enumeration definition of possible sort orders for a given field
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.SortOrder.Ascending">
+            <summary>
+            Sort the field on an ascending basis for its data type
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Query.SortOrder.Descending">
+            <summary>
+            Sort the field on a descending basis for its data type
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Sort">
+            <summary>
+            Container for sort parameters to be applied to a search.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Sort.#ctor(System.String,org.apache.solr.SolrSharp.Query.SortOrder)">
+            <summary>
+            Constructor that sets a SortOrder to be applied using a given solr index field
+            </summary>
+            <param name="sortfield">Solr index field to use for the sort basis</param>
+            <param name="esortorder">Enumeration value dictating the order</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Sort.ToString">
+            <summary>
+            Override used to create the proper syntax for applying a sort to a search request
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Sort.SortField">
+            <summary>
+            The solr index field to use for the sort basis.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Query.Sort.SortOrder">
+            <summary>
+            The ordering to be applied for the sort.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Results.FacetResults`1">
+            <summary>
+            FacetResults is an abstraction from the details of determining the results from a 
+            query using facet parameters, and returns the results in an object-based structure.
+            
+            FacetResults requires an implementation utilizing generics. This enables the base class to
+            build facet result objects directly. Using generics, the base class populates Facet results.  
+            Inheriting classes need only define how a Facet object is initialized. The base class executes 
+            those inherited methods as part of a chain of calls from SearchResults.ExecuteSearch.
+            </summary>
+            <typeparam name="T">Type-specific object</typeparam>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.FacetResults`1.#ctor(System.String,System.Xml.XmlNode)">
+            <summary>
+            Base constructor for FacetResults, using a solr index facet based on the fieldname
+            parameter and building the results based on the XmlNode parameter.
+            </summary>
+            <param name="fieldname">Solr index fieldname used as a Facet query parameter in a QueryBuilder object</param>
+            <param name="xn">XmlNode representing the facet value results from this search request</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.FacetResults`1.InitFacetObject(System.Object)">
+            <summary>
+            This method is called by the object constructor in instantiating type-specific objects
+            of type T.  This constructs the collection of Facets automatically, using the definition 
+            in the inherited object.  Required implementation by the inheriting class.
+            
+            The passed object "key" is the solr index field value. This value, typically an int or string,
+            should be used to construct an object of type T.
+            </summary>
+            <param name="key">object value that can be used to initialize an object of type T</param>
+            <returns>object of type T</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.FacetResults`1.Facets">
+            <summary>
+            Collection of KeyValuePair objects using the type-specific T as key, with the
+            number of results for that facet as the value.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Query">
+            <summary>
+            The Query class collects one or more QueryParameterCollection objects to yield
+            a solr index query statement to be used in an http request.  Passing a Query object
+            to a constructor of a QueryBuilder object is a structured way of building
+            a query, no matter how complex, to be executed against a solr index.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Query.#ctor">
+            <summary>
+            Empty public constructor
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Query.AddQueryParameters(org.apache.solr.SolrSharp.Query.Parameters.QueryParameterCollection,org.apache.solr.SolrSharp.Query.Parameters.ParameterJoin)">
+            <summary>
+            Adds a QueryParameterCollection to this instance, along with a ParameterJoin determination
+            of how to apply the internal QueryParameter objects within the QueryParameterCollection.
+            </summary>
+            <param name="qp">QueryParameterCollection object to be added for this search request</param>
+            <param name="parameterjoin">Enum determining how to apply this QueryParameterCollection in the aggregate search request</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Query.Separator(org.apache.solr.SolrSharp.Query.Parameters.ParameterJoin)">
+            <summary>
+            Returns the textual representation of the ParameterJoin enumeration for use in constructing
+            the query as a properly formatted url string
+            </summary>
+            <param name="paramaterjoin">Enumeration value</param>
+            <returns>string of either "AND" or "OR"</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Query.ToString">
+            <summary>
+            Returns the aggregate solr index search request properly formatted for usage
+            in an http request
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Indexing.DeleteIndexDocument">
+            <summary>
+            DeleteIndexDocument is used to remove one or more index documents from a solr index. Remove
+            items from an index by passing an instance of DeleteIndexDocument to 
+            <see cref="T:SearchUpdate.PostToIndex">SearchUpdate.PostToIndex()</see>
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.DeleteIndexDocument.#ctor">
+            <summary>
+            Empty constructor, required by Xml serialization under .Net
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.DeleteIndexDocument.#ctor(System.Object)">
+            <summary>
+            Creates a delete document object that can be used to remove a single index document
+            from a solr index.  The item removed is based on the uniqueKeyId.  When used,
+            this key will be applied to the field identified as the "uniqueKey", found in
+            the schema.xml file for a solr webapp instance.
+            </summary>
+            <param name="uniqueKeyId">object representing the unique id for a solr index schema</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.DeleteIndexDocument.#ctor(org.apache.solr.SolrSharp.Query.Query)">
+            <summary>
+            Creates a delete document object that can be used to remove one or more index documents
+            from a solr index.  The item removed is based on the deleteQuery, which is a standard 
+            Lucene-based query.  Items matching the query would be removed from the index.
+            </summary>
+            <param name="query">Query object containing the query to be applied for this delete document</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Indexing.DeleteIndexDocument.Id">
+            <summary>
+            The id to use, if populated, in finding documents to delete
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Indexing.DeleteIndexDocument.Query">
+            <summary>
+            The query to be used, if populated, in finding documents to delete
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.Mode">
+            <summary>
+            Enumeration defining the operation mode for a given solr server.  This is useful
+            when using solr's replication model.  Otherwise, a stand-alone solr server uses the
+            ReadWrite mode.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.Mode.Read">
+            <summary>
+            Solr webapp instance supports Read requests
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.Mode.Write">
+            <summary>
+            Solr webapp instance supports Write requests
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.Mode.ReadWrite">
+            <summary>
+            Solr webapp instance supports both Read and Write requests
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.SolrServer">
+            <summary>
+            Representation of solr server instance.  A solr server instance is denoted by its 
+            URL.
+            </summary>
+        </member>
+        <member name="F:org.apache.solr.SolrSharp.Configuration.SolrServer._mode">
+            <summary>
+            The mode of a solr server instance.  Using solr's replication model, servers
+            can be structured in "write" mode (Master) or "read" mode (Slave).  For stand-alone
+            servers, ReadWrite is the appropriate setting.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.SolrServer.Url">
+            <summary>
+            The Url of the solr server instance.  The Url must be unique within the configuration section.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema">
+            <summary>
+            Maps the schema for a SolrServer instance.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.#ctor(org.apache.solr.SolrSharp.Configuration.SolrSearcher)">
+            <summary>
+            Creates an instance of a strongly-typed schema for a given solr webapp instance.
+            </summary>
+            <param name="solrSearcher">Underlying SolrSearcher for this schema</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.GetSolrType(System.String)">
+            <summary>
+            Returns a SolrType instance whose name matches the fieldType.
+            </summary>
+            <param name="fieldType">string field name to retrieve from this schema</param>
+            <returns>SolrType</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.GetSolrField(System.String)">
+            <summary>
+            Gets the SolrField instance for the referenced fieldname
+            </summary>
+            <param name="fieldname"></param>
+            <returns></returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.GetNativeType(System.String)">
+            <summary>
+            Returns the C# native type for the given solr class name
+            </summary>
+            <param name="solrClass">string representing the solr class name</param>
+            <returns>C# native Type</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.IsValidUpdateIndexDocument(org.apache.solr.SolrSharp.Indexing.UpdateIndexDocument)">
+            <summary>
+            When true, indicates an UpdateIndexDocument is valid for application against
+            this schema.
+            </summary>
+            <param name="updateIndexDocument">UpdateIndexDocument instance</param>
+            <returns>bool</returns>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.SolrTypes">
+            <summary>
+            Read-only array of SolrType objects for this solr instance
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.SolrFields">
+            <summary>
+            Read-only array of SolrField objects for this solr instance
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.SolrDynamicFields">
+            <summary>
+            Read-only array of SolrDynamicField objects for this solr instance
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.SolrCopyFields">
+            <summary>
+            Read-only array of SolrCopyField objects for this solr instance
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.UniqueKey">
+            <summary>
+            The field to use to determine and enforce document uniqueness.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.DefaultSearchField">
+            <summary>
+            Field for the QueryParser to use when an explicit fieldname is absent
+            in a search query
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrSchema.DefaultOperator">
+            <summary>
+            Specifies a default query join basis, if absent in search queries
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Indexing.IndexFieldValue">
+            <summary>
+            A name/value pair included in an UpdateIndexDocument
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexFieldValue.#ctor(System.String,System.String)">
+            <summary>
+            Simple constructor to create one name/value pair for an IndexDocument.
+            Standard constructor for use by your application.
+            </summary>
+            <param name="name">The solr index fieldname for this field</param>
+            <param name="value">The value for this field</param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Indexing.IndexFieldValue.#ctor">
+            <summary>
+            Empty constructor, required by Xml serialization under .Net
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Indexing.IndexFieldValue.Name">
+            <summary>
+            The solr index fieldname for this field
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Indexing.IndexFieldValue.Value">
+            <summary>
+            The value for this field
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Configuration.Schema.SolrType">
+            <summary>
+            Maps a "fieldtype" node entry in a solr config.xml file to a strongly-typed object.
+            While mapping all attributes, the primary purpose of SolrType is to provide a translation
+            between solr field class types and C# native types.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.TypeExpression(System.Type)">
+            <summary>
+            Generates a string value that identifies the solr "type" based on the
+            native .Net type.
+            </summary>
+            <param name="type">.Net type to evaluate</param>
+            <returns>string representing an equivalent solr "type"</returns>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.#cctor">
+            <summary>
+            Initializes the type map
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.#ctor(System.Xml.XmlNode)">
+            <summary>
+            Constructs an object by xpath query of an xml node representing a fieldtype in solr.
+            </summary>
+            <param name="xnSolrType">XmlNode representing one field type</param>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.Name">
+            <summary>
+            The solr fieldtype name
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.Type">
+            <summary>
+            The C# native type equivalent for the solr type
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.OmitNorms">
+            <summary>
+            When enabled in solr, OmitNorms disables length normalization and index-time 
+            boosting for a field of this type, which saves memory.  Only full-text fields 
+            or fields that need an index-time boost need norms.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.SortMissingLast">
+            <summary>
+            When enabled, a sort on fields of this type will force documents without the 
+            field to be listed in search results after documents with the field, regardless 
+            of the requested sort order.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Configuration.Schema.SolrType.SortMissingFirst">
+            <summary>
+            When enabled, a sort on field of this type will force documents without the 
+            field to be listed in search results before documents with the field, regardless of 
+            the requested sort order.
+            </summary>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Query.Parameters.StartsWithQueryParameter">
+            <summary>
+            Specialized QueryParameter object that constructs a logical
+            Lucene-formatted query, similar to .Net String.StartsWith()
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.StartsWithQueryParameter.#ctor(System.String,System.String)">
+            <summary>
+            Constructor that accepts a solr index fieldname and value
+            to be used for this query
+            </summary>
+            <param name="field"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Query.Parameters.StartsWithQueryParameter.ToString">
+            <summary>
+            Renders a syntactically suitable Lucene "starts with" query
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:org.apache.solr.SolrSharp.Results.SearchRecord">
+            <summary>
+            SearchRecord is an abstraction to represent a search result for a given search request.
+            A collection of SearchRecord objects are provided from the SearchResults class.
+            
+            Inheriting classes must implement the Initialize() method, which is called by the
+            SearchResults class; see the <see cref="T:SearchResults.ExecuteSearch">ExecuteSearch</see> method.
+            </summary>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.SearchRecord.#ctor(System.Xml.XmlNode)">
+            <summary>
+            Primary constructor used for SearchRecord. Calls Initialize() to populate
+            the object.
+            </summary>
+            <param name="xnode"></param>
+        </member>
+        <member name="M:org.apache.solr.SolrSharp.Results.SearchRecord.Initialize">
+            <summary>
+            Base method that populates the object via reflection.
+            </summary>
+        </member>
+        <member name="P:org.apache.solr.SolrSharp.Results.SearchRecord.XNodeRecord">
+            <summary>
+            The XmlNode used to construct this SearchRecord
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,39 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DDC4AF60-319F-4E0C-8886-3A41D5607D55/f:Service1.svc.cs" caret="0" fromTop="0" />
+      <File id="DDC4AF60-319F-4E0C-8886-3A41D5607D55/f:IService1.cs" caret="1304" fromTop="22" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DDC4AF60-319F-4E0C-8886-3A41D5607D55/f:IService1.cs" caret="1123" fromTop="31" />
+      <File id="DDC4AF60-319F-4E0C-8886-3A41D5607D55/f:IService1.cs" caret="1388" fromTop="26" />
+      <File id="DDC4AF60-319F-4E0C-8886-3A41D5607D55/f:IService1.cs" caret="1304" fromTop="22" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="62" />
+      <Item value="interface" priority="30" />
+      <Item value="string" priority="31" />
+      <Item value="prop" priority="31" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

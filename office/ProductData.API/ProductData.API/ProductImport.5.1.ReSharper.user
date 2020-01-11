@@ -1,0 +1,139 @@
+<Configuration>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="2894" fromTop="26" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:BaseDownloadManager.cs" caret="1540" fromTop="16" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:FileProcessor.cs" caret="10415" fromTop="0" />
+      <File id="8C768837-2D00-4C36-9FC0-AC42AFB701FD/d:Common/f:Utilities.cs" caret="1659" fromTop="41" />
+      <File id="8C768837-2D00-4C36-9FC0-AC42AFB701FD/f:ErrorIndexingManager.cs" caret="4048" fromTop="64" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:CsvToXmlConverter.cs" caret="568" fromTop="5" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Entity/f:PublisherSettings.cs" caret="163" fromTop="6" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Entity/f:ExportAttributes.cs" caret="328" fromTop="11" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Common/f:Constants.cs" caret="12785" fromTop="9" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Entity/f:ExportColumn.cs" caret="673" fromTop="17" />
+      <File id="A3768D28-5B1D-4891-9760-70707CD14DD7/f:Enumerations.cs" caret="274" fromTop="9" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:DAO/f:ExportCleanUpDAO.cs" caret="181" fromTop="4" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:DAO/f:ExportDao.cs" caret="0" fromTop="0" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:CsvToCsvConverter.cs" caret="753" fromTop="22" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:Converters/f:BaseConverter.cs" caret="0" fromTop="0" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/f:ExportRequestManager.cs" caret="16947" fromTop="29" />
+      <File id="D66CAE5A-30D7-4682-9193-B86619D1F878/f:App.config" caret="6273" fromTop="36" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:Form1.cs" caret="3288" fromTop="23" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Common/f:Enumerations.cs" caret="457" fromTop="0" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:App.config" caret="10800" fromTop="45" />
+      <File id="A3768D28-5B1D-4891-9760-70707CD14DD7/f:Constants.cs" caret="943" fromTop="22" />
+      <File id="B595BBF5-559B-44CB-9DE0-A5F86B255AE1/f:frmHashUtility.cs" caret="1085" fromTop="32" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Common/f:Utilities.cs" caret="10860" fromTop="34" />
+      <File id="A3768D28-5B1D-4891-9760-70707CD14DD7/f:IAffiliDatabase.cs" caret="5647" fromTop="32" />
+      <File id="A3768D28-5B1D-4891-9760-70707CD14DD7/f:AffiliGenericDataBase.cs" caret="8923" fromTop="12" />
+      <File id="345F04FC-0F1D-4939-9744-64528C602E1C/d:DAO/f:LogDAO.cs" caret="2066" fromTop="27" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Cache/f:DictionaryMemCache.cs" caret="7965" fromTop="15" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/f:ProductImportManager.cs" caret="20702" fromTop="15" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:DAO/f:ProductDAO.cs" caret="15034" fromTop="9" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Common/f:Constants.cs" caret="2049" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B418F117-41DF-4B91-820B-3A9DC8688CFB/f:App.config" caret="3365" fromTop="12" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:App.config" caret="4097" fromTop="13" />
+      <File id="60BB6C62-BEC8-4CFF-BF5D-7AF8ADD9160C/f:ImageDownloader.cs" caret="6080" fromTop="16" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:App.config" caret="7261" fromTop="36" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:BaseProcessor.cs" caret="5934" fromTop="36" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Processor/f:BaseProcessor.cs" caret="4705" fromTop="14" />
+      <File id="8C768837-2D00-4C36-9FC0-AC42AFB701FD/d:Common/f:Utilities.cs" caret="338" fromTop="9" />
+      <File id="8C768837-2D00-4C36-9FC0-AC42AFB701FD/d:Common/f:Utilities.cs" caret="5453" fromTop="28" />
+      <File id="8C768837-2D00-4C36-9FC0-AC42AFB701FD/d:Common/f:Utilities.cs" caret="3493" fromTop="14" />
+      <File id="8C768837-2D00-4C36-9FC0-AC42AFB701FD/d:Common/f:Utilities.cs" caret="5828" fromTop="32" />
+      <File id="8C768837-2D00-4C36-9FC0-AC42AFB701FD/d:Common/f:Utilities.cs" caret="5918" fromTop="34" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="7953" fromTop="36" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="6484" fromTop="26" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:Program.cs" caret="575" fromTop="17" />
+      <File id="1B4FFFBA-BD27-496C-8B8F-D7E741E3C9E1/f:App.config" caret="9780" fromTop="19" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="10457" fromTop="28" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="10455" fromTop="28" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="7421" fromTop="0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="9526" fromTop="23" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="10040" fromTop="33" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="10330" fromTop="32" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="8457" fromTop="8" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="8489" fromTop="13" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:Download/f:DownloadManager.cs" caret="2894" fromTop="26" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/f:ProductImportManager.cs" caret="7789" fromTop="26" />
+      <File id="13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7/d:DAO/f:ExportCleanUpDAO.cs" caret="1271" fromTop="27" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:DAO/f:ProductDAO.cs" caret="622" fromTop="20" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:DAO/f:ProductDAO.cs" caret="0" fromTop="0" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:DAO/f:ProductDAO.cs" caret="951" fromTop="10" />
+      <File id="F166918E-5698-42C7-9F4E-4D9AD0419BA6/d:DAO/f:ProductDAO.cs" caret="1877" fromTop="36" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ReadInnerXml" priority="0" />
+      <Item value="DisplayBasePrice" priority="0" />
+      <Item value="BasePrice" priority="1" />
+      <Item value="true" priority="5" />
+      <Item value="timDailyImageImport" priority="1" />
+      <Item value="timInitImport" priority="1" />
+      <Item value="catch" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="timImageReviewImport" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="Utilities`0" priority="2" />
+      <Item value="ServiceStart" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="DocumentAttributes`0" priority="0" />
+      <Item value="docAttribs" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="String`0" priority="2" />
+      <Item value="OperationContract" priority="0" />
+      <Item value="if" priority="3" />
+      <Item value="Utilities" priority="0" />
+      <Item value="CommonUtilities" priority="0" />
+      <Item value="null" priority="2" />
+      <Item value="tmp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Timers.Timer">
+      <Item value="Enabled" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Affilinet.Business.ProductImport.Common.Utilities">
+      <Item value="CreateInfoLog`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Affilinet.Business.ProductImport.Common.Constants+Product">
+      <Item value="BasePrice" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Affilinet.Business.ProductImport.Entity.ProgramSettings">
+      <Item value="ImportSchemaID" priority="1" />
+      <Item value="FieldSeperator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Affili.ProductData.Common.Utilities">
+      <Item value="FileCompare`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

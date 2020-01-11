@@ -1,0 +1,9 @@
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\bin\Debug\Solar.Data.Access.dll
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\bin\Debug\Solar.Data.Access.pdb
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\bin\Debug\Microsoft.Practices.Unity.dll
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\obj\Debug\Solar.Data.Access.dll
+D:\ajit\RND\DatabaseTests\SolarDataAccessAPI\obj\Debug\Solar.Data.Access.pdb

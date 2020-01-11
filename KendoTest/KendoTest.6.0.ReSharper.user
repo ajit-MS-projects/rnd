@@ -1,0 +1,30 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3FD6B6D8-4961-4873-BE92-C12CC3DF3BA6/d:Controllers/f:Default1Controller.cs" caret="317" fromTop="15" />
+      <File id="3FD6B6D8-4961-4873-BE92-C12CC3DF3BA6/d:Views/d:Default1/f:Index.cshtml" caret="685" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3FD6B6D8-4961-4873-BE92-C12CC3DF3BA6/d:Views/d:Default1/f:Index.cshtml" caret="685" fromTop="12" />
+      <File id="3FD6B6D8-4961-4873-BE92-C12CC3DF3BA6/d:Views/d:Default1/f:Index.cshtml" caret="301" fromTop="6" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

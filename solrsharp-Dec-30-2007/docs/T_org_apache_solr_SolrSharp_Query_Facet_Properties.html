@@ -1,0 +1,189 @@
+<html dir="LTR" xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:ndoc="urn:ndoc-preprocess">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252" />
+    <title>Properties</title>
+    <link rel="stylesheet" type="text/css" href="ndoc.css"> </link>
+    <link rel="stylesheet" type="text/css" href="user.css"> </link>
+    <script type="text/javascript" src="ndoc.js"> </script>
+  </head>
+  <body style="display: none;">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <input type="hidden" id="hiddenScrollOffset" />
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="drpdown.gif" />
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="drpdown_orange.gif" />
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="collapse.gif" />
+    <img id="expandImage" style="display:none; height:0; width:0;" src="exp.gif" />
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="collall.gif" />
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="expall.gif" />
+    <img id="copyImage" style="display:none; height:0; width:0;" src="copycode.gif" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="copycodeHighlight.gif" />
+    <div id="header">
+      <table width="100%" id="topTable">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">SolrSharp - C# API to Apache Solr</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">Facet Properties</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td>
+            <a id="seeAlsoSectionLink" href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a>
+            <a id="exampleSectionLink" href="#codeExampleToggle" onclick="OpenSection(codeExampleToggle)">Example</a>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="collall.gif" />
+              <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">
+							Collapse All
+						</label>
+              <label id="expandAllLabel" for="toggleAllImage" style="display: none;">
+							Expand All
+						</label>
+            </span>
+            <span id="membersOptionsFilterToolTip" style="cursor:default;" onmouseover="membersOptionsFilterImage.src=dropDownHoverImage.src;" onfocusin="membersOptionsFilterImage.src=dropDownHoverImage.src;" onmouseout="membersOptionsFilterImage.src=dropDownImage.src;" onfocusout="membersOptionsFilterImage.src=dropDownImage.src;" tabindex="0">
+              <img id="membersOptionsFilterImage" src="drpdown.gif" />
+              <label id="showAllMembersLabel" for="membersOptionsFilterImage" style="display: none;">
+				Members Options: Show All
+			</label>
+              <label id="filteredMembersLabel" for="membersOptionsFilterImage" style="display: none;">
+				Members Options: Filtered
+			</label>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <span style="display:none" id="membersOptionsSpan">
+        <input id="inheritedCheckbox" type="checkbox" name="membersOptionsFilter" onClick="SetMembersOptions(this)" />
+        <label class="membersOptionsFilter" for="inheritedCheckbox">
+				Include Inherited Members
+			</label>
+        <br />
+        <input id="protectedCheckbox" type="checkbox" name="membersOptionsFilter" onClick="SetMembersOptions(this)" />
+        <label class="membersOptionsFilter" for="protectedCheckbox">
+				Include Protected Members
+			</label>
+        <br />
+        <input id="assemblyCheckbox" type="checkbox" name="membersOptionsFilter" onClick="SetMembersOptions(this)" />
+        <label class="membersOptionsFilter" for="assemblyCheckbox">
+				Include Internal Members
+			</label>
+        <br />
+        <input id="privateCheckbox" type="checkbox" name="membersOptionsFilter" onClick="SetMembersOptions(this)" />
+        <label class="membersOptionsFilter" for="privateCheckbox">
+				Include Private Members
+			</label>
+        <br />
+        <input id="netcfCheckbox" type="checkbox" name="membersOptionsFilter" onClick="SetMembersOptions(this)" />
+        <label class="membersOptionsFilter" for="netcfCheckbox">
+				.NET Compact Framework Members Only
+			</label>
+        <br />
+      </span>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" />
+        <h1 class="heading">
+          <span style="cursor:default;" tabindex="0" onclick="ExpandCollapse(PublicPropertiesToggle)" onkeypress="ExpandCollapse_CheckKey(PublicPropertiesToggle)">
+            <img class="toggle" name="toggleSwitch" src="collapse.gif" id="PublicPropertiesToggle" />Public Properties</span>
+        </h1>
+        <div class="section" name="collapseableSection" id="PublicPropertiesSection">
+          <table width="100%" class="memberListTable">
+            <col width="10%" />
+            <col width="30%" />
+            <col width="60%" />
+            <tr>
+              <th style="border-right-style: none;"> </th>
+              <th align="left" style="border-left-style: none; border-right-style: none;">Name</th>
+              <th align="left" style="border-left-style: none;">Description</th>
+            </tr>
+            <tr VALIGN="top">
+              <td class="imageCell">
+                <img src="pubproperty.gif" alt="Public property" />
+              </td>
+              <td class="nameCell">
+                <a href="P_org_apache_solr_SolrSharp_Query_Facet_DisplayMissing.html">DisplayMissing</a>
+              </td>
+              <td>Set to "true" this param indicates that in addition to the Term based constraints of a facet field, a count of all matching results which have no value for the field should be computed.</td>
+            </tr>
+            <tr VALIGN="top">
+              <td class="imageCell">
+                <img src="pubproperty.gif" alt="Public property" />
+              </td>
+              <td class="nameCell">
+                <a href="P_org_apache_solr_SolrSharp_Query_Facet_DisplayZeros.html">DisplayZeros</a>
+              </td>
+              <td>Set to "true" this param indicates that constraint counts for facet fields should be included even if the count is "0", set to "false" or blank and the "0" counts will be supressed to save on the amount of data returned in the response.</td>
+            </tr>
+            <tr VALIGN="top">
+              <td class="imageCell">
+                <img src="pubproperty.gif" alt="Public property" />
+              </td>
+              <td class="nameCell">
+                <a href="P_org_apache_solr_SolrSharp_Query_Facet_Field.html">Field</a>
+              </td>
+              <td>This param allows you to specify a field which should be treated as a facet. It will iterate over each Term in the field and generate a facet count using that Term as the constraint. When using this param, it is important to remember that "Term" is a very specific concept in Lucene -- it relates to the literal field/value pairs that are Indexed after any Analysis occurs. For text fields that include stemming, or lowercasing, or word splitting you may not get what you expect. If you want both Analysis (for searching) and Faceting on the full literal Strings, use copyField to create two versions of the field: one Text and one String. Make sure both are indexed="true".</td>
+            </tr>
+            <tr VALIGN="top">
+              <td class="imageCell">
+                <img src="pubproperty.gif" alt="Public property" />
+              </td>
+              <td class="nameCell">
+                <a href="P_org_apache_solr_SolrSharp_Query_Facet_Limit.html">Limit</a>
+              </td>
+              <td>Indicates the maximum number of constraint counts that should be returned for the facet fields, similar to "SELECT TOP..." in SQL. If a non-negative value is specified, the constraints (ie: Terms) will be sorted by the facet count (descending) and only the top N terms will be returned with their counts.</td>
+            </tr>
+            <tr VALIGN="top">
+              <td class="imageCell">
+                <img src="pubproperty.gif" alt="Public property" />
+              </td>
+              <td class="nameCell">
+                <a href="P_org_apache_solr_SolrSharp_Query_Facet_UrlParameters.html">UrlParameters</a>
+              </td>
+              <td>Returns syntactically structured parameters for use within a url as part of an http search request</td>
+            </tr>
+          </table>
+          <a href="#mainBody">Top</a>
+        </div>
+        <h1 class="heading">
+          <span style="cursor:default;" onclick="ExpandCollapse(seeAlsoToggle)" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle)" tabindex="0">
+            <img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="collapse.gif" />See Also</span>
+        </h1>
+        <div id="seeAlsoSection" class="section" name="collapseableSection">
+          <a href="T_org_apache_solr_SolrSharp_Query_Facet.html">Facet Class</a>
+          <br />
+          <a href="N_org_apache_solr_SolrSharp_Query.html">org.apache.solr.SolrSharp.Query Namespace</a>
+        </div>
+      </div>
+      <DIV CLASS="footer">
+        <p>
+          <center>
+            <font color="red">
+              <i>
+                Syntax based on .NET Framework version 2.0.<br />
+                Documentation version 1.0.0.0.
+              </i>
+            </font>
+          </center>
+        </p>
+      </DIV>
+      <hr />
+      <div id="footer">
+        <p>
+          <a href="mailto:jeff.rodenburg@gmail.com?subject=SolrSharp%20-%20C#%20API%20to%20Apache%20Solr%201.0.0.0%20Documentation%20Feedback:%20Facet Properties">Send comments on this topic.</a>
+        </p>
+        <p>
+          <a href="http://www.apache.org/licenses/LICENSE-2.0">Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. See the NOTICE file distributed with this work for additional information regarding copyright ownership. The ASF licenses this file to You under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</a>
+        </p>
+        <p />
+      </div><!--[if gte IE 5]><tool:tip element="membersOptionsFilterToolTip" avoidmouse="false" /><![endif]--></div>
+  </body>
+</html>

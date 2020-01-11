@@ -1,0 +1,34 @@
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NewTest.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NewTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.ActiveRecord.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.ActiveRecord.Web.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.Components.Validator.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\CastleActiveRecordTest.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\CastleActiveRecordTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.ActiveRecord.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\obj\Debug\NewTest.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\obj\Debug\NewTest.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\obj\Debug\NewTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NewTest.dll.config
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.Core.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Iesi.Collections.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NHibernate.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Iesi.Collections.pdb
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\obj\Debug\NewTest.csprojResolveAssemblyReference.cache
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\obj\Debug\NewTest.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\NewTest.dll.config
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\NewTest.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\NewTest.pdb
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\Castle.ActiveRecord.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\Castle.ActiveRecord.Web.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\Castle.Components.Validator.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\Castle.Core.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\CastleActiveRecordTest.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\Iesi.Collections.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\NHibernate.dll
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\CastleActiveRecordTest.pdb
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\Castle.ActiveRecord.xml
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\Iesi.Collections.pdb
+D:\Ajit\RND\CastleActiveRecordTest-selct groupBy\NewTest\obj\Debug\NewTest.pdb

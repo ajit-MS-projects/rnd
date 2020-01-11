@@ -1,0 +1,86 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7066BB4-97B4-4C04-BC93-8F8749356E25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>org.apache.solr.SolrSharp</RootNamespace>
+    <AssemblyName>SolrSharp</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>SolrSharp.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\SolrConfigurationSection.cs" />
+    <Compile Include="Configuration\Schema\SolrSchema.cs" />
+    <Compile Include="Configuration\Schema\SolrCopyField.cs" />
+    <Compile Include="Configuration\Schema\SolrDynamicField.cs" />
+    <Compile Include="Configuration\Schema\SolrField.cs" />
+    <Compile Include="Configuration\Schema\SolrType.cs" />
+    <Compile Include="Configuration\SolrSearcher.cs" />
+    <Compile Include="Configuration\SolrSearchers.cs" />
+    <Compile Include="Configuration\SolrServer.cs" />
+    <Compile Include="Configuration\SolrServers.cs" />
+    <Compile Include="Indexing\DeleteIndexDocument.cs" />
+    <Compile Include="Indexing\IndexFieldAttribute.cs" />
+    <Compile Include="Query\Highlights\BaseHighlighter.cs" />
+    <Compile Include="Query\Highlights\HighlightParameter.cs" />
+    <Compile Include="Query\Highlights\HighlightParameterCollection.cs" />
+    <Compile Include="Query\Parameters\IdListQueryParameter.cs" />
+    <Compile Include="Query\Parameters\IdListQueryParameterCollection.cs" />
+    <Compile Include="Query\Parameters\QueryParameter.cs" />
+    <Compile Include="Query\Parameters\RangeQueryParameter.cs" />
+    <Compile Include="Query\Parameters\StartsWithQueryParameter.cs" />
+    <Compile Include="Query\Query.cs" />
+    <Compile Include="Results\DebugResults.cs" />
+    <Compile Include="Results\ExplanationRecord.cs" />
+    <Compile Include="Results\FacetResults.cs" />
+    <Compile Include="Indexing\UpdateIndexDocument.cs" />
+    <Compile Include="Indexing\IndexFieldValue.cs" />
+    <Compile Include="Query\Parameters\QueryParameterCollection.cs" />
+    <Compile Include="Indexing\IndexDocument.cs" />
+    <Compile Include="Query\Facet.cs" />
+    <Compile Include="Query\Sort.cs" />
+    <Compile Include="Query\QueryBuilder.cs" />
+    <Compile Include="Results\HighlightRecord.cs" />
+    <Compile Include="Results\SearchRecord.cs" />
+    <Compile Include="Results\SearchResults.cs" />
+    <Compile Include="Update\SolrUpdater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="683f8664-d2dc-4297-b358-65af8bc8f93e" xmlns="urn:schemas-microsoft-com:xml-dataservicemap">
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1129/HospitalService.svc/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.edmx" MetadataType="Edmx" ID="39721811-7325-444a-aac4-ff29b4739e4b" SourceId="1" SourceUrl="http://localhost:1129/HospitalService.svc/" />
+  </Metadata>
+  <Extensions />
+  <Parameters>
+    <Parameter Name="UseDataServiceCollection" Value="true" />
+    <Parameter Name="Version" Value="3.0" />
+    <Parameter Name="ClientAssemblyReference" Value="C:\Program Files (x86)\WCF Data Services Mar 2011 CTP2\bin\.NETFramework\Microsoft.Data.Services.Client.dll" />
+  </Parameters>
+</ReferenceGroup>

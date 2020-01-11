@@ -1,0 +1,6 @@
+d:\ajit\rnd\EntityFrToWcf\EntityFrToWcf\bin\Debug\EntityFrToWcf.dll.config
+d:\ajit\rnd\EntityFrToWcf\EntityFrToWcf\bin\Debug\EntityFrToWcf.dll
+d:\ajit\rnd\EntityFrToWcf\EntityFrToWcf\bin\Debug\EntityFrToWcf.pdb
+d:\ajit\rnd\EntityFrToWcf\EntityFrToWcf\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\EntityFrToWcf\EntityFrToWcf\obj\Debug\EntityFrToWcf.dll
+d:\ajit\rnd\EntityFrToWcf\EntityFrToWcf\obj\Debug\EntityFrToWcf.pdb

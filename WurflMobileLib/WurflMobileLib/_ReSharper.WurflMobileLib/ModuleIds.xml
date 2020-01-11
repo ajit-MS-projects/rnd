@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="AEEAB396-996F-4813-A9B5-AC993FF29E76" ModuleId="WurflMobileLib" />
+  <Module PersistentId="A86CD62C-5A82-4F27-9625-174DD6A00848" ModuleId="WurflWeb" />
+  <Module PersistentId="1654E201-1D66-49A5-956A-41FFC8BB5049" ModuleId="WurflWeb_1" />
+</Modules>

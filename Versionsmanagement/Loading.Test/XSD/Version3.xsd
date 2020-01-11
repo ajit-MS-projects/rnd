@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Version3"
+    targetNamespace="http://tempuri.org/Version3.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Version3.xsd"
+    xmlns:mstns="http://tempuri.org/Version3.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Version" type="xs:double" default="1"></xs:element>
+  <xs:element name="ID" type="xs:integer"></xs:element>
+  <xs:element name="Nachname" type="xs:string"></xs:element>
+  <xs:element name="Vorname" type="xs:string"></xs:element>
+  <xs:element name="Kommentar" type="xs:string"></xs:element>
+
+  <xs:complexType name="Projekt">
+    <xs:sequence>
+      <xs:element ref="Version"></xs:element>
+      <xs:element ref="ID"></xs:element>
+      <xs:element ref="Nachname"></xs:element>
+      <xs:element ref="Vorname"></xs:element>
+      <xs:element ref="Kommentar"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="Projekt" type="Projekt"></xs:element>
+
+</xs:schema>

@@ -1,0 +1,10 @@
+d:\ajit\RND\PvScoutWeb\SolrPvscoutBusiness\bin\Debug\Solr.Pvscout.Business.dll
+d:\ajit\RND\PvScoutWeb\SolrPvscoutBusiness\bin\Debug\Solr.Pvscout.Business.pdb
+d:\ajit\RND\PvScoutWeb\SolrPvscoutBusiness\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\RND\PvScoutWeb\SolrPvscoutBusiness\obj\Debug\Solr.Pvscout.Business.dll
+d:\ajit\RND\PvScoutWeb\SolrPvscoutBusiness\obj\Debug\Solr.Pvscout.Business.pdb
+D:\ajit\RND\backup\PvScoutWeb\PvScoutWeb\SolrPvscoutBusiness\bin\Debug\Solr.Pvscout.Business.dll
+D:\ajit\RND\backup\PvScoutWeb\PvScoutWeb\SolrPvscoutBusiness\bin\Debug\Solr.Pvscout.Business.pdb
+D:\ajit\RND\backup\PvScoutWeb\PvScoutWeb\SolrPvscoutBusiness\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\RND\backup\PvScoutWeb\PvScoutWeb\SolrPvscoutBusiness\obj\Debug\Solr.Pvscout.Business.dll
+D:\ajit\RND\backup\PvScoutWeb\PvScoutWeb\SolrPvscoutBusiness\obj\Debug\Solr.Pvscout.Business.pdb

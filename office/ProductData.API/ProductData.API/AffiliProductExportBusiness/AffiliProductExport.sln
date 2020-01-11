@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliProductExportBusiness", "AffiliProductExportBusiness.csproj", "{13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliDataAccessAPI", "..\AffiliDataAccessAPI\AffiliDataAccessAPI.csproj", "{A3768D28-5B1D-4891-9760-70707CD14DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliExceptionAPI", "..\AffiliExceptionAPI\AffiliExceptionAPI.csproj", "{0B05B90F-7ADC-4E4A-81B7-92A831C66769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffilinetCommon", "..\AffilinetCommon\AffilinetCommon.csproj", "{C4ABC63F-BBAE-4D33-83F9-A1A0B8096768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliLogAPI", "..\AfilinetLogAPI\AffiliLogAPI.csproj", "{345F04FC-0F1D-4939-9744-64528C602E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductExportFileMgmtService", "..\ProductExportFileMgmtService\ProductExportFileMgmtService.csproj", "{D90CAC1C-77DE-4FE5-97DC-128E8590C788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffiliProductExportAuthentication", "..\AffiliProductExportAuthentication\AffiliProductExportAuthentication.csproj", "{2820C04C-9891-49A1-84FF-24647B16ADED}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.0.220:8080/
+		SccProjectUniqueName0 = AffiliProductExportBusiness.csproj
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\AffiliDataAccessAPI\\AffiliDataAccessAPI.csproj
+		SccProjectName1 = ../AffiliDataAccessAPI
+		SccLocalPath1 = ..\\AffiliDataAccessAPI
+		SccProjectUniqueName2 = ..\\AffiliExceptionAPI\\AffiliExceptionAPI.csproj
+		SccProjectName2 = ../AffiliExceptionAPI
+		SccLocalPath2 = ..\\AffiliExceptionAPI
+		SccProjectUniqueName3 = ..\\AffilinetCommon\\AffilinetCommon.csproj
+		SccProjectName3 = ../AffilinetCommon
+		SccLocalPath3 = ..\\AffilinetCommon
+		SccProjectUniqueName4 = ..\\AfilinetLogAPI\\AffiliLogAPI.csproj
+		SccProjectName4 = ../AfilinetLogAPI
+		SccLocalPath4 = ..\\AfilinetLogAPI
+		SccProjectUniqueName5 = ..\\ProductExportFileMgmtService\\ProductExportFileMgmtService.csproj
+		SccProjectName5 = ../ProductExportFileMgmtService
+		SccLocalPath5 = ..\\ProductExportFileMgmtService
+		SccProjectUniqueName6 = ..\\AffiliProductExportAuthentication\\AffiliProductExportAuthentication.csproj
+		SccProjectName6 = ../AffiliProductExportAuthentication
+		SccLocalPath6 = ..\\AffiliProductExportAuthentication
+		SccLocalPath7 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FEC160-C9FC-4D25-A0E1-6EA2442B2BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3768D28-5B1D-4891-9760-70707CD14DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3768D28-5B1D-4891-9760-70707CD14DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3768D28-5B1D-4891-9760-70707CD14DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3768D28-5B1D-4891-9760-70707CD14DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B05B90F-7ADC-4E4A-81B7-92A831C66769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B05B90F-7ADC-4E4A-81B7-92A831C66769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B05B90F-7ADC-4E4A-81B7-92A831C66769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B05B90F-7ADC-4E4A-81B7-92A831C66769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4ABC63F-BBAE-4D33-83F9-A1A0B8096768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4ABC63F-BBAE-4D33-83F9-A1A0B8096768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4ABC63F-BBAE-4D33-83F9-A1A0B8096768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4ABC63F-BBAE-4D33-83F9-A1A0B8096768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345F04FC-0F1D-4939-9744-64528C602E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345F04FC-0F1D-4939-9744-64528C602E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345F04FC-0F1D-4939-9744-64528C602E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345F04FC-0F1D-4939-9744-64528C602E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90CAC1C-77DE-4FE5-97DC-128E8590C788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90CAC1C-77DE-4FE5-97DC-128E8590C788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90CAC1C-77DE-4FE5-97DC-128E8590C788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90CAC1C-77DE-4FE5-97DC-128E8590C788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2820C04C-9891-49A1-84FF-24647B16ADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2820C04C-9891-49A1-84FF-24647B16ADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2820C04C-9891-49A1-84FF-24647B16ADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2820C04C-9891-49A1-84FF-24647B16ADED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

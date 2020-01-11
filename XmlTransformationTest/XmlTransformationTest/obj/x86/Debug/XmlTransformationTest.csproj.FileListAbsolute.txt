@@ -1,0 +1,9 @@
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\bin\Debug\XmlTransformationTest.exe
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\bin\Debug\XmlTransformationTest.pdb
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\obj\x86\Debug\XmlTransformationTest.Form1.resources
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\obj\x86\Debug\XmlTransformationTest.Properties.Resources.resources
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\obj\x86\Debug\XmlTransformationTest.exe
+d:\ajit\RND\XmlTransformationTest\XmlTransformationTest\obj\x86\Debug\XmlTransformationTest.pdb
